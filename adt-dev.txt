@@ -178,8 +178,10 @@ torrentgalaxy.to#main>div>div>div.col-lg-10.col-sm-12>div:nth-child(5)
 
 tutsnode.org##div[style*="user-select: none;"]
 tutsnode.org##span[style*="user-select: none;"]
+tutsnode.org##section[style*="user-select:"]
 ##span[style*="user-select:none;"]
 ##object[id^="ai-adb-"]
 ##script[id^="ai-adb-"]
-##section[style*="user-select:none;"]
+
+##section[style*="user-select: none;"]
 ##kbd
