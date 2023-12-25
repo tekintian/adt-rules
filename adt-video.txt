@@ -30,6 +30,7 @@
 ##div[id^="bfad"]
 ##div[id^="globalAd"]
 ##.adpc
+##section[style*="user-select: none;"]
 
 !-- v.baidu.com  ads !
 v.baidu.com###__lawnImageContainer
@@ -341,3 +342,10 @@ vidhub.tv##div[style*="margin: 0px; padding: 0px; height: 0px; position: fixed;"
 555yy.vip##.is_pc_flex
 555yy.vip##.popup
 www.wasu.cn##ws-postershot
+
+meijutt.tw##div[style*="width: 200px; height: 400px; position: fixed;"]
+meijutt.tw###note
+meijutt.tw##.a960_index
+meijutt.tw##.widget-weixin
+meijutt.tw##div[style*="width: 320px; height: 270px;"]
+meijutt.tw##div[style="text-align: center;"]
