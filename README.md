@@ -1,18 +1,16 @@
 #adt rules 广告终结者过滤规则
 
-GIT 地址:
-git@e.coding.net:tekintian/adt/rules.git
+仓库地址:
+https://gitee.com/tekintian/adt-rules
 
-规则浏览地址:
-http://adt.tekin.cn/rules
 
 规则调用地址:
-http://adt.tekin.cn/rules/adt-base.txt
+https://gitee.com/tekintian/adt-rules/raw/master/adt-base.txt
 
 
 - 增强规则:
-http://adt.tekin.cn/rules/plus/js.txt
-http://adt.tekin.cn/rules/plus/html5player.txt
+https://gitee.com/tekintian/adt-rules/raw/master/plus/js.txt
+https://gitee.com/tekintian/adt-rules/raw/master/plus/html5player.txt
 
 
 ## 样式规则示例
