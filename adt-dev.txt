@@ -1,0 +1,185 @@
+[Adblock Plus 2.0]
+! Version: 202301271001
+! Title: Developer
+! Last modified: 27 Feb 2023 10:02 UTC
+! Homepage: http://adt.tekin.cn/rules/adt-dev.txt
+!
+!-----------------------General advert blocking filters-----------------------!
+||tianjiunion.cn^
+||jisuoping.com^
+||348wd7etbann.com^
+||clksite.com^
+||vamprumbasfear.com^
+||blastcahs.com^
+||exdynsrv.com^
+||blastcahs.com^
+||cosmeticsgenerosity.com^
+||in-page-push.com^
+||exdynsrv.com^
+||bilsyndication.com^
+||google-analytics.com/urchin.js^
+||googlesyndication.com^
+||services.bilsyndication.com^
+||google-analytics.com^
+||googlesyndication.com^
+||zs.tianjiunion.cn,*.jisuoping.com*$script,domain=lanzoux.com
+||tianjiunion.cn/*$domain=lanzoux.com
+||jisuoping.com/count-new.js$domain=lanzoux.com
+! video site ads !
+###videorich
+###HMRichBox
+v.baidu.com###__lawnImageContainer
+v.baidu.com###playerRightBottom
+v.baidu.com##.adv-container
+v.baidu.com##.ctt-adver1-banner
+v.baidu.com##.full-collunm-ad
+v.baidu.com##.ctt-adver1-banner
+v.baidu.com##div[id*="Adv"]
+v.baidu.com##iframe[id*="adframe"]
+! pan ads
+dalipan.com/##.hongbao-wrap
+
+! other
+545c.com###760ad
+545c.com###ad_text
+545c.com##.no-gutters
+https://webapi.pipipan.com/assets/js/other.js
+mactorrent.co##iframe
+||p420955.clksite.com/adServe/*
+||p420955.mycdn.co/banners/*
+geeksforgeeks.org##._ap_apex_ad
+geeksforgeeks.org##div[id^="AP_G4GR_"]
+geeksforgeeks.org##div[id^="bsa-zone_"]
+geeksforgeeks.org##aside[id^="text-"]
+geeksforgeeks.org##aside[id^="text-"]
+programiz.com##.pub-ad
+tutorialspoint.com##div[class^="google-"]
+tutorialspoint.com##div[id^="google-"]
+tutorialspoint.com##[id="ads"]
+tutorialspoint.com##div[class^="ads"]
+tutorialspoint.com##div[class^="google-"]
+tutorialspoint.com##div[id^="google-"]
+javatpoint.com##._ap_apex_ad
+javatpoint.com##iframe
+javatpoint.com##.adPushupAds
+javatpoint.com##.adp_interactive_ad
+javatpoint.com###google_center_div
+www.educba.com###banner_1
+www.educba.com##.box-div
+www.educba.com##.five-sixths
+
+cplusplus.com##.C_support
+www.liantu.com##.da
+json.cn##ul[style^="margin: 0 0 0 0"]
+json.cn##.nav-tabs-two
+
+
+
+||pianistrefutationgoose.com^
+||mactorrent.co^*.js$script
+||mycdn.co^$third-party
+||p420955.clksite.com^
+||348wd7etbann.com^
+
+
+ai66.cc,66s.cc##div[id^="HMcoupletDiv"]
+zippyshare.com##.center_ad
+null88.com##div[id^="custom_html-"]
+zippyshare.com##.center_ad
+null88.com##div[id^="custom_html-"]
+hxfile.co##.mgbox
+javadecompilers.com##.ezoic-ad
+tc5.us##div[class^="card bg-light mb-3"]
+tc5.us##div[rv-hide="file.my_uid"]
+!---csdn.net
+csdn.net###recommendAdBox
+csdn.net##.toolbar-advert
+||csdn.net/msg.popup.js
+||adaccount.csdn.net/#/preview/
+||csdn.net/ggmm/
+w3cschool.cn##.abox-item
+w3cschool.cn##.widget-body
+w3cschool.cn##div[id$="banner"]
+w3school.com.cn###sp_sidebar
+w3school.com.cn###foogz
+www.sj33.cn##.lion_wrap
+www.sj33.cn###ljad3
+biancheng.net###qq-qun-float
+biancheng.net###qq-qun-float
+biancheng.net##.sticker-sidebar
+biancheng.net###weixin-sidebar
+tmioe.com##.entry-copyright
+ctfile.com,tmioe.com##div[id$="ad"]
+||ctfile.com/popjump.php?$popup
+||doubleclick.ctfile.com^
+||ctfile.com/iz.php?
+||ct.tmioe.com^$popup
+
+macdo.cn##.bounceInRight
+tmioe.com##.entry-copyright
+ctfile.com##div[id$="ad"]
+tmioe.com##div[id$="ad"]
+||ctfile.com/popjump.php?$popup
+||ct.tmioe.com^$popup
+||doubleclick.ctfile.com^
+||ctfile.com/iz.php?
+
+##ins.adsbygoogle
+*.js$script,match-case,domain=www.codelist.cc
+*.php*$script,match-case,domain=zippyshare.com
+*/advertisement.js$script,match-case
+*/dle_js.js$script,match-case
+*/pop.js$script,match-case
+//*[@id="bp6hccc"]
+//*[@id="post-121581"]/section/div[6]
+
+@@//*[@id="forAd"]
+baeldung.com###main > div.code-block.code-block-1
+baeldung.com###post-121581 > section > div.code-block.code-block-2
+baeldung.com###post-121581 > section > div.code-block.code-block-3
+baeldung.com###primisPlayerContainerDiv
+baeldung.com##div.after-post-banner-widget
+baeldung.com##div.code-block.code-block-16
+baeldung.com##div.code-block.code-block-4
+baeldung.com##div.code-block.code-block-5
+baeldung.com##div.code-block.code-block-6
+display.php*$script,match-case,domain=*.zippyshare.com
+geeksforgeeks.org###GFG_AD_Desktop_InContent_ATF_336x280
+geeksforgeeks.org##.textBasedMannualAds_2
+geeksforgeeks.org##iframe
+googleads.g.doubleclick.net##.ns-o3mup-e-6
+https://pc.stgowan.com/*
+ifeng.com###root > div > div.topBox-2Ay2GWZz.clearfix
+ifeng.com##.news_list_markTag-1--AQmyX
+iibta.com###fix_bottom_dom
+javainuse.com###carbon-block
+javainuse.com###vi-smartbanner
+javainuse.com###waldo-sticky-footer-wrapper
+mirrored.to##div.IL_BASE
+mirrored.to##div.IL_IFR_DIV0
+mirrored.to##div.IL_IF_LEFT
+mirrored.to##div.IL_IF_RIGHT
+mirrored.to##div.IL_INSEARCH
+mirrored.to##div.IL_IN_ARTICLE_CONTAINER_0
+mirrored.to##iframe
+www.dashengpan.com###HMimageleft
+www.dashengpan.com###HMimageright
+zippyshare.com##div#p_3519989
+zippyshare.com##div#pnfoxwk
+zippyshare.com##iframe
+torrentgalaxy.to###container-755b5f8e271690d6cb76076f459e9c824778
+torrentgalaxy.to#main>div>div>div.col-lg-10.col-sm-12>div:nth-child(5)
+
+||statcounter.com^
+||du0pud0sdlmzf.cloudfront.net^
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^
+||serve.popads.net^
+||https://tutsnode.org/wp-content/plugins/ad-inserter/*
+
+tutsnode.org##div[style*="user-select: none;"]
+tutsnode.org##span[style*="user-select: none;"]
+##span[style*="user-select:none;"]
+##object[id^="ai-adb-"]
+##script[id^="ai-adb-"]
+##section[style*="user-select:none;"]
+##kbd

@@ -1,0 +1,11 @@
+[ADT 3]
+! Checksum: vXO2skD37egAcrKzRVhe1A
+! Version: 20230904
+! Title: 过滤增强脚本
+! Homepage: http://adt.tekin.cn/rules/plus/js.txt
+! Match: http
+! Begin: --
+
+//remove baidu search ad
+var _bdAdscnt=0;function tinyBdSearch(){var a=document.querySelectorAll("div[prank]");a&&0<a.length&&a.forEach(function(b){b.parentNode.remove()});(a=document.querySelectorAll("div.ad-block"))&&0<a.length&&a.forEach(function(b){b.remove()});(a=document.querySelectorAll('#content_left div h3[class="t"]'))&&0<a.length&&a.forEach(function(b){b.parentNode.remove()});0<_bdAdscnt&&(_bdAdscnt--,setTimeout(tinyBdSearch,500))}var host=window.location.host;
+"www.baidu.com"==host&&(tinyBdSearch(),document.addEventListener("click",function(){_bdAdscnt=10;tinyBdSearch()},!1),document.addEventListener("keyup",function(){_bdAdscnt=10;tinyBdSearch()},!1));

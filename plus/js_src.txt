@@ -1,0 +1,57 @@
+[ADT 3]
+! Checksum: vXO2skD37egAcrKzRVhe1A
+! Version: 20230128
+! Title: 过滤增强脚本
+! Homepage: http://adt.tekin.cn/rules/plus/js.txt
+! Match: http
+! Begin: --
+
+//remove baidu search ad
+var _bdAdscnt=0;
+//remove baidu search ad
+function tinyBdSearch(){
+  // 获取广告节点
+  let alist = document.querySelectorAll('div[prank]');
+  // 如果广告节点数大于0则执行
+  if(alist && alist.length>0){
+    alist.forEach((el)=>{
+       el.parentNode.remove();
+    });
+  }
+  //右边的广告
+  let divAdBlocks = document.querySelectorAll('div.ad-block');
+  if(divAdBlocks && divAdBlocks.length>0){
+    divAdBlocks.forEach((el)=>{
+       el.remove();
+    });
+  }
+
+  //左侧底部
+  let leftfAlist = document.querySelectorAll('#content_left div h3[class="t"]');
+  if(leftfAlist && leftfAlist.length>0){
+    leftfAlist.forEach((el)=>{
+       el.parentNode.remove();
+    });
+  }
+  
+  // 这里相当于是一个等待时间 如果 _bdAdscnt 为1（本函数会被递归 1次）就相当于点击下一页等待了0.5秒
+  if(_bdAdscnt > 0){
+    _bdAdscnt--;
+    setTimeout(tinyBdSearch, 500)
+  }
+}
+let host = window.location.host;
+if(host=='www.baidu.com'){
+  tinyBdSearch();
+  // 获取分页DIV 在这个上面加事件只能点一次，再次点击就不会被触发！！
+  //let pateDiv = document.querySelector('#wrapper_wrapper');
+  // 给分页添加点击事件
+  document.addEventListener('click', function(){
+    //页面每次点击下一页最多的执行次数。 最长加载时间为 _bdAdscnt/2 秒 递归函数每隔0.5秒执行一次 ，
+    _bdAdscnt=10;
+    tinyBdSearch();
+  }, false);
+   // 回车键监听
+  document.addEventListener('keyup', function(){_bdAdscnt=10;tinyBdSearch()}, false);
+
+}
