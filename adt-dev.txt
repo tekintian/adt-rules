@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Version: 202301271001
+! Version: 202312251231
 ! Title: Developer
 ! Last modified: 27 Feb 2023 10:02 UTC
-! Homepage: http://adt.tekin.cn/rules/adt-dev.txt
+! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adt-dev.txt
 !
 !-----------------------General advert blocking filters-----------------------!
 ||tianjiunion.cn^

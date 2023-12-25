@@ -2,7 +2,7 @@
 ! Checksum: vXO2skD37egAcrKzRVhe1A
 ! Version: 20230904
 ! Title: 过滤增强脚本
-! Homepage: http://adt.tekin.cn/rules/plus/js.txt
+! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/plus/js.txt
 ! Match: http
 ! Begin: --
 

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Version: 20210202
+! Version: 202312251231
 ! Title: 常见网站广告过滤规则
 ! 常见网站广告过滤规则
 ! Last modified: 02 Feb 2021 16:50 UTC
 ! Expires: 2 days (update frequency)
-! Homepage: http://adt.tekin.cn/rules/adt-web.txt
+! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adt-web.txt
 !-- 弹窗广告
 
 !-- 第三方广告资源 script third-party

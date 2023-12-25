@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Version: 20210202
+! Version: 202312251231
 ! Title: 热点网站过滤规则
 ! 常见大流量高频网站广告过滤规则
 ! Last modified: 02 Feb 2021 16:50 UTC
 ! Expires: 2 days (update frequency)
-! Homepage: http://adt.tekin.cn/rules/adt-hot.txt
+! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adt-hot.txt
 
 !------------- 热点网站广告屏蔽 Hot site ads Block---------------
 !----广告服务商
