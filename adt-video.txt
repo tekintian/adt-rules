@@ -6,9 +6,34 @@
 ! Expires: 2 days (update frequency)
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adt-video.txt
 !----------------------------视频网站规则----------------------------
-!-- 全局视频标签屏蔽
+!--video site common ads
 ! ##div.h5-ext-layer
 ##div.m-video-play.js-play>a.m-video-bannerTitle.js-video-bannerTitle
+###videorich
+###HMRichBox
+###HMimageleft
+###HMimageright
+###HMcoupletDivleft
+###asdsadqq
+##.ctt-adver1-banner
+##.adv-container
+##.ctt-adver1-banner
+##div[id*="Adv"]
+##iframe[id*="adframe"]
+##.full-collunm-ad
+##div.aditem
+###coupletleft
+###coupletright
+##a[id="coupletrighthref"]
+##a[id="coupletlefthref"]
+##img[id^="HMimage"]
+##div[id^="bfad"]
+##div[id^="globalAd"]
+##.adpc
+
+!-- v.baidu.com  ads !
+v.baidu.com###__lawnImageContainer
+v.baidu.com###playerRightBottom
 
 !---搜狐视频
 /^http:\/\/v\.aty\.sohu\.com\/v\?cat=.*fee=0/>>>http://v.aty.sohu.com/v?cat=&act=&autoPlay=1&fee=1>>>>keyword=sohu
@@ -256,75 +281,24 @@ ifeng.com###root > div > div.topBox-2Ay2GWZz.clearfix
 ifeng.com##.news_list_markTag-1--AQmyX
 ifeng.com##div[class*="index_topBox_"]
 
-tv.13tv.top##div.aditem
-tv.13tv.top##div.aditem
-www.5ikmj.com##div[style*="width: 200px; height: 400px; position: fixed;"]
-www.66e.cc###HMimageleft
-www.66e.cc###HMimageright
-www.66ys.co###HMcoupletDivleft
-www.66ys.co###HMimageright
-www.6vw.cc###HMimageleft
-www.6vw.cc###HMimageright
-www.hao6v.tv###HMimageleft
-www.hao6v.tv###HMimageright
-www.pianbb.com###HMimageleft
-www.pianbb.com###HMimageright
+
 www.qkw2.cc###play_page > div.play_boxbg > div.play_box.play_video > div.right_row.fr.hidden_xs.hidden_mi > div > div.play_infobox > div.play_vlist.m_qrcode.cblock
 www.qkw2.cc###play_page > div:nth-child(2)
 www.qkw2.cc/tiao.js
-ygdy8.com###HMimageleft
-ygdy8.com###HMimageright
-ygdy8.com###asdsadqq
+
 ygdy8.com###about > div > a
 ygdy8.com###header > div > div.bd2 > div.bd4l
 ygdy8.com###header > div > div.bd2 > div.bd6
 ygdy8.com###headerright
 
-tv.13tv.top##div.aditem
 www.5ikmj.com##body > div.container > div > div.col-lg-wide-25.col-xs-1.stui-pannel-side.hidden-sm.hidden-xs > div:nth-child(1)
-www.66e.cc###HMimageleft
-www.66e.cc###HMimageright
-www.66ys.co###HMcoupletDivleft
-www.66ys.co###HMimageright
-www.6vw.cc###HMimageleft
-www.6vw.cc###HMimageright
-www.hao6v.tv###HMimageleft
-www.hao6v.tv###HMimageright
-www.pianbb.com###HMimageleft
-www.pianbb.com###HMimageright
-ygdy8.com###HMimageleft
-ygdy8.com###HMimageright
-ygdy8.com###asdsadqq
+www.5ikmj.com##div[style*="width: 200px; height: 400px; position: fixed;"]
+
 ygdy8.com###about > div > a
 ygdy8.com###header > div > div.bd2 > div.bd4l
 ygdy8.com###header > div > div.bd2 > div.bd6
 ygdy8.com###headerright
 
-yszj.tv###bfad
-yszj.tv###bfad1
-yszj.tv###bfad2
-yszj.tv###globalAd
-yszj.tv###syad
-yszj.tv###xqad
-yszj.tv##body > div.layer
-yszj.tv###bfad
-yszj.tv###bfad1
-yszj.tv###bfad2
-yszj.tv###bfad3
-yszj.tv###bfad4
-yszj.tv###xqad1
-yszj.tv###xqad2
-yszj.tv###xqad3
-yszj.tv###globalAd
-yszj.tv###syad
-yszj.tv###xqad
-yszj.tv###fix_bottom_dom
-yszj.tv##body > div.layer
-
-5yju.com###coupletleft
-5yju.com###coupletright
-66yingshi.com###HMcoupletDivleft
-66yingshi.com###HMimageright
 /jquery/d.js$script,match-case,domain=www.5177kp.com
 /jquery/y.js$script,match-case,domain=www.5177kp.com
 netfly.tv##body > div.page.player > div.main > div > div.module.module-player > div > div.player-box > div > div.tips-box
@@ -332,12 +306,9 @@ www.pianbb.com###HMimageright
 www.qkw2.cc###play_page > div.play_boxbg > div.play_box.play_video > div.right_row.fr.hidden_xs.hidden_mi > div > div.play_infobox > div.play_vlist.m_qrcode.cblock
 www.qkw2.cc###play_page > div:nth-child(2)
 www.qkw2.cc/tiao.js
-zhuiv.com###HMcoupletDivleft
-zhuiv.com###HMcoupletDivright
 seemac.cn###custom_html-7
 seemac.cn###custom_html-8
 seemac.cn###waifu
-
 
 libvio.top##div[class="t-img-box"]
 netfly.tv###vyhp
@@ -354,11 +325,10 @@ www.88mv.tv##body > div.download.mb
 
 div[class*="index_topDbox1_"]
 div[style*="width:200px;height:400px;position:fixed;"]
-https://cdn-file-ssl-wan.ludashi.com/*
-https://unmc.bj.bcebos.com/*
+||https://cdn-file-ssl-wan.ludashi.com/*
+||https://unmc.bj.bcebos.com/*
 www.5ikmj.com##div[style*="width: 200px; height: 400px; position: fixed;"]
 
-vidhub.tv##.adpc
 vidhub.tv##div[style*="margin: 0px; padding: 0px; height: 0px; position: fixed;"]
 
 5dy15.cc##.is_pc
@@ -371,8 +341,3 @@ vidhub.tv##div[style*="margin: 0px; padding: 0px; height: 0px; position: fixed;"
 555yy.vip##.is_pc_flex
 555yy.vip##.popup
 www.wasu.cn##ws-postershot
-
-!--video site common ads
-##a[id="coupletrighthref"]
-##a[id="coupletlefthref"]
-##img[id^="HMimage"]
