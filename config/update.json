@@ -1,0 +1,18 @@
+{
+    "subscriptions":[{
+        "url": "https://gitee.com/tekintian/adt-rules/raw/master/adt-base.txt",
+        "version": 202312251231
+    },{
+        "url": "https://gitee.com/tekintian/adt-rules/raw/master/adt-hot.txt",
+        "version": 202312251231
+    },{
+        "url": "https://gitee.com/tekintian/adt-rules/raw/master/adt-web.txt",
+        "version": 202312251231
+    },{
+        "url": "https://gitee.com/tekintian/adt-rules/raw/master/adt-video.txt",
+        "version": 202312251231
+    },{
+        "url": "https://gitee.com/tekintian/adt-rules/raw/master/adt-dev.txt",
+        "version": 202312251231
+    }]
+}
