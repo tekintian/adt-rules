@@ -17,6 +17,7 @@
 @@||jsdelivr.net/*
 
 !-- Tekin 全局广告样式屏蔽规则 global class style block  ---
+##img[id^="adImg"]
 ##div[class*="bzClick"][style="margin-bottom: 10px;width: 400px;float:left"]
 ##div[bz_track]
 ##img[bz_track]
