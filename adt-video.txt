@@ -281,7 +281,8 @@ adx.dlads.cn
 ifeng.com###root > div > div.topBox-2Ay2GWZz.clearfix
 ifeng.com##.news_list_markTag-1--AQmyX
 ifeng.com##div[class*="index_topBox_"]
-
+ifeng.com###root > div > div.topBox-2Ay2GWZz.clearfix
+ifeng.com##.news_list_markTag-1--AQmyX
 
 www.qkw2.cc###play_page > div.play_boxbg > div.play_box.play_video > div.right_row.fr.hidden_xs.hidden_mi > div > div.play_infobox > div.play_vlist.m_qrcode.cblock
 www.qkw2.cc###play_page > div:nth-child(2)

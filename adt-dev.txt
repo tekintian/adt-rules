@@ -4,6 +4,27 @@
 ! Last modified: 27 Feb 2023 10:02 UTC
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adt-dev.txt
 !
+!-----------------------exclude filter-----------------------!
+@@||adoptopenjdk.net
+
+!-----------------------Common advert blocking filters-----------------------!
+##div[id^="divDuilian"]
+##ins.adsbygoogle
+*.js$script,match-case,domain=www.codelist.cc
+*.php*$script,match-case,domain=zippyshare.com
+*/advertisement.js$script,match-case
+*/dle_js.js$script,match-case
+*/pop.js$script,match-case
+//*[@id="bp6hccc"]
+//*[@id="post-121581"]/section/div[6]
+@@//*[@id="forAd"]
+##span[style*="user-select:none;"]
+##object[id^="ai-adb-"]
+##script[id^="ai-adb-"]
+
+##section[style*="user-select: none;"]
+##kbd
+
 !-----------------------General advert blocking filters-----------------------!
 ||tianjiunion.cn^
 ||jisuoping.com^
@@ -25,17 +46,7 @@
 ||zs.tianjiunion.cn,*.jisuoping.com*$script,domain=lanzoux.com
 ||tianjiunion.cn/*$domain=lanzoux.com
 ||jisuoping.com/count-new.js$domain=lanzoux.com
-! video site ads !
-###videorich
-###HMRichBox
-v.baidu.com###__lawnImageContainer
-v.baidu.com###playerRightBottom
-v.baidu.com##.adv-container
-v.baidu.com##.ctt-adver1-banner
-v.baidu.com##.full-collunm-ad
-v.baidu.com##.ctt-adver1-banner
-v.baidu.com##div[id*="Adv"]
-v.baidu.com##iframe[id*="adframe"]
+
 ! pan ads
 dalipan.com/##.hongbao-wrap
 
@@ -73,14 +84,11 @@ www.liantu.com##.da
 json.cn##ul[style^="margin: 0 0 0 0"]
 json.cn##.nav-tabs-two
 
-
-
 ||pianistrefutationgoose.com^
 ||mactorrent.co^*.js$script
 ||mycdn.co^$third-party
 ||p420955.clksite.com^
 ||348wd7etbann.com^
-
 
 ai66.cc,66s.cc##div[id^="HMcoupletDiv"]
 zippyshare.com##.center_ad
@@ -124,16 +132,6 @@ tmioe.com##div[id$="ad"]
 ||doubleclick.ctfile.com^
 ||ctfile.com/iz.php?
 
-##ins.adsbygoogle
-*.js$script,match-case,domain=www.codelist.cc
-*.php*$script,match-case,domain=zippyshare.com
-*/advertisement.js$script,match-case
-*/dle_js.js$script,match-case
-*/pop.js$script,match-case
-//*[@id="bp6hccc"]
-//*[@id="post-121581"]/section/div[6]
-
-@@//*[@id="forAd"]
 baeldung.com###main > div.code-block.code-block-1
 baeldung.com###post-121581 > section > div.code-block.code-block-2
 baeldung.com###post-121581 > section > div.code-block.code-block-3
@@ -148,9 +146,8 @@ geeksforgeeks.org###GFG_AD_Desktop_InContent_ATF_336x280
 geeksforgeeks.org##.textBasedMannualAds_2
 geeksforgeeks.org##iframe
 googleads.g.doubleclick.net##.ns-o3mup-e-6
-https://pc.stgowan.com/*
-ifeng.com###root > div > div.topBox-2Ay2GWZz.clearfix
-ifeng.com##.news_list_markTag-1--AQmyX
+
+
 iibta.com###fix_bottom_dom
 javainuse.com###carbon-block
 javainuse.com###vi-smartbanner
@@ -179,9 +176,3 @@ torrentgalaxy.to#main>div>div>div.col-lg-10.col-sm-12>div:nth-child(5)
 tutsnode.org##div[style*="user-select: none;"]
 tutsnode.org##span[style*="user-select: none;"]
 tutsnode.org##section[style*="user-select:"]
-##span[style*="user-select:none;"]
-##object[id^="ai-adb-"]
-##script[id^="ai-adb-"]
-
-##section[style*="user-select: none;"]
-##kbd
