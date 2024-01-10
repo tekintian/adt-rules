@@ -1,9 +1,4 @@
-[Adblock Plus 2.0]
-! Version: 20231225
-! Title: Adt视频网站广告过滤规则
-! 
-! Last modified: 27 Feb 2023 16:50 UTC
-! Expires: 2 days (update frequency)
+!  -----Adt视频网站广告过滤规则 更新时间: 2023-12-25 12:25 PRC   by:TekinTian -----
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adt-video.txt
 !----------------------------视频网站规则----------------------------
 !--video site common ads

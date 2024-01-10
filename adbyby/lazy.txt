@@ -1,13 +1,5 @@
-[Adblock Plus 2.0]
-! Checksum: fbd6f86cb8c5f6c4b6815662d0940132
-! Version: 202312251231
-! Title: Adt基础广告过滤规则
-! ADT全局基础广告过滤规则,包含全局ID, CLASS,文件规则
-! Last modified: 2023-12-25 12:25 PRC
-! Expires: 2 days (update frequency)
-! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adt-base.txt
-!
-!----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
+!  -----Adt基础广告过滤规则 更新时间:  2023-12-25 12:25 PRC   by:TekinTian -----
+!---- https://gitee.com/tekintian/adt-rules/raw/master/adt-base.txt ----
 !-- exclude rule
 @@||127.0.*
 @@||192.168.*
