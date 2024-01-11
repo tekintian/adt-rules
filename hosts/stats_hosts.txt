@@ -1,0 +1,5 @@
+# common stats host
+127.0.0.1 www.googletagmanager.com
+127.0.0.1 steadfastsystem.com
+127.0.0.1 secure.quantserve.com
+127.0.0.1  steadfastsystem.com
