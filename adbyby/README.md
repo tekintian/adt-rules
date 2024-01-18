@@ -9,11 +9,18 @@ dnsmasq规则
 https://gitee.com/tekintian/adt-rules/raw/master/adbyby/dnsmasq.adblock
 
 
-主项目规则:
-https://gitee.com/tekintian/adt-rules/raw/master/adt-base.txt
+可以添加的第三方规则:
 https://gitee.com/tekintian/adt-rules/raw/master/adt-hot.txt
 https://gitee.com/tekintian/adt-rules/raw/master/adt-dev.txt
-https://gitee.com/tekintian/adt-rules/raw/master/adt-video.txt
+
+
+加载hosts规则:
+https://gitee.com/tekintian/adt-rules/raw/master/hosts/ads_hosts.txt
+https://gitee.com/tekintian/adt-rules/raw/master/hosts/stats_hosts.txt
+
+
+这个太大8w多条
+https://gitee.com/tekintian/adt-rules/raw/master/hosts/adaway_hosts.txt
 
 
 

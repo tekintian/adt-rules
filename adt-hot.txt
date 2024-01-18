@@ -144,40 +144,6 @@ yyrtv.com##li[class^="mediav"]
 ||ontetag-sys.com/*
 miercn.com###dsp_btxf
 miercn.com##.ad
-!-- ifeng.com
-!--所有div标签中包含c属性的数据
-ifeng.com##div[c]
-ifeng.com##div[class^="d_box"]
-ifeng.com##div[class^="dbox-"]
-ifeng.com##div[id^="couplet3_"]
-ifeng.com##div[class^="asideAd1-"]
-ifeng.com##div[class^="topDbox0-"]
-ifeng.com##div[class^="rectangleAd"]
-ifeng.com##div[class^="videoad-"]
-ifeng.com##div[class^="videoAd"]
-ifeng.com##video[class^="advideo-"]
-ifeng.com##div[class^="videobanner-"]
-ifeng.com###js_videobanner_container
-ifeng.com###adPlayer
-ifeng.com##div[style*="z-index: 99999"]
-||ax.*.ifeng.com^
-||ax.ifeng.com^
-||cdgfa.ifeng.com^
-||deliver.ifeng.com^
-||qcvf.ifeng.com^
-||ztyumn.ifeng.com^
-||auto.ifeng.com/uploadfile/201*.swf
-||games.ifeng.com^$subdocument
-||games.ifeng.com^*.shtml?v=
-||ifeng.com/a_if/
-||ifeng.com/iframe/quickbet
-||ifeng.com/showcode?
-||ifeng.com/showjs?*apids=
-||ifeng.com/ssi-incs/
-||ifeng.com/statics/comment_baidu.html
-||ifeng.com^*&ADUNITID=
-||img.ifeng.com/tres/html/
-||ruanyifeng.com/9he/
 
 !--baidu.com
 ||top.baidu.com^$subdocument,third-party
@@ -377,3 +343,5 @@ weidown.com##a[class$="bzxz"][style="cursor: pointer;"]
 123pan.com##.baidu-banner-container
 123pan.com##div[style*="position: relative; width: 100%; height: 44px;"]
 123pan.com##.banner-container-pc
+123pan.com##.mfy-main-layout__head
+123pan.com##div[class*="banner-container"]

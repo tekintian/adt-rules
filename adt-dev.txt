@@ -176,3 +176,5 @@ torrentgalaxy.to#main>div>div>div.col-lg-10.col-sm-12>div:nth-child(5)
 tutsnode.org##div[style*="user-select: none;"]
 tutsnode.org##span[style*="user-select: none;"]
 tutsnode.org##section[style*="user-select:"]
+tutsnode.org##div[style*="user-select: none"]
+tutsnode.org##section[style*="user-select: none;"]

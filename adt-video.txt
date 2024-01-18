@@ -233,39 +233,16 @@ hao123.com#@#.popup
 !--bimibimi--m站
 adx.dlads.cn
 
-!-- ifeng
-||ifeng.com/a_if/taobao-
-||ifeng.com/bbsfile/js/ifeng_tip.js
-||ifeng.com/iframe/quickbet
-||ifeng.com/iframe/toquickbet
-||ifeng.com/ssi-incs/
+!-- ifeng.com
 ||ifeng.com/statics/comment_baidu.html
 ||ifeng.com/wapAdversApi?
 ||ifeng.com^*&ADUNITID=
-||ifengimg.com/*/taobaopudi/
-||ifengimg.com/ifeng/mif/mobile_inice_
-||ifengimg.com/ifeng/sources/
-||ifengimg.com/ifengimcp/pic/*_w130_h100.
-||ifengimg.com/ifengimcp/pic/*_w24_h100.
-||ifengimg.com/ifengimcp/pic/*_w300_h65.
-||ifengimg.com/ifengimcp/pic/*_w320_h120.
-||ifengimg.com/ifengimcp/pic/*_w320_h210.
-||ifengimg.com/ifengimcp/pic/*_w320_h330.
-||ifengimg.com/ifengimcp/pic/*_w320_h48.
-||ifengimg.com/ifengimcp/pic/*_w640_h120.
-||ifengimg.com/ifengimcp/pic/*_w640_h130.
-||ifengimg.com/iis/iis_
 ||ifengimg.com/mappa/$domain=~tech.ifeng.com
 ||ifengimg.com/static/news/js/advtrack_
 ||ifengimg.com/tres/js/*/idemin_noif.js
 ||ifengimg.com/xingzhao/JS/bsgspecial.js
 ||ifengimg.com/zhishaofei/js/
 ||ifengimg.com^*-gewindow-
-||ifengimg.com^*/100-100-
-||ifengimg.com^*/1000-90-
-||ifengimg.com^*/1000X90-
-||ifengimg.com^*/300-300-
-||ifengimg.com^*/300-300.
 ||ifengimg.com^*/aplayer.xml
 ||ifengimg.com^*/backwindow.js
 ||ifengimg.com^*/fullscreen
@@ -278,11 +255,55 @@ adx.dlads.cn
 ||ifengimg.com^*/yingguang-
 ||ifengimg.com^*couplet$script
 ||ifengimg.com^*Float$script
+||ax.*.ifeng.com^
+||ax.ifeng.com^
+||cdgfa.ifeng.com^
+||deliver.ifeng.com^
+||qcvf.ifeng.com^
+||ztyumn.ifeng.com^
+||auto.ifeng.com/uploadfile/201*.swf
+||games.ifeng.com^$subdocument
+||games.ifeng.com^*.shtml?v=
+||ifeng.com/a_if/
+||ifeng.com/iframe/quickbet
+||ifeng.com/showcode?
+||ifeng.com/showjs?*apids=
+||ifeng.com/ssi-incs/
+||ifeng.com/statics/comment_baidu.html
+||ifeng.com^*&ADUNITID=
+||img.ifeng.com/tres/html/
 ifeng.com###root > div > div.topBox-2Ay2GWZz.clearfix
 ifeng.com##.news_list_markTag-1--AQmyX
 ifeng.com##div[class*="index_topBox_"]
 ifeng.com###root > div > div.topBox-2Ay2GWZz.clearfix
 ifeng.com##.news_list_markTag-1--AQmyX
+ifeng.com##a[href*="youzan.com"]
+ifeng.com##div[class*="index_businessOperate"]
+ifeng.com##div[class*="index_goodThing_"]
+ifeng.com##div[class^="index_outerPcMask_"]
+ifeng.com##div[class^="index_shortTipsPc_"]
+ifeng.com##p[class*="_markTag_"]
+ifeng.com##div[class*="feng-control-appspread"]
+||zhongyi.ifeng.com/a/zt.js
+/tres/recommend/*$domain=ifeng.com
+!--ifeng.com
+@@||ifengimg.com/a/201*Player
+@@||ifengimg.com/pdt/cfg/mudu/aplayer.xml$domain=v.ifeng.com
+!--所有div标签中包含c属性的数据
+ifeng.com##div[c]
+ifeng.com##div[class^="d_box"]
+ifeng.com##div[class^="dbox-"]
+ifeng.com##div[id^="couplet3_"]
+ifeng.com##div[class^="asideAd1-"]
+ifeng.com##div[class^="topDbox0-"]
+ifeng.com##div[class^="rectangleAd"]
+ifeng.com##div[class^="videoad-"]
+ifeng.com##div[class^="videoAd"]
+ifeng.com##video[class^="advideo-"]
+ifeng.com##div[class^="videobanner-"]
+ifeng.com###js_videobanner_container
+ifeng.com###adPlayer
+ifeng.com##div[style*="z-index: 99999"]
 
 www.qkw2.cc###play_page > div.play_boxbg > div.play_box.play_video > div.right_row.fr.hidden_xs.hidden_mi > div > div.play_infobox > div.play_vlist.m_qrcode.cblock
 www.qkw2.cc###play_page > div:nth-child(2)

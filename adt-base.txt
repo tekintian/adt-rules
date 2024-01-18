@@ -769,9 +769,6 @@
 @@||sinaimg.cn/dy/deco/*/js/base.js
 @@||sinaimg.cn/dy/deco/*/js/require.js
 @@||sinaimg.cn^*/deco/*/sinaObj.js
-!--ifeng.com
-@@||ifengimg.com/a/201*Player
-@@||ifengimg.com/pdt/cfg/mudu/aplayer.xml$domain=v.ifeng.com
 !--58.com
 @@||58.com/adJump?adType=
 @@||58cdn.com.cn/tuiguang/center/
@@ -813,6 +810,7 @@
 @@/ad/images/*$domain=37-express.com
 
 !-- uri ads block
+*/ads.js*$script
 /adsbygoogle.js$script,match-case
 /advertising.js$script,match-case
 /ads.js$script,match-case
@@ -1152,7 +1150,6 @@
 /static/media/curl.swf$domain=duba.com
 /sungg/*$domain=sun0769.com
 /the_top$domain=28188.com|28188.net
-/tres/recommend/*$domain=ifeng.com
 /uniontgm.cmb.
 /vmind.qqvideo.tc.qq.com^
 /w_e_b/de_li_ve_ry/a_j_s.php?zid=$domain=cnlmjx.com
@@ -2427,7 +2424,7 @@ xhtml?%22+$script,third-party
 ||zhangchengbo.com/meijuba/js/top.js
 ||zhibo8.cc/js/adv-slide-toggle.js
 ||zhibok8.com/js/scroll.js
-||zhongyi.ifeng.com/a/zt.js
+
 ||zhongyoo.com/img/js/tongji.js
 ||zhongzijun.com/js/adurl.js
 ||zhujiangroad.com/js/alltop.js
@@ -2446,7 +2443,6 @@ xhtml?%22+$script,third-party
 ||zxzj.me/t.js
 ||18comic.*/templates/frontend/airav/js/jquery.lazyload.js
 ||qizhihaotian.com^*.js
-||bejson.com/static/ydxyt/www.bejson.com.js
 ||aitxt.com/js/ai.js
 ||aitxt.com/m_float.js
 ||biquge.tw/xtws/true.js
