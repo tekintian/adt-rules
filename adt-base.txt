@@ -102,8 +102,10 @@
 ##.ad
 ##.guangao,.adsbyvli
 ##div[class^="ADTOPLB_"]
+##div[class*="-myads"]
 ##.ezoic-ad,.adtester-container
 ##article[data-ggclick]
+
 !--div包含data-ggsrc元素的都屏蔽
 ##div[data-ggsrc]
 ##div[rv-hide^="file.my_uid"]
@@ -116,33 +118,14 @@
 ##.aab-post
 ##.aasd-text
 ##.aasdwa
-##.ad-above-footer
-##.ad-below-adjacent-post
-##.ad-below-header-menu
-##.ad-below-post-title
-##.ad-below-related-post
-##.ad-couplet-common
-##.ad-left-down
-##.ad-left-top
-##.ad-right-down
-##.ad-right-top
-##.ad-shine-panel
-##.ad-site
+##div[class^="ad-"]
+##div[class^="ad_"]
 ##.ad250left
 ##.ad250right
 ##.ad300left
 ##.ad336left
 ##.ad990x130
 ##.ad990x90
-##.ad_couplebanner
-##.ad_fixed
-##.ad_footerbanner
-##.ad_headerbanner
-##.ad_hf
-##.ad_right_1
-##.ad_right_2
-##.ad_thread
-##.ad_top_close + .bd
 ##.adbox-bg.adscounter
 ##.ads > a > img[src*=".sinaimg."]
 ##.ads_desktop
@@ -159,7 +142,6 @@
 ##.assort-ad
 ##.aub-post
 ##.baiduad
-##.banner-ad-section
 ##.bdyp-sygg-ul
 ##.below_ads
 ##.bm.a_c
@@ -211,11 +193,6 @@
 ##.getads
 ##.gg1000
 ##.gg430
-##.gg_300
-##.gg_728
-##.gg_950
-##.gg_960
-##.gg_full
 ##.ggad
 ##.gggpost-above
 ##.gglist
@@ -257,9 +234,6 @@
 ##.lol-ad
 ##.lol_ad
 ##.lyzm-prevent
-##.main-ad-l
-##.main-ad-r
-##.main-ad-r + .topad
 ##.main[style="border:#7D8C8E solid 1px;height: 23px;"]
 ##.maomi-content > .section-banner
 ##.mediav-newsfeed-listitem-type-1
@@ -287,9 +261,6 @@
 ##.qzhfaaa
 ##.readmidad
 ##.right > .content > .ads
-##.room-ad-bottom
-##.room-ad-top
-##.room-ad-video-down
 ##.rtcenter_game
 ##.scupioadslot
 ##.self-gg
@@ -299,7 +270,6 @@
 ##.t5[style="border:1px solid #a6cbe7;"] + .t[style="margin-top:8px"]
 ##.table_ad
 ##.textadlist
-##.theme_custom_slidebox-ad-below
 ##.tmall_ad_container
 ##.tooltip > #tp
 ##.top-read-ad
@@ -429,7 +399,6 @@
 ###googleAdIndexTop
 ###haoetv1
 ###haoxinqing_me_img
-###js-ad-map
 ###js_ads_banner_top
 ###js_ads_banner_top_slide
 ###kfpopupDiv
@@ -2651,4 +2620,4 @@ anxz.com###commend
 
 btbtt12.com##body > div.width.imgs_1
 
-https://pc.stgowan.com/*
+pc.stgowan.com
