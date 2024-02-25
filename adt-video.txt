@@ -304,6 +304,7 @@ ifeng.com##div[class^="videobanner-"]
 ifeng.com###js_videobanner_container
 ifeng.com###adPlayer
 ifeng.com##div[style*="z-index: 99999"]
+ifeng.com###js_videopause_container
 
 www.qkw2.cc###play_page > div.play_boxbg > div.play_box.play_video > div.right_row.fr.hidden_xs.hidden_mi > div > div.play_infobox > div.play_vlist.m_qrcode.cblock
 www.qkw2.cc###play_page > div:nth-child(2)
