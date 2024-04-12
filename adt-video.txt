@@ -31,6 +31,8 @@
 ##div[id^="globalAd"]
 ##.adpc
 ##section[style*="user-select: none;"]
+##.is_pc
+##.is_pc_flex
 
 !-- v.baidu.com  ads !
 v.baidu.com###__lawnImageContainer
