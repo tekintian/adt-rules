@@ -375,5 +375,5 @@ meijutt.tw##.widget-weixin
 meijutt.tw##div[style*="width: 320px; height: 270px;"]
 meijutt.tw##div[style="text-align: center;"]
 
-ypcgw.com##.pc_acmsd
+ypcgw.com###idiv
 ypcgw.com###lelezdy
