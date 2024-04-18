@@ -377,3 +377,5 @@ meijutt.tw##div[style="text-align: center;"]
 
 ypcgw.com###idiv
 ypcgw.com###lelezdy
+
+ysgcfun.com##table[style="width: 100%;height: 125px;"]
