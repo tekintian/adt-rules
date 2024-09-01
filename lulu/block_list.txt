@@ -16,6 +16,12 @@ www.sublimetext.com
 # for qq
 monitor.uu.qq.com
 
+#dmg
+www.araelium.com
+
+# tower
+account.git-tower.com
+
 # disable chrome update
 update.googleapis.com
 180.163.150.34
@@ -34,7 +40,22 @@ update.googleapis.com
 
 # diable update for xx soft
 updates.fournova.com
-
+bam.nr-data.net
+api.lab.amplitude.com
+events.gw.postman.com
+events.getpostman.com
+events.launchdarkly.com
+events.launchdarkly.com
+api-lytics.macpaw.com
+update.hitpaw.com
+firebase-settings.crashlytics.com
+app-measurement.com
+mdns.mcast.net
+legit.maketheweb.io
+o36975.ingest.sentry.io
+api.panther.macpaw.com
+public-apis.cleanmymac.com
+www.scootersoftware.com
 
 # apple ads
 metrics.apple.com
@@ -43,4 +64,124 @@ cf.iadsdk.apple.com
 advertising.apple.com
 iadsdk.apple.com
 
+# universal api
+v3.paddleapi.com
+hejki.org
+in.appcenter.ms
+
+#keepvid-music-tag-editor
+macplatform.wondershare.com
+
+#for tuxera
+download.tuxera.com
+
+#for uniConverter
+ori-myphone-download.wondershare.cc
+analytics.300624.com
+cbs.wondershare.cc
+macplatform.wondershare.com
+product-api.wondershare.com
+cbs.wondershare.com
+account.wondershare.com
+
+#for adobe
+cchome.adobe.io
+cc-api-data.adobe.io
+lcs-robs.adobe.io
+activate.adobe.com
+practivate.adobe.com
+lmlicenses.wip4.adobe.com
+lm.licenses.adobe.com
+na1r.services.adobe.com
+hlrcv.stage.adobe.com
+3dns.adobe.com
+3dns-1.adobe.com
+3dns-2.adobe.com
+3dns-3.adobe.com
+3dns-4.adobe.com
+3dns-5.adobe.com
+activate.adobe.com
+activate.wip1.adobe.com
+activate.wip2.adobe.com
+activate.wip3.adobe.com
+activate.wip4.adobe.com
+activate-sea.adobe.com
+activate-sjc0.adobe.com
+adobe-dns.adobe.com
+adobe-dns-1.adobe.com
+adobe-dns-2.adobe.com
+adobe-dns-3.adobe.com
+adobe-dns-4.adobe.com
+adobeereg.com
+ereg.adobe.com
+ereg.wip.adobe.com
+ereg.wip1.adobe.com
+ereg.wip2.adobe.com
+ereg.wip3.adobe.com
+ereg.wip4.adobe.com
+hl2rcv.adobe.com
+practivate.adobe
+practivate.adobe.com
+practivate.adobe.ipp
+practivate.adobe.newoa
+practivate.adobe.ntp
+wip.adobe.com
+wip1.adobe.com
+wip2.adobe.com
+wip3.adobe.com
+wip4.adobe.com
+crl.versign.net
+ood.opsource.net
+
+#for parallels
+toolbox.parallels.com
+update.parallels.com
+desktop.parallels.com
+update.parallels.com.cdn.cloudflare.net
+desktop.parallels.com.cdn.cloudflare.net
+www.parallels.cn
+www.parallels.com
+www.parallels.de
+www.parallels.es
+www.parallels.fr
+www.parallels.nl
+www.parallels.pt
+www.parallels.ru
+www.parallelskorea.com
+reportus.parallels.com
+parallels.cn
+parallels.com
+parallels.de
+parallels.es
+parallels.fr
+parallels.nl
+parallels.pt
+parallels.ru
+parallelskorea.com
+pax-manager.myparallels.com
+myparallels.com
+my.parallels.com
+
+#for ads site
+rogueamoeba.net
+ad.opencloner.com
+du0pud0sdlmzf.cloudfront.net
+d2yeczd6cyyd0z.cloudfront.net
+serving.bepolite.eu
+pagead2.googlesyndication.com
+c2.popads.net
+c1.popads.net
+serve.popads.net
+xenylclio.com
+exclusiveroughlywhich.com
+banquetunarmedgrater.com
+friendshipmale.com
+proftrafficcounter.com
+d3a781y1fb2dm6.cloudfront.net
+dlvds9i67c60j.cloudfront.net
+pogothere.xyz
+evidenceguidance.com
+d2ovgc4ipdt6us.cloudfront.net
+static.adsafeprotected.com
+ookroush.com
 
