@@ -22,6 +22,11 @@ www.araelium.com
 # tower
 account.git-tower.com
 
+# transmit
+panic.com
+lb.panic.com
+38.103.165.38
+
 #jetbrain
 216.137.39.118
 3.163.125.80
