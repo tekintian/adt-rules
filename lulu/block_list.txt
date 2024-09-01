@@ -1,0 +1,46 @@
+##  BlockList for lulu opensource firewall    ##
+##  ips/urls 屏蔽黑名单
+## 注意：对于chrome等浏览器中的网络访问 只能使用IP来作为黑名单
+## 
+##  lulu参考黑名单  ##
+##  https://ceadd.ca/blockyouxlist.txt   ##
+##
+
+# switchhost block
+20.205.243.166
+
+# sublime check disable
+license.sublimehq.com
+www.sublimetext.com
+
+# for qq
+monitor.uu.qq.com
+
+# disable chrome update
+update.googleapis.com
+180.163.150.34
+142.251.33.74
+142.251.215.234
+180.163.150.34
+142.250.69.206
+93.46.8.90
+172.217.14.202
+142.250.69.202
+142.250.217.74
+142.251.33.106
+142.251.211.234
+142.250.217.106
+157.240.17.35
+
+# diable update for xx soft
+updates.fournova.com
+
+
+# apple ads
+metrics.apple.com
+tr.iadsdk.apple.com
+cf.iadsdk.apple.com
+advertising.apple.com
+iadsdk.apple.com
+
+
