@@ -34,6 +34,10 @@
 ##.is_pc
 ##.is_pc_flex
 
+!-- vainews.cn ads !
+##img[src*="vainews.cn"]
+##a[href*="vainews.cn"]
+
 !-- v.baidu.com  ads !
 v.baidu.com###__lawnImageContainer
 v.baidu.com###playerRightBottom
