@@ -6,9 +6,6 @@
 ##  https://ceadd.ca/blockyouxlist.txt   ##
 ##
 
-# switchhost block
-20.205.243.166
-
 # sublime check disable
 license.sublimehq.com
 www.sublimetext.com
