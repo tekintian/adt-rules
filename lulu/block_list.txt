@@ -34,6 +34,10 @@ lb.panic.com
 # disable chrome update
 update.googleapis.com
 
+#for movavi
+hosted-by.leaseweb.com
+sea09s30-in-f10.1e100.net
+sea30s10-in-f10.1e100.net
 
 # diable update for xx soft
 updates.fournova.com
@@ -185,3 +189,4 @@ ookroush.com
 cdn-file-ssl-wan.ludashi.com
 pp.vainews.cn
 mm.vainews.cn
+
