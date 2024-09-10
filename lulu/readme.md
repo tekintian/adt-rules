@@ -44,3 +44,8 @@ https://ceadd.ca/blockyouxlist.txt
 157.240.17.35
 ~~~
 
+
+## lulu防火墙安装
+LuLu_2.6.3.dmg 这个是lulu防火墙的安装包, 需要10.15以上版本, 旧版本系统只能使用v1.x版本的lulu
+
+
