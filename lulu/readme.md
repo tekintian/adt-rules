@@ -7,7 +7,23 @@ lulu放回去黑名单 ip / urls
 
 另外对于chrome浏览器中的网络访问屏蔽,由于系统限制原因,只能使用ip形式来进行屏蔽.
 
+
+
+
+## 使用方法
+打开lulu防火墙 --> Settings --> 然后将下面的URL粘贴到Block List 里面即可
+~~~txt
+https://gitee.com/tekintian/adt-rules/raw/master/lulu/block_list.txt
+~~~
+
+
+**使用方法图解:**
+![lulu防火墙黑名单使用方法](./使用方法.jpg)
+
+
+
 ## lulu参考黑名单
+
 https://ceadd.ca/blockyouxlist.txt
 
 
@@ -27,3 +43,4 @@ https://ceadd.ca/blockyouxlist.txt
 142.250.217.106
 157.240.17.35
 ~~~
+
