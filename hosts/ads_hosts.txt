@@ -20,6 +20,8 @@
 127.0.0.1 evidenceguidance.com
 127.0.0.1 d2ovgc4ipdt6us.cloudfront.net
 127.0.0.1 static.adsafeprotected.com
+127.0.0.1 adsco.re
+127.0.0.1 c.adsco.re
 
 # [163.com]
 127.0.0.1 analytics.163.com

@@ -1,5 +1,9 @@
-!  -----Adt基础广告过滤规则 更新时间:  2023-12-25 12:25 PRC   by:TekinTian -----
-!---- https://gitee.com/tekintian/adt-rules/raw/master/adt-base.txt ----
+! Version: 202312251231
+! Title: Adbyby Basic Ad Filtering Rules
+! Expires: 2 days (update frequency)
+! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adbyby/lazy.txt
+!
+!----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
 !-- exclude rule
 @@||127.0.*
 @@||192.168.*
@@ -8,7 +12,7 @@
 @@||bootcss.com/*
 @@||jsdelivr.net/*
 
-!-- Tekin 全局广告样式屏蔽规则 global class style block  ---
+!-- Tekin Adbyby Global Basic Ad Filtering Rules  ---
 ##img[id^="adImg"]
 ##div[class*="bzClick"][style="margin-bottom: 10px;width: 400px;float:left"]
 ##div[bz_track]
@@ -96,7 +100,7 @@
 ##div[class^="ADTOPLB_"]
 ##.ezoic-ad,.adtester-container
 ##article[data-ggclick]
-!--div包含data-ggsrc元素的都屏蔽
+!--div鍖呭惈data-ggsrc鍏冪礌鐨勯兘灞忚斀
 ##div[data-ggsrc]
 ##div[rv-hide^="file.my_uid"]
 ##.Flagrow-Ads-under-header
@@ -639,7 +643,7 @@
 ##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
 
 
-!----------- @@例外规则  --------
+!----------- @@渚嬪瑙勫垯  --------
 !-----------bank site exclude rule --------
 @@||icbc.com.cn/*
 @@||cmbchina.com/*
@@ -1171,7 +1175,7 @@
 /yaoqi/static/js/*
 /api/goods/v1/get.script.core?
 
-!-- 全局标签广告屏蔽规则
+!-- 鍏ㄥ眬鏍囩骞垮憡灞忚斀瑙勫垯
 ! global domain rules
 |http://*.cn/ad/
 |http://*.hk/ad/$domain=~sunmobile.com.hk
@@ -1286,7 +1290,7 @@ _popAds.
 _tm11_pmt_
 _xiuno_com_ad/
 
-!-- js广告加载屏蔽规则
+!-- js骞垮憡鍔犺浇灞忚斀瑙勫垯
 ||coin-hive.com/lib/coinhive.min.js
 ||static.doubleclick.net/instream/ad_status.js
 ||s.ytimg.com/yts/jsbin/www-pagead-id-vfla_fkeg/www-pagead-id.js
@@ -1500,7 +1504,7 @@ _float_fuo.js
 /xxgg/gzh.js
 /xxgg/xsggs.js
 
-!-- 全局third-party
+!-- 鍏ㄥ眬third-party
 /h/k.php?u=*&l=*&v=$third-party
 /js/jsstyle-$third-party
 /pjk/mdk/*$subdocument,third-party

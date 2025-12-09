@@ -1,6 +1,8 @@
-!  -----AdtÊÓÆµÍøÕ¾¹ã¸æ¹ıÂË¹æÔò ¸üĞÂÊ±¼ä: 2023-12-25 12:25 PRC   by:TekinTian -----
-! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adt-video.txt
-!----------------------------ÊÓÆµÍøÕ¾¹æÔò----------------------------
+! Version: 202512091633
+! Title: Adbyby Video Site Ad Filtering Rules
+! Expires: 2 days (update frequency)
+! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adbyby/video.txt
+!----------------------------video ad filter rules----------------------------
 !--video site common ads
 ! ##div.h5-ext-layer
 ##div.m-video-play.js-play>a.m-video-bannerTitle.js-video-bannerTitle
@@ -31,9 +33,9 @@
 v.baidu.com###__lawnImageContainer
 v.baidu.com###playerRightBottom
 
-!---ËÑºüÊÓÆµ
+!---æœç‹è§†é¢‘
 /^http:\/\/v\.aty\.sohu\.com\/v\?cat=.*fee=0/>>>http://v.aty.sohu.com/v?cat=&act=&autoPlay=1&fee=1>>>>keyword=sohu
-!---ÓÅ¿á
+!---ä¼˜é…·
 !/^http:\/\/static\.youku\.com(\/v[\d\.]*)?\/v\/swf\/(q?player[^\.]*|\w{13})\.swf/>>>http://yk.522.com.cn/player.swf>>>>keyword=youku
 !/^http:\/\/static\.youku\.com(\/v[\d\.]*)?\/v\/swf\/upsplayer\/(q?player[^\.]*|\w{13})\.swf/>>>http://yk.522.com.cn/player.swf>>>>keyword=youku
 !/yk\.522\.com\.cn\/danmu\.swf/>>>static.youku.com/v201706061000.0/v/swf/upsplayer/danmu.swf>>>>keyword=danmu
@@ -67,7 +69,7 @@ v.baidu.com###playerRightBottom
 |http://yk.pp.navi.youku.com/playpolicy/get.json?
 ||alicdn.com^*yksdk/*sdk.js$script,domain=youku.com
 ||irs01.net/
-! ÓÅ¿áÀıÍâ¹æÔò
+! ä¼˜é…·ä¾‹å¤–è§„åˆ™
 @@|https://vku.youku.com/
 @@u-ads.adap.tv*youku.$domain=youku.com
 @@||a.ads.cn.miaozhen.com^$domain=youku.com
@@ -79,18 +81,18 @@ v.baidu.com###playerRightBottom
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
 
-!---ÍÁ¶¹
+!---åœŸè±†
 !/^http:\/\/td\.atm\.youku\.com\/tdcm\/adcontrol/>>>http://www.tudou.com/util/tools/www_hd.txt>>>>keyword=tdcm
-!---°®ÆæÒÕ
+!---çˆ±å¥‡è‰º
 /static\.iqiyi\.com\/js\/common\/mars_v\.js.*/>>>1111.51xiaolu.com/mars.js?2050>>>>keyword=iqiyi
 iqiyi.com##iqpdiv[data-cupid=container],div[adid]
 ||*/videos/other/*.f4v$object,domain=iqiyi.com
-!---ÀÖÊÓ
+!---ä¹è§†
 @@||shop.letv.com^
 !---PPTV
 ||asimgs.pplive.cn/imgs
 @@http://s1.pplive.cn/sta.js
-!---Ñ¸À×¿´¿´
+!---è¿…é›·çœ‹çœ‹
 ||float.sandai.net
 
 !- baomihua
@@ -134,7 +136,7 @@ iqiyi.com##iqpdiv[data-cupid=container],div[adid]
 ||afpcreative.wasu.cn^
 ||apistat.wasu.cn^
 ||download.game.yy.com/crossdomain.xml
-!---ÌÚÑ¶
+!---è…¾è®¯
 !||vd.l.qq.com/proxyhttp
 /^https:\/\/vm\.gtimg\.cn\/c\/=\/tencentvideo\/txpv5\/creative.*/>>>https://1111.51xiaolu.com/txvideo.min.js?3>>>>keyword=tencentvideo
 !/.tc.qq.com/*.mp4*vkey=
@@ -157,7 +159,7 @@ v.qq.com##.site_board_ads.show
 video.dispatch.tc.qq.com
 v.qq.com##txpdiv[data-role="hd-ad-adapter-interactivelayer"]
 
-!---°®ÆæÒÕ
+!---çˆ±å¥‡è‰º
 //*/videos/other/*.f4v
 //*/videos/other/*.mp4
 /static\.iqiyi\.com\/js\/player_v1\/res\/[0-9]+\/1526aa12997c\.js/>>>1111.51xiaolu.com/iqiyi_player.js?2>>>>keyword=iqiyi
@@ -191,7 +193,7 @@ v.qq.com##txpdiv[data-role="hd-ad-adapter-interactivelayer"]
 ||iqiyi.com/show2?cb=
 ||mixer.video.iqiyi.com/jp/mixin/resources/
 
-!---ÓÅ¿á
+!---ä¼˜é…·
 !/^http:\/\/static\.youku\.com(\/v[\d\.]*)?\/v\/swf\/(q?player[^\.]*|\w{13})\.swf/>>>http://yk.522.com.cn/player.swf>>>>keyword=youku
 !/^http:\/\/static\.youku\.com(\/v[\d\.]*)?\/v\/swf\/upsplayer\/(q?player[^\.]*|\w{13})\.swf/>>>http://yk.522.com.cn/player.swf>>>>keyword=youku
 !/yk\.522\.com\.cn\/danmu\.swf/>>>static.youku.com/v201706061000.0/v/swf/upsplayer/danmu.swf>>>>keyword=danmu
@@ -199,10 +201,10 @@ v.qq.com##txpdiv[data-role="hd-ad-adapter-interactivelayer"]
 /g\.alicdn\.com\/player\/ykplayer\/0\.6\.[0-9]+\/youku-player\.min\.js/>>>g.alicdn.com/player/ykplayer/0.5.90/youku-player.min.js>>>>keyword=youku
 |http://b.scorecardresearch.com
 ||irs01.net/
-!---ËÑºü
+!---æœç‹
 !---PPTV
 ||de.as.pptv.com^
-!---Ñ¸À×¿´¿´
+!---è¿…é›·çœ‹çœ‹
 !---ku6
 /adview_
 !---17173
@@ -211,7 +213,7 @@ v.qq.com##txpdiv[data-role="hd-ad-adapter-interactivelayer"]
 ||log1.17173.com^
 ||untitled.dwstatic.com/fodder/
 ||itc.cn/cache/lib/v2/odvmonitor/
-!---ÀÖÊÓ
+!---ä¹è§†
 |http://*/letv-gug/
 @@|https://vku.youku.com/
 
@@ -225,7 +227,7 @@ i6v.cc##div[id^="HMcoupletDiv"]
 @@|https://analytics.google.com/
 browser.360.cn#@##banner
 hao123.com#@#.popup
-!--bimibimi--mÕ¾
+!--bimibimi--mç«™
 adx.dlads.cn
 
 !-- ifeng
