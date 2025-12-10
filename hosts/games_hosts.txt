@@ -1,4 +1,4 @@
-# Version: 2025-12-10T12:50:40
+# Version: 2025-12-10T13:05:29
 # game host filter rules
 # URL: https://gitee.com/tekintian/adt-rules/raw/master/hosts/games_hosts.txt
 #
@@ -59,6 +59,9 @@
 127.0.0.1 www.qunle.com
 127.0.0.1 www.mohao.com
 127.0.0.1 mcpel-web.16163.com
+127.0.0.1 www.3366.com
+127.0.0.1 h5.3366.com
+
 # 游戏门户网站
 127.0.0.1 www.17173.com
 127.0.0.1 games.sina.com.cn
@@ -93,6 +96,11 @@
 127.0.0.1 www.gmg.com.cn
 127.0.0.1 www.gmg.tv
 127.0.0.1 www.gog.com
+127.0.0.1 www.battlenet.com.cn
+127.0.0.1 www.ubisoft.com.cn
+127.0.0.1 www.ea.com
+127.0.0.1 www.activision.com
+
 # 游戏应用API
 127.0.0.1 api.taptapdada.com
 127.0.0.1 open.tapapis.cn
@@ -173,6 +181,17 @@
 127.0.0.1 news-api.16163.com
 127.0.0.1 mgbsdk.matrix.netease.com
 127.0.0.1 gss-cn.game.hicloud.com
+127.0.0.1 api.blizzard.com
+127.0.0.1 dev.battle.net
+127.0.0.1 api.ubisoft.com
+127.0.0.1 api.ubisoftconnect.com
+127.0.0.1 api.wangzhe.com
+127.0.0.1 api.pubg.com
+127.0.0.1 api.heiyou.com
+127.0.0.1 api.lol.qq.com
+127.0.0.1 api.dnf.qq.com
+127.0.0.1 api.cf.qq.com
+
 # 游戏平台
 127.0.0.1 lewan.baidu.com
 127.0.0.1 www.minecraft.net
@@ -196,6 +215,8 @@
 127.0.0.1 www.ea.com
 127.0.0.1 www.twitch.tv
 127.0.0.1 www.steamapis.com
+127.0.0.1 www.steamcommunity.com
+127.0.0.1 www.steampowered.com
 127.0.0.1 www.mojang.com
 127.0.0.1 www.minecraftservices.com
 127.0.0.1 www.hoyoverse.com
@@ -208,3 +229,16 @@
 127.0.0.1 www.worldofwarships.com
 127.0.0.1 www.worldoftanks.com
 127.0.0.1 www.worldofwarplanes.com
+127.0.0.1 www.battle.net
+127.0.0.1 www.ubisoft.com
+127.0.0.1 www.ubisoftconnect.com
+127.0.0.1 wangzhe.qq.com
+127.0.0.1 pvp.qq.com
+127.0.0.1 cf.qq.com
+127.0.0.1 dnf.qq.com
+127.0.0.1 lol.qq.com
+127.0.0.1 pubg.qq.com
+127.0.0.1 hpjy.qq.com
+127.0.0.1 www.wowchina.com
+127.0.0.1 www.diablo3.com.cn
+127.0.0.1 www.overwatch.com.cn

@@ -13,7 +13,7 @@
   "dnsmasq/anti-ad.conf":"f85284a9a29bf815491806212bdb7d5f",
   "hosts/adaway_hosts.txt":"bdd6f42b14fb6931c5320e8a99e65f04",
   "hosts/ads_hosts.txt":"8a07bded4fc697518ab64506558b796d",
-  "hosts/games_hosts.txt":"03d0f30851fa67b4a3efaa418b5677ff",
+  "hosts/games_hosts.txt":"51e428fb8296958a545f2e5d5e62dfdb",
   "hosts/stats_hosts.txt":"6b428c3273ae5a334efef20e3e13319c",
   "lulu/block_list.txt":"f43e0c3757165f615c5f9728ed5c93bd",
   "plus/html5player.txt":"d33302fa714271dfd994185c65b5cafc",
