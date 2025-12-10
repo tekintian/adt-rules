@@ -1,4 +1,4 @@
-# Version: 123
+# Version: 2025-12-10T09:33:40
 # game host filter rules
 # URL: https://gitee.com/tekintian/adt-rules/raw/master/hosts/stats_hosts.txt
 #
