@@ -1,3 +1,4 @@
+# Version: 2025-12-10T09:33:40
 # AdAway default blocklist
 # Blocking mobile ad providers and some analytics providers
 #

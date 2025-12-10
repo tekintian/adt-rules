@@ -1,3 +1,5 @@
-
-
-
+! Version: 2025-12-10T09:53:29
+! Test file for version update
+# This is a test rule
+example.com
+# Another rule added

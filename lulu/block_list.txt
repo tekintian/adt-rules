@@ -1,3 +1,4 @@
+# Version: 2025-12-10T09:33:41
 ##  BlockList for lulu opensource firewall    ##
 ##  ips/urls 屏蔽黑名单
 ## 注意：对于chrome等浏览器中的网络访问 只能使用IP来作为黑名单
