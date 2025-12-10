@@ -198,6 +198,8 @@ def update_md5_json():
         
         json.dump(adbyby_md5_data, f, separators=(',', ':'), ensure_ascii=False, indent=2)
     
+    # Stage md5.json and adbyby/md5.json files
+    files_to_stage.append(str(adbyby_md5_file))
     files_to_stage.append(str(md5_file))
     
     # Stage all updated files
