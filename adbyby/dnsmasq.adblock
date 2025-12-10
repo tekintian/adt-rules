@@ -1,10 +1,8 @@
-# Version: 2024-01-10 09:40:26
+# Version: 2024-01-10T09:40:26
 # Homepage: https://gitee.com/tekintian/adt-rules/
 #
-address=/pc.stgowan.com/0.0.0.0
+address=/.stgowan.com/0.0.0.0
 address=/124.232.160.178/0.0.0.0
-address=/du0pud0sdlmzf.cloudfront.net/0.0.0.0
-address=/d2yeczd6cyyd0z.cloudfront.net/0.0.0.0
 address=/serving.bepolite.eu/0.0.0.0
 address=/pagead2.googlesyndication.com/0.0.0.0
 address=/c2.popads.net/0.0.0.0
@@ -15,14 +13,16 @@ address=/exclusiveroughlywhich.com/0.0.0.0
 address=/banquetunarmedgrater.com/0.0.0.0
 address=/friendshipmale.com/0.0.0.0
 address=/proftrafficcounter.com/0.0.0.0
-address=/d3a781y1fb2dm6.cloudfront.net/0.0.0.0
-address=/dlvds9i67c60j.cloudfront.net/0.0.0.0
 address=/pogothere.xyz/0.0.0.0
 address=/evidenceguidance.com/0.0.0.0
-address=/d2ovgc4ipdt6us.cloudfront.net/0.0.0.0
 address=/static.adsafeprotected.com/0.0.0.0
 address=/www.googletagmanager.com/0.0.0.0
 address=/steadfastsystem.com/0.0.0.0
 address=/secure.quantserve.com/0.0.0.0
-address=/ steadfastsystem.com/0.0.0.0
-address=/v.qisaoba.com/0.0.0.0
+address=/.steadfastsystem.com/0.0.0.0
+address=/.qisaoba.com/0.0.0.0
+address=/du0pud0sdlmzf.cloudfront.net/0.0.0.0
+address=/d2yeczd6cyyd0z.cloudfront.net/0.0.0.0
+address=/d2ovgc4ipdt6us.cloudfront.net/0.0.0.0
+address=/d3a781y1fb2dm6.cloudfront.net/0.0.0.0
+address=/dlvds9i67c60j.cloudfront.net/0.0.0.0
