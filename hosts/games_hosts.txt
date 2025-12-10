@@ -1,6 +1,6 @@
-# Version: 2025-12-10T09:33:40
+# Version: 2025-12-10T12:18:14
 # game host filter rules
-# URL: https://gitee.com/tekintian/adt-rules/raw/master/hosts/stats_hosts.txt
+# URL: https://gitee.com/tekintian/adt-rules/raw/master/hosts/games_hosts.txt
 #
 # 网页小游戏
 127.0.0.1 www.4399.com
