@@ -74,61 +74,6 @@ def is_file_content_modified(filepath, exclude_version_line=True):
         return True
 
 def update_version_in_file(filepath):
-    """Update Version line in adbyby files with current timestamp only if file is modified."""
-    # Check if file is actually modified in git (excluding version line changes)
-    if not is_file_content_modified(filepath, exclude_version_line=True):
-        print(f"Skipping {filepath.name}: no content changes detected")
-        return False
-    
-    current_time = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
-    
-    try:
-        with open(filepath, 'r', encoding='utf-8') as f:
-            lines = f.readlines()
-        
-        if not lines:
-            print(f"No content in {filepath.name}")
-            return False
-        
-        # Check first line for version pattern
-        first_line = lines[0].strip()
-        
-        # Pattern for first line version: ! Version: ... or # Version: ...
-        version_patterns = [
-            (r'^! Version: \d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}', '! Version:'),
-            (r'^# Version: \d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}', '# Version:'),
-            (r'^! Version: \d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}', '! Version:'),
-            (r'^# Version: \d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}', '# Version:')
-        ]
-        
-        updated = False
-        for pattern, prefix in version_patterns:
-            if re.match(pattern, first_line):
-                # Determine format (T or space) based on original
-                if 'T' in first_line:
-                    timestamp = current_time
-                else:
-                    timestamp = current_time.replace("T", " ")
-                
-                # Update first line
-                lines[0] = f'{prefix} {timestamp}\n'
-                updated = True
-                print(f"Updated version in {filepath.name}: {prefix} {timestamp}")
-                break
-        
-        if updated:
-            with open(filepath, 'w', encoding='utf-8') as f:
-                f.writelines(lines)
-            return True
-        else:
-            print(f"No version line found in first line of {filepath.name}")
-            return False
-            
-    except Exception as e:
-        print(f"Error updating version in {filepath}: {e}")
-        return False
-
-def update_version_in_file_general(filepath):
     """Update Version line in any file with current timestamp only if file is modified."""
     # Check if file is actually modified in git (excluding version line changes)
     if not is_file_content_modified(filepath, exclude_version_line=True):
@@ -190,17 +135,10 @@ def update_md5_json():
     
     # Files that need version updates in adbyby directory
     adbyby_dir = project_root / "adbyby"
-    adbyby_version_files = ['video.txt', 'lazy.txt', 'dnsmasq.adblock']
+    # adbyby_version_files = ['video.txt', 'lazy.txt', 'dnsmasq.adblock']
     files_to_stage = []
     
-    # Update version information in adbyby files first
-    for filename in adbyby_version_files:
-        file_path = adbyby_dir / filename
-        if file_path.exists():
-            if update_version_in_file(file_path):
-                files_to_stage.append(str(file_path))
-    
-    # Find all .txt and .conf files in the project (excluding adbyby directory)
+    # Find all .txt and .conf files in the project
     txt_conf_files = []
     for pattern in ['*.txt', '*.conf', '*.adblock']:
         for file_path in project_root.rglob(pattern):
@@ -211,7 +149,7 @@ def update_md5_json():
     
     # Update version information in other files
     for file_path in txt_conf_files:
-        if update_version_in_file_general(file_path):
+        if update_version_in_file(file_path):
             files_to_stage.append(str(file_path))
     
     # Collect all files for MD5 calculation (all .txt and .conf files including adbyby)
@@ -225,6 +163,7 @@ def update_md5_json():
     
     # Calculate MD5 for all files
     md5_data = {}
+    adbyby_md5_data = {}
     
     for file_path in all_files:
         try:
@@ -233,6 +172,10 @@ def update_md5_json():
             key = str(relative_path) # Use relative path as key, but without extension for consistency
             md5_value = calculate_md5(file_path)
             md5_data[key] = md5_value
+            # If file is in adbyby directory, store in adbyby_md5_data
+            if 'adbyby/' in str(file_path):
+                # adbyby files use relative path without extension
+                adbyby_md5_data[relative_path.name] = md5_value
             
             print(f"Updated {key}: {md5_value}")
         except Exception as e:
@@ -245,6 +188,15 @@ def update_md5_json():
         md5_data = {k: md5_data[k] for k in sorted_keys}
         
         json.dump(md5_data, f, separators=(',', ':'), ensure_ascii=False, indent=2)
+    
+    # Write updated adbyby JSON to adbyby directory
+    adbyby_md5_file = adbyby_dir / "md5.json"
+    with open(adbyby_md5_file, 'w', encoding='utf-8') as f:
+        # Sort keys for consistent ordering
+        sorted_keys = sorted(adbyby_md5_data.keys())
+        adbyby_md5_data = {k: adbyby_md5_data[k] for k in sorted_keys}
+        
+        json.dump(adbyby_md5_data, f, separators=(',', ':'), ensure_ascii=False, indent=2)
     
     files_to_stage.append(str(md5_file))
     
