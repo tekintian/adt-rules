@@ -2,16 +2,16 @@
 
 
 规则调用地址:
-
-综合广告屏蔽规则
+~~~sh
+# 综合广告屏蔽规则
 https://gitee.com/tekintian/adt-rules/raw/master/dnsmasq/anti-ad.conf
 
-游戏相关规则
+# 游戏相关规则
 https://gitee.com/tekintian/adt-rules/raw/master/dnsmasq/games.conf
 
-电商平台广告规则
+# 电商平台广告规则
 https://gitee.com/tekintian/adt-rules/raw/master/dnsmasq/shop.conf
-
+~~~
 
 
 ## dnsmasq规则语法：
