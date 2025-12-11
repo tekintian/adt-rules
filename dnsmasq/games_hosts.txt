@@ -1,0 +1,66 @@
+# Version: 2025-12-11T17:45:17
+# dnsmasq使用的hosts屏蔽规则,用于精确屏蔽指定域名
+# URL: https://gitee.com/tekintian/adt-rules/raw/master/dnsmasq/ads_hosts.txt
+#
+# qq.com 相关游戏子域
+127.0.0.1 game.qq.com
+127.0.0.1 openapi.minigame.qq.com
+127.0.0.1 pubgmobile.qq.com
+127.0.0.1 sg-public-api.qq.com
+127.0.0.1 qqgame.qq.com
+127.0.0.1 open.qqgame.qq.com
+127.0.0.1 down-update.qq.com
+127.0.0.1 update1.dlied.qq.com
+127.0.0.1 update5.dlied.qq.com
+127.0.0.1 oth.str.mdt.qq.com
+127.0.0.1 c.tdm.qq.com
+127.0.0.1 a.ssl.msdk.qq.com
+127.0.0.1 cloudctrl.gclud.qq.com
+127.0.0.1 masdk.3g.qq.com
+127.0.0.1 lol.qq.com
+127.0.0.1 dnf.qq.com
+127.0.0.1 cf.qq.com
+127.0.0.1 wangzhe.qq.com
+127.0.0.1 pvp.qq.com
+127.0.0.1 pubg.qq.com
+127.0.0.1 hpjy.qq.com
+127.0.0.1 funmaker.qq.com
+
+# 163.com/netease.com 相关游戏子域
+127.0.0.1 mcpel-web.16163.com
+127.0.0.1 api.163.com
+127.0.0.1 api.k.163.com
+127.0.0.1 api.iplay.163.com
+127.0.0.1 dev.4399.com
+127.0.0.1 dev.my4399.com
+127.0.0.1 g79.update.netease.com
+127.0.0.1 g79.gdl.netease.com
+127.0.0.1 superstar.pt.163.com
+127.0.0.1 x19.update.netease.com
+127.0.0.1 news-api.16163.com
+127.0.0.1 mgbsdk.matrix.netease.com
+127.0.0.1 game.163.com
+127.0.0.1 mc.163.com
+
+# 其他
+127.0.0.1 games.sina.com.cn
+127.0.0.1 ea.com
+127.0.0.1 game.open.uc.cn
+127.0.0.1 open.d.cn
+127.0.0.1 api.blizzard.com
+127.0.0.1 dev.battle.net
+127.0.0.1 api.ubisoft.com
+127.0.0.1 api.ubisoftconnect.com
+127.0.0.1 api.wangzhe.com
+127.0.0.1 api.pubg.com
+127.0.0.1 api.heiyou.com
+127.0.0.1 lewan.baidu.com
+127.0.0.1 store.steampowered.com
+127.0.0.1 dl.52pk.com
+127.0.0.1 dl.ali213.net
+127.0.0.1 dl.gamersky.com
+127.0.0.1 sdk.longtugame.com
+127.0.0.1 dev.duoku.com
+127.0.0.1 dev.gfan.com
+127.0.0.1 open.maopaoke.com
+127.0.0.1 ol.epicgames.com

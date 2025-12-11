@@ -1,7 +1,8 @@
 # dnsmasq规则说明
 
 
-规则调用地址:
+## address规则调用地址:
+
 ~~~sh
 # 综合广告屏蔽规则
 https://gitee.com/tekintian/adt-rules/raw/master/dnsmasq/anti-ad.conf
@@ -11,7 +12,21 @@ https://gitee.com/tekintian/adt-rules/raw/master/dnsmasq/games.conf
 
 # 电商平台广告规则
 https://gitee.com/tekintian/adt-rules/raw/master/dnsmasq/shop.conf
+
 ~~~
+
+
+## hosts规则
+用于精确屏蔽指定的域名,不包含子域名时使用hosts规则
+如果要直接屏蔽主域名和其子域名,使用address规则
+~~~sh
+# 通用广告规则
+https://gitee.com/tekintian/adt-rules/raw/master/dnsmasq/ads_hosts.txt
+# 游戏规则
+https://gitee.com/tekintian/adt-rules/raw/master/dnsmasq/games_hosts.txt
+
+~~~
+
 
 
 ## dnsmasq规则语法：
@@ -148,3 +163,208 @@ nvram set hosts_ad=1
 
 
 
+
+
+
+### 最终整理结果（去重+分类）
+#### 一、专属游戏主域名（dnsmasq address 泛屏蔽规则）
+```conf
+# 网页小游戏专属主域名
+address=/4399.com/0.0.0.0
+address=/7k7k.tv/0.0.0.0
+address=/7k7kgame.cn/0.0.0.0
+address=/527play.com/0.0.0.0
+address=/6324.cn/0.0.0.0
+address=/liuld.cn/0.0.0.0
+address=/jingcaiyouxi.cn/0.0.0.0
+address=/yx8.cn/0.0.0.0
+address=/youxiboy.com/0.0.0.0
+address=/xiaoyouxi.in/0.0.0.0
+address=/137v.com/0.0.0.0
+address=/7wa.cn/0.0.0.0
+address=/ppkp.net/0.0.0.0
+address=/7k7kxiaoyouxi.com.cn/0.0.0.0
+address=/k7k7k.com/0.0.0.0
+address=/xiaoyouxi.tv/0.0.0.0
+address=/kaixin.com.vc/0.0.0.0
+address=/7k7k.cc/0.0.0.0
+address=/7k7k.com.co/0.0.0.0
+address=/7k7k.in/0.0.0.0
+address=/616wan.com/0.0.0.0
+address=/youxi369.com/0.0.0.0
+address=/543.cn/0.0.0.0
+address=/2144.com/0.0.0.0
+address=/2144.cn/0.0.0.0
+address=/2144.net/0.0.0.0
+address=/2144.tv/0.0.0.0
+address=/2144game.com/0.0.0.0
+address=/2144wan.com/0.0.0.0
+address=/youxizhuo.com/0.0.0.0
+address=/17yy.com/0.0.0.0
+address=/17yy.cn/0.0.0.0
+address=/17yy.net/0.0.0.0
+address=/17yy.tv/0.0.0.0
+address=/youxile.com/0.0.0.0
+address=/youxile.net/0.0.0.0
+address=/youxile.tv/0.0.0.0
+address=/youxih.com/0.0.0.0
+address=/youxih.net/0.0.0.0
+address=/youxih.tv/0.0.0.0
+address=/youxiabc.com/0.0.0.0
+address=/youxiabc.net/0.0.0.0
+address=/youxiabc.tv/0.0.0.0
+address=/1niu.com/0.0.0.0
+address=/7guo.com/0.0.0.0
+address=/5guo.com/0.0.0.0
+address=/qunle.com/0.0.0.0
+address=/mohao.com/0.0.0.0
+address=/3366.com/0.0.0.0
+
+# 游戏门户网站专属主域名
+address=/17173.com/0.0.0.0
+address=/gamersky.com/0.0.0.0
+address=/ali213.net/0.0.0.0
+address=/3dmgame.com/0.0.0.0
+address=/tgbus.com/0.0.0.0
+address=/yxdown.com/0.0.0.0
+address=/youxi.com/0.0.0.0
+address=/game168.com.cn/0.0.0.0
+address=/keylol.com/0.0.0.0
+address=/wenshushu.cn/0.0.0.0
+address=/ali213.com/0.0.0.0
+address=/52pk.com/0.0.0.0
+address=/duowan.com/0.0.0.0
+address=/game2.cn/0.0.0.0
+address=/game365.com.cn/0.0.0.0
+address=/game5.com.cn/0.0.0.0
+address=/game798.com/0.0.0.0
+address=/game880.com/0.0.0.0
+address=/gameabc.com.cn/0.0.0.0
+address=/gamesir.com/0.0.0.0
+address=/gamestar.com.cn/0.0.0.0
+address=/gamersky.com.cn/0.0.0.0
+address=/gamersky.net/0.0.0.0
+address=/gamersky.org/0.0.0.0
+address=/gamersky.tv/0.0.0.0
+address=/ggg.cn/0.0.0.0
+address=/ggg.com.cn/0.0.0.0
+address=/ggg.tv/0.0.0.0
+address=/gmg.cn/0.0.0.0
+address=/gmg.com.cn/0.0.0.0
+address=/gmg.tv/0.0.0.0
+address=/gog.com/0.0.0.0
+address=/battlenet.com.cn/0.0.0.0
+address=/ubisoft.com.cn/0.0.0.0
+address=/activision.com/0.0.0.0
+
+# 游戏应用API专属主域名
+address=/taptapdada.com/0.0.0.0
+address=/tapapis.cn/0.0.0.0
+address=/biligame.com/0.0.0.0
+address=/mihoyo.com/0.0.0.0
+address=/miyoushe.com/0.0.0.0
+address=/wegame.com/0.0.0.0
+address=/4399api.net/0.0.0.0
+address=/epicgames.com/0.0.0.0
+address=/roblox.com/0.0.0.0
+address=/unity3d.com/0.0.0.0
+address=/twitch.tv/0.0.0.0
+address=/steamapis.com/0.0.0.0
+address=/steamcommunity.com/0.0.0.0
+address=/steampowered.com/0.0.0.0
+address=/mojang.com/0.0.0.0
+address=/minecraftservices.com/0.0.0.0
+address=/hoyoverse.com/0.0.0.0
+address=/yuanshen.com/0.0.0.0
+address=/honkaiimpact3.com/0.0.0.0
+address=/honkaistarrail.com/0.0.0.0
+address=/arknights.com/0.0.0.0
+address=/onmyoji.com/0.0.0.0
+address=/wowsgame.com/0.0.0.0
+address=/worldofwarships.com/0.0.0.0
+address=/worldoftanks.com/0.0.0.0
+address=/worldofwarplanes.com/0.0.0.0
+address=/quickapi.net/0.0.0.0
+
+# 游戏平台专属主域名
+address=/minecraft.net/0.0.0.0
+address=/wowchina.com/0.0.0.0
+address=/diablo3.com.cn/0.0.0.0
+address=/overwatch.com.cn/0.0.0.0
+```
+
+#### 二、非专属游戏域名（hosts 格式规则，去重）
+```hosts
+# qq.com 相关游戏子域
+127.0.0.1 game.qq.com
+127.0.0.1 openapi.minigame.qq.com
+127.0.0.1 pubgmobile.qq.com
+127.0.0.1 sg-public-api.qq.com
+127.0.0.1 qqgame.qq.com
+127.0.0.1 open.qqgame.qq.com
+127.0.0.1 down-update.qq.com
+127.0.0.1 update1.dlied.qq.com
+127.0.0.1 update5.dlied.qq.com
+127.0.0.1 oth.str.mdt.qq.com
+127.0.0.1 c.tdm.qq.com
+127.0.0.1 a.ssl.msdk.qq.com
+127.0.0.1 cloudctrl.gclud.qq.com
+127.0.0.1 masdk.3g.qq.com
+127.0.0.1 lol.qq.com
+127.0.0.1 dnf.qq.com
+127.0.0.1 cf.qq.com
+127.0.0.1 wangzhe.qq.com
+127.0.0.1 pvp.qq.com
+127.0.0.1 pubg.qq.com
+127.0.0.1 hpjy.qq.com
+127.0.0.1 funmaker.qq.com
+
+# 163.com/netease.com 相关游戏子域
+127.0.0.1 mcpel-web.16163.com
+127.0.0.1 api.163.com
+127.0.0.1 api.k.163.com
+127.0.0.1 api.iplay.163.com
+127.0.0.1 dev.4399.com
+127.0.0.1 dev.my4399.com
+127.0.0.1 g79.update.netease.com
+127.0.0.1 g79.gdl.netease.com
+127.0.0.1 superstar.pt.163.com
+127.0.0.1 x19.update.netease.com
+127.0.0.1 news-api.16163.com
+127.0.0.1 mgbsdk.matrix.netease.com
+127.0.0.1 game.163.com
+127.0.0.1 mc.163.com
+
+# 其他非专属主域名游戏子域
+127.0.0.1 games.sina.com.cn
+127.0.0.1 ea.com
+127.0.0.1 game.open.uc.cn
+127.0.0.1 open.d.cn
+127.0.0.1 api.blizzard.com
+127.0.0.1 dev.battle.net
+127.0.0.1 api.ubisoft.com
+127.0.0.1 api.ubisoftconnect.com
+127.0.0.1 api.wangzhe.com
+127.0.0.1 api.pubg.com
+127.0.0.1 api.heiyou.com
+127.0.0.1 lewan.baidu.com
+127.0.0.1 store.steampowered.com
+127.0.0.1 dl.52pk.com
+127.0.0.1 dl.ali213.net
+127.0.0.1 dl.gamersky.com
+127.0.0.1 sdk.longtugame.com
+127.0.0.1 dev.duoku.com
+127.0.0.1 dev.gfan.com
+127.0.0.1 open.maopaoke.com
+127.0.0.1 ol.epicgames.com
+```
+
+### 关键说明
+1. **专属域名处理**：仅对无非游戏业务的纯游戏主域名用 `address=/域名/0.0.0.0` 泛屏蔽，覆盖所有子域名，且已去重（如原 4399 旗下多个子域仅保留主域规则）。
+2. **非专属域名处理**：
+   - 全部保留原 hosts 格式（`127.0.0.1 子域名`），仅屏蔽游戏相关子域，避免影响主域名的非游戏业务；
+   - 已完成去重（如原重复的 `ea.com`/`api.ea.com` 仅保留 `ea.com` 一条），删除冗余条目；
+   - 严格区分主域属性（如 qq.com/163.com/baidu.com 均归为非专属，仅屏蔽游戏子域）。
+3. **格式兼容**：
+   - dnsmasq 可同时加载 `address` 规则和 hosts 格式规则（将 hosts 内容放入 dnsmasq 配置目录或通过 `addn-hosts` 指定 hosts 文件路径即可）；
+   - hosts 规则仍用 `127.0.0.1`，符合传统 hosts 规范；address 规则用 `0.0.0.0`，符合 dnsmasq 最佳实践。
