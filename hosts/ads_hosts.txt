@@ -1,4 +1,4 @@
-# Version: 2025-12-10T12:16:58
+# Version: 2025-12-11T22:34:10
 # 常见广告服务域名屏蔽规则
 # URL: https://gitee.com/tekintian/adt-rules/raw/master/hosts/ads_hosts.txt
 #
@@ -88,3 +88,7 @@
 127.0.0.1 s8.addthis.com
 127.0.0.1 su.addthis.com
 127.0.0.1 v1.addthis.com
+# spam host
+127.0.0.1 www.ngoqdn.com
+127.0.0.1 cdn.ngoqdn.com
+
