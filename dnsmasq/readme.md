@@ -1,10 +1,27 @@
 # dnsmasq规则说明
 
 
- 语法：address=/域名/0.0.0.0（匹配主域名及所有子域名）
+规则调用地址:
+
+综合广告屏蔽规则
+https://gitee.com/tekintian/adt-rules/raw/master/dnsmasq/anti-ad.conf
+
+游戏相关规则
+https://gitee.com/tekintian/adt-rules/raw/master/dnsmasq/games.conf
+
+电商平台广告规则
+https://gitee.com/tekintian/adt-rules/raw/master/dnsmasq/shop.conf
 
 
 
+## dnsmasq规则语法：
+~~~conf
+# 匹配主域名及所有子域名
+address=/domain.com/0.0.0.0
+
+# 加 ^ 表示精确匹配（不匹配子域名）
+address=/^domain.com/0.0.0.0
+~~~
 
 ## dnsmasq hosts规则和address规则的生效逻辑和区别
 
