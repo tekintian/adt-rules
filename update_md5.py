@@ -135,12 +135,12 @@ def update_md5_json():
     
     # Files that need version updates in adbyby directory
     adbyby_dir = project_root / "adbyby"
-    # adbyby_version_files = ['video.txt', 'lazy.txt', 'dnsmasq.adblock']
+    # adbyby_version_files = ['video.txt', 'lazy.txt']
     files_to_stage = []
     
     # Find all .txt and .conf files in the project
     txt_conf_files = []
-    for pattern in ['*.txt', '*.conf', '*.adblock']:
+    for pattern in ['*.txt', '*.conf']:
         for file_path in project_root.rglob(pattern):
             # Skip adbyby directory files (already handled) and md5.json
             if file_path.name == 'md5.json':
@@ -154,7 +154,7 @@ def update_md5_json():
     
     # Collect all files for MD5 calculation (all .txt and .conf files including adbyby)
     all_files = []
-    for pattern in ['*.txt', '*.conf', '*.adblock']:
+    for pattern in ['*.txt', '*.conf']:
         for file_path in project_root.rglob(pattern):
             # Skip md5.json itself
             if file_path.name == 'md5.json':
