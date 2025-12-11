@@ -20,10 +20,8 @@ https://gitee.com/tekintian/adt-rules/raw/master/dnsmasq/shop.conf
 用于精确屏蔽指定的域名,不包含子域名时使用hosts规则
 如果要直接屏蔽主域名和其子域名,使用address规则
 ~~~sh
-# 通用广告规则
+# 通用广告规则 精确屏蔽指定域名
 https://gitee.com/tekintian/adt-rules/raw/master/dnsmasq/ads_hosts.txt
-# 游戏规则
-https://gitee.com/tekintian/adt-rules/raw/master/dnsmasq/games_hosts.txt
 
 ~~~
 
