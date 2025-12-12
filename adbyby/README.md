@@ -12,7 +12,6 @@ https://gitee.com/tekintian/adt-rules/raw/master/adbyby/video.txt
 ~~~
 
 
-
 ## 规则语法和技术说明文档参考
 
 [ADByBy_语法手册.md](./ADByBy_语法手册.md)
