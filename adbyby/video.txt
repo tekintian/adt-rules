@@ -1,4 +1,4 @@
-! Version: 2025-12-10T10:29:57
+! Version: 2025-12-25T17:12:21
 ! Title: Adbyby Video Site Ad Filtering Rules
 ! Expires: 2 days (update frequency)
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adbyby/video.txt
@@ -348,3 +348,5 @@ meijutt.tw##.a960_index
 meijutt.tw##.widget-weixin
 meijutt.tw##div[style*="width: 320px; height: 270px;"]
 meijutt.tw##div[style="text-align: center;"]
+
+www.bilibili.com###slide_ad

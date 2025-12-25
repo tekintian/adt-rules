@@ -55,4 +55,45 @@ https://gitee.com/tekintian/adt-rules/raw/master/hosts/adaway_hosts.txt
 ~~~
 
 
+## adbyby示例 rules.txt
+
+/tmp/adbyby/data/rules.txt 示例规则
+~~~txt
+# AdByBy-Open Rules File
+# Format: pattern|type|description
+# Types: 0=simple, 1=regex, 2=domain, 3=url, 4=wildcard
+
+# 内置广告域名（程序会自动加载）
+# 以下是自定义规则示例
+
+# 常见广告域名
+doubleclick.net|2|Google DoubleClick
+googleadservices.com|2|Google Ads
+googlesyndication.com|2|Google Syndication
+google-analytics.com|2|Google Analytics
+googletagmanager.com|2|Google Tag Manager
+
+# 社交媒体跟踪
+facebook.com/tr|0|Facebook Tracking
+connect.facebook.net|2|Facebook Connect
+
+# 其他广告网络
+amazon-adsystem.com|2|Amazon Ads
+taboola.com|2|Taboola
+outbrain.com|2|Outbrain
+
+# 通用广告路径模式
+*/ad/*|4|广告路径
+*/ads/*|4|广告路径
+*/advertisement/*|4|广告页面
+*/banner/*|4|横幅广告
+*/popup/*|4|弹窗广告
+
+# 跟踪和分析
+*analytics*|0|分析服务
+*tracking*|0|跟踪服务
+*beacon*|0|信标跟踪
+*pixel*|0|像素跟踪
+~~~
+
 
