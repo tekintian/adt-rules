@@ -1,57 +1,66 @@
 [ADT 3]
-! Checksum: vXO2skD37egAcrKzRVhe1A
-! Version: 20230128
-! Title: 过滤增强脚本
-! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/plus/js.txt
-! Match: http
-! Begin: --
+! Title: 屏蔽百度首页推广广告（通用版）
+! Version: 1.2
+! Match: ^https?://(www\.)?baidu\.com/.*$
+! Description: 基于通用特征屏蔽百度首页推广广告
 
-//remove baidu search ad
-var _bdAdscnt=0;
-//remove baidu search ad
-function tinyBdSearch(){
-  // 获取广告节点
-  let alist = document.querySelectorAll('div[prank]');
-  // 如果广告节点数大于0则执行
-  if(alist && alist.length>0){
-    alist.forEach((el)=>{
-       el.parentNode.remove();
+(function() {
+    // 等待DOM加载完成
+    document.addEventListener('DOMContentLoaded', function() {
+        // 广告元素选择器（基于通用特征，避免随机类名）
+        const adSelectors = [
+            '[data-tuiguang]',         // 广告文字标识（最可靠）
+            'div[data-placeid]',       // 广告位置标识（通用特征）
+            'div.cr-content',          // 右侧广告容器（通用类名）
+            'div.result-op',           // 搜索结果广告容器（通用类名）
+            '.ec-tuiguang'             // 推广标识
+        ];
+        
+        // 移除广告元素的函数
+        const removeAds = () => {
+            adSelectors.forEach(selector => {
+                const elements = document.querySelectorAll(selector);
+                elements.forEach(element => {
+                    // 如果是广告标识元素，移除其整个广告容器
+                    if (element.hasAttribute('data-tuiguang')) {
+                        // 查找包含data-placeid的祖先容器（最外层广告容器）
+                        const adContainer = element.closest('div[data-placeid], div.cr-content, div.result-op');
+                        if (adContainer) {
+                            adContainer.remove();
+                        }
+                    } else {
+                        // 直接移除广告容器
+                        element.remove();
+                    }
+                });
+            });
+        };
+        
+        // 初始移除广告
+        removeAds();
+        
+        // 监控DOM变化，处理动态加载的广告
+        const observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                mutation.addedNodes.forEach(function(node) {
+                    // 检查是否为广告元素或包含广告元素
+                    if (node.nodeType === 1) { // 元素节点
+                        if (node.hasAttribute('data-tuiguang') ||    // 直接是广告标识
+                            node.hasAttribute('data-placeid') ||     // 直接是广告容器
+                            node.classList.contains('cr-content') || // 直接是右侧广告容器
+                            node.classList.contains('result-op') ||  // 直接是搜索结果广告
+                            node.querySelector('[data-tuiguang]')) { // 包含广告标识
+                            removeAds();
+                        }
+                    }
+                });
+            });
+        });
+        
+        // 启动观察器
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true
+        });
     });
-  }
-  //右边的广告
-  let divAdBlocks = document.querySelectorAll('div.ad-block');
-  if(divAdBlocks && divAdBlocks.length>0){
-    divAdBlocks.forEach((el)=>{
-       el.remove();
-    });
-  }
-
-  //左侧底部
-  let leftfAlist = document.querySelectorAll('#content_left div h3[class="t"]');
-  if(leftfAlist && leftfAlist.length>0){
-    leftfAlist.forEach((el)=>{
-       el.parentNode.remove();
-    });
-  }
-  
-  // 这里相当于是一个等待时间 如果 _bdAdscnt 为1（本函数会被递归 1次）就相当于点击下一页等待了0.5秒
-  if(_bdAdscnt > 0){
-    _bdAdscnt--;
-    setTimeout(tinyBdSearch, 500)
-  }
-}
-let host = window.location.host;
-if(host=='www.baidu.com'){
-  tinyBdSearch();
-  // 获取分页DIV 在这个上面加事件只能点一次，再次点击就不会被触发！！
-  //let pateDiv = document.querySelector('#wrapper_wrapper');
-  // 给分页添加点击事件
-  document.addEventListener('click', function(){
-    //页面每次点击下一页最多的执行次数。 最长加载时间为 _bdAdscnt/2 秒 递归函数每隔0.5秒执行一次 ，
-    _bdAdscnt=10;
-    tinyBdSearch();
-  }, false);
-   // 回车键监听
-  document.addEventListener('keyup', function(){_bdAdscnt=10;tinyBdSearch()}, false);
-
-}
+})();
