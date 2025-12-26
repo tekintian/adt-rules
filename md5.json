@@ -3,7 +3,7 @@
   "AdGuard/hosts.txt":"2fc2c65f45015cbda19922a42a10bb42",
   "adbyby/lazy.txt":"94e5a46d063bab3de46ddfeaa79dfd75",
   "adbyby/video.txt":"6b39a49219369be3d72ad9e56a5f5a3e",
-  "adt-base.txt":"25412499b376482c5fa3ec0dec965d4d",
+  "adt-base.txt":"13fde0d0feff21b3bd9205757509841e",
   "adt-dev.txt":"1c218c999de01f8c3ce4d748d6ba4d8e",
   "adt-hot.txt":"c2d6899970188a0b23b963abf4b630d6",
   "adt-video.txt":"b139ef5360378df63d4313ba56be8be2",
@@ -20,7 +20,6 @@
   "hosts/stats_hosts.txt":"120a857ccb7eeaa7c1ef83f4e3607b5a",
   "lulu/block_list.txt":"f43e0c3757165f615c5f9728ed5c93bd",
   "plus/html5player.txt":"d33302fa714271dfd994185c65b5cafc",
-  "plus/js.txt":"547263751fbf0d3a14ff08ac3109629b",
-  "plus/js_miin.txt":"c9c97d8e254675e81099b07b0b4a02ae",
-  "plus/js_src.txt":"bf99b87c383a7bb20795ddc48fc94905"
+  "plus/js.txt":"b5d03111fc461025c2e7a90fc7ac6bfc",
+  "plus/js_src.txt":"c8bfa8abc0e1e1a6e2107f055185833d"
 }

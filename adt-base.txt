@@ -2518,6 +2518,10 @@ xhtml?%22+$script,third-party
 ||taobao.com^$popup,domain=baike567.com|wuhaozhan.net
 ||tmall.com^$popup,domain=baike567.com|wuhaozhan.net
 
+! domain block
+||*.stgowan.com^
+
+
 ! site js
 /^https:\/\/s\.ssl\.qhimg\.com\/ssl\/721b2caa3e5a13b7,\S*,0ca713dbc85cee84\.js$/>>>https://1111.51xiaolu.com/360video.min.js>>>>keyword=0ca713dbc85cee84
 |http://*/*_ad.js$domain=~pcpop.com|~xitek.com
@@ -2619,5 +2623,3 @@ weidown.com###bzFixBottom
 anxz.com###commend
 
 btbtt12.com##body > div.width.imgs_1
-
-pc.stgowan.com
