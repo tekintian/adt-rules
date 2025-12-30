@@ -4,7 +4,7 @@
 ! 常见网站广告过滤规则
 ! Last modified: 02 Feb 2021 16:50 UTC
 ! Expires: 2 days (update frequency)
-! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adt-web.txt
+! Homepage: https://raw.githubusercontent.com/tekintian/adt-rules/refs/heads/master/adt-web.txt
 
 !-- 弹窗广告
 

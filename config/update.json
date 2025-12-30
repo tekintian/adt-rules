@@ -6,7 +6,7 @@
         "url": "https://gitee.com/tekintian/adt-rules/raw/master/adt-hot.txt",
         "version": 202312251231
     },{
-        "url": "https://gitee.com/tekintian/adt-rules/raw/master/adt-web.txt",
+        "url": "https://raw.githubusercontent.com/tekintian/adt-rules/refs/heads/master/adt-web.txt",
         "version": 202312251231
     },{
         "url": "https://gitee.com/tekintian/adt-rules/raw/master/adt-video.txt",
