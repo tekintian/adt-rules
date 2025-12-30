@@ -5,6 +5,7 @@
 ! Last modified: 02 Feb 2021 16:50 UTC
 ! Expires: 2 days (update frequency)
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adt-web.txt
+
 !-- 弹窗广告
 
 !-- 第三方广告资源 script third-party
@@ -8828,9 +8829,6 @@
 ||alicdn.com^$domain=99a25.com|xin99r3.com|xin99r4.com
 ||sinaimg.cn^$domain=99a25.com|xin99r3.com|xin99r4.com
 ||upload.cc^$domain=99a25.com|xin99r3.com|xin99r4.com
-||imgur.com^$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|ac88.info|aisex.com|cnnice.biz|go543.com
-||sinaimg.cn^$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|ac88.info|aisex.com|cnnice.biz|go543.com
-||tinypic.com^$domain=172.86.179.138|208.94.244.100|208.94.244.98|a88.us|ac168.info|ac88.info|aisex.com|cnnice.biz|go543.com
 ||adxxx.info^$domain=avgle.com
 ||avgle.topgirlsdating.com^$domain=avgle.com
 ||jads.co^$domain=avgle.com
@@ -8925,27 +8923,3 @@ www.jianshu.com##body>div:nth-child(15)>div
 jianshu.com##iframe
 hutool.cn###main > div:nth-child(2)
 hutool.cn##body > div:nth-child(3)
-
-.ca.bxwx3.org^
-.m.23txt.com^
-.m.biduo.cc^
-.m.biquge5200.cc^
-.m.boluoxs.com^
-.m.bookben.com^
-.m.d8qu.com^
-.m.fhxiaoshuo.com^
-.m.gxwztv.com^
-.m.kanshuzw.com^
-.m.lanseshuba.com^
-.m.muyuge.com^
-.m.qiuwu.net^
-.m.wenxuemi6.com^
-.m.x81zw.com^
-.m.xiaoshuodaquan.com^
-.m.xs222.com^
-.m.yuyouge.com^
-.m.zineworm.com^
-.m.zwda.com^
-.m.zwdu.com^
-.wap.x4399.com^
-.wap.yb3.cc^
