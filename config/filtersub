@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<subscriptions>
+  <subscription title="Adt基础广告过滤规则" specialization="Adt基础广告过滤规则" url="https://gitee.com/tekintian/adt-rules/raw/master/adt-base.txt" homepage="https://gitee.com/tekintian/adt-rules/raw/master/adt-base.txt" prefixes="zh" author="Tekin"/>
+    <subscription title="热点网站过滤规则(推荐)" specialization="高流量热门站点广告过滤规则,推荐启用" url="https://gitee.com/tekintian/adt-rules/raw/master/adt-hot.txt" homepage="https://gitee.com/tekintian/adt-rules/raw/master/adt-hot.txt" prefixes="zh" author="Tekin"/>
+  <subscription title="Developer" specialization="适合程序员的广告拦截规则" url="https://gitee.com/tekintian/adt-rules/raw/master/adt-dev.txt" homepage="https://gitee.com/tekintian/adt-rules/raw/master/adt-dev.txt" prefixes="zh" author="Tekin"/>
+   <subscription title="视频站点广告规则" specialization="常见视频站点广告规则" url="https://gitee.com/tekintian/adt-rules/raw/master/adt-video.txt" homepage="https://gitee.com/tekintian/adt-rules/raw/master/adt-video.txt" prefixes="zh" author="Tekin"/>
+  <subscription title="站点广告规则(9千多条)" specialization="常见广告站点,弹窗广告规则, 目前收录9千多条, 根据自己电脑运行情况启用" url="https://raw.githubusercontent.com/tekintian/adt-rules/refs/heads/master/adt-web.txt" homepage="https://raw.githubusercontent.com/tekintian/adt-rules/refs/heads/master/adt-web.txt" prefixes="zh" author="Tekin"/>
+ </subscriptions>

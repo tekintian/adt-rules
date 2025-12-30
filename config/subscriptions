@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<scripts>
+    <script title="HTML5视频脚本"
+            url="https://gitee.com/tekintian/adt-rules/raw/master/plus/html5player.txt" />
+    <script title="过滤增强脚本"
+            url="https://gitee.com/tekintian/adt-rules/raw/master/plus/js.txt" />
+</scripts>
