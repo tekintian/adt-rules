@@ -53,20 +53,28 @@ def is_file_content_modified(filepath, exclude_version_line=True, exclude_checks
             return bool(diff_content.strip())
     
     try:
-        # Check if file has unstaged changes
-        result = subprocess.run(['git', 'diff', str(filepath)], 
+        # First check if file has unstaged changes
+        result = subprocess.run(['git', 'diff', str(filepath)],
                               capture_output=True, text=True, check=False)
         
         if result.stdout.strip():  # Check if there's any diff output
             if has_non_metadata_changes(result.stdout):
                 return True
         
-        # Check if file has staged changes
+        # Then check if file has staged changes
+        result = subprocess.run(['git', 'diff', '--cached', str(filepath)],
+                              capture_output=True, text=True, check=False)
+        
+        if result.stdout.strip():  # Check if there's any diff output
+            if has_non_metadata_changes(result.stdout):
+                return True
 
     except Exception as e:
         print(f"Error checking git status for {filepath}: {e}")
         # If we can't check git status, assume file is modified to be safe
         return True
+    
+    return False
 
 def update_version_and_checksum_in_file(filepath):
     """Update Version and Checksum lines in a file only if file is modified."""
