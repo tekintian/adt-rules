@@ -23,9 +23,6 @@
 ##object[id^="ai-adb-"]
 ##script[id^="ai-adb-"]
 
-##section[style*="user-select: none;"]
-##kbd
-
 !-----------------------General advert blocking filters-----------------------!
 ||tianjiunion.cn^
 ||jisuoping.com^
@@ -106,12 +103,13 @@ csdn.net##.toolbar-advert
 blog.csdn.net###kp_box_530
 blog.csdn.net###recommendAdBox
 blog.csdn.net###footerRightAds
-www.json.cn##.show-hide-adv
-https://static.json.cn/*.js
-
 ||csdn.net/msg.popup.js
 ||adaccount.csdn.net/#/preview/
 ||csdn.net/ggmm/
+
+www.json.cn##.show-hide-adv
+||static.json.cn/*.js
+
 w3cschool.cn##.abox-item
 w3cschool.cn##.widget-body
 w3cschool.cn##div[id$="banner"]
