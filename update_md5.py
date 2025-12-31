@@ -62,20 +62,7 @@ def is_file_content_modified(filepath, exclude_version_line=True, exclude_checks
                 return True
         
         # Check if file has staged changes
-        result = subprocess.run(['git', 'diff', '--cached', str(filepath)], 
-                              capture_output=True, text=True, check=False)
-        
-        if result.stdout.strip():  # Check if there's any diff output
-            if has_non_metadata_changes(result.stdout):
-                return True
-        
-        # Check if file is untracked
-        result = subprocess.run(['git', 'ls-files', '--others', '--exclude-standard', str(filepath)], 
-                              capture_output=True, text=True, check=True)
-        if result.stdout.strip():
-            return True
-        
-        return False
+
     except Exception as e:
         print(f"Error checking git status for {filepath}: {e}")
         # If we can't check git status, assume file is modified to be safe
@@ -131,8 +118,8 @@ def update_version_and_checksum_in_file(filepath):
             # Update Checksum line
             if not checksum_updated:
                 checksum_patterns = [
-                    r'^! Checksum: [a-fA-F0-9]{32}',
-                    r'^# Checksum: [a-fA-F0-9]{32}'
+                    r'^! Checksum:',
+                    r'^# Checksum:'
                 ]
                 
                 for pattern in checksum_patterns:

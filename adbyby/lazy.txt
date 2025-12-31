@@ -1,5 +1,7 @@
-! Version: 2025-12-10T10:12:03
+! Version: 2025-12-31T15:35:48
+! Checksum: 146a907d82cbc756f75c83150022572d
 ! Title: Adbyby Basic Ad Filtering Rules
+! Final verification test
 ! Expires: 2 days (update frequency)
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adbyby/lazy.txt
 !
