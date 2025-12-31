@@ -109,7 +109,6 @@ blog.csdn.net###footerRightAds
 
 www.json.cn##.show-hide-adv
 ||static.json.cn/*.js
-
 w3cschool.cn##.abox-item
 w3cschool.cn##.widget-body
 w3cschool.cn##div[id$="banner"]

@@ -25,7 +25,6 @@
 ##ins
 ##div[id*="div-gpt-ad-"]
 ##div[id*="google_ads_iframe"]
-##divz
 ##div[style="position: fixed; bottom: 0px; display: block; opacity: 1; right: 0px; z-index: 2147483647; overflow: visible; width: 350px !important; height: 300px !important;"]
 
 !--fake Download remove
@@ -43,8 +42,6 @@
 -widget-advertisement/
 -your-ad-here-
 -your-ads-here.
-.1d/ads/
-.a3s?n=*&zone_id=
 .ace.advertising.
 .ad-cloud.
 .ad-ocad.
@@ -53,8 +50,6 @@
 .ad-traffic.
 .ad.final.
 !-- for gg ad ads
-##a[class^="gg"]
-##a[class$="gg"]
 ##span[class^="gg"]
 ##span[class$="gg"]
 ##span[id^="gg"]
@@ -76,7 +71,6 @@
 ##li[class$="-ad"]
 ##li[id*="_ad_"]
 ##.ezoic-ad,.adtester-container
-##.ad-wrap
 ##div[class^="gg_"]
 ##div[class^="Ads"][class$="Ads"]
 ##div[class*="Ad_"]
@@ -99,7 +93,6 @@
 ##ul[id^="ad-"]
 ##ul[id^="ad_"]
 ##section[id$="gg"]
-##.ad
 ##.guangao,.adsbyvli
 ##div[class^="ADTOPLB_"]
 ##div[class*="-myads"]
