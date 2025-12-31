@@ -345,3 +345,4 @@ weidown.com##a[class$="bzxz"][style="cursor: pointer;"]
 123pan.com##.banner-container-pc
 123pan.com##.mfy-main-layout__head
 123pan.com##div[class*="banner-container"]
+kunpeng-sc.csdnimg.cn##.picture-ad
