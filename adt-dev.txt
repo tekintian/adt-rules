@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Version: 2025-12-31T15:52:44
-! Checksum: 5919058bedee08bd1aeb7ccb0ce718e6
+! Version: 2025-12-31T15:57:50
+! Checksum: 271936a816a0e01eac0c7e22e92125c2
 ! Title: Developer
 ! Last modified: 27 Feb 2023 10:02 UTC
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adt-dev.txt
@@ -81,6 +81,8 @@ cplusplus.com##.C_support
 www.liantu.com##.da
 json.cn##ul[style^="margin: 0 0 0 0"]
 json.cn##.nav-tabs-two
+www.json.cn##.show-hide-adv
+||static.json.cn/*.js
 
 ||pianistrefutationgoose.com^
 ||mactorrent.co^*.js$script
@@ -107,8 +109,6 @@ blog.csdn.net###footerRightAds
 ||adaccount.csdn.net/#/preview/
 ||csdn.net/ggmm/
 
-www.json.cn##.show-hide-adv
-||static.json.cn/*.js
 w3cschool.cn##.abox-item
 w3cschool.cn##.widget-body
 w3cschool.cn##div[id$="banner"]
