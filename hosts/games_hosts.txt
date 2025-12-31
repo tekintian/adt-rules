@@ -1,4 +1,5 @@
 # Version: 2025-12-10T13:05:29
+# Checksum: abcdefg
 # game host filter rules
 # URL: https://gitee.com/tekintian/adt-rules/raw/master/hosts/games_hosts.txt
 #

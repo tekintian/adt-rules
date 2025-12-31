@@ -102,6 +102,12 @@ tc5.us##div[rv-hide="file.my_uid"]
 !---csdn.net
 csdn.net###recommendAdBox
 csdn.net##.toolbar-advert
+blog.csdn.net###kp_box_530
+blog.csdn.net###recommendAdBox
+blog.csdn.net###footerRightAds
+www.json.cn##.show-hide-adv
+https://static.json.cn/*.js
+
 ||csdn.net/msg.popup.js
 ||adaccount.csdn.net/#/preview/
 ||csdn.net/ggmm/
@@ -146,7 +152,6 @@ geeksforgeeks.org###GFG_AD_Desktop_InContent_ATF_336x280
 geeksforgeeks.org##.textBasedMannualAds_2
 geeksforgeeks.org##iframe
 googleads.g.doubleclick.net##.ns-o3mup-e-6
-
 
 iibta.com###fix_bottom_dom
 javainuse.com###carbon-block

@@ -1,4 +1,5 @@
 # Version: 2025-12-12T10:39:06
+# Checksum: abcdefg
 # AdAway Ad/Statistics Domain Blocking Rules (Streamlined & Optimized Version)
 # Purpose: Block mobile advertising and analytics domains, adapted for common domestic scenarios
 # URL: https://gitee.com/tekintian/adt-rules/raw/master/hosts/ads_hosts.txt

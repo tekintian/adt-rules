@@ -1,4 +1,5 @@
 [Adblock Plus 2.0]
+! Checksum: abcdefg
 ! Version: 202312251231
 ! Title: 常见网站广告过滤规则
 ! 常见网站广告过滤规则
