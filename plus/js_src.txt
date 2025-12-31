@@ -1,6 +1,7 @@
 [ADT 3]
+! Version: 2025-12-11T17:45:17
+! Checksum: abcd
 ! Title: 屏蔽百度首页推广广告（通用版）
-! Version: 1.2
 ! Match: ^https?://(www\.)?baidu\.com/.*$
 ! Description: 基于通用特征屏蔽百度首页推广广告
 

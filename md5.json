@@ -3,13 +3,13 @@
   "AdGuard/hosts.txt":"2fc2c65f45015cbda19922a42a10bb42",
   "adbyby/lazy.txt":"94e5a46d063bab3de46ddfeaa79dfd75",
   "adbyby/video.txt":"ef76034ab73638f3b045a3d79de63b02",
-  "adt-base.txt":"13fde0d0feff21b3bd9205757509841e",
-  "adt-dev.txt":"a0e06dde3ce594a756921c37bd5ee29e",
-  "adt-hot.txt":"3a1abdcfa73d0c33b88ec0747c56c037",
-  "adt-video.txt":"51b530a035c4c5fba6880cc10e6bfe44",
-  "adt-web.txt":"32c91dc082a66cfe8faeba60269827cd",
+  "adt-base.txt":"c728fb1d649f622c6c9a29a615a2c639",
+  "adt-dev.txt":"4c2e742d22b0c50aec9efc151d3c3365",
+  "adt-hot.txt":"c65ab2973a0e81c93c0e6afa71ddf689",
+  "adt-video.txt":"d9370ef0e2ea8e146ae54ec76510dfde",
+  "adt-web.txt":"202a45df96eb23596f84d096289dbf2a",
   "diy.txt":"ac451de1196b9232116bb3a6babc6aa0",
-  "dnsmasq/ads_hosts.txt":"6f0af33d065c371f27a3a74dadfe1bfc",
+  "dnsmasq/ads_hosts.txt":"a7597d463cf8963c43e64d7dcb2afe47",
   "dnsmasq/anti-ad.conf":"abdc690b4a65bc2bbff1e18cdc64a16e",
   "dnsmasq/games.conf":"1f87ebe8570fa60823068ae5a5a8dc0e",
   "dnsmasq/games_hosts.txt":"6c5fac237e1849b512ff6b8873745cbc",
@@ -21,5 +21,5 @@
   "lulu/block_list.txt":"f43e0c3757165f615c5f9728ed5c93bd",
   "plus/html5player.txt":"d33302fa714271dfd994185c65b5cafc",
   "plus/js.txt":"b5d03111fc461025c2e7a90fc7ac6bfc",
-  "plus/js_src.txt":"c8bfa8abc0e1e1a6e2107f055185833d"
+  "plus/js_src.txt":"dfea8f026b5e9ca02910c56604d3c9c1"
 }

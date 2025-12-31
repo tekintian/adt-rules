@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: fbd6f86cb8c5f6c4b6815662d0940132
-! Version: 202312251231
+! Version: 2025-12-11T17:45:17
+! Checksum: abcd
 ! Title: Adt基础广告过滤规则
 ! ADT全局基础广告过滤规则,包含全局ID, CLASS,文件规则
 ! Last modified: 2023-12-25 12:25 PRC

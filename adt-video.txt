@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: abcdefg
-! Version: 20231225
+! Version: 2025-12-11T17:45:17
+! Checksum: abcd
 ! Title: Adt视频网站广告过滤规则
 ! 
 ! Last modified: 27 Feb 2023 16:50 UTC
