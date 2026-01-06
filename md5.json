@@ -14,6 +14,7 @@
   "dnsmasq/games.conf":"1f87ebe8570fa60823068ae5a5a8dc0e",
   "dnsmasq/games_hosts.txt":"6c5fac237e1849b512ff6b8873745cbc",
   "dnsmasq/shop.conf":"bd80315441f5b148529e779fab7715e1",
+  "dnsmasq/student.conf":"f4348417094d59ff8f671f748202211d",
   "hosts/adaway_hosts.txt":"c271864be13bfccdc7e778c17f8d20dd",
   "hosts/ads_hosts.txt":"7771802a69665a25ede17ec0d0451dd2",
   "hosts/games_hosts.txt":"74230aaad8a1e4b48e72faf18f069603",
