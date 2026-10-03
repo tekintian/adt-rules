@@ -1,4 +1,4 @@
-! Checksum: abcdefg
+! Checksum: D9X9UNKn+TwhS9xH7afQYw==
 ! Version: 2025-12-10T09:53:29
 ! Test file for version update
 # This is a test rule

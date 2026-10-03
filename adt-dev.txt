@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Version: 2025-12-31T15:57:50
-! Checksum: 271936a816a0e01eac0c7e22e92125c2
+! Checksum: V5Mz/nH3hQU3O/4sZdFCYg==
 ! Title: Developer
 ! Last modified: 27 Feb 2023 10:02 UTC
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adt-dev.txt

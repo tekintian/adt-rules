@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Version: 2025-12-31T15:07:39
-! Checksum: 155ad00d4e7c56d1a19f40875309e946
+! Checksum: FU4Aim8NGkXwXgZCewWNEg==
 ! Title: 常见网站广告过滤规则
 ! Test rule for checksum update
 ! 常见网站广告过滤规则

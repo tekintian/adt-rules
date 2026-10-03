@@ -1,5 +1,5 @@
 ! Version: 2025-12-31T14:56:41
-! Checksum: aa4e3970949f407d8a4701737aa5fb93
+! Checksum: iX21BwmJcqazKQFGvz7tkQ==
 ! Title: Adbyby Video Site Ad Filtering Rules
 ! Test rule added for checksum update
 ! Expires: 2 days (update frequency)
