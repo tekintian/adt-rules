@@ -13,6 +13,7 @@ This script automatically:
 import os
 import json
 import hashlib
+import base64
 import subprocess
 import sys
 import re
@@ -20,12 +21,33 @@ from datetime import datetime
 from pathlib import Path
 
 def calculate_md5(filepath):
-    """Calculate MD5 hash of a file."""
+    """Calculate MD5 hex hash of a file (for md5.json)."""
     hash_md5 = hashlib.md5()
     with open(filepath, "rb") as f:
         for chunk in iter(lambda: f.read(4096), b""):
             hash_md5.update(chunk)
     return hash_md5.hexdigest()
+
+def calculate_abp_checksum(filepath):
+    """
+    Calculate ABP subscription checksum: base64(MD5(normalized_content))
+
+    Normalization per ABP spec:
+      1. Remove the ! Checksum: line itself
+      2. Join lines with LF (no CR)
+      3. Remove any remaining CR characters
+
+    Returns base64-encoded MD5 digest (standard ABP checksum format).
+    """
+    with open(filepath, 'r', encoding='utf-8') as f:
+        raw = f.read()
+
+    lines = raw.split('\n')
+    filtered = [l for l in lines if not re.match(r'^!\s*[Cc]hecksum\s*:', l)]
+    normalized = '\n'.join(filtered).replace('\r', '')
+
+    md5_digest = hashlib.md5(normalized.encode('utf-8')).digest()
+    return base64.b64encode(md5_digest).decode('ascii')
 
 def is_file_content_modified(filepath, exclude_version_line=True, exclude_checksum_line=True):
     """Check if file content is actually modified (excluding version/checksum lines if specified)."""
@@ -36,7 +58,7 @@ def is_file_content_modified(filepath, exclude_version_line=True, exclude_checks
             patterns_to_exclude.extend(['Version:', 'version:', 'VERSION:'])
         if exclude_checksum_line:
             patterns_to_exclude.extend(['Checksum:', 'checksum:', 'CHECKSUM:'])
-        
+
         if patterns_to_exclude:
             # Filter out version/checksum line changes from diff
             lines = diff_content.split('\n')
@@ -51,20 +73,20 @@ def is_file_content_modified(filepath, exclude_version_line=True, exclude_checks
             return False
         else:
             return bool(diff_content.strip())
-    
+
     try:
         # First check if file has unstaged changes
         result = subprocess.run(['git', 'diff', str(filepath)],
                               capture_output=True, text=True, check=False)
-        
+
         if result.stdout.strip():  # Check if there's any diff output
             if has_non_metadata_changes(result.stdout):
                 return True
-        
+
         # Then check if file has staged changes
         result = subprocess.run(['git', 'diff', '--cached', str(filepath)],
                               capture_output=True, text=True, check=False)
-        
+
         if result.stdout.strip():  # Check if there's any diff output
             if has_non_metadata_changes(result.stdout):
                 return True
@@ -73,7 +95,7 @@ def is_file_content_modified(filepath, exclude_version_line=True, exclude_checks
         print(f"Error checking git status for {filepath}: {e}")
         # If we can't check git status, assume file is modified to be safe
         return True
-    
+
     return False
 
 def update_version_and_checksum_in_file(filepath):
@@ -81,24 +103,24 @@ def update_version_and_checksum_in_file(filepath):
     # Check if file is actually modified in git (excluding version/checksum lines)
     if not is_file_content_modified(filepath, exclude_version_line=True, exclude_checksum_line=True):
         return False
-    
+
     current_time = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
-    
+
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             lines = f.readlines()
-        
+
         if not lines:
             return False
-        
+
         updated = False
         version_updated = False
         checksum_updated = False
-        
+
         # Process each line to find and update Version and Checksum
         for i, line in enumerate(lines):
             stripped = line.strip()
-            
+
             # Update Version line
             if not version_updated:
                 version_patterns = [
@@ -107,7 +129,7 @@ def update_version_and_checksum_in_file(filepath):
                     (r'^! Version: \d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}', '! Version:'),
                     (r'^# Version: \d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}', '# Version:')
                 ]
-                
+
                 for pattern, prefix in version_patterns:
                     if re.match(pattern, stripped):
                         # Determine format (T or space) based on original
@@ -115,21 +137,21 @@ def update_version_and_checksum_in_file(filepath):
                             timestamp = current_time
                         else:
                             timestamp = current_time.replace("T", " ")
-                        
+
                         # Update version line
                         lines[i] = f'{prefix} {timestamp}\n'
                         version_updated = True
                         updated = True
                         print(f"Updated version in {filepath.name}: {prefix} {timestamp}")
                         break
-            
+
             # Update Checksum line
             if not checksum_updated:
                 checksum_patterns = [
                     r'^! Checksum:',
                     r'^# Checksum:'
                 ]
-                
+
                 for pattern in checksum_patterns:
                     if re.match(pattern, stripped):
                         # Mark that we found a checksum line
@@ -138,12 +160,16 @@ def update_version_and_checksum_in_file(filepath):
                         checksum_updated = True
                         updated = True
                         break
-        
-        # After all metadata updates, calculate the final checksum
+
+        # After all metadata updates, calculate the final checksum (ABP standard)
         if checksum_updated:
             final_content = ''.join(lines)
-            final_checksum = hashlib.md5(final_content.encode('utf-8')).hexdigest()
-            
+            final_lines = final_content.split('\n')
+            filtered_lines = [l for l in final_lines if not re.match(r'^!\s*[Cc]hecksum\s*:', l) and not re.match(r'^#\s*[Cc]hecksum\s*:', l)]
+            normalized = '\n'.join(filtered_lines).replace('\r', '')
+            md5_digest = hashlib.md5(normalized.encode('utf-8')).digest()
+            final_checksum = base64.b64encode(md5_digest).decode('ascii')
+
             # Find and update checksum line
             for i, line in enumerate(lines):
                 if 'Checksum:' in line:
@@ -157,14 +183,14 @@ def update_version_and_checksum_in_file(filepath):
                     lines[i] = f'{prefix} Checksum: {final_checksum}\n'
                     print(f"Updated checksum in {filepath.name}: {final_checksum}")
                     break
-        
+
         if updated:
             with open(filepath, 'w', encoding='utf-8') as f:
                 f.writelines(lines)
             return True
         else:
             return False
-            
+
     except Exception as e:
         print(f"Error updating version/checksum in {filepath}: {e}")
         return False
@@ -175,9 +201,9 @@ def update_md5_json():
     md5_file = project_root / "md5.json"
     adbyby_dir = project_root / "adbyby"
     adbyby_md5_file = adbyby_dir / "md5.json"
-    
+
     files_to_stage = []
-    
+
     # Find all .txt and .conf files in the project
     txt_conf_files = []
     for pattern in ['*.txt', '*.conf']:
@@ -186,12 +212,12 @@ def update_md5_json():
             if file_path.name == 'md5.json':
                 continue
             txt_conf_files.append(file_path)
-    
+
     # Update version and checksum information in all files
     for file_path in txt_conf_files:
         if update_version_and_checksum_in_file(file_path):
             files_to_stage.append(str(file_path))
-    
+
     # Collect all files for MD5 calculation (all .txt and .conf files)
     all_files = []
     for pattern in ['*.txt', '*.conf']:
@@ -200,44 +226,44 @@ def update_md5_json():
             if file_path.name == 'md5.json':
                 continue
             all_files.append(file_path)
-    
+
     # Calculate MD5 for all files
     md5_data = {}
     adbyby_md5_data = {}
-    
+
     for file_path in all_files:
         try:
             relative_path = file_path.relative_to(project_root)
             md5_value = calculate_md5(file_path)
-            
+
             # Root md5.json uses relative path as key
             md5_data[str(relative_path)] = md5_value
-            
+
             # adbyby md5.json uses filename without extension as key
             if 'adbyby/' in str(relative_path):
                 adbyby_md5_data[relative_path.stem] = md5_value
-            
+
         except Exception as e:
             print(f"Error calculating MD5 for {file_path}: {e}")
-    
+
     # Write updated JSON to root directory
     with open(md5_file, 'w', encoding='utf-8') as f:
         # Sort keys for consistent ordering
         sorted_keys = sorted(md5_data.keys())
         md5_data = {k: md5_data[k] for k in sorted_keys}
         json.dump(md5_data, f, separators=(',', ':'), ensure_ascii=False, indent=2)
-    
+
     # Write updated adbyby JSON to adbyby directory
     with open(adbyby_md5_file, 'w', encoding='utf-8') as f:
         # Sort keys for consistent ordering
         sorted_keys = sorted(adbyby_md5_data.keys())
         adbyby_md5_data = {k: adbyby_md5_data[k] for k in sorted_keys}
         json.dump(adbyby_md5_data, f, separators=(',', ':'), ensure_ascii=False, indent=2)
-    
+
     # Stage md5.json and adbyby/md5.json files
     files_to_stage.append(str(adbyby_md5_file))
     files_to_stage.append(str(md5_file))
-    
+
     # Stage all updated files
     for file_to_stage in files_to_stage:
         try:
@@ -245,7 +271,7 @@ def update_md5_json():
             print(f"Staged updated {file_to_stage}")
         except subprocess.CalledProcessError as e:
             print(f"Warning: Could not stage {file_to_stage}: {e}")
-    
+
     return 0
 
 if __name__ == "__main__":
