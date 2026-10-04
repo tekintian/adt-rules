@@ -1,308 +1,137 @@
-#adt rules 广告终结者过滤规则
+# AdClear 过滤规则 (adt-rules)
 
-仓库地址:
-https://gitee.com/tekintian/adt-rules
+AdClear 广告终结者的过滤规则仓库，包含自有源规则、第三方规则和增强规则。
 
+仓库地址：https://gitee.com/tekintian/adt-rules
 
-规则调用地址:
-https://gitee.com/tekintian/adt-rules/raw/master/adt-base.txt
+## 规则订阅地址
 
+### 自有源规则（RSA 签名 + Checksum）
 
-- 增强规则:
-~~~txt
+| 规则 | 订阅地址 | 说明 |
+|------|---------|------|
+| 基础规则 | `https://gitee.com/tekintian/adt-rules/raw/master/adt-base.txt` | 核心广告过滤规则 |
+| 热门规则 | `https://gitee.com/tekintian/adt-rules/raw/master/adt-hot.txt` | 热门网站专项优化 |
+| 开发规则 | `https://gitee.com/tekintian/adt-rules/raw/master/adt-dev.txt` | 开发者工具/文档站去广告 |
+| 视频规则 | `https://gitee.com/tekintian/adt-rules/raw/master/adt-video.txt` | 视频站点广告过滤 |
+| 网页规则 | `https://gitee.com/tekintian/adt-rules/raw/master/adt-web.txt` | 网页广告/弹窗过滤 |
+
+### 增强规则
+
+```
 https://gitee.com/tekintian/adt-rules/raw/master/plus/js.txt
 https://gitee.com/tekintian/adt-rules/raw/master/plus/html5player.txt
-~~~
+```
+
+### 第三方规则
+
+| 规则 | 文件 | 说明 |
+|------|------|------|
+| DIY 规则 | `diy.txt` | 社区维护的自定义规则 |
+| AdByBy 基础 | `adbyby/lazy.txt` | AdByBy 基础过滤规则 |
+| AdByBy 视频 | `adbyby/video.txt` | AdByBy 视频过滤规则 |
+
+## 项目结构
+
+```
+adt-rules/
+├── adt-base.txt              # 自有源基础规则
+├── adt-hot.txt               # 自有源热门规则
+├── adt-dev.txt               # 自有源开发规则
+├── adt-video.txt             # 自有源视频规则
+├── adt-web.txt               # 自有源网页规则
+├── diy.txt                   # 第三方 DIY 规则
+├── adbyby/                   # AdByBy 第三方规则
+│   ├── lazy.txt
+│   ├── video.txt
+│   └── md5.json
+├── plus/                     # 增强规则
+│   ├── js.txt / js_src.txt
+│   └── html5player.txt
+├── config/                   # 订阅配置文件
+├── dnsmasq/                  # dnsmasq/hosts 格式规则
+├── hosts/                    # hosts 格式规则
+├── AdGuard/                  # AdGuard DNS 过滤规则
+├── lulu/                     # LuLu 防火墙规则
+├── docs/                     # 技术文档
+│   ├── checksum-signature.md # Checksum 与签名算法详解
+│   ├── rule-examples.md      # ABP 规则语法示例
+│   └── ...
+├── sign_rules.py             # RSA 签名工具
+├── update_md5.py             # 版本/checksum 自动更新
+├── setup_hooks.sh            # Git hook 安装脚本
+├── rsa-public-key.pem        # RSA 公钥（可公开）
+├── rsa-private-key.pem       # RSA 私钥（.gitignore 排除）
+└── md5.json                  # 全局文件 MD5 校验
+```
+
+## Checksum 与签名
+
+自有源规则（adt-*.txt）同时使用 **Checksum**（检测传输损坏）和 **RSA Signature**（防篡改）两种校验机制：
+
+```
+! Checksum: 3QjuKP782CzJFwi5L1yckA    ← MD5 + Base64（ABP 官方算法）
+! Signature: udYnnsj7qREvuMjzk+We... ← RSA-SHA256 + Base64
+```
+
+第三方规则（adbyby 等）仅使用 Checksum（简单算法）。
+
+详细算法说明见 [docs/checksum-signature.md](docs/checksum-signature.md)。
+
+## 工具使用
+
+### 首次克隆后安装 Git Hook
+
+```bash
+bash setup_hooks.sh
+```
+
+安装后，每次 `git commit` 自动执行：
+1. `update_md5.py` — 更新 Version/Checksum + md5.json（增量，仅处理有变化的文件）
+2. `sign_rules.py` — 对自有源规则 RSA 签名
+
+### 手动签名
+
+```bash
+python3 sign_rules.py
+```
+
+输出：
+```
+=== Signing own-source subscription files ===
+  ✓ adt-base.txt: signature=True checksum=True (3QjuKP782CzJFwi5L1yckA)
+  ✓ adt-hot.txt: signature=True checksum=True (DIbHaOc8+O9xX//SPEf6qg)
+  ✓ adt-dev.txt: signature=True checksum=True (OjYAJVxpKU+lYUnAQVumZw)
+  ✓ adt-video.txt: signature=True checksum=True (osS1yR4lqvaKxQjMD5dS0Q)
+  ✓ adt-web.txt: signature=True checksum=True (qZURcFMKs59y1Vr3e+22qg)
+Done!
+```
+
+### 手动更新版本和 Checksum
+
+```bash
+python3 update_md5.py
+```
+
+### 密钥管理
+
+```bash
+# 生成新密钥对（如需更换）
+openssl genrsa -out rsa-private-key.pem 2048
+openssl rsa -in rsa-private-key.pem -pubout -out rsa-public-key.pem
+```
+
+> ⚠️ `rsa-private-key.pem` 已加入 `.gitignore`，不会提交到仓库。
 
-## 样式规则示例
-~~~txt
-##.broadcastMe[style="width: 1200px;"]
-##.btn.btn-default.hotwords[target="_blank"]
+## 文档
 
-##.con_search + #carousel-example-generic[style^="max-width: 1170px;"]
-##.content > a > .topline
-##.content-video > .ads
+| 文档 | 说明 |
+|------|------|
+| [docs/checksum-signature.md](docs/checksum-signature.md) | ABP Checksum 与 RSA-Signature 算法全解析 |
+| [docs/rule-examples.md](docs/rule-examples.md) | ABP 规则语法示例 |
+| [docs/baidu_ads_js.src.md](docs/baidu_ads_js.src.md) | 百度广告过滤 JS 脚本源码 |
+| [adbyby/ADByBy_语法手册.md](adbyby/ADByBy_语法手册.md) | AdByBy 规则语法手册 |
 
-!--演示包含指定属性
-##.his-sign-cont[data-dysign-adid]
+## License
 
-##.listok > a > img[src*=".alicdn.com"][width="980"][height="80"]
-##.listok > a > img[style^="width:980px;height:"]
-
-
-##.main-ad-r + .topad
-##.main[style="border:#7D8C8E solid 1px;height: 23px;"]
-##.maomi-content > .section-banner
-
-##.mod + #bottomBox
-##.my-cat.my-cat-header
-##.mylist > a[target="_bank"] > img[src*=".alicdn.com/"]
-
-##.spon-img[src*=".alicdn."]
-##.subject_link[href$="/thread-index-fid-1-tid-12848.htm"]
-##.sxAdBox
-##.t5[style="border:1px solid #a6cbe7;"] + .t[style="margin-top:8px"]
-##.top_box > li > a[href^="/js/app.htm?"]
-
-##.wordurl[style="   width: 42%; float:left; text-align: center;"]
-~~~
-
-
-## ID选择器规则
-~~~txt
-###menu + script + #topBox
-###results.content-main > .eLeft
-###rightCouple
-###rightCouple + #leftFloat
-###search > a[href="/top1.html"]
-###snActive-wrap
-###sponsorAdDiv2
-###swtleft[style^="position:fixed;"]
-###table1[width="468"][height="50"]
-###top_box > a[onclick^="javascript"]
-
-
-###wp > .V-video-floats
-###j-new-ad
-###toptb + div[align="center"]
-
-##body .has-ad
-##body[class|="view"] > .ad-box
-##body[onload*="u()"] > #x
-##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
-##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
-##div#ad_id
-##div#xinxi
-##div[id^="ad_thread"]
-##form + .div-search-box.col-lg-offset-2.col-lg-8 > a[target="_blank"]
-##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
-##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
-##img[src$="/img/tianbo.gif"]
-##img[src*=".qpic.cn"][width="980"][height="80"]
-##img[src*=".sinaimg."][style="width:1025px;height:80px"]
-##img[src*=".sinaimg."][style="width:150px;height:300px"]
-##script + #coupletBox
-##script + #rbbox
-##script[src="/js/sy2.js"] + div[align="center"]
-
-
-##div:not([id]):not([class]):not([style]) > div:not([id]):not([class]):not([style]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]:not([src^="http://www.facebook.com/"])
-
-##div[style^="width: 100%;"][style$="margin: 0px;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
-
-##div[style^="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]:not([allowfullscreen])
-
-##a[href*=".gotourls.bid"]
-
-##a[href^="http://yunbofangbt."]
-
-##div[align="center"] > a[href^="/url/"] > img[src*=".alicdn.com"]
-
-##a[href^="/dasp.php?a="]
-
-##table[style="border:#e8e8e8 1px solid;"] + div[style="margin-top:5px"] > table[style="width:100%;"][cellspacing="0"][cellpadding="1"][bordercolor="#22222"][border="1"]
-
-
-~~~
-
-## 标签选择规则
-
-~~~txt
-##a[href*=".com/?p="][target="_blank"] > img[src$=".gif"]
-##a[href*=".ahhxwavi.cn"]
-##a[href*=".bayiyy.com/download."]
-
-##a[href*=".yb2843.vip"]
-##a[href*=".yyk2.com/"]
-##a[href*="/602034.com"]
-
-
-##a[href^="https://luolidao.vip/"]
-##a[onclick^="javascript:pc_"] > img[src*=".alicdn.com"]
-##a[style="display:inline-block;font-weight:bold;color:#f00;border:1px solid #f00;border-radius:15px;padding:2px 5px 2px 5px;margin:5px 5px 5px 0px;"]
-
-
-~~~
-
-
-## uri规则
-~~~txt
-!-- uri ads block
-/adsbygoogle.js$script,match-case
-/advertising.js$script,match-case
-/ads.js$script,match-case
-/advertising.js$script,match-case
-/ads.js$script,match-case
-/pagead/show_ads.js
-/g\.alicdn\.com\/mm\/yksdk\/0\.2\.\d+\/playersdk\.js/>>>1111.51xiaolu.com/playersdk.js>>>>keyword=playersdk
-/static\.iqiyi\.com\/js\/common\/mars_v\.js.*/>>>1111.51xiaolu.com/mars.js?2048>>>>keyword=iqiyi
-/s3m.mediav.com/galileo/*.mp4
-/104_150/1360_1|
-/1linbAte_mplatk/*
-
-/common/cf/*$image,object,domain=~bingfeng.tw|~dahuaiji.com
-/content.php?id=148&type=g|$xmlhttprequest
-/content/plugins/em_ad/*
-
-/duilian.$domain=~388g.com|~msra.cn|~supfree.net
-
-!--正则
-/\.(?:com|com\.cn|cn|cc|net|org|me|tv)\/[0-9a-z]{9,}\.js/$script,domain=023up.com|2345.com
-
-/\.js\?[a-z]+=[a-z]+$/$script,domain=china.cn|eastday.com|fangdaijisuanqi.com
-
-/images/*.gif$domain=2c2.website|2p8.space|adultgao.com
-
-~~~
-
-## 域名规则
-
-~~~txt
-! global domain rules
-|http://*.cn/ad/
-|http://*.hk/ad/$domain=~sunmobile.com.hk
-|http://*.in/ad/
-|http://*.me/ad/
-|http://*.tw/ad/$domain=~ruten.com.tw
-|http://*.us/ad/
-|http://*/ad.*.js?v=*&sp=
-|http://*/ad.js?sn=
-|http://*/ad.js?v=$domain=~mgc.qq.com
-|http://*/gg1.
-|http://*/gg2.
-|http://*/gg3.
-|http://*/js/ad.$domain=~coolpc.com.tw|~sac.net.cn
-|http://*/js/ad/
-|http://*/ad_bj.js?
-
-||219.153.41.175/*.js
-||221.5.69.52^*.js
-
-||222.47.26.21/m.js
-
-
-://*.tv/ad/$domain=~moviedj.tv
-://*/gg/$domain=~11185.cn|~chinatax.gov.cn|~dydog.org|~fanfou.com|~gg1z.com|~ha47.cn|~i-moe.eu.org|~jszwfw.gov.cn|~usr.cn|~xzdj.cn
-:1314/jiucao/
-
-:8888/mb1/wap_
-:8888/zhu/pc_
-:8888/zhu/wap_
-:8898/ads_
-:99/js/ads/
-=ad_top_slider&
-
-||coin-hive.com/lib/coinhive.min.js
-||static.doubleclick.net/instream/ad_status.js
-||s.ytimg.com/yts/jsbin/www-pagead-id-vfla_fkeg/www-pagead-id.js
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
-||googletagservices.com/tag/js/gpt.js
-
-.com*/ps/psCreat.js
-.com/aaasi/*.js
-.com/ad777.js
-.com/ads/ada.js
-
-~~~
-
-
-## 例外规则
-~~~txt
-@@||192.168.*.1/$generichide
-@@||192.168.*/advertising_$stylesheet
-@@||199it.com^$generichide
-@@||360buyimg.com/ad/$domain=jd.com
-@@||360buyimg.com/ads/$domain=jd.com
-@@||360buyimg.com^*??
-@@||3d66.com/??*ad-
-
-@@/pic/ad/*$domain=ybjk.com
-@@/pub/ad/*$domain=ruten.com.tw
-@@/pub1/??$domain=banggo.com
-@@/store_ad/*$domain=pcstore.com.tw
-
-@@/image/ad/*$domain=gashpoint.com
-@@/images/*/*.gif$domain=maichun5.info|mc88.info|myhhg.com|yh1.info|yh10.info
-@@/images/ad/*$domain=9588.com|casio.com.cn|dod-tec.com|ourgame.com|pro-partner.com.tw|snh48.com|tingbook.com
-@@/images/adv/*$domain=gueizu.com|topfilex.com
-@@/img/ad_$domain=p9.com.tw|ruten.com.tw
-@@/img_ad/*$domain=tkec.com.tw
-@@/jquery/*$domain=dm530.net|sobooks.cc
-
-
-@@||www.google.*/adsense/$~third-party,domain=google.cn
-
-
-
-@@||simba.taobao.com/?name=mcad$script
-@@||taobao.com/go/app/tmall/login-api.php?
-@@||count.taobao.com/counter$script
-@@||simba.taobao.com/?name=tcmad&$domain=www.taobao.com
-@@||tbskip.taobao.com/json/
-@@||atanx.alicdn.com/t/tanxssp.js$domain=taojinbi.taobao.com
-@@||atanx.alicdn.com/t/tanxssp.js$domain=alimarket.tmall.com|www.taobao.com|www.tmall.com
-@@||alicdn.com/mm/tb-page-peel/
-@@||astyle.alicdn.com/??
-@@||g.alicdn.com/??*/criteo
-@@||g.alicdn.com^*/banner_ad_
-@@||alicdn.com/??*/tracker/
-@@||alicdn.com/dt/tracker/4.2.0/??tracker.
-@@||tce.alicdn.com^$domain=alimama.com
-@@||alicdn.com/js/*/xpopup.js
-@@||alicdn.com/retcode/log/log.js
-@@||alicdn.com/dt/tracker/2.5.1/tracker.js$domain=alimama.com
-@@||ad.alimama.com^$genericblock
-@@||alimama.com^$domain=tanx.com
-@@||pub.alimama.com/common/adzone/
-@@||tbcdn.cn^*/click_track.js
-
-
-!--baidu.com
-@@||libs.baidu.com^*
-@@||baidu.com^*&cb=BaiduSuggestion.
-@@||baidu.com/cse/search?*
-@@||baidu.com/location/ip?*
-@@||baidu.com/share/count?*
-@@|http://0.baidu.com
-@@/adpic/*$domain=baike.baidu.com|czsrc.com|nieyou.com|ontheup.com.tw|zform.net
-@@||captcha.su.baidu.com^
-@@||cb.baidu.com/crossdomain.xml$domain=v.baidu.com
-@@||cb.baidu.com/ecom?*.baomihua.$domain=v.baidu.com
-@@||eiv.baidu.com/hmt/icon/21.gif
-@@/image/share_$domain=pan.baidu.com
-@@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
-@@||cbjs.baidu.com/js/m.js$domain=fxpan.com|iyingdi.com|pic.tiexue.net|www.pctowap.com
-@@||cbjs.baidu.com/js/o.js$domain=jkpan.cc
-@@||baidu.com/hm.js$domain=dwz.cn
-@@||hao123img.com/resource/zt/widget/service/util/clickTrack.
-@@||tb1.bdstatic.com/tb/cms/ngmis/adsense/*.jpg
-@@||ss0.bdstatic.com
-@@||bdstatic.com/??*,*,*,
-@@||bdstatic.com/static/common/widget/ui/admanager/
-@@||bdstatic.com/po/??*,*,*,
-@@||bdstatic.com^*/share_
-@@||ecma.bdimg.com/holmes/*.svg
-@@||bdimg.com/libs/*
-@@||bdimg.com/static/wenda-pc/widget/share/share_
-@@||gtimg.com/libs/$domain=18xs.org
-@@||gtimg.cn/qz-proj/wy-pc-v3/static/img/svg/icon-share-
-
-
-~~~
-
-
-
-## Tools
-
-base64加解密
-https://www.base64decode.org/
-
-https://www.base64encode.org/
-
-JS美化压缩
-https://www.prettifyjs.net/
-
-https://www.uglifycss.com/
-
-https://www.beautifyjson.org/
-
+See [LICENSE](LICENSE).

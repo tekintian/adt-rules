@@ -1,6 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 2025-12-11T17:45:17
-! Checksum: 9je53ZmHnpr7b8LAdLOf3g==
+! Signature: X10MOLsYKMG0/sDaCGaVqhPP/eZ3TNWR0cLM3/NlrHjIvYViU8f3TdboVYOtppJIS/b0Vgr7yMwSyq7gOhF2BQWuNKIpyUVqD/DpgVMyQhv38FLk8KvwbqIAdt3OG6PNHUP/4HSt/AQPM07QGCEwxIDvnXdQCNIeNTMH4wb+OJ7SHdS9ek8C+82DAmjjo+61yvGs/N0D9LykSBMW0/802MJnnBmVipnKZOCwOV1xW2jUfwMwwtEXLSC4wUviRnZuGjCa9rYKYK5tUpDWCMjUDtcfB+bGG0wmezktshTXmmJaue3hK5lkMRdntGwDolwaprxv2FMwaRN1qux9ShjR2w==
+! Version: 2026-10-04T13:59:34
+! Checksum: osS1yR4lqvaKxQjMD5dS0Q
 ! Title: Adt视频网站广告过滤规则
 ! 
 ! Last modified: 27 Feb 2023 16:50 UTC

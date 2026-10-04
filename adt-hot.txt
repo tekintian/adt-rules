@@ -1,6 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 2025-12-31T15:52:44
-! Checksum: bqJYqzfUG7eOr8v2RZQ8Xg==
+! Signature: e6+JD/2zfkKQ+udOy1+f55wr1RdQ8XS8iLqV3m8wbd8skluaKeEa3qB7MdTxYmyOI8Mpgv4Rf+inao31fFMNdadrtlOmRn7XHYg74u87+KihnuB3yfnL3D9THbOxL1u1gwIXEpLpU3tKD27YvOPIZkONGrIF6swQJ3KUmrTa07oRB/8xmnVtPqqd8LdSCIuLJw+1s2R9NohVJjeMifo7MDmxUUXCcu7H7z0jZApuAxcPYwl6QUSm3onpeBXVpA+LEp+1NQR6hAvcj0uvxW8ZbpL15+IDJdBOuSKmlC9HyPOT9G5zqsciFRVai0282Fk0hbr9xtTJeasMrpk94+XJIw==
+! Version: 2026-10-04T13:59:34
+! Checksum: DIbHaOc8+O9xX//SPEf6qg
 ! Title: 热点网站过滤规则
 ! 常见大流量高频网站广告过滤规则
 ! Last modified: 02 Feb 2021 16:50 UTC

@@ -1,6 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 2025-12-31T15:57:50
-! Checksum: V5Mz/nH3hQU3O/4sZdFCYg==
+! Signature: X1td61SW3VF03h4jmjpfbz+yPlLaxSBrdq7iqzfWakMlLLmk5+t8l4xhy4i7RbF/MmNZTbNlGzf8VYE1xxiBrfK4dd7kseAWyy3++TMI92qDVyPa6Ly+BQ98gFt0TPOPROLlj/hdK63Ry2YxDboDlqFT5GaQqEKjOOwE8Mh1Yzi2DMe2RMZSfsgC1vWyk+TtbFQEu1YuMNsQ5XioeuraRthw8ZKp8tH8RlFOza5sktKut7P1qvqDUTBvLng7PX1pjoajLPxd0262dijnnY32rR4o+Fivf4Gupj7Adli6ZaCkgmZ+Won8uNqJNkGOBcmiXsRSlFifgJ2qRNvTLLDD0g==
+! Version: 2026-10-04T13:59:34
+! Checksum: OjYAJVxpKU+lYUnAQVumZw
 ! Title: Developer
 ! Last modified: 27 Feb 2023 10:02 UTC
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adt-dev.txt

@@ -30,24 +30,45 @@ def calculate_md5(filepath):
 
 def calculate_abp_checksum(filepath):
     """
-    Calculate ABP subscription checksum: base64(MD5(normalized_content))
+    Calculate ABP subscription checksum using official ABP algorithm.
 
-    Normalization per ABP spec:
-      1. Remove the ! Checksum: line itself
-      2. Join lines with LF (no CR)
-      3. Remove any remaining CR characters
+    From combineSubscriptions.py:
+      1. splitlines() to read
+      2. Pop header [Adblock Plus ...]
+      3. seen = {'checksum', 'version'} (pre-seeded)
+      4. Remove metadata lines for keys already in seen
+      5. MD5(header + \\n + lines.join(\\n))
+      6. Base64 encode, strip trailing =
 
-    Returns base64-encoded MD5 digest (standard ABP checksum format).
+    Returns base64-encoded MD5 digest with trailing = stripped (ABP standard).
     """
     with open(filepath, 'r', encoding='utf-8') as f:
         raw = f.read()
 
-    lines = raw.split('\n')
-    filtered = [l for l in lines if not re.match(r'^!\s*[Cc]hecksum\s*:', l)]
-    normalized = '\n'.join(filtered).replace('\r', '')
+    lines = raw.splitlines()
+    if not lines:
+        return ''
 
-    md5_digest = hashlib.md5(normalized.encode('utf-8')).digest()
-    return base64.b64encode(md5_digest).decode('ascii')
+    header = lines.pop(0)
+    seen = {'checksum', 'version'}
+
+    def check_line(line):
+        match = re.search(
+            r'^\s*!\s*(Redirect|Homepage|Title|Checksum|Version|Expires|Signature)\s*:',
+            line, re.M | re.I,
+        )
+        if not match:
+            return True
+        key = match.group(1).lower()
+        if key in seen:
+            return False
+        seen.add(key)
+        return key != 'signature'
+
+    filtered = list(filter(check_line, lines))
+    content = '\n'.join([header] + filtered)
+    md5_digest = hashlib.md5(content.encode('utf-8')).digest()
+    return base64.b64encode(md5_digest).decode('ascii').rstrip('=')
 
 def is_file_content_modified(filepath, exclude_version_line=True, exclude_checksum_line=True):
     """Check if file content is actually modified (excluding version/checksum lines if specified)."""
@@ -161,14 +182,31 @@ def update_version_and_checksum_in_file(filepath):
                         updated = True
                         break
 
-        # After all metadata updates, calculate the final checksum (ABP standard)
+        # After all metadata updates, calculate the final checksum (ABP official algorithm)
         if checksum_updated:
             final_content = ''.join(lines)
-            final_lines = final_content.split('\n')
-            filtered_lines = [l for l in final_lines if not re.match(r'^!\s*[Cc]hecksum\s*:', l) and not re.match(r'^#\s*[Cc]hecksum\s*:', l)]
-            normalized = '\n'.join(filtered_lines).replace('\r', '')
+            final_lines = final_content.splitlines()
+            if final_lines:
+                header = final_lines.pop(0)
+                seen = {'checksum', 'version'}
+                def _check(line):
+                    m = re.search(
+                        r'^\s*!\s*(Redirect|Homepage|Title|Checksum|Version|Expires|Signature)\s*:',
+                        line, re.M | re.I,
+                    )
+                    if not m:
+                        return True
+                    k = m.group(1).lower()
+                    if k in seen:
+                        return False
+                    seen.add(k)
+                    return k != 'signature'
+                filtered_lines = list(filter(_check, final_lines))
+                normalized = '\n'.join([header] + filtered_lines)
+            else:
+                normalized = ''
             md5_digest = hashlib.md5(normalized.encode('utf-8')).digest()
-            final_checksum = base64.b64encode(md5_digest).decode('ascii')
+            final_checksum = base64.b64encode(md5_digest).decode('ascii').rstrip('=')
 
             # Find and update checksum line
             for i, line in enumerate(lines):
