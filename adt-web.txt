@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Signature: ne+owDrsWqjduyitVcHTQcXvpYH+FpMkaCi/u16BM7hqsfbBnFXF1FnEcFZK0mf3sCXxqc3LFu30vbuJEtn4Xvbl8GZNFgEuQlbQVV5qEPwYk0GTU3X0qQYNnT3lMkuEkEIqbsarZJ0tklUr3ePMFTAB+1frwiJnK1gyfI+8rQbboUgOBm6PZ6UkKJgFVDQ90VKoGOtqpi9Xl98GYmv/rzJJI/+iahpKL6bYVyTk8lozs0XRCnukjw7r4eEPw4GmzXeSn7ov/C4hQVabJxgR7qs8/EFOhAkDlkDdSNFolGYCu/s31YppID2AC1Y94R64yMT7juJgyDHhYN7PyN0MIA==
-! Version: 2026-10-04T13:59:34
+! Signature: ZM/g0qQZS9dwCUcHjFJN9pEyXsJNWh4eQgUQhDvTDtTAcImGuud2GLKV4hMi5r4TRRxuqtnTvGxSMkXsv6l/ZC6jKJgvLxN/Ri9Yj2weaZsxHOZ+yM9j7pXsdLvRdlU/41hhuw1smPm9/Z/jFF4e53/tae3q9nmj/V2MYmgAiO0lbcHKBnBExfx3ukqb7xxqy+ZOPOtCu16tl9vSyyHhUlcfe7Bj7J9U+glBM+gxXUdSjeQoBxXP3JywI1Tm2caTJYnEN8RxsKyFYqCJl+2DiKBtjHKmsMbFWERoGCn1zZb8dhu8v8ec3sUeOdLoXR1eCT2Wa/iZAOv1DMQ22Sh3IQ==
+! Version: 2026-10-04T13:59:57
 ! Checksum: qZURcFMKs59y1Vr3e+22qg
 ! Title: 常见网站广告过滤规则
 ! Test rule for checksum update

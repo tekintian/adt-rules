@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Signature: X1td61SW3VF03h4jmjpfbz+yPlLaxSBrdq7iqzfWakMlLLmk5+t8l4xhy4i7RbF/MmNZTbNlGzf8VYE1xxiBrfK4dd7kseAWyy3++TMI92qDVyPa6Ly+BQ98gFt0TPOPROLlj/hdK63Ry2YxDboDlqFT5GaQqEKjOOwE8Mh1Yzi2DMe2RMZSfsgC1vWyk+TtbFQEu1YuMNsQ5XioeuraRthw8ZKp8tH8RlFOza5sktKut7P1qvqDUTBvLng7PX1pjoajLPxd0262dijnnY32rR4o+Fivf4Gupj7Adli6ZaCkgmZ+Won8uNqJNkGOBcmiXsRSlFifgJ2qRNvTLLDD0g==
-! Version: 2026-10-04T13:59:34
+! Signature: jM0io+so01103Sd2qlEmp4mzw4De01Y6YYyyEgyv7vs+h9aQigLOMDbnPz9BovTslwM6l8mcNtnGp2lDqOhk6GesD7QFGaXnCLmH/z6gyNt3qDXoyzvyFYYC8pLJyzE2vBvUgEB8v9m3sZO+M974+Kf6HUCAcmiLoqT2VKVulEQYRoyAibBu9s7/5Dvdd+PNRP0+lNx9ha//qUlCHYWzl8p7FfW7MAxs+u2lFA70djttzoDXmF6ceykYNcnQU7PUXpOsWbSXuRqi/eGwTt/M6uInh5kPyYF82XryqLtM8nh0kEU3+4bfDAIfpKZ1eXXbqMoIyvKQYKM1iH0/Y6A5Aw==
+! Version: 2026-10-04T13:59:57
 ! Checksum: OjYAJVxpKU+lYUnAQVumZw
 ! Title: Developer
 ! Last modified: 27 Feb 2023 10:02 UTC
