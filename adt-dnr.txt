@@ -1,0 +1,15 @@
+[Adblock Plus 2.0]
+! Signature: ImuKgCTEiRW5PhJeW2SiBARgRp9++7VcE7tQNHMOa3JgqzBhlzgknL77NK6NcL4QGE86DQu3fzAyOSiyajkT3gq3reV7IJ/bls9HBBmF1qkTSVfBz665gOIVH83R/kGXt5kgY7J4F5JvZrN96OqApunJ8Al5v/FH7PpllHnJjadE1p6ZgOWM+qIbo4YQ6knJVq+2R8LQcU2n8ttB3119xQKoNZLmQBL6m1Jamjyg0Yr4we+psXEU3FmhvzqJhMIq9hxZjl8mjYH0VAnZzmC5PK+eJqLn9Q7spI2xPtw+kVEpchkv51arp1L8vKK4wRbSC5fWW/VqdTPiNdTg8vJOdg==
+! Version: 2026-10-04T20:16:01
+! Checksum: 36C97wNUxc4HSFM0r3+IMg
+! Title: Adt DNR Redirect Rules
+! Description: Video ad redirect rules (chrome.declarativeNetRequest redirect action)
+! Last modified: 2026-10-04
+! Expires: 7 days (update frequency)
+! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adt-dnr.txt
+!
+! Format: ! DNR_REDIRECT: regex=<RE2> url=<redirect URL> [desc=<note>] [resourceTypes=<types>]
+! One line per rule. Parsed at runtime by extractDnrRedirectRules().
+!
+! DNR_REDIRECT: regex=^http://v\.aty\.sohu\.com/v\?cat=.*fee=0$ url=http://v.aty.sohu.com/v?cat=&act=&autoPlay=1&fee=1 desc=搜狐视频去广告 resourceTypes=script,xmlhttprequest,other
+! DNR_REDIRECT: regex=g\.alicdn\.com/player/ykplayer/0\.6\.[0-9]+/youku-player\.min\.js url=https://g.alicdn.com/player/ykplayer/0.5.90/youku-player.min.js desc=优酷播放器降级去广告 resourceTypes=script

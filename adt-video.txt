@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Signature: PfVBq3Xd3oxz2pg7Z5E2t1fUQgNhdvDMnM8TGosE5AEU7rL+cn/qZsEGSMfOHXhWXs3ucGXvwy0hgcPme4qLz+iIXkuyUPOv2ODi2CwwvzgNnN8ULyazVp0fH4PmtTo7zAKWiCUQKVPw/Wvxzt+fXAerKI4ST/yosgUFfcX0MyMTulHEJR3wZeiycJiu95shxNCqu4OlWc6RCDAq23bedoK2/WjsFfMPRCYuEBnBsq/qyddzWbL5NuPO1Nq8BrKh00QXm89Zbh4GNjLwe3kWVBrQQOgS4U6TzRNGfXguMexw5EsxMMF7n87F9cppZBEMbxW5vNCZ1rslQqOFw/xnjQ==
-! Version: 2026-10-04T15:15:02
-! Checksum: osS1yR4lqvaKxQjMD5dS0Q
+! Signature: Y/j8qlZuwTEgUWr/b4uHANhSuIPH9YalN1Gj/7LCphMr+6hw15OLMmkwCkXy2iUkDYW9iFMqyvSvVz1gOXSoWuFMHOgEu3mBe6wT94Q/DAp/IB5fsYa+N9HziX2UAX1N4N9PuyicAAyyNnmd4nAop6Fomn1jv5liz7d3GMJtbrHapeiNAxg1hzgJzW1srMaxO7dbbi1lATxOuefdz5ifwF0fBGyZYJezlg0ysPYhm6eiq3+O7fM9jtwEoqvu/w5STv0Xnuq1QUfha+TO+QRKNkz0r9919S3yhR0QXNdxvOLpckCXMtgAQGAUsdXkWHejwUzKjFrOfBpA+yVSbOMQUg==
+! Version: 2026-10-04T20:16:01
+! Checksum: tuRwWY4Qo7/iGE37J4oMgg
 ! Title: Adt视频网站广告过滤规则
 ! 
 ! Last modified: 27 Feb 2023 16:50 UTC
@@ -45,13 +45,7 @@ v.baidu.com###__lawnImageContainer
 v.baidu.com###playerRightBottom
 
 !---搜狐视频
-/^http:\/\/v\.aty\.sohu\.com\/v\?cat=.*fee=0/>>>http://v.aty.sohu.com/v?cat=&act=&autoPlay=1&fee=1>>>>keyword=sohu
 !---优酷
-!/^http:\/\/static\.youku\.com(\/v[\d\.]*)?\/v\/swf\/(q?player[^\.]*|\w{13})\.swf/>>>http://yk.522.com.cn/player.swf>>>>keyword=youku
-!/^http:\/\/static\.youku\.com(\/v[\d\.]*)?\/v\/swf\/upsplayer\/(q?player[^\.]*|\w{13})\.swf/>>>http://yk.522.com.cn/player.swf>>>>keyword=youku
-!/yk\.522\.com\.cn\/danmu\.swf/>>>static.youku.com/v201706061000.0/v/swf/upsplayer/danmu.swf>>>>keyword=danmu
-!/g\.alicdn\.com\/player\/ykplayer\/0\.6\.[0-9]+\/youku-player\.min\.js/>>>g.alicdn.com/player/ykplayer/0.5.90/youku-player.min.js>>>>keyword=youku
-/g\.alicdn\.com\/mm\/yksdk\/0\.2\.\d+\/playersdk\.js/>>>1111.51xiaolu.com/playersdk.js>>>>keyword=playersdk
 @@|https://vku.youku.com/
 ||hz.youku.com/red/
 ||l.youku.com/*&t=ad_
@@ -93,9 +87,7 @@ v.baidu.com###playerRightBottom
 @@||youku.com/cms/playlog/get?
 
 !---土豆
-!/^http:\/\/td\.atm\.youku\.com\/tdcm\/adcontrol/>>>http://www.tudou.com/util/tools/www_hd.txt>>>>keyword=tdcm
 !---爱奇艺
-/static\.iqiyi\.com\/js\/common\/mars_v\.js.*/>>>1111.51xiaolu.com/mars.js?2050>>>>keyword=iqiyi
 iqiyi.com##iqpdiv[data-cupid=container],div[adid]
 ||*/videos/other/*.f4v$object,domain=iqiyi.com
 !---乐视
@@ -149,7 +141,6 @@ iqiyi.com##iqpdiv[data-cupid=container],div[adid]
 ||download.game.yy.com/crossdomain.xml
 !---腾讯
 !||vd.l.qq.com/proxyhttp
-/^https:\/\/vm\.gtimg\.cn\/c\/=\/tencentvideo\/txpv5\/creative.*/>>>https://1111.51xiaolu.com/txvideo.min.js?3>>>>keyword=tencentvideo
 !/.tc.qq.com/*.mp4*vkey=
 !v.smtcdns.com/defaultts.tc.qq.com/
 qq.com/flv/*.mp4*vkey=
@@ -173,7 +164,6 @@ v.qq.com##txpdiv[data-role="hd-ad-adapter-interactivelayer"]
 !---爱奇艺
 //*/videos/other/*.f4v
 //*/videos/other/*.mp4
-/static\.iqiyi\.com\/js\/player_v1\/res\/[0-9]+\/1526aa12997c\.js/>>>1111.51xiaolu.com/iqiyi_player.js?2>>>>keyword=iqiyi
 ||iqiyi.com/track$popup
 ||kfc.com.cn^$popup,domain=iqiyi.com
 ||miaozhen.com^$popup,domain=iqiyi.com
@@ -205,11 +195,7 @@ v.qq.com##txpdiv[data-role="hd-ad-adapter-interactivelayer"]
 ||mixer.video.iqiyi.com/jp/mixin/resources/
 
 !---优酷
-!/^http:\/\/static\.youku\.com(\/v[\d\.]*)?\/v\/swf\/(q?player[^\.]*|\w{13})\.swf/>>>http://yk.522.com.cn/player.swf>>>>keyword=youku
-!/^http:\/\/static\.youku\.com(\/v[\d\.]*)?\/v\/swf\/upsplayer\/(q?player[^\.]*|\w{13})\.swf/>>>http://yk.522.com.cn/player.swf>>>>keyword=youku
-!/yk\.522\.com\.cn\/danmu\.swf/>>>static.youku.com/v201706061000.0/v/swf/upsplayer/danmu.swf>>>>keyword=danmu
 /http:\/\/[^\/]+\/youku\/[0-9,A-F]+\/[0-9,A-F,-]+\.mp4\?sid.*&sig.*ctype.*/
-/g\.alicdn\.com\/player\/ykplayer\/0\.6\.[0-9]+\/youku-player\.min\.js/>>>g.alicdn.com/player/ykplayer/0.5.90/youku-player.min.js>>>>keyword=youku
 |http://b.scorecardresearch.com
 ||irs01.net/
 !---搜狐
@@ -219,7 +205,6 @@ v.qq.com##txpdiv[data-role="hd-ad-adapter-interactivelayer"]
 !---ku6
 /adview_
 !---17173
-/^http:\/\/f\.v\.17173cdn\.com\/20161215\/flash\/PreloaderFile\.swf/>>>http://tools.yiclear.com/swf/17173/17173.in.Vod.swf>>>>keyword=20161215
 ||stat.v.17173.com^
 ||log1.17173.com^
 ||untitled.dwstatic.com/fodder/

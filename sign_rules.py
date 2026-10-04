@@ -35,7 +35,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PRIVATE_KEY = SCRIPT_DIR / 'rsa-private-key.pem'
 PUBLIC_KEY = SCRIPT_DIR / 'rsa-public-key.pem'
 
-OWN_SOURCE_FILES = ['adt-base.txt', 'adt-hot.txt', 'adt-dev.txt', 'adt-video.txt', 'adt-web.txt']
+OWN_SOURCE_FILES = ['adt-base.txt', 'adt-hot.txt', 'adt-dev.txt', 'adt-video.txt', 'adt-web.txt', 'adt-dnr.txt']
 
 def sign_content(content: str, private_key: Path) -> str:
     proc = subprocess.run(
