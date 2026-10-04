@@ -148,12 +148,22 @@ def process_file(filepath: Path):
 
 def main():
     print('=== Signing own-source subscription files ===')
+    modified = []
     for fname in OWN_SOURCE_FILES:
         filepath = SCRIPT_DIR / fname
         if not filepath.exists():
             print(f'  SKIP {fname}: not found')
             continue
         process_file(filepath)
+        modified.append(fname)
+
+    if modified:
+        try:
+            subprocess.run(['git', 'add'] + modified, cwd=str(SCRIPT_DIR), check=True)
+            print(f'\n  git add: {", ".join(modified)}')
+        except Exception as e:
+            print(f'\n  WARNING: git add failed: {e}')
+
     print('\nDone!')
 
 if __name__ == '__main__':
