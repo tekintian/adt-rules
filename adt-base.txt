@@ -1,6 +1,5 @@
 [Adblock Plus 2.0]
-! Signature: cDMo20hKpafxpgX+x8lbrxe2cKppWbmmJLnl+h9cNrmpUbzD+L0XSkrZ/Mmy6kb8xpfUpy7f8oBcREi7GnJhn8LKccv8KxcnU45bwmtl4n/qMH83Ccl+UISy741JwHKhhAGQBhRewb78MNbcaCH45djNSme2Gb+G95WmQaOdjHYDzUAuHLLSJyYanze2kG+H417Xm0jcSij7JjZo/QRc17/gHtWu6aihsV1g47z44zOaFnMRe3y+JrSDpXviOAajr2U/iC/LBG83ecTkgQbDkctulAD9WJH5R2ujvU4aYNO4oZTqk+CCF3pnhD88/Gd3YyaYC40DIAKSeyTmKsgzpA==
-! Version: 2026-10-04T20:16:01
+! Version: 2026-10-04T23:12:35
 ! Checksum: 9TDBwGCZ/kWpd9PobbYpBg
 ! Title: Adt基础广告过滤规则
 ! ADT全局基础广告过滤规则,包含全局ID, CLASS,文件规则

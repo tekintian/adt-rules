@@ -1,13 +1,12 @@
-# ABP 订阅文件 Checksum 与 RSA-Signature 算法
+# ABP 订阅文件 Checksum 算法
 
-> 基于 Adblock Plus 官方源码 `combineSubscriptions.py` 逆向分析，结合 AdClear v6 扩展的 RSA 签名实践。
+> 基于 Adblock Plus 官方源码 `combineSubscriptions.py` 逆向分析。
 
-## 1. 两种校验机制
+## 1. Checksum 校验机制
 
 | 机制 | 算法 | 用途 | 适用文件 |
 |------|------|------|---------|
 | **Checksum** | MD5 + Base64 | 检测传输损坏 | 所有 .txt 规则文件 |
-| **Signature** | RSA-SHA256 + Base64 | 防篡改（自有源） | adt-*.txt 自有源文件 |
 
 > ABP 从 3.x 版本起已不再验证 checksum，但 EasyList 等第三方仍生成，因此作为订阅消费者必须正确验证。
 
@@ -39,7 +38,6 @@
 - header 行参与 MD5 计算，且位于最前面
 - Base64 编码后去掉尾部 `=`
 - 使用 `splitlines()` 而非 `split('\n')`
-- 所有 `! Signature:` 行全部移除（解耦循环依赖）
 
 ### 典型 checksum 格式
 
@@ -67,7 +65,6 @@
 | Header 处理 | 弹出后拼接到最前 | 不弹出 |
 | Checksum 行 | 预置 seen 移除 | 直接过滤移除 |
 | Version 行 | 预置 seen 移除 | 保留 |
-| Signature 行 | 预置 seen 移除 | 保留 |
 | Base64 尾部 | `rstrip('=')` | 保留 `==` |
 | 典型长度 | 22 字符 | 24 字符 |
 
@@ -75,54 +72,7 @@
 
 24 字符，如 `5DsPIzUs6i9TN+K9a+yByQ==`
 
-## 4. RSA-SHA256 签名机制
-
-### 签名格式
-
-```
-! Signature: base64(RSA-SHA256(signed_content))
-```
-
-- 算法：RSA 2048-bit + SHA-256
-- 编码：DER 格式签名 → Base64
-- 公钥：`rsa-public-key.pem`（也硬编码在扩展中）
-- 私钥：`rsa-private-key.pem`（已加入 .gitignore，不提交）
-
-### 签名内容
-
-签名内容 = 移除 `! Signature:` 行后的全部文本（**包含** `! Checksum:` 行）
-
-### 签名流程
-
-```
-1. 移除已有的 ! Signature: 行
-2. 计算 checksum（ABP 算法，排除 Checksum + Version + Signature）
-3. 更新 ! Checksum: 行
-4. 计算签名内容（排除 Signature 行，包含 Checksum 行）
-5. RSA-SHA256 签名
-6. 插入 ! Signature: 行
-7. 写入文件并验证
-```
-
-## 5. 循环依赖解耦
-
-### 问题
-
-```
-Checksum = f(content \ {Checksum}, Signature)    ← 依赖 Signature
-Signature = g(content \ {Signature}, Checksum)   ← 依赖 Checksum
-```
-
-### 解耦方案
-
-```
-Checksum 计算排除: Checksum + Version + Signature 行 → 不依赖 Signature
-Signature 计算排除: Signature 行（包含 Checksum 行） → 包含 Checksum 但不影响其计算
-```
-
-因为 Checksum 不依赖 Signature，可以先算 Checksum，再算 Signature。**无循环依赖**。
-
-## 6. 前端验证策略
+## 4. 前端验证策略
 
 由于存在多种 checksum 格式，前端验证时按优先级依次尝试：
 
@@ -134,7 +84,7 @@ Signature 计算排除: Signature 行（包含 Checksum 行） → 包含 Checks
 6. 简单算法 + MD5 hex
 7. 全部不匹配 → 抛 SubscriptionChecksumError
 
-## 7. 常见误区
+## 5. 常见误区
 
 ### 以为只需移除 Checksum 行
 
@@ -149,10 +99,9 @@ ABP 的 `seen` 集合预置了 `{'checksum', 'version'}`，首次出现的 Check
 
 ABP 使用 `splitlines()`，简单算法使用 `split('\n')`。
 
-## 8. 参考链接
+## 6. 参考链接
 
 - [ABP 官方 checksum 算法源码](https://github.com/adblockplus/sitescripts/blob/master/sitescripts/subscriptions/combineSubscriptions.py)
 - [python-abp 库](https://github.com/adblockplus/python-abp)
 - [ABP 过滤规则文档](https://adblockplus.org/en/filters#checksums)（已归档）
-- [sign_rules.py](../sign_rules.py) — 自有源规则签名工具
 - [update_md5.py](../update_md5.py) — 版本/checksum 自动更新

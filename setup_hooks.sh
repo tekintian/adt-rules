@@ -7,14 +7,11 @@ HOOK="$SCRIPT_DIR/.git/hooks/pre-commit"
 
 cat > "$HOOK" << 'EOF'
 #!/bin/bash
-# Pre-commit hook: update checksum + sign own-source rules
+# Pre-commit hook: update checksum for modified files
 set -e
 
-# 1. Update Version/Checksum lines and md5.json (incremental, only modified files)
+# Update Version/Checksum lines and md5.json (incremental, only modified files)
 python3 update_md5.py
-
-# 2. Sign own-source rules (adt-*.txt) with RSA-SHA256
-python3 sign_rules.py
 
 exit 0
 EOF

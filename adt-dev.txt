@@ -1,6 +1,5 @@
 [Adblock Plus 2.0]
-! Signature: UOtuU+Q7ScISj2K0JQs7l5IeIer1fEfk7w/KrjBz2pndd5vM3am4WzBv60HDQ5yv5axMFmtd3n7sUhJOnnOC1ul4r3x+cGkUNMX78qr/MlWWEqW3QWs2JcAEw97XxhoxSZ9f5LrdtN9R/i26QHjYpdRh1UtLUmKKacaUtmxtDDh3Rw9ZKjpShwm7URJeiZOKFZgeP1TDDvMbvIBH2Xrty/SIrW2qOV6WcCvN3B7ARaaW/UWvdQx4aEv5BwM5x9D994xdMFMIfu8a8Aqtt23B0eyT/IkLFKka76P0wYLSS7TOekOXV7dgmkmCbYatbyTii4HMfoXwBAk99Kg7eR4Fvw==
-! Version: 2026-10-04T15:15:02
+! Version: 2026-10-04T23:12:35
 ! Checksum: OjYAJVxpKU+lYUnAQVumZw
 ! Title: Developer
 ! Last modified: 27 Feb 2023 10:02 UTC

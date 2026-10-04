@@ -1,6 +1,5 @@
 [Adblock Plus 2.0]
-! Signature: dS6aUe7aTEEw8GK96JcYeuXCrmsxWc05+0mzf8Zs9C6ZjRPGHtjwinxLwgb5HSemcr11uyytmU34EOhtfxbHC07eIlRi20+TSmyotop1cVAFnDLERfMMRK79nRKoAK4tZrKObTJhfBiz86HA8MzEA4A5Iq1DFmtu2vfhMfGWtKW+CWgGEhJs5Y5FmNSYlm8H1F1QusRpbunbjA6k93I/y29d89G8KETtV88s+CuulinkuDMzYSgb9VYyIcbvI2bSs4OIBjq3ItRzh81oxlD8KDxrTDyCa3OMRWiJ1PD8pTJ/1Nre+o1rnIZpghP4oO/KejXhiHaWnNef6yc3JiwE5g==
-! Version: 2026-10-04T15:15:02
+! Version: 2026-10-04T23:12:34
 ! Checksum: qZURcFMKs59y1Vr3e+22qg
 ! Title: 常见网站广告过滤规则
 ! Test rule for checksum update
