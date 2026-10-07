@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-07T08:35:02
-! Checksum: 1cS1LdjGfLIdRaYXuhBQzQ
+! Version: 2026-10-07T08:45:20
+! Checksum: f9tLC7FANL5HZfULt8vtAw
 ! Title: Adt基础广告过滤规则
 ! ADT全局基础广告过滤规则,包含全局ID, CLASS,文件规则
 ! Last modified: 2023-12-25 12:25 PRC
@@ -1088,6 +1088,18 @@
 ! 页面回调仍引用 IfengAmgr.show() / IfengAmgr.tplLib，导致 ReferenceError 连锁崩溃
 ! 通过 set-noop-object 注入 Proxy noop 对象吸收所有回调调用
 ifeng.com#%#//scriptlet('set-noop-object', 'IfengAmgr')
+! ifeng.com ElemHide：清理广告脚本被拦截后残留的空占位 div
+! class hash 后缀（如 _V65hO）每次构建会变，但前缀稳定
+ifeng.com##[class*="index_topBox_"]
+ifeng.com##[class*="index_topDbox"]
+ifeng.com##[class*="index_feedBox"]
+ifeng.com##[class*="index_feedAd"]
+ifeng.com##[class*="index_banner"]
+ifeng.com##[class*="index_sideAd"]
+ifeng.com##[class*="ife-ad"]
+ifeng.com##[id*="ad-wrap"]
+ifeng.com##iframe[src*="ifengimg"]
+ifeng.com##iframe[src*="/ad/"]
 /sda/*$domain=chineseinla.com
 /sinaLoginReward2014.
 /sinaLoginReward2014_comment.
