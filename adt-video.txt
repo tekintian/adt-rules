@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-05T20:31:07
-! Checksum: WiN5uXni9LzwrljViStrrQ
+! Version: 2026-10-07T08:35:02
+! Checksum: TSg0v8jzU1oM1OHPXOa6pw
 ! Title: Adt视频网站广告过滤规则
 ! 
 ! Last modified: 27 Feb 2023 16:50 UTC
@@ -371,3 +371,6 @@ ypcgw.com###lelezdy
 ysgcfun.com##table[style="width: 100%;height: 125px;"]
 
 ||www.clarity.ms^
+/xx/*.js$script
+
+
