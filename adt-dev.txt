@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-04T23:12:35
-! Checksum: OjYAJVxpKU+lYUnAQVumZw
+! Version: 2026-10-07T15:22:38
+! Checksum: DvgXJwjWoOrtyLL3jrDdRw
 ! Title: Developer
 ! Last modified: 27 Feb 2023 10:02 UTC
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adt-dev.txt
@@ -24,11 +24,9 @@
 ##script[id^="ai-adb-"]
 
 !-----------------------General advert blocking filters-----------------------!
-||tianjiunion.cn^
 ||jisuoping.com^
 ||348wd7etbann.com^
 ||clksite.com^
-||vamprumbasfear.com^
 ||blastcahs.com^
 ||exdynsrv.com^
 ||blastcahs.com^
@@ -41,8 +39,6 @@
 ||services.bilsyndication.com^
 ||google-analytics.com^
 ||googlesyndication.com^
-||zs.tianjiunion.cn,*.jisuoping.com*$script,domain=lanzoux.com
-||tianjiunion.cn/*$domain=lanzoux.com
 ||jisuoping.com/count-new.js$domain=lanzoux.com
 
 ! pan ads
@@ -84,7 +80,6 @@ json.cn##.nav-tabs-two
 www.json.cn##.show-hide-adv
 ||static.json.cn/*.js
 
-||pianistrefutationgoose.com^
 ||mactorrent.co^*.js$script
 ||mycdn.co^$third-party
 ||p420955.clksite.com^

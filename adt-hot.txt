@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-04T23:12:34
-! Checksum: DIbHaOc8+O9xX//SPEf6qg
+! Version: 2026-10-07T15:22:38
+! Checksum: bTd61EqYryaYidtrvDyv7Q
 ! Title: 热点网站过滤规则
 ! 常见大流量高频网站广告过滤规则
 ! Last modified: 02 Feb 2021 16:50 UTC
@@ -18,7 +18,6 @@
 ##img[src*="nzwgs.com"]
 ||mediav.com^$third-party
 ||nzwgs.com^$third-party
-||adpro.cn^$third-party
 ||adpush.cn^$third-party
 ||adreep.cn^$third-party
 ||ads80.com^$third-party
@@ -33,7 +32,6 @@
 ||bloggerads.net^$third-party
 ||buzzads.com^$third-party
 ||dlads.cn^$third-party
-||googleadsl.com^$third-party
 
 !--qq.com
 daohang.qq.com##.hd-slider
@@ -78,9 +76,6 @@ china.com,yyrtv.com##.ad360
 
 !-----eastday.com
 ||eastday.com^$subdocument,~third-party
-||df888.eastday.com^
-||jiaoben.eastday.com^
-||tt123.eastday.com^
 ||e9377f.com^$rewrite=abp-resource:blank-mp3,domain=eastday.com
 ||eastday.com/assets/js/resources/detail/
 ||eastday.com/assets/js/resources/new_detail_
@@ -142,7 +137,6 @@ yyrtv.com##li[class^="mediav"]
 ||gumgum.com/*
 ||jtsmmw.cn/*
 ||mediav.com/*
-||ontetag-sys.com/*
 miercn.com###dsp_btxf
 miercn.com##.ad
 
@@ -154,14 +148,10 @@ miercn.com##.ad
 ||cb.baidu.com^
 ||cbjs.baidu.com^
 ||cpro.baidu.com^
-||drmcmm.baidu.com^
-||duiwai.baidu.com^
 ||eduad.baidu.com^
 ||eiv.baidu.com^
 ||pos.baidu.com^
-||spcode.baidu.com^
 ||baifen.music.baidu.com^
-||iwanad.baidu.com^
 ||as1.wenku.baidu.com^
 ||cm.baidu.com^
 ||mountain.zhidao.baidu.com^
@@ -221,7 +211,6 @@ miercn.com##.ad
 ||baidu.com^$subdocument,domain=dm5.com|dm5.hk|zzidc.com
 ||baidu.com^*/getrelatedbusiness?
 ||baidu.com^*/interface/ad?
-||bs.baidu.com/app-ads%
 ||entry.baidu.com/rp/home?
 ||image-shop.baidu.com/n/imageproduct?
 ||imgsrc.baidu.com/tieba/pic/item/$image
@@ -261,10 +250,6 @@ www.u7u9.com##div[class*="-ad"]
 
 !--sogou.com
 sogou.com##.infoad
-||lu.sogou.com^
-||inte.sogou.com^
-||wuliao.epro.sogou.com^
-||inte.sogoucdn.com^$domain=~index.sogou.com|~zhishu.sogou.com
 ||123.sogou.com/discover/?
 ||brand.sogou.com/micro?yyid=
 ||file.cloud.sogou.com/*/superzone/
@@ -277,7 +262,6 @@ sogou.com##.infoad
 ||sogou.com/uniplan/?pageID=
 ||sogou.com/wap_ask_service?
 ||wan.sogou.com/static/fragment/
-||wan.sogoucdn.com/cdn/flash/$domain=~sogou.com
 
 !--360.com
 360.com###festival_float_bottom
@@ -291,7 +275,6 @@ sogou.com##.infoad
 !--126.com
 ||126.com/get.do?*=themeHandler.
 ||tpe163.com^
-||jxad.jx163.com^
 ||163.com*/special/*_ad_
 ||163.com/get.do?*=themeHandler.
 ||163.com/ntes/special/*_papa.
