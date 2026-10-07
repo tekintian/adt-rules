@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-07T08:35:02
-! Checksum: TSg0v8jzU1oM1OHPXOa6pw
+! Version: 2026-10-07T23:13:41
+! Checksum: 8VsC5X6sKTMCeCBv+36FVQ
 ! Title: Adt视频网站广告过滤规则
 ! 
 ! Last modified: 27 Feb 2023 16:50 UTC
@@ -46,10 +46,6 @@ v.baidu.com###playerRightBottom
 !---搜狐视频
 !---优酷
 @@|https://vku.youku.com/
-||hz.youku.com/red/
-||l.youku.com/*&t=ad_
-||l.youku.com/*log?
-||l.youku.com/rec_ad_show?
 ||lstat.youku.com/log.
 ||static.youku.com/*/index/js/iresearch.js
 ||static.youku.com/*/js/cps.js
@@ -72,12 +68,9 @@ v.baidu.com###playerRightBottom
 |http://static.youku.com/v1.*/index/js/ikuAdapterNew.js
 |http://yk.pp.navi.youku.com/playpolicy/get.json?
 ||alicdn.com^*yksdk/*sdk.js$script,domain=youku.com
-||irs01.net/
 ! 优酷例外规则
 @@|https://vku.youku.com/
 @@u-ads.adap.tv*youku.$domain=youku.com
-@@||a.ads.cn.miaozhen.com^$domain=youku.com
-@@||atm.youku.com/cast/getFlvUrl.
 @@||static.atm.youku.com^*.swf
 @@||valf.atm.youku.com/vf?site=1&rst=mp4&
 @@||youku.com^*^adshow
@@ -95,7 +88,6 @@ iqiyi.com##iqpdiv[data-cupid=container],div[adid]
 ||asimgs.pplive.cn/imgs
 @@http://s1.pplive.cn/sta.js
 !---迅雷看看
-||float.sandai.net
 
 !- baomihua
 ||a.baomihua.com^
@@ -110,7 +102,6 @@ iqiyi.com##iqpdiv[data-cupid=container],div[adid]
 @@||cb.baidu.com/ecom?di=943217&
 !- huantv
 ||gridsumdissector.cn/gs.gif?
-||res.hunantv.com^
 ||hunantv.com/ui/2014/images/hao123.jpg
 
 !-cntv
@@ -128,15 +119,11 @@ iqiyi.com##iqpdiv[data-cupid=container],div[adid]
 ||revsci.net^$third-party
 ||adk.funshion.com^
 ||adm*.autoimg.cn^$object
-||adm.265g.com^
 ||adm.72zx.com^
 ||adm.86wan.com^
 ||adm.bbcss.com^
 ||adm.funshion.com^
 ||vas.funshion.com^
-||acsystem.wasu.cn^
-||afpcreative.wasu.cn^
-||apistat.wasu.cn^
 ||download.game.yy.com/crossdomain.xml
 !---腾讯
 !||vd.l.qq.com/proxyhttp
@@ -174,7 +161,6 @@ v.qq.com##txpdiv[data-role="hd-ad-adapter-interactivelayer"]
 ||taobao.com^$popup,domain=52movieba.com|btee.net|ck180.net|friok.com|iqiyi.com|ktkkt.com|xibupan.com
 ||tmall.com^$popup,domain=eyusky.net|iqiyi.com
 ||*/videos/other/*.f4v$object,rewrite=abp-resource:blank-mp3,domain=iqiyi.com
-||info.vip.iqiyi.com/promotion/
 ||iqiyi.com/common/*/cupid/
 ||iqiyi.com/common/flashplayer*_1380x
 ||iqiyi.com/common/flashplayer/*-banner-
@@ -196,7 +182,6 @@ v.qq.com##txpdiv[data-role="hd-ad-adapter-interactivelayer"]
 !---优酷
 /http:\/\/[^\/]+\/youku\/[0-9,A-F]+\/[0-9,A-F,-]+\.mp4\?sid.*&sig.*ctype.*/
 |http://b.scorecardresearch.com
-||irs01.net/
 !---搜狐
 !---PPTV
 ||de.as.pptv.com^
@@ -216,8 +201,6 @@ i6v.cc##div[id^="HMcoupletDiv"]
 
 !--56
 /s3m.mediav.com/galileo/*.mp4
-@@||stat.v-56.com/player
-@@||2345jsllq.dftoutiao.co
 @@|http://item.btime.com/
 @@|https://analytics.google.com/
 browser.360.cn#@##banner
@@ -249,13 +232,7 @@ adx.dlads.cn
 ||ifengimg.com^*Float$script
 ||ax.*.ifeng.com^
 ||ax.ifeng.com^
-||cdgfa.ifeng.com^
-||deliver.ifeng.com^
-||qcvf.ifeng.com^
-||ztyumn.ifeng.com^
 ||auto.ifeng.com/uploadfile/201*.swf
-||games.ifeng.com^$subdocument
-||games.ifeng.com^*.shtml?v=
 ||ifeng.com/a_if/
 ||ifeng.com/iframe/quickbet
 ||ifeng.com/showcode?
@@ -276,7 +253,6 @@ ifeng.com##div[class^="index_outerPcMask_"]
 ifeng.com##div[class^="index_shortTipsPc_"]
 ifeng.com##p[class*="_markTag_"]
 ifeng.com##div[class*="feng-control-appspread"]
-||zhongyi.ifeng.com/a/zt.js
 /tres/recommend/*$domain=ifeng.com
 !--ifeng.com
 @@||ifengimg.com/a/201*Player
@@ -372,5 +348,3 @@ ysgcfun.com##table[style="width: 100%;height: 125px;"]
 
 ||www.clarity.ms^
 /xx/*.js$script
-
-
