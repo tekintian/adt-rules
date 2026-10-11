@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-11T21:57:03
-! Checksum: XSiuSYzlRAivnyDCyc8JWg
+! Version: 2026-10-11T23:44:20
+! Checksum: aW5cRDfXEEKKtjePm9sHzw
 ! Title: Adt视频网站广告过滤规则
 ! 
 ! Last modified: 27 Feb 2023 16:50 UTC
@@ -8,18 +8,12 @@
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adt-video.txt
 !----------------------------视频网站规则----------------------------
 
-youku.com#$#youku-ad-sdk
+
+youku.com###youku-pause-container
+
 ! === Scriptlets ===
-youku.com#%#//scriptlet('youku-ad-sdk')
-! === Youku Ad SDK DNR Block ===
-||g.alicdn.com/kplayer/adreport/$script,domain=youku.com
-||g.alicdn.com/kplayer/adplay/$script,domain=youku.com
-||g.alicdn.com/kplayer/adplugin/$script,domain=youku.com
-||static.atm.youku.com/$script,domain=youku.com
-||html.atm.youku.com/$script,domain=youku.com
-||valf.atm.youku.com/$script,domain=youku.com
-||ad.m.youku.com/$script,domain=youku.com
-||atm.youku.com/$script,domain=youku.com
+youku.com#$#youku-ad-sdk
+
 
 ! === Element Hiding ===
 ##div.m-video-play.js-play>a.m-video-bannerTitle.js-video-bannerTitle
