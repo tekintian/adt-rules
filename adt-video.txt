@@ -1,14 +1,14 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-07T23:13:41
-! Checksum: 8VsC5X6sKTMCeCBv+36FVQ
+! Version: 2026-10-11T11:09:48
+! Checksum: sg+96Dy3ez916GLrhKmOoA
 ! Title: Adt视频网站广告过滤规则
 ! 
 ! Last modified: 27 Feb 2023 16:50 UTC
 ! Expires: 2 days (update frequency)
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adt-video.txt
 !----------------------------视频网站规则----------------------------
-!--video site common ads
-! ##div.h5-ext-layer
+
+! === Element Hiding ===
 ##div.m-video-play.js-play>a.m-video-bannerTitle.js-video-bannerTitle
 ###videorich
 ###HMRichBox
@@ -34,213 +34,18 @@
 ##section[style*="user-select: none;"]
 ##.is_pc
 ##.is_pc_flex
-
-!-- vainews.cn ads !
 ##img[src*="vainews.cn"]
 ##a[href*="vainews.cn"]
-
-!-- v.baidu.com  ads !
 v.baidu.com###__lawnImageContainer
 v.baidu.com###playerRightBottom
-
-!---搜狐视频
-!---优酷
-@@|https://vku.youku.com/
-||lstat.youku.com/log.
-||static.youku.com/*/index/js/iresearch.js
-||static.youku.com/*/js/cps.js
-||vip.com/cm/youku?
-||youku.com/compvlog?
-||youku.com/recikupushshow?
-||youku.com/ykvvlog?
-||youku.com/yplaylog?
-||youku.com/ypvlog?
-||youku.com^*/click.php?
-|http://html.atm.youku.com/html?p=
-|http://hz.youku.com/red/ggnotice.php?
-|http://nc.youku.com/user/~ajax/qrcodeLogin.html?
-|http://passport.youku.com/index_loginregGuide/$subdocument
-|http://passport-log.youku.com/logsys/logstorage/
-|http://static.youku.com/*/js/cps.js
-|http://static.youku.com/v*/index/js/ikuAdapterNew.js
-|http://static.youku.com/v*/index/js/iresearch.js
-|http://static.youku.com/v*/index/js/tdstat.js
-|http://static.youku.com/v1.*/index/js/ikuAdapterNew.js
-|http://yk.pp.navi.youku.com/playpolicy/get.json?
-||alicdn.com^*yksdk/*sdk.js$script,domain=youku.com
-! 优酷例外规则
-@@|https://vku.youku.com/
-@@u-ads.adap.tv*youku.$domain=youku.com
-@@||static.atm.youku.com^*.swf
-@@||valf.atm.youku.com/vf?site=1&rst=mp4&
-@@||youku.com^*^adshow
-@@||youku.com^*^showAd
-@@||youku.com/cms/player/userinfo/
-@@||youku.com/cms/playlog/get?
-
-!---土豆
-!---爱奇艺
 iqiyi.com##iqpdiv[data-cupid=container],div[adid]
-||*/videos/other/*.f4v$object,domain=iqiyi.com
-!---乐视
-@@||shop.letv.com^
-!---PPTV
-||asimgs.pplive.cn/imgs
-@@http://s1.pplive.cn/sta.js
-!---迅雷看看
-
-!- baomihua
-||a.baomihua.com^
-||cb.baidu.com^
-@@||cb.baidu.com/ecom?$domain=colayun.com|pctowap.com|play.yue365.com|shushuw.cn|0.baidu.com
-@@||cb.baidu.com/ecom?di=$domain=excelhome.net|kuakao.com
-@@||cb.baidu.com/ecom?di=106878&
-@@||cb.baidu.com/ecom?di=373107&
-@@||cb.baidu.com/ecom?di=654997&
-@@||cb.baidu.com/ecom?di=817641&
-@@||cb.baidu.com/ecom?di=893557&
-@@||cb.baidu.com/ecom?di=943217&
-!- huantv
-||gridsumdissector.cn/gs.gif?
-||hunantv.com/ui/2014/images/hao123.jpg
-
-!-cntv
-||pubads.g.doubleclick.net/gampad/adx
-!-1905
-||m1905.cn/afp/mdsfw.js
-||m1905.cn/images/bg_index_hgn.jpg
-||m1905.cn/images/video/BannerImg
-||m1905.com/asp_js/k.js
-/adproxy.
-/adloader.
-||csbew.com^$third-party
-@@||csbew.com/FrameWork/AFP/ASP_
-!-fun
-||revsci.net^$third-party
-||adk.funshion.com^
-||adm*.autoimg.cn^$object
-||adm.72zx.com^
-||adm.86wan.com^
-||adm.bbcss.com^
-||adm.funshion.com^
-||vas.funshion.com^
-||download.game.yy.com/crossdomain.xml
-!---腾讯
-!||vd.l.qq.com/proxyhttp
-!/.tc.qq.com/*.mp4*vkey=
-!v.smtcdns.com/defaultts.tc.qq.com/
-qq.com/flv/*.mp4*vkey=
-||dc.letv.com^
-||js.letvcdn.com/js/*/stats/
-||webp2p.letv.com
-|http://ark.letv.com/
-http://*/letv-gug/
-@@||ss0.bdstatic.com
-http://defaultts.tc.qq.com/
-http://lmbsy.qq.com/
-http://ltsbsy.qq.com/
-http://ltsdl.qq.com/
-http://ltslx.qq.com/
-http://ltsws.qq.com/
-http://vhotwsh.video.qq.com/
 v.qq.com##.site_board_ads.show
-video.dispatch.tc.qq.com
 v.qq.com##txpdiv[data-role="hd-ad-adapter-interactivelayer"]
-
-!---爱奇艺
-//*/videos/other/*.f4v
-//*/videos/other/*.mp4
 ||iqiyi.com/track$popup
 ||kfc.com.cn^$popup,domain=iqiyi.com
-||miaozhen.com^$popup,domain=iqiyi.com
-||taobao.com^$popup,domain=52movieba.com|btee.net|ck180.net|friok.com|iqiyi.com|ktkkt.com|xibupan.com
-||tmall.com^$popup,domain=eyusky.net|iqiyi.com
-||*/videos/other/*.f4v$object,domain=iqiyi.com
 ||kfc.com.cn^$popup,domain=iqiyi.com
-||miaozhen.com^$popup,domain=iqiyi.com
-||taobao.com^$popup,domain=52movieba.com|btee.net|ck180.net|friok.com|iqiyi.com|ktkkt.com|xibupan.com
-||tmall.com^$popup,domain=eyusky.net|iqiyi.com
 ||*/videos/other/*.f4v$object,rewrite=abp-resource:blank-mp3,domain=iqiyi.com
-||iqiyi.com/common/*/cupid/
-||iqiyi.com/common/flashplayer*_1380x
-||iqiyi.com/common/flashplayer/*-banner-
-||iqiyi.com/common/flashplayer/*/980
-||iqiyi.com/common/flashplayer/*/pageer.swf
-||iqiyi.com/common/flashplayer/*/pause.swf
-||iqiyi.com/common/flashplayer/*250%C3%97230.swf
-||iqiyi.com/common/flashplayer/*980-100
-||iqiyi.com/marketing/*/oppo.
-||iqiyi.com/player/*/a.swf
-||iqiyi.com/player/*/bannery.swf
-||iqiyi.com/player/common/adflash
-||iqiyi.com/player/common/rebull
-||iqiyi.com/player/cupid/*/pageer.swf
-||iqiyi.com/player/cupid/common/flash980100.swf
-||iqiyi.com/show2?cb=
-||mixer.video.iqiyi.com/jp/mixin/resources/
-
-!---优酷
-/http:\/\/[^\/]+\/youku\/[0-9,A-F]+\/[0-9,A-F,-]+\.mp4\?sid.*&sig.*ctype.*/
-|http://b.scorecardresearch.com
-!---搜狐
-!---PPTV
-||de.as.pptv.com^
-!---迅雷看看
-!---ku6
-/adview_
-!---17173
-||stat.v.17173.com^
-||log1.17173.com^
-||untitled.dwstatic.com/fodder/
-||itc.cn/cache/lib/v2/odvmonitor/
-!---乐视
-|http://*/letv-gug/
-@@|https://vku.youku.com/
-
 i6v.cc##div[id^="HMcoupletDiv"]
-
-!--56
-/s3m.mediav.com/galileo/*.mp4
-@@|http://item.btime.com/
-@@|https://analytics.google.com/
-browser.360.cn#@##banner
-hao123.com#@#.popup
-!--bimibimi--m站
-adx.dlads.cn
-
-!-- ifeng.com
-||ifeng.com/statics/comment_baidu.html
-||ifeng.com/wapAdversApi?
-||ifeng.com^*&ADUNITID=
-||ifengimg.com/mappa/$domain=~tech.ifeng.com
-||ifengimg.com/static/news/js/advtrack_
-||ifengimg.com/tres/js/*/idemin_noif.js
-||ifengimg.com/xingzhao/JS/bsgspecial.js
-||ifengimg.com/zhishaofei/js/
-||ifengimg.com^*-gewindow-
-||ifengimg.com^*/aplayer.xml
-||ifengimg.com^*/backwindow.js
-||ifengimg.com^*/fullscreen
-||ifengimg.com^*/hover.js
-||ifengimg.com^*/iframe_load_
-||ifengimg.com^*/pan.js
-||ifengimg.com^*/rdn_*.js
-||ifengimg.com^*/shfwq
-||ifengimg.com^*/sparta.js
-||ifengimg.com^*/yingguang-
-||ifengimg.com^*couplet$script
-||ifengimg.com^*Float$script
-||ax.*.ifeng.com^
-||ax.ifeng.com^
-||auto.ifeng.com/uploadfile/201*.swf
-||ifeng.com/a_if/
-||ifeng.com/iframe/quickbet
-||ifeng.com/showcode?
-||ifeng.com/showjs?*apids=
-||ifeng.com/ssi-incs/
-||ifeng.com/statics/comment_baidu.html
-||ifeng.com^*&ADUNITID=
-||img.ifeng.com/tres/html/
 ifeng.com###root > div > div.topBox-2Ay2GWZz.clearfix
 ifeng.com##.news_list_markTag-1--AQmyX
 ifeng.com##div[class*="index_topBox_"]
@@ -253,11 +58,6 @@ ifeng.com##div[class^="index_outerPcMask_"]
 ifeng.com##div[class^="index_shortTipsPc_"]
 ifeng.com##p[class*="_markTag_"]
 ifeng.com##div[class*="feng-control-appspread"]
-/tres/recommend/*$domain=ifeng.com
-!--ifeng.com
-@@||ifengimg.com/a/201*Player
-@@||ifengimg.com/pdt/cfg/mudu/aplayer.xml$domain=v.ifeng.com
-!--所有div标签中包含c属性的数据
 ifeng.com##div[c]
 ifeng.com##div[class^="d_box"]
 ifeng.com##div[class^="dbox-"]
@@ -273,35 +73,25 @@ ifeng.com###js_videobanner_container
 ifeng.com###adPlayer
 ifeng.com##div[style*="z-index: 99999"]
 ifeng.com###js_videopause_container
-
 www.qkw2.cc###play_page > div.play_boxbg > div.play_box.play_video > div.right_row.fr.hidden_xs.hidden_mi > div > div.play_infobox > div.play_vlist.m_qrcode.cblock
 www.qkw2.cc###play_page > div:nth-child(2)
-www.qkw2.cc/tiao.js
-
 ygdy8.com###about > div > a
 ygdy8.com###header > div > div.bd2 > div.bd4l
 ygdy8.com###header > div > div.bd2 > div.bd6
 ygdy8.com###headerright
-
 www.5ikmj.com##body > div.container > div > div.col-lg-wide-25.col-xs-1.stui-pannel-side.hidden-sm.hidden-xs > div:nth-child(1)
 www.5ikmj.com##div[style*="width: 200px; height: 400px; position: fixed;"]
-
 ygdy8.com###about > div > a
 ygdy8.com###header > div > div.bd2 > div.bd4l
 ygdy8.com###header > div > div.bd2 > div.bd6
 ygdy8.com###headerright
-
-/jquery/d.js$script,match-case,domain=www.5177kp.com
-/jquery/y.js$script,match-case,domain=www.5177kp.com
 netfly.tv##body > div.page.player > div.main > div > div.module.module-player > div > div.player-box > div > div.tips-box
 www.pianbb.com###HMimageright
 www.qkw2.cc###play_page > div.play_boxbg > div.play_box.play_video > div.right_row.fr.hidden_xs.hidden_mi > div > div.play_infobox > div.play_vlist.m_qrcode.cblock
 www.qkw2.cc###play_page > div:nth-child(2)
-www.qkw2.cc/tiao.js
 seemac.cn###custom_html-7
 seemac.cn###custom_html-8
 seemac.cn###waifu
-
 libvio.top##div[class="t-img-box"]
 netfly.tv###vyhp
 netfly.tv##div[class="module-tglist  tg_w tg_w-2 tg-container"]
@@ -309,20 +99,12 @@ netfly.tv##div[class="player-rm rm-list rm-two tg-container"]
 netfly.fun##[style*="display: flex; justify-content: space-between;"]
 onlymu.site##div[class*="-right-tips show"]
 netfly.tv##[style*="display: flex; justify-content: space-between;"]
-
 www.88mv.tv##body > div.adx_bottom_globle
 www.88mv.tv##body > div.adx_bottom_globle > div > div
 www.88mv.tv##body > div.download
 www.88mv.tv##body > div.download.mb
-
-div[class*="index_topDbox1_"]
-div[style*="width:200px;height:400px;position:fixed;"]
-||https://cdn-file-ssl-wan.ludashi.com/*
-||https://unmc.bj.bcebos.com/*
 www.5ikmj.com##div[style*="width: 200px; height: 400px; position: fixed;"]
-
 vidhub.tv##div[style*="margin: 0px; padding: 0px; height: 0px; position: fixed;"]
-
 5dy15.cc##.is_pc
 5dy15.cc##.is_pc_flex
 555movie.vip##.is_pc
@@ -333,18 +115,15 @@ vidhub.tv##div[style*="margin: 0px; padding: 0px; height: 0px; position: fixed;"
 555yy.vip##.is_pc_flex
 555yy.vip##.popup
 www.wasu.cn##ws-postershot
-
 meijutt.tw##div[style*="width: 200px; height: 400px; position: fixed;"]
 meijutt.tw###note
 meijutt.tw##.a960_index
 meijutt.tw##.widget-weixin
 meijutt.tw##div[style*="width: 320px; height: 270px;"]
 meijutt.tw##div[style="text-align: center;"]
-
 ypcgw.com###idiv
 ypcgw.com###lelezdy
-
 ysgcfun.com##table[style="width: 100%;height: 125px;"]
-
-||www.clarity.ms^
-/xx/*.js$script
+! === EH Exceptions ===
+browser.360.cn#@##banner
+hao123.com#@#.popup
