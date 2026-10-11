@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-11T11:09:48
-! Checksum: sg+96Dy3ez916GLrhKmOoA
+! Version: 2026-10-11T16:06:21
+! Checksum: VbIwkLUi3+odnVjdEbOxDg
 ! Title: Adt视频网站广告过滤规则
 ! 
 ! Last modified: 27 Feb 2023 16:50 UTC
@@ -36,6 +36,7 @@
 ##.is_pc_flex
 ##img[src*="vainews.cn"]
 ##a[href*="vainews.cn"]
+youku.com#$#youku-ad-sdk
 v.baidu.com###__lawnImageContainer
 v.baidu.com###playerRightBottom
 iqiyi.com##iqpdiv[data-cupid=container],div[adid]
