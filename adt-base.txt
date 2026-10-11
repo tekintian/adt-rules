@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-11T11:09:48
-! Checksum: r2HktXpJ57M+W+IBq+YijA
+! Version: 2026-10-11T15:41:25
+! Checksum: qa3gFQ012zhZMGtUpI9I7g
 ! Title: Adt基础广告过滤规则
 ! ADT全局基础广告过滤规则,包含全局ID, CLASS,文件规则
 ! Last modified: 2023-12-25 12:25 PRC
@@ -557,6 +557,9 @@
 ##div[style="width: 100%;"]:not([id]):not([class]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ifeng.com##[class*="index_topBox_"]
 ifeng.com##[class*="index_feedAd"]
+ifeng.com##div[style*="position: fixed"][style*="z-index: 9999"]
+ifeng.com###js_videopause_container
+ifeng.com##div[c]
 ##a[href*="://mgzs.cdn.bcebos.com/"]
 @@||10010.com^$generichide
 ifeng.com##[class*="ife-ad"]
