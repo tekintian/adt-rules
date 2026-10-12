@@ -35,6 +35,15 @@
 |http://ark.letv.com/
 //*/videos/other/*.f4v
 //*/videos/other/*.mp4
+||static.iqiyi.com/js/player_v3/*adfe.*$script,domain=iqiyi.com
+||static.iqiyi.com/js/player_v3/*qysdk_*$script,domain=iqiyi.com
+||static.iqiyi.com/js/player_v3/*iqiyi-sdk.*$script,domain=iqiyi.com
+||www.iqiyi.com/prelw/player/lw/lwplay/*$script,domain=iqiyi.com
+||mixer.video.iqiyi.com/jp/mixin/resources/$script,domain=iqiyi.com
+||ad.iqiyi.com/$script,domain=iqiyi.com
+||t1.iqiyi.com/$script,domain=iqiyi.com
+||iqiyi.com/common/*/cupid/$script,domain=iqiyi.com
+||iqiyi.com/marketing/$script,domain=iqiyi.com
 ||iqiyi.com/common/*/cupid/
 ||iqiyi.com/common/flashplayer*_1380x
 ||iqiyi.com/common/flashplayer/*-banner-
