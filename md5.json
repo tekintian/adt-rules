@@ -30,11 +30,5 @@
   "v6/dnr/adt-hot.txt":"ec2b8c43387e674b77ad124bf16b0c9a",
   "v6/dnr/adt-video.txt":"ebe78e0bddb01124bbbc8922b5362295",
   "v6/dnr/adt-web.txt":"240ea3d8057ca030881b10ee66804f3f",
-  "v6/dnr/ublock-filters.txt":"98793bde9681063b6bed6be7e84efb89",
-  "v6/dyn/adt-base.txt":"ae54c83b9bf8116df8695b2e68ddf94b",
-  "v6/dyn/adt-dev.txt":"47243163b15db0779a7592329ae884bf",
-  "v6/dyn/adt-dnr.txt":"5fd9699a8bfc7d33d244ed2b7d41d72b",
-  "v6/dyn/adt-hot.txt":"cc59ecfd9fa838a6947a0bae5d12763d",
-  "v6/dyn/adt-video.txt":"cd5d0f006d6f66cf4325bb6aa09ff9c1",
-  "v6/dyn/adt-web.txt":"4dbc88651caf51ac41c46f86a7eadaaa"
+  "v6/dnr/ublock-filters.txt":"98793bde9681063b6bed6be7e84efb89"
 }
