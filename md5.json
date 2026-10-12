@@ -7,7 +7,7 @@
   "adt-dev.txt":"119825f7aef2a25e09852e6475e2ecc1",
   "adt-dnr.txt":"71b541386dfdcc9216d6b31be66fa356",
   "adt-hot.txt":"a92915cfc9c24504229586e51b046ddd",
-  "adt-video.txt":"cd5d0f006d6f66cf4325bb6aa09ff9c1",
+  "adt-video.txt":"b5ff3a7aa66c264e86e84e34c85631a4",
   "adt-web.txt":"26412a34877c45dd485794920defa00e",
   "diy.txt":"0816e4078f7f31dfd81b8c274b415ab5",
   "dnsmasq/ads_hosts.txt":"a7597d463cf8963c43e64d7dcb2afe47",
@@ -30,5 +30,11 @@
   "v6/dnr/adt-hot.txt":"ec2b8c43387e674b77ad124bf16b0c9a",
   "v6/dnr/adt-video.txt":"ebe78e0bddb01124bbbc8922b5362295",
   "v6/dnr/adt-web.txt":"240ea3d8057ca030881b10ee66804f3f",
-  "v6/dnr/ublock-filters.txt":"98793bde9681063b6bed6be7e84efb89"
+  "v6/dnr/ublock-filters.txt":"98793bde9681063b6bed6be7e84efb89",
+  "v6/dyn/adt-base.txt":"99ae9195f0d861e2b42d523413a04be2",
+  "v6/dyn/adt-dev.txt":"6fbff569fcb57c10e47534b6c2b1a601",
+  "v6/dyn/adt-dnr.txt":"85b0f8925c31b3882cdf75d9e1045679",
+  "v6/dyn/adt-hot.txt":"e7b8d7cc72013257509eb2cb0d50a6c9",
+  "v6/dyn/adt-video.txt":"087e49fe79f330aee4987ace65cf8a72",
+  "v6/dyn/adt-web.txt":"85ef9970227f65930cd43b55499957f1"
 }
