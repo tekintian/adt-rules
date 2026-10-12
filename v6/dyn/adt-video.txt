@@ -1,15 +1,12 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-12T18:36:35
-! Checksum: hQpTvaXpbuVh6mzfMbHM6w
+! Version: 2026-10-12T18:39:05
+! Checksum: gG00YN0UUINeHxsebKdYuQ
 ! Title: Adt视频网站广告过滤规则
 !
 ! Last modified: 27 Feb 2023 16:50 UTC
 ! Expires: 2 days (update frequency)
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adt-video.txt
 !----------------------------视频网站规则----------------------------
-
-
-youku.com###youku-pause-container
 
 ! === Element Hiding ===
 ##div.m-video-play.js-play>a.m-video-bannerTitle.js-video-bannerTitle
@@ -39,15 +36,17 @@ youku.com###youku-pause-container
 ##.is_pc_flex
 ##img[src*="vainews.cn"]
 ##a[href*="vainews.cn"]
-v.baidu.com###__lawnImageContainer
-v.baidu.com###playerRightBottom
+
 iqiyi.com##iqpdiv[data-cupid=container],div[adid]
-v.qq.com##.site_board_ads.show
-v.qq.com##txpdiv[data-role="hd-ad-adapter-interactivelayer"]
 ||iqiyi.com/track$popup
 ||kfc.com.cn^$popup,domain=iqiyi.com
 ||kfc.com.cn^$popup,domain=iqiyi.com
 ||*/videos/other/*.f4v$object,rewrite=abp-resource:blank-mp3,domain=iqiyi.com
+
+v.baidu.com###__lawnImageContainer
+v.baidu.com###playerRightBottom
+v.qq.com##.site_board_ads.show
+v.qq.com##txpdiv[data-role="hd-ad-adapter-interactivelayer"]
 i6v.cc##div[id^="HMcoupletDiv"]
 ifeng.com###root > div > div.topBox-2Ay2GWZz.clearfix
 ifeng.com##.news_list_markTag-1--AQmyX

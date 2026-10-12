@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-12T18:36:35
-! Checksum: 3tdSx3Fhzvkf+VgqwTTW/g
+! Version: 2026-10-12T18:39:05
+! Checksum: 0oPMbcvWUFVa68VGYb82pQ
 ! Title: Adt基础广告过滤规则
 ! ADT全局基础广告过滤规则,包含全局ID, CLASS,文件规则
 ! Last modified: 2023-12-25 12:25 PRC
@@ -722,6 +722,9 @@ iplaysoft.com###_cblzx
 ||aiwanma99.com^$popup
 ||jav321.com^$popup,third-party
 crsky.com##.Gs_d
+
+
+youku.com###youku-pause-container
 ! === Scriptlets ===
 ifeng.com#%#//scriptlet('set-noop-object', 'IfengAmgr')
 youku.com#$#youku-ad-sdk
