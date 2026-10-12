@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-12T13:34:42
-! Checksum: YojNMXUPU/BTrqMGxfxpEw
+! Version: 2026-10-12T18:36:35
+! Checksum: hQpTvaXpbuVh6mzfMbHM6w
 ! Title: Adt视频网站广告过滤规则
 !
 ! Last modified: 27 Feb 2023 16:50 UTC
@@ -10,11 +10,6 @@
 
 
 youku.com###youku-pause-container
-
-! === Scriptlets ===
-youku.com#$#youku-ad-sdk
-! === iQiyi Scriptlet Rule ===
-iqiyi.com#$#iqiyi-ad-sdk
 
 ! === Element Hiding ===
 ##div.m-video-play.js-play>a.m-video-bannerTitle.js-video-bannerTitle
