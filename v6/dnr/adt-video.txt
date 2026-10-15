@@ -18,6 +18,11 @@
 @@||youku.com/cms/playlog/get?
 
 
+||t7z.cupid.iqiyi.com^
+||mesh.if.iqiyi.com/portal/lw/ad/*
+
+
+
 @@http://s1.pplive.cn/sta.js
 ||gridsumdissector.cn/gs.gif?
 ||hunantv.com/ui/2014/images/hao123.jpg

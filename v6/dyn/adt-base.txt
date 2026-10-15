@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-12T18:39:05
-! Checksum: 0oPMbcvWUFVa68VGYb82pQ
+! Version: 2026-10-15T08:43:24
+! Checksum: M/f7vW9I0BjYWrDuhQIDsg
 ! Title: Adt基础广告过滤规则
 ! ADT全局基础广告过滤规则,包含全局ID, CLASS,文件规则
 ! Last modified: 2023-12-25 12:25 PRC
@@ -658,7 +658,7 @@ btbtt12.com##body > div.width.imgs_1
 cr173.com##.downnowgaosu
 ||693836.com^$popup
 zol.com.cn##div[class="side-module"] > iframe
-##span[onclick^="javascript:gsdownload("]
+##span[onclick^="javascript:gveloload("]
 ||taobao.com^$popup,domain=dlkoo.com
 ||ieeod0.com^$popup
 jb51.net##.da-download
