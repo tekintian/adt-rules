@@ -1,0 +1,851 @@
+[Adblock Plus 2.0]
+! Version: 2026-10-18T23:11:53
+! Title: 反广告拦截过滤规则
+! 反广告拦截检测、绕过、提示等过滤规则
+! Last modified: 18 Oct 2026 14:55 UTC
+! Expires: 2 days (update frequency)
+! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/v6/dyn/antiadblock.txt
+! Source: rules_dyn.txt
+! Rules: 840
+
+! ---- from rules_dyn (840 new rules) ----
+###ab_adblock
+###adblock-big
+###adblock-leaderboard
+###adblock-small
+###adBlock01
+###adblock1
+###adblock2
+###adblock4
+###adBlockBanner
+###adblockbottom
+###adBlockContainer
+###adBlockContent
+###adBlockOverlay
+###adBlocks
+###articleadblock
+###FooterAdBlock
+###HeaderAdBlock
+###panoAdBlock
+###RightAdBlock
+###rightAdBlock
+###sidebar_adblock
+###skyscraperadblock
+###stickyAdBlock
+###top-adblock
+###topadblock
+###videopageadblock
+##.ad-roadblock
+##.adblock-bottom
+##.adblock-header
+##.adblock-header1
+##.adblock-main
+##.adblock-popup
+##.adblock-top
+##.adblock-top-left
+##.adblock-wide
+##.adblock300250
+##.adblock728x90
+##.adblock__banner
+##.adblock_noborder
+##.adblock_primary
+##.adBlockBottom
+##.adblockdiv
+##.adblocks-topright
+##.adBlockSpacer
+##.adBlockSpot
+##.article__adblock
+##.body-adblock
+##.bottomAdBlock
+##.d3-c-adblock
+##.dfx-adBlock1Wrapper
+##.fulladblock
+##.head-adblock
+##.headeradblock
+##.headline-adblock
+##.home_adblock
+##.horizontal_adblock
+##.inline-adblock
+##.kill-adblock-container
+##.leaderboard-adblock
+##.mod-adblock
+##.mpuBlock
+##.rightAdBlock
+##.rightadblock
+##.sg-adblock
+##.smalladblock
+##.STR_AdBlock
+##.textAdBlock
+##.topAdBlock
+##.topadblock
+##.wc-adblock-wrap
+##[class^="div-gpt-ad"]:not([style^="width: 1px; height: 1px;"], .div-gpt-ad_adblock_test)
+##[href^="https://url.totaladblock.com/"]
+##a[id][href="https://chpadblock.com/"][rel="noopener noreferrer"]
+##bottomadblock
+##topadblock
+17travel.net##.ui_adblock
+18comic.vip#?#.modal-footer > div[style]:contains(ADBLOCK)
+2baksa.ws##.antiblock
+4spn.github.io#?##oframepreroll pjsdiv:has(> pjsdiv[style^="position: absolute;"]:contains(ADBLOCK))
+9to5linux.com##.theiaStickySidebar > .widget:has(:is(a[href^="https://www.tuxedocomputers.com/?refID="], .adblocked))
+aads.com,ad-maven.com,adcash.com,admitad.com,adskeeper.com,adspyglass.com,adsupply.com,chpadblock.com,exoclick.com,hilltopads.com,juicyads.com,monetag.com,popads.net,propellerads.com,purpleads.io,trafficshop.com,yavli.com##HTML
+aadvantageeshopping.com##.mn_adBlockWarning
+aagmaal.cx###vpAdblockOverlay
+adacomi.com###adblock_guide_mask
+adacomi.com##.adblock_guide_box
+adblock-tester.com##embed[width="240"]
+adblock-tester.com##object[width="240"]
+adbypass.org,bypass.city##div[class*="mantine-"] > .mantine-Paper-root:has(> .mantine-Text-root > a[href="/privacy-policy"])
+adguard-dns.io##.sticky-bar--cookie
+adguard.info,adguard.app,adguard.com##.blog-comments__social
+adguard.info,adguard.com,adguard.app##.blog-subscribe-notify
+adguard.info,adguard.com,adguard.app##.hello_from_adguard_adblocking_app
+adguard.info,adguard.com,adguard.app##.hello_from_adguard_adblocking_ext
+adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_apps
+adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_cookies
+adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_ext
+adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_mobileappbanners
+adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_other
+adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_popups
+adguard.info,adguard.com,adguard.app##.hello_from_adguard_annoyances_widgets
+adguard.info,adguard.com,adguard.app##.hello_from_adguard_apps
+adguard.info,adguard.com,adguard.app##.hello_from_adguard_ext
+adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_protection_app
+adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_protection_ext
+adversator.com###anti-adblocker-message
+alemdarleech.com###koddostu-com-adblocker-engelleme
+apkmoddone.com###adBlock
+appledaily.com.tw##.adblock_splash
+applovin.com###adblock-notice
+ashemaletube.com##.adblock.tac
+askleo.com##div[class^="askleo_adblock"]
+athlete-insurance.com###kk-adblock-overlay
+atlasobscura.com###email-roadblock-topographic-modal
+atlasobscura.com##.AdBlockModal
+atoz2512.com###adblock-overlay
+audiobyray.com###adblock_screen
+axon.ai###adblock-notice
+baomidou.com##astro-island[opts^="{\"name\":\"CheckAdBlocked\""]
+baseball-reference.com###content > .adblock
+baseball-reference.com##.adblock > .adblock.primis
+baseball-reference.com##.adblock.stn
+behindthesteelcurtain.com##.adblock-allowlist-messaging__article-wrapper
+benzinga.com##div[class^="GoogleAdBlock_"]
+betaseries.com#?#.faceboxDisplay:has(> div#facebox > form > p > img[src$="/facebox_adblock.jpg"])
+bilibili.com##.__adblockhidden
+bingotingo.com#?##page > .g1-hb-sticky-off.g1-hb-shadow-off:has(> div > div > div > div > nav > ul > li > a:contains(Disable Or Remove The Adblock Extension))
+bitcompiler.com##.bc-adblock-detector-wrapper
+blockadblock.com###thisisext
+blockadblock.com##div[style^="display:block; width:350px;"]
+bloggif.com,pixiz.com###adblock-box
+bloomberg.com###adBlockerContainer
+bmamag.com,specialneedsjungle.com###modal-extended-adblocker
+brainly.lat##.js-react-adblock-banner
+cadblocksfree.com###enhanced-privacy-popup
+channel4.com###all4gn-adBlock-notification
+chess.com##adblocker-check
+civicx.com##.adblock_detector
+civitai.red,civitai.com##.mantine-ScrollArea-viewport > div > .gap-3 > .gap-2:has(> a[href="/pricing"] > img[alt*="disabling adblock"])
+civitai.red,civitai.com##a[href="/pricing"] > img[alt*="disabling adblock"]
+codexqr.app###adblocker-warning
+coinhub.pw#?#body > center:contains(Turn off your adblocker)
+collegepolltracker.com##.noticeBarAdBlocker
+compositesworld.com##div[class^="adBlock--"]
+computer.org##.adBlockBanner
+crizyman.online,ryfex.online###adblock-modal
+crosswordclub.com##.crw-leaderboard-desktop-adblock
+cryptofans.news,ad-doge.com,cryptomininggame.com,club,getdogecoins.com,faucetcrypto.com,freebitcoin.win##ins[class^="bmadblock-"]
+cs-fundamentals.com###adBlockerAlert
+cultofmac.com##.adblock-notification-wrapper
+curiosidadtop.com##body > .wrap + div[id][class]:has(a[href="https://chpadblock.com/"])
+darkreader.org##.adblock-pro
+dataversity.net,ippmedia.com,sakshi.com,songlyrics.com,yallamotor.com##.adblock
+deepfun.net##div[id^="fwin_banadblock"]
+der-postillon.com###steadyAdblockContainer
+diffnow.com###adblockBanner
+dimakids.com##.adblock-wrapper
+discover-sharm.com##.js-antiadblocker
+documentstranslate.com###adblock-notice-modal
+donastro.com,kursiv.media###adblock-popup
+dp-vids.com###dpv-adblock-overlay
+drafter.lol##body > div[aria-labelledby="adblock-wall-title"]
+dressupmix.com###adblock_popup
+duckduckgo.com##ol.react-results--main > div[class*=" "]:has(img[src^="https://metrics-content.duckduckgo.com/assets/adblock-notice/"])
+duhoctrungquoc.vn###danger_adblock
+ebookdz.com###adblock_div
+edealinfo.com###adBlockpopup
+edealinfo.com###overlay-backadBlock
+ekantipur.com###roadblock-ad
+euronews.com##.c-sublock-most-viewed
+eurosport.*##.HomeListBlack__AdBlock
+evaki.fun,sportshub.to,sportnews.to###adblock-overlay
+exabytetv.info###deadblocker_dialog
+exabytetv.info##.deadblocker-header-bar
+expresspharma.in,gamertweak.com,thelivemirror.com,frendx.com##div[itemtype="https://schema.org/WPAdBlock"]
+fastcars1.com###adblock-modal
+fc-lc.com###ignielAdBlock
+fieldgulls.com,eater.com,outsports.com,polygon.com,vox.com##div[class^="adblock-allowlist-messaging"]
+file-me.top###adblock-overlay
+filecrypt.cc##.fiIItheadblockqueue4
+filecrypt.cc##div[class^="fiIItheadblock"]
+filmix.ac#?##player pjsdiv[style^="position: absolute;"] > pjsdiv[style^="position: absolute;"]:has(> pjsdiv:contains(AdBlock))
+filmix.ac,filmix.tech,filmix.zone#?##oframeplayer > pjsdiv[style]:has(> pjsdiv[style]:contains(AdBlock))
+flixscans.net##.adblock
+flyertalk.com##.adblock-section
+forbes.com##.adblock-unused
+forum.cstalking.tv###adblock_msg
+freepik.com##.spr-adblock
+freestocks.org##body.adblock > .popup
+gamaverse.com,html5.gamedistribution.com###gd__adblocker__overlay
+gamertweak.com#?#.sidebar > .widget_mjo:has(> .mjo > div[itemtype="https://schema.org/WPAdBlock"])
+gamesmain.xyz,foodtechnos.in###adblock-modal
+gamezop.com###adBlockerOverlay
+gatesnotes.com###SiteWide_CTAs_Roadblock_HTML
+genelify.com###adblock-detector-wrapper
+goflix.sbs,multiup.eu,multiup.org##.content-body > .text-center:has(> a[href*="list_adblock.txt&"])
+greenville.com,steamcollector.com##.adblock-detected
+gulf-up.com###adblock_msg
+haber.com###habercom-modal-adblock
+hdone.net#?##oframeplay > pjsdiv[style]:has(> pjsdiv[style]:contains(AdBlock))
+hdstockimages.com##.adblocker-popup
+hentaihd.net###animehub-adblock-warning
+hidden4fun.com,coursesity.com,ichacha.net,website.informer.com,mrexcel.com,blockadblock.com#?#.adsbygoogle:upward(1)
+hilltopads.com##.adblock-notification
+hornyhill.st###adblock-dialog
+ichi.pro###notify-adblock
+idmlover.com###antiAdBlock
+ikugay.com###adblock-overlay
+indgovtjobs.in,techiesavi.com,magesy.blog###superadblocker
+infotelematico.com#?#.entry-content > p.has-vivid-cyan-blue-background-color:contains(Adblock)
+iptvpulse.top##.js-antiadblocker
+iqiyi.com##.black-screen[data-cupid="adblock-blackscreen"]
+itdmusicy.com,itdmusics.com##body > div[class]:has(> a[href^="https://chpadblock.com/"])
+itscybertech.com,cxem.net###antiAdBlock
+itsupportguides.com##.adblock_wrapper
+japanesekorean.aliendictionary.com###adblock-engelleyici
+javgg.net,javgg.co#?#body > div:has(> p[style] > span[style]:contains(AdBlock))
+javur.com###alertAdblock
+jungle.world###block-adblocker
+juventusonair.com###adblockNotice
+juzaphoto.com#?#body > div[style^="max-width:"]:has(> div.s_bluebox > a[href="article.php?l=it&article=adblock"])
+kalileaks.com###nindo-popup-portal:has(> .nindo-popup .nindo-popup-content-wrapper a[href*="/adblocker-detector"])
+kfc.com##div[class^="AdBlockerDetector"]
+komikcast.fit##div[aria-label="Adblock notification"]
+kontrolkalemi.com###XGT-AdBlock-etkin
+ladypopularblog.com,howtocivil.com,uur-tech.net,businesstrend.jp##[class^="adblock_"]
+ladypopularblog.com,howtocivil.com,uur-tech.net,businesstrend.jp##[class^="adblock_"] ~ div[class]:has(a[href="https://chpadblock.com/"])
+ladypopularblog.com,howtocivil.com,uur-tech.net,businesstrend.jp##[class^="adblock_"] ~ div[class]:has(a[href="https://toolkitspro.com"])
+law.ravellawfirm.com###adblock-overlay
+lcpdfr.com###ipsLayout_mainArea > .uBlockBrokeOurSiteIpsAreaBackground
+leeapk.com###zdn-adblock-overlay
+lewdzone.com##main > div.alert:has(> a[href="https://lzmods.com/68/how-to-whitelist-an-website-in-adblock-plugins/"])
+link99.bid,sampledrive.org###adblock-overlay
+linkebr.com###antiAdBlock
+linkvegastheme.com##.AdBlocker
+linuxsecurity.com##.adblocker-poopup-wrapper
+livenewsof.com,elaoffcial.com,europeelects.eu,telugusexkathalu.com,daemon-hentai.com,teamkong.rf.gd,ad4msan.com,ossels.ai,world-iptv.club###zdn-adblock-overlay
+mackie100projects.altervista.org###fuckadblock
+magesypro.com,magesy.blog###adblock-overlay
+magesypro.com,magesy.blog###adBlockModal
+mahjong.co.uk##.adBlocked
+mail.yahoo.com##div[aria-describedby="adblock-unblock-cue"]
+media-base.co#?##oframevideoplayer > pjsdiv[style^="position:"]:has(> pjsdiv[style] > pjsdiv[style]:contains(AdBlock))
+medibang.com##.adBlock__pc
+medibang.com##.mdbnAdBlock
+medibang.com##.mdbnAdBlock__728x90
+megogo.net##.adBlock_banner
+meteyeverse.com,free-apps-android.com,norbbert4.hu,cuongquach.dev,missax.org,systementcorp.com,myenglishlanguage.com###zdn-adblock-overlay
+minecraftskins.com##.antiblock-wrapper
+mixrootmod.com###adBlockModal
+mobile01.com##.ad-adblock
+modapkvn.com,apkmodvn.com###adBlock
+modthesims.info###adblockmessage
+motherjones.com##.mj-adblock-widget
+movilhentai.com##.alerta-adblock
+msn.com##li[data-yvef*="adblockMediumCardContainer"]
+multishows.top#$?##adBlockModal { display: none !important; }
+myesports.gg##.adblock-banner
+mywebtimes.com##.roadblock
+nautil.us##.PrimisVideoAdBlock_wrapper__vYQNI
+nba.com##.block-globalheaderadblock
+news.com.au###nca-faststart-adblocker-banner-wrapper
+newscon.org##.adblock-warning
+nfl.com##.d3-c-adblock
+novel543.com,thisiscm.com,twword.com##.gadBlock
+onlinethreatalerts.com###adblockermsg
+otempo.com.br##.adblock-info
+ozulscans.com##.lm-adblock-notfic-container
+petanikode.com###antiadblock
+petanikode.com##div[data-id="antiadblock"]
+phonearena.com##.adblock_awareness
+pixiz.com###adblock-detected
+playlistsound.com###adblock-msg
+poral.eu###adblock-message
+pornerbros.com##img[alt="Please Disable Adblock"]
+pornerbros.com#?#.row > div:has(> div > img[alt="Please Disable Adblock"])
+pornleaks.in,comohoy.com##div[id^="anti-adblock-"]
+pornoxo.com##.js-toggle-content-wrapper:has(> .adblock)
+ptonline.com##.adBlock--center-column
+ptonline.com##.adBlock--right-column
+putlocker.digital#?#.container > div.alert:has(> div.alert-text-part > p:contains(AdBlocker))
+ratebeer.com##div[class^="AdBlockDetector_"]
+realitytea.com##.roadblock
+reelsuites.tv##.rt-adblock-notice
+regex101.com###regex-app > div[class] > div[class] > div[class]:has(> div[class] > div[class] > a[href*="/application/adblockers"])
+renklikodlar.net##.header_adblock
+reports.adguard.*##.flash-wrapper-wrap
+ridble.com###adblock-wrapper
+rmz.cr###latest_episodes_fuck_adblock
+rockmods.net,link.postearn.io###adblock-modal
+rollercoin.com##.adBlock-banner
+royaleapi.com##.adblock_message
+rtl.hu##.adblock-confirm
+sanjun.com.np,acharyar.com.np###antiAdBlocker
+saranghero.com##.adblock-warning
+scrolller.com#?#.popup:has(> .popup__box div:contains(adblocker))
+sd-company.su###dom_adblock
+securenetsystems.net###adblockWrapper
+sexwebvideo.com##.adblock-spot
+shabdkosh.com###adblocker-detected-modal
+shojoscans.com,en-thunderscans.com##.lm-adblock-notfic-container
+sirtv.fit###mw-adblock-overlay
+siz.tv###koddostu-com-adblocker-engelleme
+slickdeals.net###crt-adblock-a
+slickdeals.net##div[id^="crt-adblock"]
+smarthomebeginner.com##.boxAdBlock
+snbforums.com,cracking.org##.adblock_floating_message
+softwebtuts.com##.adblock-wrapper
+stakingrewards.com##.adBlocker-placeholder
+standard.co.uk##.adblock-modal.adblock
+starsandstripesfc.com,polygon.com##div[class^="adblock-whitelist-messaging__"]
+stereogum.com##div[class^="AdBlockerGate_overlay"]
+streamonsport.to##.events img[alt="adblock"]
+subtitletools.com##.hide-when-adblock
+supermarketnews.com###roadblockbackground
+supermarketnews.com###roadblockcontainer
+surfline.com##.AdBlock_modal__QwIcG
+surviv.io##div[class^="adblock-plea"]
+tbtdg.com###adblockWarning
+teachoo.com###adblockModal
+teachoo.com###adblockModal ~ div.modal-backdrop
+tech-faq.com##.prl-entry-content > div:not(.adblock) > .adsbygoogle
+techbrij.com###adblockerDialog
+techedubyte.com###superadblocker
+techinferno.com##div[aria-label^="AdBlock Detected!"]
+techymedies.com###SpiderBlogginAdblocker
+teepr.com###topAdBlock
+telegraph.co.uk##.adblocker-message
+telewizjada.cc,workora.space###adblock-warning
+thecity.nyc##div[class^="adblock-allowlist-messaging__"]
+thedarkblues.co.uk##.adblockerBox
+thedesk.net,dairybusinessmea.com,readhunters.xyz###modal-extended-adblocker
+theguardian.com##.adblock-sticky__message
+theguardian.com##.contributions__adblock
+theguardian.com##.js-adblock-sticky
+thephoblographer.com###adblock-warning
+thetoyinsider.com##.apb-adblock
+theverge.com##div[class^="adblock-allowlist-messaging"]
+thingiverse.com##div[class^="AdBlockDetect"]
+time.com##.roadblock
+timesofkarachi.pk###adblock-notice
+titlovi.com##.header > header + [id*="-"]:not([class]) > a[href*="adblock"]
+trevorlasn.com#?#footer div:has(> div[role="alert"] > div > p:contains(AdBlocker))
+tube8.*###adBlockAlertWrap
+tupaki.com##.roadblocker-container
+tuttoandroid.net###ta-adblock-modal
+tuttoandroid.net##.ta-adblock-modal-open::before
+tv5news.in###roadblocker-wrapper
+uniquestream.net###us-adblock-wall
+uploadhub.ws#?#center > h2:contains(Kindly Disable Adblocker)
+uppic.xyz#?#.image_view > .alert-danger:contains(/^Please turn off adblock to view pictures/)
+userscloud.com##body > .st-container ~ div[class]:not(.adguard-alert)
+usrowing.org,stevensducks.com##.sidearm-adblock
+ustream.to###adblockz_alert
+vanquishthefoe.com,rollbamaroll.com,bavarianfootballworks.com,goldenstateofmind.com,mmafighting.com##div[class^="adblock-allowlist-messaging"]
+videzz.net##.vjs-adblock-overlay
+vinstartheme.com##.AdBlocker
+violetscans.org##.lm-adblock-notfic-container
+vnexpress.net##.wrap-hd-adblock
+vnexpress.net##a[data-event-label="Button-TatAdblock"]
+vuinsider.com###adblock-message
+wallet.duinocoin.com#?#.column:has(> div[class="box"] > div#adblocker_detected)
+wallpaperflare.com##div[itemtype$="WPAdBlock"]
+wallpapershome.com###welcome.adblock
+wamiz.com##blockquote#adblocker
+waredata.com###adblock-backdrop
+waredata.com###adblock-overlay
+websearch.rakuten.co.jp###adblocker-warning-popup
+whosdatedwho.com##.ff-adblock
+widestream.io##.adBlockDetected + div[class]
+wowjp.net##.adblocker-notification
+xoxocomic.com###adblock-overlay
+yhcres.top###adblock-modal
+yiv.com###AdBlockMessage
+you-porn.com,youporngay.com###adblock_tooltip
+youporngay.com###adblock_1
+yularihappysmile.com###adblock-modal
+zakon.kz##.adblock_alert
+zeroupload.com###superadblocker
+disableadblock.com#@#.adBar
+freevpn4you.net#@##adBanner:not([style^="position: absolute; left: -5000px"]):not([data-testid="adBlockTest"])
+kinoafisha.info#@##adblock
+vtvgiaitri.vn#@##adblock
+winaero.com#@#.windia:not(.thank-you-adguard)
+zeste.ca#@##adBanner:not([style^="position: absolute; left: -5000px"]):not([data-testid="adBlockTest"])
+adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_ios { display: none !important; }
+airevue.net,stfly.*#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links.ad-text.adSense.adBlock.adContent.adBanner { display: block !important; }
+ajdown.space#$##adblock-overlay { display: none !important; }
+akinator.com,akinator.mobi#$##adblockDetected { display: none !important; }
+atlasobscura.com#$##gastro-email-roadblock-modal { display:none!important; }
+bartamanpatrika.com#$#.adblock-overlay { display: none !important; }
+bestbuy.ca#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.ad-text.adSense.adBlock.adContent.adBanner.banner.sponsored.sponsoredProduct.sponsoredProductLabel.sponsor.promote.promoted { display: block !important; }
+bilibili.com#$#.adblock-tips { position: absolute !important; left: -3000px !important; }
+crast.net#$##Adblock { display: none !important; }
+dafontvn.com#$##adblock_msg { display: none !important; }
+dausel.co#$#.btn-danger[title^="Please disable AdBlocker"] { display: none!important; }
+elmarjaa.com#$##adblock_msg { display: none !important; }
+flycutlink.com,arldeemix.com#$#.adblock-container { display: none !important; }
+forbes.com#$#.fbs-auth__adblock { display: none !important; }
+forbes.com#$#adblock-modal { display: none !important; }
+freecads.com#$##adblocker-modal { display: none !important; }
+freegen.app#$##adblockOverlay { display: none !important; }
+freemagazines.top#$##ublock-detector-modal { display: none !important; }
+fuucdayo.com#$#.fuuc-adblock-overlay { display: none !important; }
+fuucdayo.com#$#.fuuc-adblock-overlay-open { overflow: auto !important; }
+geeksforgeeks.org#$##adBlockerModal { display: none !important; }
+hashhackers.com#$##adblockbyspider { display: none !important; }
+hilites.today#$##adBlockerPopup { display: none !important; }
+hindustantimes.com#$#.adBlockerPopup { display: none !important; }
+idlixku.com#$##adblock-modal { display: none !important; }
+idlixku.com#$##adblock-modal-wrapper { display: none !important; }
+idlixku.com#$#div[data-adblock-wall] { display: none !important; }
+indexsubtitle.cc#$##adblockModal[style] { display: none !important; }
+indexsubtitle.cc#$##adblockModal[style] ~ .modal-backdrop { display: none !important; }
+it-sharks.com#$##adBlocker { display: none !important; }
+learngeom.com#$##adblockbyspider { display: none !important; }
+linovelib.com#$##adblock-dialog { display: none !important; }
+linuxuprising.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links.ad-text.adSense.adBlock.adContent.adBanner { display: block !important; }
+miasto.in#$##adblock-overlay { display: none !important; }
+motherless.com#$#iframe[style="display:block !important"]:not([id="adguard-assistant-dialog"]) { position: absolute!important; left: -3000px!important; }
+moviesdl.cc#$#.vb-adblock-wall { display: none !important; }
+msn.com#$#li[data--ac*="adblockMediumCardContainer"] { position: absolute!important; left: -3000px!important; }
+mytoolz.net#$##adblock_msg { display: none !important; }
+nwdb.info#$#body .div-gpt-ad_adblock_test:not(#style_important) { display: block !important; }
+ojaivalleynews.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links.ad-text.adSense.adBlock.adContent.adBanner { display: block !important; }
+ontools.net#$##AdBlockModal { display: none !important; }
+otomobilgunluklerim.com#$#.adblockalert { display: none !important; }
+player.amperwave.net#$##adblocker-test-ad[class] { display: block !important; }
+powerleagueprodigy.com#$#div[aria-labelledby="adblock-modal-title"] { display: none !important; }
+rule34hentai.net#$##adblock-overlay { display: none !important; }
+safelink.asia#$##seosecretidnadblock { display: none !important; }
+sahid4u.com,shaheed4u.day,shaheiid4u.net,shahheid4u.net,shhahhed4u.net,shiid4u.day,shaahed4u.net,shah4u.*,sd4u.net,sshahid4u.*,shahid4u.*,shhahid4u.*,shaid4u.day,shahhid4u.cam,shsaahid4u.net,shahiid4u.net,shahidd4u.net,neosatsu.com,indokontraktor.com#$#.ignielAdBlock { display: none !important; }
+sankaku.app#$##anti-adblock { display: none !important; }
+sankakucomplex.com#$##anti-adblock { display: none !important; }
+streamelements.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links.ad-text.adSense.adBlock.adContent.adBanner { display: block !important; }
+tech-faq.com#$#.adblock { height: 1px!important; }
+tech-faq.com#$#.adblock { position: absolute!important; left: -3000px!important; }
+techbloogs.com,tutwuri.id,lokerwfh.net#$##adblock-warning { display: none !important; }
+thememypc.net#$#.ABD_display_adblock { display: none!important; }
+thememypc.net#$#.ABD_display_noadblock { display: block!important; }
+torupload.com#$##adblockModal { display: none !important; }
+vector-eps.com#$#.download-home + .disableadblock { display: none !important; }
+vidbox.vc,vidbox.*#$#div[aria-labelledby="adblock-title"] { display: none !important; }
+vtvgiaitri.vn#$##adblock { display: block!important; }
+wochenblitz.com#$##adblock-overlay { display: none !important; }
+111.90.150.10#%#//scriptlet('prevent-addEventListener', 'load', 'detectAdBlock')
+1614lnbz.la,clksz.com,oii.la,tpi.li,tvi.la,oko.sh#%#//scriptlet('set-constant', 'app_vars.force_disable_adblock', 'undefined')
+1bit.space#%#//scriptlet("set-constant", "adblock", "false")
+2baksa.ws#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', 'Adblock')
+2conv.com#%#//scriptlet("abort-current-inline-script", "String.fromCharCode", "adblock")
+[$url=/^https:\/\/[0-9a-z]{5}[0-9a-z]?[0-9a-z]?[0-9a-z]?\.[a-z]{2}[a-z]?[a-z]?[a-z]?\/[0-9a-z-]+\/[0-9A-Za-z]{12}[0-9A-Za-z]*\?ref(erer)?=/]#%#//scriptlet('trusted-replace-node-text', 'script', 'AdblockCheck', '/AdblockCheck\.on\(!0,adBlockDetected\)/', 'AdblockCheck.on(!0,adBlockUndetected)')
+aasansolution.in#%#//scriptlet('remove-node-text', 'script', 'checkAdBlocker')
+abcya.com#%#//scriptlet("set-constant", "Bolt._adBlockDetected", "true")
+adikdrive.my.id#%#//scriptlet("set-constant", "window.isAdBlockActive", "false")
+adshnk.com#%#//scriptlet("prevent-setInterval", "adblocker", "10000")
+aii.sh,lnbz.la,oii.la,tpi.li#%#//scriptlet('remove-node-text', 'script', '/checkAdblockUser|AdBlockCheck|\.offsetHeight/')
+ak.sv,nguyenvanbao.com,ak4ar.*,akw.to,xn--mgba7fjn.*,ak4eg.*#%#//scriptlet('abort-current-inline-script', 'eval', 'ignielAdBlock')
+allkaicerteam.com#%#//scriptlet("abort-current-inline-script", "document.createElement", "adblock")
+allmusic.com#%#//scriptlet("abort-current-inline-script", "$", "AdBlock")
+almezoryae.com#%#//scriptlet("abort-current-inline-script", "document.createElement", "adblock")
+amanchourasia.in#%#//scriptlet('prevent-addEventListener', 'load', 'detectAdblock')
+amateurporn.co#%#//scriptlet('set-constant', 'isAdBlockActive', 'false')
+androidecuatoriano.xyz#%#//scriptlet('set-constant', 'adblockDetector', 'emptyObj')
+androidtvbox.eu#%#//scriptlet("set-constant", "adning_no_adblock", "true")
+animenewsnetwork.com#%#//scriptlet('set-constant', 'ANN.ads.adblocked', 'false')
+animesrbija.com#%#//scriptlet("abort-current-inline-script", "document.addEventListener", "blockadblock")
+apps2app.com#%#//scriptlet("abort-on-property-read", "detectAdblock")
+archpaper.com#%#//scriptlet("set-constant", "adBlocked", "false")
+asiatv.one#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'adblock')
+audiotag.info#%#//scriptlet("set-constant", "adblockDetector", "noopFunc")
+aumaletv.com#%#//scriptlet("abort-current-inline-script", "document.createElement", "adblock")
+badassdownloader.com#%#//scriptlet('set-constant', 'bscheck.adblocker', 'noopFunc')
+bagpipe.news#%#//scriptlet("abort-current-inline-script", "document.getElementById", "adsanityAdBlock")
+beatsnoop.com#%#//scriptlet("abort-current-inline-script", "document.createElement", "adblock")
+bestforpuzzles.com,gamelab.com#%#//scriptlet('set-constant', '__INITIAL_STATE__.config.theme.ads.isAdBlockerEnabled', 'false')
+bg-gledai.*#%#//scriptlet('set-constant', 'chp_adblock_browser', 'noopFunc')
+bigbrothercanada.ca#%#//scriptlet('set-constant', 'video_player_config.players.0.adblock', 'false')
+bigshare.io#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'detectAdBlock')
+bitcompiler.com#%#//scriptlet("prevent-setTimeout", "adblock")
+blackhatworld.com#%#//scriptlet("abort-current-inline-script", "navigator.userAgent", "AdBlockOn")
+blisseyhusband.in#%#//scriptlet("set-constant", "advanced_ads_check_adblocker", "noopFunc")
+bluedollar.net#%#//scriptlet("abort-current-inline-script", "document.getElementById", "adblockEnabled")
+bospedia.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'AdBlock')
+botrix.live#%#//scriptlet('set-constant', 'Object.prototype.isAdblock', 'undefined')
+bowfile.com#%#//scriptlet("abort-on-property-read", "detectAdBlock")
+brighteon.com#%#//scriptlet("set-constant", "adBlockDisabled", "true")
+broadwayworld.com#%#//scriptlet('prevent-addEventListener', 'load', 'detectAdBlock')
+btcadspace.com#%#//scriptlet("abort-current-inline-script", "document.getElementById", "AdBlock")
+burzowo.info#%#//scriptlet("abort-current-inline-script", "document.getElementsByTagName", "adblock")
+call2friends.com#%#//scriptlet("abort-current-inline-script", "onload", "Adblock")
+canakkalekalem.com#%#//scriptlet('trusted-set-local-storage-item', 'adblock_banner_until', 'Infinity')
+carewellpharma.in#%#//scriptlet('set-constant', 'unadblock', 'noopFunc')
+cellmapper.net#%#//scriptlet("prevent-setTimeout", "/children\('ins'\)|Adblock|adsbygoogle/")
+charbelnemnom.com#%#//scriptlet("set-constant", "advanced_ads_check_adblocker", "noopFunc")
+chd4.com#%#//scriptlet("abort-on-property-write", "checkAdBlocker")
+chipverify.com#%#//scriptlet("set-constant", "adblock", "false")
+civicx.com#%#//scriptlet("set-constant", "Object.prototype.rellect_adblock_detector", "false")
+classicalradio.com,di.fm,jazzradio.com,radiotunes.com,rockradio.com,zenradio.com#%#//scriptlet('set-constant', 'di.app.WebplayerApp.Ads.Adblocks.app.AdBlockDetectApp.startWithParent', 'false')
+cloudfam.io#%#//scriptlet("trusted-replace-node-text", "script", "adblockTriggered", "if (source === 'server_proxy')", "if (source !== 'server_proxy')")
+coastalvirginiamag.com,afk.guide#%#//scriptlet('abort-on-stack-trace', 'Array.prototype.includes', 'adblockTrigger')
+coinadster.com#%#//scriptlet('set-constant', '__adblocked', 'false')
+coolmathgames.com#%#//scriptlet("set-constant", "displayAdblockOverlay", "false")
+crast.net#%#//scriptlet("abort-current-inline-script", "document.createElement", "adblock")
+crdroid.net#%#//scriptlet('set-constant', 'AdBlockChecker', 'noopFunc')
+crdroid.net#%#//scriptlet('set-constant', 'AdBlockChecker.checkAdBlock', 'noopPromiseResolve')
+cryptowin.io#%#//scriptlet("abort-current-inline-script", "document.getElementById", "AdBlock")
+dallasobserver.com#%#//scriptlet("set-constant", "VMG.Components.Adblock", "false")
+datanaukri.com,moviemaniak.com#%#//scriptlet('abort-on-stack-trace', 'Array.prototype.includes', 'adblockTrigger')
+datanaukri.com,moviemaniak.com#%#//scriptlet('trusted-create-element', 'body', 'div', 'id="hustle_optin_adBlock_detector"')
+deepbrid.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'adblock')
+derivative-calculator.net#%#//scriptlet("abort-current-inline-script", "document.write", "ag_adBlockerDetected")
+desktopnexus.com#%#//scriptlet("prevent-setTimeout", "pbAdBlockHooks")
+diyphotography.net#%#//scriptlet('prevent-addEventListener', 'load', 'detectAdBlock')
+djxmaza.in#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'antiAdBlockerHandler')
+doodlr.io#%#//scriptlet("set-constant", "isAdBlockActive", "false")
+doods.to,veev.to#%#(()=>{const e={apply:(e,t,n)=>{const o=n[0];if(o&&o.status.includes("success"))for(const e in n[0])"1"===n[0][e]?n[0][e]="0":1===n[0][e]&&(n[0][e]=0);return Reflect.apply(e,t,n)}},t=["adblockEnabled","=!!parseInt(","disable_adb"],n={apply:(n,o,s)=>{const p=s[0];return"function"==typeof p&&t.some((e=>p.toString().includes(e)))&&(s[0]=new Proxy(s[0],e)),Reflect.apply(n,o,s)}};window.Promise.prototype.then=new Proxy(window.Promise.prototype.then,n)})();
+drphil.com#%#//scriptlet("set-constant", "hasAdBlocker", "false")
+duckduckgo.com#%#//scriptlet('trusted-set-local-storage-item', 'adblockNotice', '{"dismissed":true,"impressionCount":0}')
+ebookdz.com#%#//scriptlet("abort-current-inline-script", "document.createElement", "adblockInfo")
+ecardcutter.in#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'adblock')
+economictimes.indiatimes.com#%#//scriptlet('set-constant', 'objAdBlocker.init', 'noopFunc')
+elamigosgames.org,elamigos-games.net#%#//scriptlet('set-constant', 'checkAdblockUser', 'noopFunc')
+elamigosgamez.net#%#//scriptlet('remove-node-text', 'script', 'checkAdblockUser')
+embed.indavideo.hu#%#//scriptlet("set-constant", "AdHandler.adblocked", "0")
+embed.indavideo.hu#%#//scriptlet("set-constant", "videodata.adBlockEnabled", "0")
+emsnow.com#%#//scriptlet("abort-current-inline-script", "document.getElementById", "adsanityAdBlock")
+ephoto360.com#%#//scriptlet("abort-current-inline-script", "$", "Adblock")
+evades.io#%#//scriptlet("set-constant", "adBlockerDetected", "false")
+fakta.id,urlwebsite.com,insurance.tempatwisata.pro,datapendidikan.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'detectAdblock')
+faqwiki.*#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', '/AdBlock|adsbygoogle\.js/')
+file-me.top#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', '/AdBlock|adsbox/')
+file-upload.com#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'getElementById("adblockinfo")')
+filexstream.sujanbotx.workers.dev#%#//scriptlet('trusted-replace-node-text', 'script', 'checkAdBlock', '/if \((adBlockDetected|isBlocked)\)/g', 'if(!1)')
+forumrowerowe.org#%#//scriptlet('set-constant', 'AdBlockDetectAction', 'undefined')
+fotpforums.com#%#//scriptlet('remove-node-text', 'script', 'adblock-message')
+freeiptvgen.com#%#//scriptlet("abort-current-inline-script", "document.createElement", "adblock")
+friendproject.net#%#//scriptlet("set-constant", "adblock", "false")
+ftuapps.farlad.com#%#//scriptlet('remove-node-text', 'script', 'showAntiAdblockOverlay')
+games.greatergood.com#%#//scriptlet('trusted-replace-node-text', 'script', '__INITIAL_STATE__', '/"isAdBlockerEnabled":true/', '"isAdBlockerEnabled":false')
+gayvidsclub.com,1069boys.net,suj.nu#%#//scriptlet("abort-current-inline-script", "adBlockNotDetected", "fuckAdBlock")
+gleaks.pro#%#//scriptlet('remove-node-text', 'script', 'fuckAdBlock')
+go.techgeek.digital#%#//scriptlet('set-constant', 'adblockDetector', 'noopFunc')
+gogoanime.cloud#%#//scriptlet("set-constant", "check_adblock", "true")
+golfroyale.io#%#//scriptlet("set-constant", "adblocked", "false")
+gulf-up.com#%#//scriptlet("abort-current-inline-script", "document.createElement", "adblock")
+haafedk2.com#%#//scriptlet('set-constant', 'isAdBlocked', 'false')
+hax.co.id#%#//scriptlet('prevent-addEventListener', 'load', 'AdBlock')
+haxnode.net#%#//scriptlet('abort-on-stack-trace', 'document.getElementById', 'fairAdblock')
+hdstockimages.com#%#//scriptlet('abort-current-inline-script', 'jQuery', 'adblocker-popup')
+healdad.com#%#//scriptlet("abort-on-property-read", "checkAdBlocker")
+healthy4pepole.com#%#//scriptlet("abort-current-inline-script", "EventTarget.prototype.addEventListener", "Adblock")
+howtofixwindows.com#%#//scriptlet("set-constant", "better_ads_adblock", "true")
+hqq.ac#%#//scriptlet('set-constant', 'adblockcheck', 'false')
+hqq.to#%#//scriptlet('set-constant', 'adblockcheck', 'false')
+htmlsave.com#%#//scriptlet("remove-attr", "href", "a[id][href^='#PleaseDisableAdblock']")
+hwzone.co.il#%#//scriptlet("abort-on-property-read", "gothamBatAdblock")
+idlixku.com#%#//scriptlet('abort-current-inline-script', 'String.prototype.toLowerCase', '/adblock/i')
+iembra2or.com#%#//scriptlet("abort-current-inline-script", "document.createElement", "adblock")
+ievaphone.com#%#//scriptlet("abort-current-inline-script", "onload", "adblock")
+ikugay.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'showAdblockPopup')
+imagefap.com#%#//scriptlet("set-constant", "adblockOn", "false")
+imgur.com#%#//scriptlet("set-constant", "ADBLOCKED", "false")
+inforge.net#%#//scriptlet("abort-current-inline-script", "$", "adBlock")
+interfans.org#%#//scriptlet('remove-node-text', 'script', 'adBlockAction')
+ispot.tv#%#//scriptlet("abort-current-inline-script", "EventTarget.prototype.addEventListener", "adblockalert_status")
+iteramos.com#%#//scriptlet("set-constant", "googlefc.getAdBlockerStatus", "noopFunc")
+itopmusic.com#%#//scriptlet("set-constant", "jQuery.adblock", "false")
+itv.com#%#(()=>{const e={apply:(e,n,t)=>{const o=t[1];return o&&["adBlockingDetected","assessAdBlocking"].includes(o)&&t[2]&&"function"==typeof t[2].value&&(t[2].value=()=>{}),Reflect.apply(e,n,t)}};window.Object.defineProperty=new Proxy(window.Object.defineProperty,e)})();
+itv.com#%#(()=>{const r={apply:(r,e,t)=>{try{const r=(new Error).stack,e=t[0];if(r.includes("adBlockingDetected")&&e?.adFailurePercentage)return 0}catch(r){}return Reflect.apply(r,e,t)}};window.Array.prototype.push=new Proxy(window.Array.prototype.push,r)})();
+j2dw.ngo#%#//scriptlet("set-constant", "DHNewAntiAdBlocker", "true")
+jacquieetmicheltv.net#%#//scriptlet('set-constant', 'is_adblocked', 'false')
+jesusninoc.com#%#//scriptlet("abort-on-property-read", "gothamBatAdblock")
+karwan.tv#%#//scriptlet("set-constant", "settings.adBlockerDetection", "false")
+kawaii-anime.com#%#//scriptlet('set-local-storage-item', 'adblock-dismissed', '1')
+kbjfree.com#%#//scriptlet('set-constant', 'Object.prototype.adblockDetected', 'false')
+key-hub.eu#%#//scriptlet("set-constant", "adblockDetector.init", "noopFunc")
+kisscartoon.nz#%#//scriptlet("set-constant", "check_adblock", "true")
+klsescreener.com#%#//scriptlet('abort-current-inline-script', 'document.getElementById', '/adsbygoogle|adblock/')
+klsescreener.com#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', '/adsbygoogle|adblock/')
+kooora365.com#%#//scriptlet("set-constant", "wpquads_adblocker_check_2", "true")
+kpopjams.com#%#//scriptlet('abort-current-inline-script', 'dataLayer', 'detectAdBlock')
+laptrinhx.com#%#//scriptlet("prevent-setInterval", "showAdblock")
+last.fm#%#(function(b,c){setTimeout=function(){var a=arguments[0];if("function"==typeof a&&/^function [A-Za-z]{1,2}\(\)\s*\{([A-Za-z])\|\|\(\1=!0,[\s\S]{1,13}\(\)\)\}$/.test(c.call(a)))throw"Adguard stopped a script execution.";return b.apply(window,arguments)}})(setTimeout,Function.prototype.toString);
+lcpdfr.com#%#//scriptlet("abort-on-property-read", "FuckAdBlock")
+lihatgambar.my.id#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'handleAdblockDetection')
+limpaso.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'adBlocker')
+link.rota.cc#%#//scriptlet("abort-on-property-read", "adBlocked")
+liveindex.org#%#//scriptlet("abort-current-inline-script", "jQuery", "adblock")
+liveone.com#%#//scriptlet('set-constant', 'APP.useAdblockNag', 'false')
+lnk2.cc#%#//scriptlet("set-constant", "adblock", "false")
+lookmovie.ag#%#//scriptlet("abort-on-property-read", "adBlockDetected")
+luscious.net#%#//scriptlet('set-constant', 'Object.prototype.adblock_detected', 'false')
+luscious.net#%#//scriptlet('set-local-storage-item', 'ignoring_adblock', '1')
+lxmanga.*#%#//scriptlet('set-constant', 'skipAdblockCheck', 'true')
+m.hindustantimes.com#%#//scriptlet("prevent-addEventListener", "DOMContentLoaded", "checkAdBlocker")
+maalaimalar.com#%#//scriptlet("prevent-addEventListener", "load", "adblock")
+macapp.org.cn,picmix.com#%#//scriptlet("abort-on-property-read", "adBlockDetected")
+mad4wheels.com#%#//scriptlet('set-constant', 'adblock.check', 'noopFunc')
+magdyman.com#%#//scriptlet("abort-current-inline-script", "document.createElement", "adblock")
+magesy.blog,magesy.pro#%#//scriptlet("set-constant", "adBlockFunction", "noopFunc")
+mail.yahoo.com#%#//scriptlet('abort-current-inline-script', 'atob', '/if \(!window\[[\s\S]*?delete window|delete adblocker|\["YXRTcHBBZXQ=", "YW9wcHJBc3RvREJhcHRhdA=="\]/')
+mail.yahoo.com#%#//scriptlet('set-constant', 'AppBootstrapData.config.adshieldAdblockRecovery', 'false', '', '', 'true')
+mail.yahoo.com#%#//scriptlet('set-constant', 'AppState.reduxState.features.adshieldAdblockRecovery', 'false')
+mail.yahoo.com#%#//scriptlet('set-constant', 'AppState.reduxState.features.adshieldAdblockRecovery', 'false', '', '', 'true')
+majesy.com#%#//scriptlet("set-constant", "jQuery.adblock", "false")
+manoramaonline.com#%#//scriptlet('set-constant', 'EV.Dab.isAdblockDetected', 'noopFunc')
+marriedgames.com.br#%#//scriptlet("set-constant", "adning_no_adblock", "true")
+mathdf.com#%#//scriptlet("set-constant", "adBlockEnabled", "false")
+maxroll.gg#%#//scriptlet('prevent-addEventListener', '/adblock|[a-zA-Z0-9]{40,80}/', '(!0)')
+maxroll.gg#%#//scriptlet('set-constant', 'adblock', 'false')
+medicalxpress.com,phys.org,techxplore.com,trustedreviews.com#%#window.blockAdBlock = function() {};
+megafile.io#%#//scriptlet("set-constant", "replaceContentWithAdBlockerContent", "noopFunc")
+megagames.com#%#//scriptlet("set-constant", "jQuery.adblock", "false")
+megainteresting.com#%#//scriptlet("abort-on-property-read", "ADBLOCK")
+metasrc.com#%#//scriptlet("set-constant", "AdBlocker", "false")
+minijuegos.com#%#//scriptlet("set-constant", "MP.lib.adBlockEnabled", "noopFunc")
+miniwebtool.com#%#//scriptlet("set-constant", "adBlockEnabled", "false")
+mivo.com#%#window.initRmpAdBlock = function() {};
+mixdrp.*,mixdrop.*#%#//scriptlet("set-constant", "MDCore.adblock", "0")
+mma-core.com#%#var _st = window.setTimeout; window.setTimeout = function(a, b) { if(!/displayAdBlockedVideo/.test(a)){ _st(a,b);}};
+mobinozer.com#%#//scriptlet("set-constant", "noAdblock", "true")
+moum.top#%#//scriptlet('set-constant', 'Object.prototype.DetectAdblock', 'noopFunc')
+mrexcel.com#%#//scriptlet("set-constant", "adblockDetector", "noopFunc")
+myneobuxportal.com#%#//scriptlet("set-constant", "jQuery.adblock", "false")
+myrateplan.com#%#//scriptlet("set-constant", "adblockEnabled", "false")
+nba.com#%#//scriptlet("set-constant", "adBlockerDetected", "false")
+nbcsports.com#%#//scriptlet("set-constant", "adBlockEnabled", "false")
+needrom.com#%#//scriptlet('prevent-addEventListener', '', '/adsbygoogle|\.offsetHeight&&0!=|\.innerHTML=[\s\S]*?(Adblock|advertisement)|if\(!document\.hidden\).\(\)/')
+nevcoins.club#%#//scriptlet("set-constant", "NoAdBlock", "noopFunc")
+newser.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'IsAdblockRequest')
+ninja.io#%#//scriptlet("set-constant", "App.AdblockDetected", "false")
+nohat.cc#%#//scriptlet("set-constant", "adblock", "1")
+o2tvseries.com#%#//scriptlet('set-cookie', 'downloadbypass', '1')
+old-young.net#%#//scriptlet('set-constant', 'detectAdBlock', 'noopFunc')
+omnisets.com#%#//scriptlet('set-cookie', 'adblockDismissed', 'true')
+overclock3d.net,bmamag.com,specialneedsjungle.com,hwbusters.com,voiceofdenton.com#%#//scriptlet('set-constant', 'advanced_ads_check_adblocker', 'noopFunc')
+payskip.org#%#//scriptlet('remove-node-text', 'script', 'adguard_detected')
+pclicious.net#%#//scriptlet("set-constant", "wpquads_adblocker_check_2", "true")
+phoneswiki.com#%#//scriptlet("set-constant", "jQuery.adblock", "false")
+pitube.net#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'detectAdBlock')
+plagiarismdetector.net#%#//scriptlet("prevent-setTimeout", "isAdBlockActive")
+player.malfollado.com,gayfor.us#%#//scriptlet('set-constant', 'adblockcheck', 'false')
+playmogo.com,myvidplay.com,dsvplay.com,vide0.net,do7go.com,dooodster.com,dood.sh,dood.li,d000d.com,d0000d.com,do0od.com,ds2play.com,doods.pro,dooood.com,dood.yt,dood.re,dood.wf,dood.la,dood.pm,dood.so,dood.to,dood.watch,dood.ws#%#//scriptlet("abort-current-inline-script", "document.getElementsByClassName", "allow adblock")
+playshakespeare.com#%#//scriptlet("set-constant", "AAAntiAdBlocker", "true")
+poedb.tw#%#//scriptlet("abort-on-property-read", "adBlockDetected")
+poplinks.sbs#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'AdBlock')
+pornone.com#%#//scriptlet('set-cookie-reload', 'adblock', '1')
+port.hu#%#//scriptlet("set-constant", "Adserving.hasAdBlocker", "falseFunc")
+portfolio.hu#%#//scriptlet("abort-current-inline-script", "document.getElementById", "adblock")
+premierfantasytools.com#%#//scriptlet("abort-on-property-read", "checkForAdBlocker")
+premiumebooks.*#%#//scriptlet('abort-current-inline-script', 'document.getElementsByTagName', '/antiAdBlock|adblock/')
+r3owners.net#%#//scriptlet("set-constant", "XenForo.rellect.AdBlockDetector", "noopFunc")
+ranker.com#%#//scriptlet('set-session-storage-item', 'adblocker_pop_shown', 'true')
+ricardocuisine.com#%#//scriptlet('set-cookie', 'adblock-modal.ads', '1')
+rlxoff.com#%#//scriptlet('prevent-addEventListener', 'load', 'detectAdBlock')
+robot-forum.com#%#//scriptlet("set-constant", "cwAdblockDisabled", "true")
+royalroad.com#%#//scriptlet('set-constant', 'AdblockPlus.detect', 'noopFunc')
+rule34hentai.net#%#//scriptlet('abort-on-stack-trace', 'getComputedStyle', 'detectAdblock')
+safelink.miuipedia.com#%#//scriptlet('set-constant', 'safelink.adblock', 'false')
+salon.com#%#//scriptlet("set-constant", "use_adblock", "false")
+satelliteguys.us#%#//scriptlet("set-constant", "adBlockDetected", "false")
+sayphotobooth.com,odiadance.com,heypikachu.com,egycdn.net,krx18.com,safelink.asia,meclipstudy.in,uploadrar.com,rivanimation.com,codenova-center.web.app#%#//scriptlet('prevent-addEventListener', '/load|DOMContentLoaded/', '/downloadJSAtOnload|detectAdBlocker/')
+sbs.com.au#%#//scriptlet("set-constant", "adBlockerDetected", "false")
+scimagoir.com,scimagojr.com#%#//scriptlet('prevent-addEventListener', 'load', 'msg_adblock_title')
+scmp3.org,soundcloudmp3.org,animixplayer.top,zertalious.xyz#%#//scriptlet('set-constant', 'detectAdblock', 'noopFunc')
+scrolller.com#%#//scriptlet('trusted-set-local-storage-item', 'SCROLLLER_BETA_1:ADBLOCK_STORAGE', '$now$')
+shaheed4u.day,shaheiid4u.net,shahheid4u.net,shhahhed4u.net,shaahed4u.net,sd4u.net#%#//scriptlet('abort-on-stack-trace', 'document.createElement', 'runAdBlock')
+shorterall.com#%#//scriptlet("prevent-setTimeout", "adblock")
+shrib.com#%#//scriptlet("prevent-setTimeout", "adblock", "6000")
+shroomers.app#%#//scriptlet('set-constant', 'isAdBlockerActive', 'noopFunc')
+siz.tv#%#//scriptlet("set-constant", "koddostu_com_adblock_yok", "true")
+sketchup.cgtips.org#%#//scriptlet('set-constant', 'better_ads_adblock', 'true')
+sklinker.in#%#//scriptlet('abort-current-inline-script', '$', 'Adblock')
+skym3u.top#%#//scriptlet('abort-on-stack-trace', 'document.createElement', '/checkUBlock|kickUser/')
+slate.com#%#(()=>{const e={apply:(e,t,l)=>{try{const e=(new Error).stack;if(e?.includes?.("initAdBlockDetection")&&4===l[0]?.length)return Promise.resolve()}catch(e){}return Reflect.apply(e,t,l)}};window.Promise.allSettled=new Proxy(window.Promise.allSettled,e)})();
+slideshare.net#%#//scriptlet('prevent-addEventListener', 'load', 'adblock_whitelist')
+smartwebsolutions.org#%#//scriptlet("abort-current-inline-script", "$", "Adblock")
+smash-karts.game-files.crazygames.com#%#//scriptlet('set-constant', 'adblockDetected', 'false')
+smksports.live#%#//scriptlet('prevent-addEventListener', 'load', 'checkAdBlock')
+sms-receive.net#%#//scriptlet('abort-current-inline-script', '$', 'AdBlock')
+sna3talaflam.com#%#//scriptlet("abort-current-inline-script", "document.createElement", "adblock")
+sombex.com#%#//scriptlet("abort-current-inline-script", "document.getElementById", "adblock-blocker-overlay")
+sourcecon.com#%#//scriptlet('trusted-set-local-storage-item', 'adBlockerModalStatus', '{"value":1,"expiry":9999999999999}')
+spaste.com#%#//scriptlet('set-constant', 'adBlockDetected', 'false')
+stacktv.ca,globaltv.com#%#//scriptlet('set-constant', 'abTest.blockAdBlocker', 'false')
+stapadblockuser.info#%#//scriptlet("prevent-window-open")
+startpage.com#%#//scriptlet('prevent-element-src-loading', 'script', '/TotalAdBlockAdultWidget\.js|\/ads-async\.js|\/adblock-detector\.min\.js|\/adblockdetect\.js|\/adserv\.js|\/arcads\.js|\/content-ads\.js|\/cpmbanners\.js|\/doubleclick\.min\.js|\/cms_ads\.js|\/footer_ad\.js|\/insertads\.js|\/slider_ad\.js|\/stickyads\.js|\/videojs\.sda\.js|\/js\/ad_common\.js|\/js\/adpopup\.js/')
+stash.sussy.moe#%#//scriptlet("set-constant", "checkAdBlock", "noopFunc")
+streamup.ws,strmup.*#%#//scriptlet('remove-node-text', 'script', 'AdBlock')
+strtapewithadblock.*,strtapeadblocker.*#%#//scriptlet("abort-current-inline-script", "document.createElement", "o.contentWindow.document.createElement")
+superpsx.com#%#//scriptlet('trusted-set-attr', 'div.Hello-adguard[style]', 'style', 'display: flex; gap: 2em; max-width: 789px;')
+tcheats.com#%#//scriptlet('abort-current-inline-script', '$', '/checkAds|AdBlock/')
+techbrij.com#%#//scriptlet("set-constant", "isadBlockRunning", "false")
+techedubyte.com#%#//scriptlet('remove-node-text', 'script', 'adblock-message')
+technewsrooms.com#%#//scriptlet('prevent-addEventListener', 'DOMContenLoaded', 'AdBlock')
+techtobo.com#%#//scriptlet('abort-current-inline-script', '$', 'adBlockAction')
+textovisia.com#%#//scriptlet("set-constant", "isAdBlockActive", "false")
+thedesk.net,dairybusinessmea.com,readhunters.xyz#%#//scriptlet('set-constant', 'advanced_ads_check_adblocker', 'noopFunc')
+thehealthsite.com#%#//scriptlet('prevent-addEventListener', 'load', 'adBlocker')
+thehindu.com#%#//scriptlet("set-constant", "Adblock", "false")
+thelayoff.com#%#//scriptlet("prevent-setTimeout", "AdBlockers")
+themarysue.com#%#//scriptlet('prevent-addEventListener', 'error', 'Disable Your Adblocker')
+thepoorcoder.com#%#//scriptlet("set-constant", "adblockDetector", "noopFunc")
+thepublive.com,wionews.com#%#//scriptlet('set-constant', 'vgrAdBlock', 'false')
+thesavvyexplorers.com,thegoldendaily.com,hometalkpaid.com,hometalk.com,homehobbiesdaily.com,foodtalkdaily.com,rvguide.com,petguide.com,motorcycle.com,atv.com,redesigndaily.com,thesimplifydaily.com,autoguide.com#%#//scriptlet('set-constant', 'loadShield', 'noopFunc')
+thesimsresource.com#%#//scriptlet('set-constant', 'isAdBlocked', 'false')
+thewatchcartoononline.tv#%#//scriptlet("prevent-setTimeout", "AdBlock")
+thewatchcartoononline.tv#%#//scriptlet("set-constant", "isAdBlockActive", "false")
+thizissam.in#%#//scriptlet("abort-current-inline-script", "document.createElement", "adblock")
+ticonsiglio.com#%#//scriptlet("set-constant", "jQuery.adblock", "false")
+tikmate.app#%#//scriptlet('set-constant', 'detectAdBlock', 'noopFunc')
+tool-box.xyz#%#//scriptlet("set-constant", "adBlock", "noopFunc")
+travelironguide.com,kreditexperte.online,goo.st#%#//scriptlet('set-constant', 'adblockstatus', 'false')
+trek.zone#%#//scriptlet("set-constant", "hasAdBlocker", "falseFunc")
+truyenaudiocv.net#%#//scriptlet("set-constant", "adblockDetect", "noopFunc")
+tryigit.dev#%#//scriptlet('abort-on-stack-trace', 'console.log', 'checkAdBlockers')
+tw-calc.net#%#//scriptlet("set-constant", "WebSite.plsDisableAdBlock", "noopFunc")
+uakino.club#%#//scriptlet('remove-node-text', '#text', 'Відключи AdBlock на сайті')
+ufile.io#%#//scriptlet("abort-on-property-read", "justDetectAdblock")
+uflash.tv#%#//scriptlet('prevent-window-open', 'adblock', '1')
+ujszo.com#%#//scriptlet("abort-on-property-read", "Drupal.behaviors.adBlockerPopup")
+ultimate-guitar.com#%#//scriptlet('set-constant', 'Object.prototype.setNeedShowAdblockWarning', 'noopFunc')
+undeniable.info#%#//scriptlet("abort-current-inline-script", "document.getElementById", "testadblock")
+upfilesgo.com,upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#%#(()=>{const e=Object.getOwnPropertyDescriptor(Element.prototype,"innerHTML").set,t=Object.getOwnPropertyDescriptor(Element.prototype,"innerHTML").get;Object.defineProperty(Element.prototype,"innerHTML",{get(){return t.call(this)},set(t){if(t?.includes?.("disable Adblock"))return;e.call(this,t)}})})();
+uploadbox.io#%#//scriptlet('set-constant', 'replaceContentWithAdBlockerContent', 'noopFunc')
+urdutimesdaily.com#%#//scriptlet("prevent-setTimeout", "adblock")
+ustream.to#%#//scriptlet("set-constant", "adblock_user", "0")
+videzz.net#%#//scriptlet('set-constant', 'isAdBlockDetected', 'false')
+videzz.net#%#//scriptlet('set-constant', 'pData.adblockOverlayEnabled', '0')
+vidsonic.net#%#//scriptlet('abort-on-stack-trace', 'document.getElementById', '/adblock/i')
+viki.com#%#//scriptlet("set-constant", "VikiMediaPlayer.prototype.executeAdblockBreak", "noopFunc")
+viki.com#%#//scriptlet("set-constant", "VikiMediaPlayer.prototype.requestAdblockBreak", "noopFunc")
+wcoanimedub.tv#%#//scriptlet("prevent-setTimeout", "AdBlock")
+wcoanimedub.tv#%#//scriptlet("set-constant", "isAdBlockActive", "false")
+wcoanimesub.tv#%#//scriptlet("prevent-setTimeout", "AdBlock")
+wcoanimesub.tv#%#//scriptlet("set-constant", "isAdBlockActive", "false")
+wcoforever.net,wcoforever.com#%#//scriptlet("prevent-setTimeout", "AdBlock")
+wcoforever.net,wcoforever.com#%#//scriptlet("set-constant", "isAdBlockActive", "false")
+wcoforever.tv,wcostream.org,watchanimesub.net,wco.tv,wcostream.net,wcostream.com#%#//scriptlet("prevent-setTimeout", "AdBlock")
+wcoforever.tv,wcostream.org,watchanimesub.net,wco.tv,wcostream.net,wcostream.com#%#//scriptlet("set-constant", "isAdBlockActive", "false")
+weather.com#%#//scriptlet("abort-on-property-read", "setNptTechAdblockerCookie")
+weather.com#%#//scriptlet('set-constant', 'adBlockerReady', 'false')
+whatismybrowser.com#%#//scriptlet('set-constant', 'WIMB.detect.addons.adblock.enabled', 'falseFunc')
+win10.vn#%#//scriptlet("abort-current-inline-script", "eval", "ignielAdBlock")
+windows101tricks.com#%#//scriptlet("set-constant", "better_ads_adblock", "true")
+witcherhour.com#%#//scriptlet("abort-on-property-read", "gothamBatAdblock")
+wnflb2023.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'unadblock')
+workingdays.org#%#//scriptlet('set-constant', 'isadblocking', 'false')
+worldmak.com#%#//scriptlet('remove-node-text', 'script', 'detectAdBlock')
+writedroid.eu.org#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', 'adblocker')
+writerhand.com#%#//scriptlet('set-constant', 'AdBlocker', 'false')
+wurstclient.net#%#//scriptlet('set-local-storage-item', 'WurstAdBlockerDetected', '$remove$')
+wurstclient.net#%#//scriptlet('trusted-replace-node-text', 'script', 'adBlockerDetected', '/adBlockerDetected = true;\n.*updateAdBlockerAttribute\(\);/g', 'adBlockerDetected = false;')
+xmalay1.net#%#//scriptlet('abort-current-inline-script', 'document.querySelector', 'isAdBlockActive')
+yhcres.top#%#//scriptlet('prevent-addEventListener', 'load', 'detectAdBlock')
+younetu.*,waaw.to,meucdn.vip,yandexcdn.com,waaw1.tv,waaw.tv,hqq.tv#%#//scriptlet("set-constant", "adBlockDetected", "noopFunc")
+zeroupload.com#%#//scriptlet('abort-current-inline-script', '$', 'adblockinfo')
+zone.msn.com,arkadium.com#%#(()=>{const e={apply:(e,o,t)=>(null===t[0]&&(t[0]={isUserSubscriber:!0}),Reflect.apply(e,o,t))},o={apply:(o,t,n)=>{const r=n[0];return"function"==typeof r&&r.toString().includes("AdBlockDetector")&&(n[0]=()=>{}),"function"==typeof r&&r.toString().includes("Preroll Ad")&&(n[0]=new Proxy(n[0],e)),Reflect.apply(o,t,n)}};window.Promise.prototype.then=new Proxy(window.Promise.prototype.then,o)})();
+123moviesfree.love#%#//scriptlet('noeval')
+925-1000.com#%#//scriptlet('abort-on-property-read', 'justDetectAdblock')
+airlive.net#%#//scriptlet('prevent-setTimeout', '/siteAccessNotification|AdBlockDetector/')
+airportinfo.live#%#//scriptlet('prevent-setTimeout', 'AdBlocker')
+amanchourasia.in#%#//scriptlet('prevent-setInterval', 'showAdblockNotice')
+asianporn.li,kissjav.*#%#//scriptlet('prevent-setTimeout', '/\.offsetHeight === 0|AdBlock|location\.reload\(\)/')
+avnsgames.com#%#//scriptlet('abort-on-property-read', 'fuckAdBlock')
+avnsgames.com#%#//scriptlet('prevent-setTimeout', 'adblockDetected')
+beverfood.com#%#//scriptlet('prevent-setInterval', 'adblock')
+bgmi32bitapk.in#%#//scriptlet('abort-on-property-read', 'detectAdBlock')
+celebfapper.com#%#//scriptlet('prevent-setTimeout', 'adblocktag')
+claimrbx.gg#%#//scriptlet('prevent-setTimeout', 'Adblocker Detected')
+daemon-hentai.com#%#//scriptlet('abort-on-property-read', 'detectAdBlock')
+dailyboulder.com#%#//scriptlet('prevent-setTimeout', '/siteAccessNotification|AdBlockDetector/')
+dailymotion.com#%#//scriptlet('prevent-setTimeout', 'adBlockerDetection')
+drakecomic.*#%#//scriptlet('abort-on-property-write', 'checkAdBlocker')
+edealinfo.com#%#//scriptlet('abort-on-property-write', 'detectAdBlock')
+elahmad.org#%#//scriptlet('prevent-setTimeout', '/\.display==="none"|BlockAdBlock/')
+elamigosgames.net,elamigosweb.net,elamigosweb.com#%#//scriptlet('prevent-setTimeout', 'checkAdblock')
+elamigosgames.org,elamigos-games.net#%#//scriptlet('prevent-setTimeout', 'checkAdblockUser')
+elamigosgamez.com#%#//scriptlet('prevent-setTimeout', '/adblock/i')
+embed.wcostream.com#%#//scriptlet('abort-on-property-read', 'AdblockShield')
+exeygo.com,exe-links.com#%#//scriptlet('prevent-setTimeout', 'checkAdblockUser')
+falixnodes.net#%#//scriptlet('abort-on-property-write', 'showAdblockCard')
+filmyfocus.com#%#//scriptlet('abort-on-property-write', 'isRoadBlock')
+fitdynamos.com#%#//scriptlet('abort-on-property-write', 'detectAdblock')
+forum.release-apk.com#%#//scriptlet('abort-on-property-read', 'justDetectAdblock')
+fotor.com#%#//scriptlet('prevent-setTimeout', 't.hasAdBlock')
+gearingcommander.com#%#//scriptlet('prevent-setTimeout', 'fnMaskAdBlock')
+gsmware.com#%#//scriptlet('prevent-eval-if', 'adblock')
+gumtree.com#%#//scriptlet('json-prune', 'features.ad02 features.adshield')
+h-game18.xyz#%#//scriptlet('prevent-setTimeout', 'adBlockDetected')
+hilites.today#%#//scriptlet('abort-on-property-write', 'showAdBlockPopUp')
+hindustantimes.com#%#//scriptlet('prevent-setTimeout', 'checkAdBlocker')
+hitomi.la#%#//scriptlet('noeval')
+hm4tech.info#%#//scriptlet('abort-on-property-write', 'antiAdBlockerHandler')
+hokej.net#%#//scriptlet('prevent-setTimeout', '/#AdB|AdBlock/')
+it-sharks.com#%#//scriptlet('prevent-setTimeout', 'adBlockerModal')
+itdmusicy.com,xporn.to,irootapk.net,ourcoincash.xyz,idrom.top,claimtrx.com,claimsatoshi.xyz#%#//scriptlet('abort-on-property-write', 'AdblockRegixFinder')
+itopmusic.com,freemagazines.top,chpadblock.com#%#//scriptlet('prevent-eval-if', 'chp_adblock')
+jetpunk.com#%#//scriptlet('prevent-setTimeout', 'isAdblocker')
+keralatelecom.info#%#//scriptlet('abort-on-property-read', 'blogantiadblock')
+keyrblx.com#%#//scriptlet('prevent-fetch', 'chpadblock.com')
+leaklinks.com#%#//scriptlet('abort-current-inline-script', 'isAdBlockActive')
+lonefun.com#%#//scriptlet('prevent-setTimeout', 'checkAdBlocker')
+mad4wheels.com#%#//scriptlet('prevent-fetch', '/pagead2\.googlesyndication\.com|adblockanalytics\.com/')
+magicpsd.com,yourimageshare.com,ovabee.com#%#//scriptlet('abort-on-property-write', 'detectAdBlock')
+marinetraffic.live#%#//scriptlet('prevent-setInterval', '/adblock/i')
+marinetraffic.live#%#//scriptlet('prevent-setTimeout', '/adblock/i')
+moum.top#%#//scriptlet('trusted-click-element', '.MuiDialog-container div[aria-labelledby="adblock-dialog-title"] > .MuiDialogActions-root > button.MuiLink-button')
+n1mwq.org,bysezoxexe.com,dismz4n3wp6xnr3.org,nzn3.org,bysevepoin.com,arbitrarydecisions.com#%#//scriptlet('json-prune', 'adblock_detection force_disable_adblock')
+needrom.com#%#//scriptlet('prevent-setInterval', '/adsbygoogle|\.offsetHeight&&0!=|\.innerHTML=[\s\S]*?(Adblock|advertisement)/')
+needrom.com#%#//scriptlet('prevent-setTimeout', '/adsbygoogle|\.offsetHeight&&0!=|\.innerHTML=[\s\S]*?(Adblock|advertisement)/')
+omnicalculator.com#%#//scriptlet('json-prune', 'runtimeConfig.adShieldEnabled')
+ontools.net#%#//scriptlet('prevent-fetch', '/google-analytics\.com|adblockanalytics\.com/')
+opentibiaserver.com#%#//scriptlet('prevent-setTimeout', 'checkAdblock')
+paidinsurance.in#%#//scriptlet('abort-on-property-write', 'detectAdBlock')
+pearos.xyz#%#//scriptlet('prevent-fetch', 'adblockanalytics.com')
+phoneky.com#%#//scriptlet('abort-on-property-read', 'adBlockFunction')
+photooxy.com#%#//scriptlet('abort-on-property-read', 'blockAdBlock')
+playareaz.com,carensureplan.com#%#//scriptlet('prevent-setTimeout', '/AdBlock/i')
+pornhex.com#%#//scriptlet('prevent-setTimeout', 'Adblock')
+resulthubdtu.com#%#//scriptlet('prevent-setTimeout', 'adBlockDetected')
+rimworldbase.com#%#//scriptlet('prevent-setTimeout', 'hasAdblock()')
+schaken-mods.com#%#//scriptlet('prevent-setTimeout', 'adblockdetector_')
+snay.io#%#//scriptlet('prevent-setInterval', 'hasAdBlock')
+staige.tv#%#//scriptlet('prevent-xhr', '/adblock/advert')
+stapadblockuser.xyz#%#//scriptlet('prevent-window-open')
+stirr.com#%#//scriptlet('abort-on-property-write', 'adBlockEnabled')
+store.asus.com#%#//scriptlet('prevent-fetch', 'adblockanalytics.com')
+swap.qth.com#%#//scriptlet('abort-current-inline-script', 'adblockDetector')
+techhelpbd.com#%#//scriptlet('prevent-setTimeout', '/disable adblocker|\(alert\(_0x/')
+tejtime24.com#%#//scriptlet('abort-on-property-write', 'checkAdBlock')
+teracourses.com#%#//scriptlet('prevent-setTimeout', 'adBlockerModal')
+textstudio.com#%#//scriptlet('abort-on-property-write', 'ADBLOCK')
+theshedend.com#%#//scriptlet('prevent-setTimeout', 'adblock')
+thestockmarketwatch.com#%#//scriptlet('prevent-eval-if', 'adblock')
+tmail.io#%#//scriptlet('abort-on-property-write', 'detectAdblock')
+ttsfree.com#%#//scriptlet('prevent-setInterval', 'show_alert_adblock')
+ups2up.fun#%#//scriptlet('prevent-setTimeout', 'justDetectAdblock')
+vectr.com#%#//scriptlet('prevent-setTimeout', 'showAdBlockDialog')
+vnjpclub.com#%#//scriptlet('prevent-setTimeout', 'detectAdBlock')
+youboxtv.com,itdmusics.com#%#//scriptlet('abort-on-property-read', 'AdblockRegixFinder')

@@ -1,7 +1,10 @@
-! dnr-security — 1 rules
-! Source: /Volumes/tmp/down/adscope-adt_base.txt
+! dnr-security — 2 rules
+! Source: rules_dnr.txt
 ! Network-level security threats
 
-! ---- Global rules ---- (1 rules)
+! ---- US rules ---- (1 rules)
 ||coin-hive.com/lib/coinhive.min.js
+
+! ---- Global rules ---- (1 rules)
+/wp-content/plugins/simple-monero-miner-coin-hive/*
 

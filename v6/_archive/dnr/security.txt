@@ -1,0 +1,7 @@
+! dnr-security — 1 rules
+! Source: /Volumes/tmp/down/adscope-adt_base.txt
+! Network-level security threats
+
+! ---- Global rules ---- (1 rules)
+||coin-hive.com/lib/coinhive.min.js
+

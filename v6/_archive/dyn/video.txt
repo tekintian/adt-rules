@@ -1,0 +1,131 @@
+[Adblock Plus 2.0]
+! Version: 2026-10-18T23:11:53
+! Checksum: gG00YN0UUINeHxsebKdYuQ
+! Title: Adt视频网站广告过滤规则
+!
+! Last modified: 27 Feb 2023 16:50 UTC
+! Expires: 2 days (update frequency)
+! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adt-video.txt
+!----------------------------视频网站规则----------------------------
+
+! === Element Hiding ===
+##div.m-video-play.js-play>a.m-video-bannerTitle.js-video-bannerTitle
+###videorich
+###HMRichBox
+###HMimageleft
+###HMimageright
+###HMcoupletDivleft
+###asdsadqq
+##.ctt-adver1-banner
+##.adv-container
+##.ctt-adver1-banner
+##div[id*="Adv"]
+##iframe[id*="adframe"]
+##.full-collunm-ad
+##div.aditem
+###coupletleft
+###coupletright
+##a[id="coupletrighthref"]
+##a[id="coupletlefthref"]
+##img[id^="HMimage"]
+##div[id^="bfad"]
+##div[id^="globalAd"]
+##.adpc
+##section[style*="user-select: none;"]
+##.is_pc
+##.is_pc_flex
+##img[src*="vainews.cn"]
+##a[href*="vainews.cn"]
+
+iqiyi.com##iqpdiv[data-cupid=container],div[adid]
+||iqiyi.com/track$popup
+||kfc.com.cn^$popup,domain=iqiyi.com
+||kfc.com.cn^$popup,domain=iqiyi.com
+||*/videos/other/*.f4v$object,rewrite=abp-resource:blank-mp3,domain=iqiyi.com
+
+v.baidu.com###__lawnImageContainer
+v.baidu.com###playerRightBottom
+v.qq.com##.site_board_ads.show
+v.qq.com##txpdiv[data-role="hd-ad-adapter-interactivelayer"]
+i6v.cc##div[id^="HMcoupletDiv"]
+ifeng.com###root > div > div.topBox-2Ay2GWZz.clearfix
+ifeng.com##.news_list_markTag-1--AQmyX
+ifeng.com##div[class*="index_topBox_"]
+ifeng.com###root > div > div.topBox-2Ay2GWZz.clearfix
+ifeng.com##.news_list_markTag-1--AQmyX
+ifeng.com##a[href*="youzan.com"]
+ifeng.com##div[class*="index_businessOperate"]
+ifeng.com##div[class*="index_goodThing_"]
+ifeng.com##div[class^="index_outerPcMask_"]
+ifeng.com##div[class^="index_shortTipsPc_"]
+ifeng.com##p[class*="_markTag_"]
+ifeng.com##div[class*="feng-control-appspread"]
+ifeng.com##div[c]
+ifeng.com##div[class^="d_box"]
+ifeng.com##div[class^="dbox-"]
+ifeng.com##div[id^="couplet3_"]
+ifeng.com##div[class^="asideAd1-"]
+ifeng.com##div[class^="topDbox0-"]
+ifeng.com##div[class^="rectangleAd"]
+ifeng.com##div[class^="videoad-"]
+ifeng.com##div[class^="videoAd"]
+ifeng.com##video[class^="advideo-"]
+ifeng.com##div[class^="videobanner-"]
+ifeng.com###js_videobanner_container
+ifeng.com###adPlayer
+ifeng.com##div[style*="z-index: 99999"]
+ifeng.com###js_videopause_container
+www.qkw2.cc###play_page > div.play_boxbg > div.play_box.play_video > div.right_row.fr.hidden_xs.hidden_mi > div > div.play_infobox > div.play_vlist.m_qrcode.cblock
+www.qkw2.cc###play_page > div:nth-child(2)
+ygdy8.com###about > div > a
+ygdy8.com###header > div > div.bd2 > div.bd4l
+ygdy8.com###header > div > div.bd2 > div.bd6
+ygdy8.com###headerright
+www.5ikmj.com##body > div.container > div > div.col-lg-wide-25.col-xs-1.stui-pannel-side.hidden-sm.hidden-xs > div:nth-child(1)
+www.5ikmj.com##div[style*="width: 200px; height: 400px; position: fixed;"]
+ygdy8.com###about > div > a
+ygdy8.com###header > div > div.bd2 > div.bd4l
+ygdy8.com###header > div > div.bd2 > div.bd6
+ygdy8.com###headerright
+netfly.tv##body > div.page.player > div.main > div > div.module.module-player > div > div.player-box > div > div.tips-box
+www.pianbb.com###HMimageright
+www.qkw2.cc###play_page > div.play_boxbg > div.play_box.play_video > div.right_row.fr.hidden_xs.hidden_mi > div > div.play_infobox > div.play_vlist.m_qrcode.cblock
+www.qkw2.cc###play_page > div:nth-child(2)
+seemac.cn###custom_html-7
+seemac.cn###custom_html-8
+seemac.cn###waifu
+libvio.top##div[class="t-img-box"]
+netfly.tv###vyhp
+netfly.tv##div[class="module-tglist  tg_w tg_w-2 tg-container"]
+netfly.tv##div[class="player-rm rm-list rm-two tg-container"]
+netfly.fun##[style*="display: flex; justify-content: space-between;"]
+onlymu.site##div[class*="-right-tips show"]
+netfly.tv##[style*="display: flex; justify-content: space-between;"]
+www.88mv.tv##body > div.adx_bottom_globle
+www.88mv.tv##body > div.adx_bottom_globle > div > div
+www.88mv.tv##body > div.download
+www.88mv.tv##body > div.download.mb
+www.5ikmj.com##div[style*="width: 200px; height: 400px; position: fixed;"]
+vidhub.tv##div[style*="margin: 0px; padding: 0px; height: 0px; position: fixed;"]
+5dy15.cc##.is_pc
+5dy15.cc##.is_pc_flex
+555movie.vip##.is_pc
+555movie.vip##.is_pc_flex
+5dy15.cc##.popup
+555movie.vip##.popup
+555yy.vip##.is_pc
+555yy.vip##.is_pc_flex
+555yy.vip##.popup
+www.wasu.cn##ws-postershot
+meijutt.tw##div[style*="width: 200px; height: 400px; position: fixed;"]
+meijutt.tw###note
+meijutt.tw##.a960_index
+meijutt.tw##.widget-weixin
+meijutt.tw##div[style*="width: 320px; height: 270px;"]
+meijutt.tw##div[style="text-align: center;"]
+ypcgw.com###idiv
+ypcgw.com###lelezdy
+ysgcfun.com##table[style="width: 100%;height: 125px;"]
+! === EH Exceptions ===
+browser.360.cn#@##banner
+hao123.com#@#.popup

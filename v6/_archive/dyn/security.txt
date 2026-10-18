@@ -1,0 +1,49 @@
+[Adblock Plus 2.0]
+! Title: AdClear 安全专项
+! Description: 恶意广告拦截、钓鱼保护、挖矿脚本、低质量广告网络
+! Version: 2026-10-18T23:11:53
+! Checksum: j8JI76M4iDIhRLLwhqZmEg
+! Expires: 2 days (update frequency)
+! Homepage: https://raw.giteeusercontent.com/tekintian/adt-rules/raw/master/v6/dyn/security.txt
+!
+!----GNU LGPL Licensed, NO WARRANTY but Best Wishes----
+!
+! 恶意广告分发网络
+||adnxs.com^$third-party
+||adsrvr.org^$third-party
+||rubiconproject.com^$third-party
+||openx.net^$third-party
+||pubmatic.com^$third-party
+!
+! 钓鱼/欺诈广告域名
+||phishing-ads.^
+||malware-ads.^
+||scareware-ads.^
+!
+! 加密货币挖矿脚本
+||coinhive.com^
+||coin-hive.com^
+||cryptoloot.pro^
+||minero.cc^
+||webminepool.com^
+!
+! 虚假下载按钮
+##a[href*=".exe"][target="_blank"][style*="display"]
+##a[href*="download"][class*="btn"][style*="background"]
+##a[href*="installer"][class*="download"]
+!
+! 低质量/高风险广告网络
+||popads.net^
+||popcash.net^
+||propellerads.com^
+||adsterra.com^
+||hilltopads.net^
+||juicyads.com^
+||exoclick.com^
+||trafficjunky.net^
+!
+! 恐吓软件广告
+##div[class*="virus-alert"]
+##div[class*="pc-fix"]
+##div[id*="pc-fix"]
+##div[class*="scan-results"]

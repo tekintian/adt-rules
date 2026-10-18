@@ -1,0 +1,129 @@
+[Adblock Plus 2.0]
+! Version: 2026-10-18T23:11:53
+! Checksum: f2YfY3/ChVAo2NJqo3V9ag
+! Title: 热点网站过滤规则
+! 常见大流量高频网站广告过滤规则
+! Last modified: 02 Feb 2021 16:50 UTC
+! Expires: 2 days (update frequency)
+! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adt-hot.txt
+
+!------------- 热点网站广告屏蔽 Hot site ads Block---------------
+! === Element Hiding ===
+##script[src*="mediav.com"]
+##script[src*="nzbdw.com"]
+##a[href*="nzbdw.com"]
+##a[src*="nzbdw.com"]
+##a[href*="mediav.com"]
+##img[src*="nzwgs.com"]
+daohang.qq.com##.hd-slider
+daohang.qq.com##div[pbflag="rec_game"]
+daohang.qq.com##div[pbflag="rec_shop"]
+v.qq.com##txpdiv[data-role*="-ad-"]
+baizhan.net##div[id^="mvdiv_"]
+baizhan.net##div[id^="listbd"]
+baizhan.net,china.com##iframe[id^="iframe"]
+china.com##.z-9999
+china.com##.cad-tl
+china.com##.qhwzl
+china.com###targetDomId
+china.com##div[class*="gg"]
+china.com##div[id*="gg"]
+china.com##li[class*="gg"]
+china.com##li[id*="gg"]
+china.com##div[id^="CH_MTL_"]
+china.com###qh360
+china.com##.qhwzl
+china.com##.z-9999
+china.com##div[id^="eppagebottom_"]
+china.com##li[id^="qhwzl"]
+china.com,yyrtv.com##.ad360
+||e9377f.com^$rewrite=abp-resource:blank-mp3,domain=eastday.com
+eastday.com###ny_yxxf
+eastday.com##li[class^="tbtj"]
+eastday.com##li[class*="baidu"]
+eastday.com##.bfq_qt
+eastday.com##.btxf
+eastday.com##.zuos360
+eastday.com##.tips-pop
+eastday.com##.yxxf_area
+eastday.com##.rsxf
+eastday.com##.ban360
+eastday.com##.gg_detail_cnt
+eastday.com##.spList.poa
+eastday.com##.yxxf_area
+eastday.com##.rsxf
+eastday.com##.lbad
+eastday.com##.tips-pop
+eastday.com##li[class^="tbtj"]
+eastday.com##li[class^="ave-"]
+eastday.com##.bfq_qt360
+eastday.com##.r_con_ad
+eastday.com##.dsp-ad
+www.chaonengsou.com##iframe[width="200px"][height="200px"]
+www.studytonight.com###Asc-InFooter-6d2VN252
+www.studytonight.com##.asc-ad
+yyrtv.com##li[class^="mediav"]
+51yangsheng.com###targetDomId
+51yangsheng.com##.dbg_360
+miercn.com###dsp_btxf
+miercn.com##.ad
+tiyuxiu.com##.bdxxl
+tiyuxiu.com##.mediav
+tiyuxiu.com##.baidu
+tiyuxiu.com##.mm.mshow
+tiyuxiu.com###lowerright-container
+tiyuxiu.com##li[class^="mediav"]
+tiyuxiu.com##div[class*="mm"]
+tiyuxiu.com##.mm-sm336280
+tiyuxiu.com###page-idle-box
+tiyuxiu.com###lowerright-container
+tiyuxiu.com##.baidu
+tiyuxiu.com##.bdxxl
+tiyuxiu.com##.mediav
+tiyuxiu.com##.mm-sm336280
+tiyuxiu.com##.mm.mshow
+tiyuxiu.com##div[class*="mm"]
+tiyuxiu.com##li[class^="mediav"]
+www.u7u9.com###mvdiv_2348937_holder
+www.u7u9.com###pangu_leftBottom
+www.u7u9.com###pangu_rightBottom
+www.u7u9.com##.xw-right-ad
+www.u7u9.com##div[class*="-ad"]
+sogou.com##.infoad
+360.com###festival_float_bottom
+360.com###large2small
+360.com##.feed-mv
+360.com##div[data-clk^="https://max-l.mediav.com"]
+360kuai.com##.card.img--3
+360kuai.com##.g4,.gg-subscript,.flowcardtype--onepicbig
+||gd.189.cn*/push/$popup
+||gd.189.cn/ad/$popup,third-party
+||gd.189.cn/gz/promotion/$popup,third-party
+||gd.189.cn^*.htm?SP=$popup,third-party
+www.liantu.com##.tg
+||lieqibar.com##.topggCnt
+voc.com.cn##body > div[style="width:1190px;margin:10px auto 0;"]
+voc.com.cn###model-main-sign > div.left-row > div:nth-child(1)
+voc.com.cn###model-main-sign > div.left-row > div:nth-child(2)
+voc.com.cn###model-main-sign > div.left-row > div.model-fixed
+voc.com.cn###model-main-sign > div.center-row > div:nth-child(1) > div > div._ep048ed208d
+voc.com.cn###model-main-sign > div.center-row > div:nth-child(1) > div > div._dc91tuxkynw
+voc.com.cn###eject-mask
+voc.com.cn##.container > iframe,._dbg_off,.container > script
+voc.com.cn##div[class*="ad-"]
+chinaz.com##.advertBox,.advert,.adtext,.b_g_guang,.bg-gray02
+chinaz.com##.banner.banner-halfbanner,.banner.banner-leaderboard,.banner.banner-top
+chinaz.com##.wrapperTopBtm,.media-wrapper__bd,.header-media
+chinaz.com##body > div.wrapperbox.mt10.mb10.clearfix
+chinaz.com##body>div.wrapperbox.mt10.mb10.clearfix
+chinaz.com###toolsIntro,#sticky-wrapper,#setHomeHotFMedia
+chinaz.com##div[id^="AD"]
+chinaz.com###navAfter,#loc,#centerTxt,#setTopMedia,#setHotBMedia,#topTxt
+chinaz.com###centerImg
+##div[class="row hidden-sm hidden-xs"][style^="padding-top:"]
+123pan.com##.baidu-banner-container
+123pan.com##div[style*="position: relative; width: 100%; height: 44px;"]
+123pan.com##.banner-container-pc
+123pan.com##.mfy-main-layout__head
+123pan.com##div[class*="banner-container"]
+kunpeng-sc.csdnimg.cn##.picture-ad
