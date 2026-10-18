@@ -1,12 +1,11 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-18T09:12:47
-! Checksum: vbPUTJ1pnHZtqN0wKf3A8g
+! Version: 2026-10-18T09:16:06
+! Checksum: ql9Zra+f6E0/JgWGEpHR8w
 ! Title: 骚扰元素过滤规则
 ! 弹窗、Cookie 提示、年龄验证、遮罩等骚扰元素过滤规则
 ! Last modified: 18 Oct 2026 01:08 UTC
 ! Expires: 2 days (update frequency)
-! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/dyn/annoyance.txt
-! Source: /Volumes/tmp/down/adscope-adt_base.txt
+! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/v6/dyn/annoyance.txt
 ! Rules: 42
 
 ! ---- Global rules ---- (42 rules)
