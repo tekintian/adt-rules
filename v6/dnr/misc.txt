@@ -1,0 +1,9 @@
+! dnr-misc — 3 rules
+! Source: /Volumes/tmp/down/adscope-adt_base.txt
+! Uncategorized / structural
+
+! ---- Global rules ---- (3 rules)
+[Adblock Plus 2.0]
+! Source: Adt基础广告过滤规则
+! Cleaned & deduplicated by Adscope
+

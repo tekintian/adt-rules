@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-12T13:34:42
+! Version: 2026-10-18T09:12:47
 ! Checksum: aK35WvnS7ZYbJOrsr+piig
 ! Title: Developer
 ! Last modified: 27 Feb 2023 10:02 UTC

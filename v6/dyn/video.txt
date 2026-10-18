@@ -1,0 +1,25 @@
+[Adblock Plus 2.0]
+! Version: 2026-10-18T09:12:47
+! Checksum: cyLyhyGlEQnjJHQDfxbV2g
+! Title: 视频网站广告过滤规则
+! 视频网站播放器、贴片、前贴片等广告过滤规则
+! Last modified: 18 Oct 2026 01:08 UTC
+! Expires: 2 days (update frequency)
+! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/dyn/video.txt
+! Source: /Volumes/tmp/down/adscope-adt_base.txt
+! Rules: 12
+
+! ---- Global rules ---- (12 rules)
+||sohu.com/i/?pvid=$popup
+ifeng.com##[class*="ife-ad"]
+ifeng.com##[class*="index_banner"]
+ifeng.com##[class*="index_feedAd"]
+ifeng.com##[class*="index_feedBox"]
+ifeng.com##[class*="index_sideAd"]
+ifeng.com##[class*="index_topBox_"]
+ifeng.com##[class*="index_topDbox"]
+ifeng.com##[id*="ad-wrap"]
+ifeng.com##iframe[src*="/ad/"]
+ifeng.com##iframe[src*="ifengimg"]
+ifeng.com#%#//scriptlet('set-noop-object', 'IfengAmgr')
+

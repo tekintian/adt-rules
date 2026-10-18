@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-15T08:43:24
+! Version: 2026-10-18T09:12:47
 ! Checksum: M/f7vW9I0BjYWrDuhQIDsg
 ! Title: Adt基础广告过滤规则
 ! ADT全局基础广告过滤规则,包含全局ID, CLASS,文件规则

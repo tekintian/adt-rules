@@ -1,0 +1,30 @@
+! dnr-privacy — 16 rules
+! Source: /Volumes/tmp/down/adscope-adt_base.txt
+! Tracking / fingerprinting / analytics
+
+! ---- CN rules ---- (9 rules)
+||188soft.com/js/PCsoftDetailAD.js
+||bbs.xiashanet.com/js/adsview.js
+||hjfile.cn/analytics/site/TrackEvent.js
+||muzisoft.com/static/*_f.js
+||mvcat.com/api/wx/follow.js
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+||pharmnet.com.cn/js/float_div.js
+||static.doubleclick.net/instream/ad_status.js
+||ylnet.com.cn/dl*.js
+
+! ---- KR rules ---- (1 rules)
+||1708t.com/js/jquery.js
+
+! ---- US rules ---- (2 rules)
+||4btbtt.com/slade.js
+||rryy99.com/statics/js/stat.js
+
+! ---- CA rules ---- (2 rules)
+||1722t.com/js/jquery.js
+||zinggadget.com/wp-content/*/popup
+
+! ---- Global rules ---- (2 rules)
+/api/goods/v1/get.script.core?
+/s3m.mediav.com/galileo/*.mp4
+

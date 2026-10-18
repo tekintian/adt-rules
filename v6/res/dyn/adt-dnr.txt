@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-12T13:34:42
+! Version: 2026-10-18T09:12:47
 ! Checksum: qK56MXYa6jeWww9CL2jmgg
 ! Title: Adt DNR Redirect Rules
 ! Description: Video ad redirect rules (chrome.declarativeNetRequest redirect action)

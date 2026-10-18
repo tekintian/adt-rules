@@ -1,0 +1,55 @@
+[Adblock Plus 2.0]
+! Version: 2026-10-18T09:12:47
+! Checksum: vbPUTJ1pnHZtqN0wKf3A8g
+! Title: 骚扰元素过滤规则
+! 弹窗、Cookie 提示、年龄验证、遮罩等骚扰元素过滤规则
+! Last modified: 18 Oct 2026 01:08 UTC
+! Expires: 2 days (update frequency)
+! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/dyn/annoyance.txt
+! Source: /Volumes/tmp/down/adscope-adt_base.txt
+! Rules: 42
+
+! ---- Global rules ---- (42 rules)
+###adLeftFloat
+###adRightFloat
+###crazy_ad_float
+###floatAd
+###floatad-winpop
+###fuo_top_float
+###kfpopupDiv
+###left_down_float_ad
+###left_float + #right_float
+###left_float.close_discor
+###left_up_float_ad
+###leftFloat + #rightFloat
+###leftFloat[style="z-index: 999; position: fixed; left: 0px; bottom: 0px;"]
+###miaov_float_layer
+###modalgg
+###mv_float_layer
+###popup.t
+###pp-modal-id
+###right_couple + #left_float
+###right_down_float_ad
+###right_float.close_discor
+###right_up_float_ad
+###rightCouple + #leftFloat
+###rightCouplet + #leftFloat
+###swtleft[style^="position:fixed;"]
+###wp > .V-video-floats
+###wp > .V-videoFloat
+##.afc_popup
+##.event_fullscreen_gg_modal
+##.float-adv-left-bottom
+##.float-adv-left-top
+##.float-adv-right-bottom
+##.float-adv-right-top
+##.float-left12 > .div-list
+##.float_bot_right
+##.floatAd
+##.footer > #box[style="width:100%;height:100%;position:fixed;top:0"]
+##.wordurl[style="   width: 42%; float:left; text-align: center;"]
+##.wumii-bottom-popup
+##div[class*="bzClick"][style="margin-bottom: 10px;width: 400px;float:left"]
+##div[style="position: fixed; bottom: 0px; display: block; opacity: 1; right: 0px; z-index: 2147483647; overflow: visible; width: 350px !important; height: 300px !important;"]
+zol.com.cn###zolapp-float-qrcode
+

@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-12T18:39:05
+! Version: 2026-10-18T09:12:47
 ! Checksum: gG00YN0UUINeHxsebKdYuQ
 ! Title: Adt视频网站广告过滤规则
 !
