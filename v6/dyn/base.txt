@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-19T13:06:11
-! Checksum: bof7AIMPDSqIVjP7EJM8Vw
+! Version: 2026-10-20T00:05:14
+! Checksum: swQkrqqJTJpeep86x2RtuA
 ! Title: 基础广告过滤规则
 ! 通用广告联盟、横幅、弹窗等常见广告过滤规则
 ! Last modified: 19 Oct 2026 04:43 UTC
@@ -22,13 +22,7 @@
 /pushstart.aspx?$popup,third-party
 /pushstart.html?$popup,third-party
 /tanchuan.htm$popup,third-party
-/\/[0-9a-f]{32}\/invoke\.js/$script,third-party,redirect-rule=noopjs
-/^https:\/\/[0-9a-z.]+\/wp-content\/litespeed\/js\/[0-9a-f]{32}\.js\?ver=/$script,~third-party,match-case,replace=/function _0x[a-z0-9]{3}536\(\)\{[\s\S]*?\}/function _0x242536(){};/
-/^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
-/^https:\/\/[a-z0-9]+\.[a-z0-9]+\.cfd\/\?[a-z]+=[a-zA-Z0-9+/=:_-]+$/$third-party,all,match-case
-/^https:\/\/[a-z]{8,15}\.(?:(com|net)\/(?:\d{1,3}\/)?tag\.min\.js$)/$script,third-party,redirect=noopjs
-/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{3,6}(?:[&?][0-9_a-z]=[0-9A-Za-z-]+)*$/$popup,third-party,match-case
-/^https?:\/\/(?:www\.|[a-z0-9]{7,10}\.)?[a-z0-9-]{5,}\.(?:com|org)\/\/?(?:[a-z0-9]{2}\/){2,3}[a-f0-9]{32}\.js/$script,third-party,redirect=noopjs
+
 .189.gd^*.html?p=$popup,third-party
 .click/?ip=$popup
 .click/?token=*&sessionUser=*&amzId=*&tilTime=*&s=|$all
@@ -40,7 +34,7 @@
 .com/afu.php?zoneid=$all
 .com/aS/feedclick?s=$all,match-case
 .com/click/?ct=*&cu=$all
-.com/invoke.js$script,third-party,redirect-rule=noopjs
+
 .com/redirect-zone/$all
 .demdex.net/id^$redirect=nooptext,important
 .doc?f=1&sid=$all
@@ -14014,7 +14008,7 @@
 ##[href*="/afu.php"]
 ##[href*="passtechusa.com"]
 ##[href*="uselnk.com/"]
-##[href="//sexcams.plus/"]
+
 ##[href="https://chaturbate.jjgirls.com/"] > img
 ##[href="https://jdrucker.com/gold"] > img
 ##[href^="//look.utndln.com/offer"]
@@ -14040,7 +14034,7 @@
 ##[href^="https://ilovemyfreedoms.com/landing-"]
 ##[href^="https://istlnkcl.com/"]
 ##[href^="https://join.playboyplus.com/track/"]
-##[href^="https://join3.bannedsextapes.com"]
+
 ##[href^="https://klsdee.com/"]
 ##[href^="https://mylead.global/stl/"] > img
 ##[href^="https://mypatriotsupply.com/"] > img
@@ -14089,379 +14083,7 @@
 ##a[clickmode="ad"]
 ##a[clickmode="cpt"]
 ##a[data-ad_type="1"]
-##a[href$=".xyz:8443"]
-##a[href$="/liyusheng.com"]
-##a[href*="&maxads="]
-##a[href*=".05bq.com/"]
-##a[href*=".05cg.com/"]
-##a[href*=".08an.com/"]
-##a[href*=".123ch.cn"]
-##a[href*=".1699ai.top"]
-##a[href*=".17yyba.com/"]
-##a[href*=".222bz.com/"]
-##a[href*=".41gw.com/"]
-##a[href*=".6666ai.top"]
-##a[href*=".726188.com"]
-##a[href*=".7wkw.com"]
-##a[href*=".9xiazaiqi.com"]
-##a[href*=".acuxrecv.cn"]
-##a[href*=".adglare.net/"]
-##a[href*=".adsrv.eacdn.com/"]
-##a[href*=".ahhxwavi.cn"]
-##a[href*=".bayiyy.com/download."]
-##a[href*=".biwbmsyt.cn"]
-##a[href*=".bright.cn/?utm_"]
-##a[href*=".cangpie.com/"]
-##a[href*=".cfm?domain="][href*="&fp="]
-##a[href*=".chouchuai.com/"]
-##a[href*=".chuairan.com/"]
-##A[href*=".com/?Agent="]
-##a[href*=".com/?Extend="]
-##a[href*=".com/?p="][target="_blank"] > img[src$=".gif"]
-##a[href*=".com/Register.aspx?aid="]
-##a[href*=".com/Register/?a="]
-##a[href*=".com/tg.html?id="]
-##a[href*=".com?aff="]
-##a[href*=".com?intr="]
-##a[href*=".dajiang99.com"]
-##a[href*=".dongtaisteel.com/"]
-##a[href*=".downok.com"]
-##a[href*=".dpcpfw.com/"]
-##a[href*=".erodatalabs.com/"]
-##a[href*=".foxqck.com/"]
-##a[href*=".g2afse.com/"]
-##a[href*=".gaimin.gg/cn"]
-##a[href*=".gongnou.com/"]
-##a[href*=".gotourls.bid"]
-##a[href*=".gsxzq.com/"]
-##a[href*=".guzaosf.com/"]
-##a[href*=".hbjimin.com/"]
-##a[href*=".holesg.xyz"]
-##a[href*=".hongguotuiguang."]
-##a[href*=".iziyo.com/"]
-##a[href*=".labsda.com"] > img[src^="/game/20"]
-##a[href*=".liaochuo.com/"]
-##a[href*=".mieseng.com/"]
-##a[href*=".qpokok.com/"]
-##a[href*=".qpzqxz.com/"]
-##a[href*=".qtj5.com/"]
-##a[href*=".quankan.tv"]
-##a[href*=".sadbaguette.com/"]
-##a[href*=".ssmh"][href*="?u="]
-##a[href*=".tbb168.com"]
-##a[href*=".tduou.com/"]
-##a[href*=".ttz5.cn"]
-##a[href*=".tudown.com/"]
-##a[href*=".ufinkln.com/"]
-##a[href*=".wenpie.com/"]
-##a[href*=".wjLkj.com/"]
-##a[href*=".xacg.info/"]
-##a[href*=".xlgqy.com/"]
-##a[href*=".xrzzk.com/"]
-##a[href*=".xxmh"][href*="?u="]
-##a[href*=".yb2843.vip"]
-##a[href*=".yyk2.com/"]
-##a[href*="//jjgirls.com/sex/Chaturbate"]
-##a[href*="/122.51.121.126:"]
-##a[href*="/137.220.194.105:"]
-##a[href*="/137.220.194.123:"]
-##a[href*="/2e9c9aa9.com/"]
-##a[href*="/33hth.cn"]
-##a[href*="/602034.com"]
-##a[href*="/?aff="][target="_blank"]
-##a[href*="/?Intr="]
-##a[href*="/?intr="]
-##a[href*="/?INTR="]
-##a[href*="/ads/adscenter."]
-##a[href*="/auth/register?code="] > img
-##a[href*="/d27.tv"]
-##a[href*="/du505.com"]
-##a[href*="/fdh/wth.php?"]
-##a[href*="/go.php?a_aid="]
-##a[href*="/h91.tv"]
-##a[href*="/jump/next.php?r="]
-##a[href*="/kt169.com"]
-##a[href*="/l1y9.com"]
-##a[href*="/lesi151.cc"]
-##a[href*="/lesi198.com"]
-##a[href*="/mobads.php?"]
-##a[href*="/register/?i_code="] > img
-##a[href*="/Register?a="]
-##a[href*="/uu5566.cn.com/"]
-##a[href*="/vv88.life"]
-##a[href*="/yfj8159.com"]
-##a[href*="/yigeyuming3880.top"]
-##a[href*="://mgzs.cdn.bcebos.com/"]
-##a[href*=":10443/"] > img[src$="gif"]
-##a[href*=":7888/?register="]
-##a[href*=":8701/?register="]
-##a[href*="?channelCode="] > img[src*=".xyz"]
-##a[href*="?invite_code="] > img[src*=".com"]
-##a[href*="?register="] > img[src*=".douyinpic.com"]
-##a[href*="?register="] > img[width="100%"]
-##a[href*="@"][href$=".exe"]
-##a[href*="html-load.com/"] > amp-img[src^="https://tpc.googlesyndication.com/"]
-##a[href*="html-load.com/"]:has(+ amp-pixel + div[aria-hidden="true"]) > amp-img.aspw
-##a[href*="html-load.com/"][attributiondestination="https://appier.net"]
-##a[href*="html-load.com/"][attributionsrc^="https://track.u.send.microad.jp"]
-##a[href*="html-load.com/"][style$="margin:0px auto;text-decoration:none;"]
-##a[href*="html-load.com/"][style$="width:   100%;height:   100%"]
-##a[href*="html-load.com/"][style="display:inline-block;"]
-##a[href*="itoon.app"]
-##a[href*="kdocs.cn"] > img[src*=".ax1x.com/"]
-##a[href*="mediav.com"]
-##a[href*="nnqp.vip"]
-##a[href*="nzbdw.com"]
-##a[href*="vainews.cn"]
-##a[href*="xchina.click/prepare."]
-##a[href*="ywslxq.com"]
-##a[href="/ad2.html"]
-##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
-##a[href="/goto.php?url=hth"]
-##a[href="/iwagbwfiwehaeyh"]
-##A[href="http://t.cn/A6hQCVsv"]
-##a[href="javascript:GoGd();"]
-##a[href="javascript:GoTp();"]
-##a[href="javascript:void(window.open(clickTag))"] > div[id^="img_"]
-##a[href="javascript:window.GoTp();"]
-##a[href^=" https://www.friendlyduck.com/AF_"]
-##a[href^="//go.eabids.com/"]
-##a[href^="//hoodingluster.com/"]
-##a[href^="//s.zlinkd.com/"]
-##a[href^="//startgaming.net/tienda/" i]
-##a[href^="/ad/"] > img[id][src*="hdslb.com"]
-##a[href^="/api/hop/"] > img[src*=".xyz/m/"]
-##a[href^="/api/jump/"] > img[src*=".xyz/m/"]
-##a[href^="/archives/"] > .post-card > .blog-background[style*="gif;base64"]
-##a[href^="/dasp.php?a="]
-##A[href^="/e/public/ClickAd?adid="]
-##a[href^="/hy-"][ontouchstart]
-##a[href^="/link-index-aid-"] > img[src*=".wnimg2.cfd"]
-##a[href^="http://ad.moemoe."]
-##a[href^="http://adultfriendfinder.com/go/"]
-##a[href^="http://cam4com.go2cloud.org/aff_c?"]
-##a[href^="http://click.dtiserv2.com/"]
-##a[href^="http://com-1.pro/"]
-##a[href^="http://join.brokestraightboys.com/track/"]
-##a[href^="http://partners.etoro.com/"]
-##a[href^="http://revolvemockerycopper.com/"]
-##a[href^="http://sarcasmadvisor.com/"]
-##a[href^="http://sneakyadministration.com/"]
-##a[href^="http://stickingrepute.com/"]
-##a[href^="http://tc.tradetracker.net/"] > img
-##a[href^="http://trk.globwo.online/"]
-##a[href^="http://www.adultempire.com/unlimited/promo?"][href*="&partner_id="]
-##a[href^="http://www.friendlyduck.com/AF_"]
-##a[href^="http://www.h4trck.com/"]
-##a[href^="http://www.iyalc.com/"]
-##a[href^="http://www.poweredbyliquidfire.mobi/"]
-##a[href^="http://yunbofangbt."]
-##a[href^="https://123-stream.org/"]
-##a[href^="https://1betandgonow.com/"]
-##a[href^="https://1winpb.com/"]
-##a[href^="https://6-partner.com/"]
-##a[href^="https://a-ads.com/"]
-##a[href^="https://a.adtng.com/"]
-##a[href^="https://a.bestcontentfood.top/"]
-##a[href^="https://a.bestcontentoperation.top/"]
-##a[href^="https://a.bestcontentweb.top/"]
-##a[href^="https://a.candyai.love/"]
-##a[href^="https://a.medfoodhome.com/"]
-##a[href^="https://a.medfoodsafety.com/"]
-##a[href^="https://ab.advertiserurl.com/aff/"]
-##a[href^="https://activate-game.com/"]
-##a[href^="https://ad.22betpartners.com/redirect.aspx?"]
-##a[href^="https://ad.doubleclick.net/"]
-##a[href^="https://ad.zanox.com/ppc/"] > img
-##a[href^="https://adclick.g.doubleclick.net/"]
-##a[href^="https://ads.betfair.com/redirect.aspx?"]
-##a[href^="https://ads.planetwin365affiliate.com/"]
-##a[href^="https://adultfriendfinder.com/go/"]
-##a[href^="https://aj1070.online/"]
-##a[href^="https://ak.psaltauw.net/"]
-##a[href^="https://ausoafab.net/"]
-##a[href^="https://aweptjmp.com/"]
-##a[href^="https://awptjmp.com/"]
-##a[href^="https://banners.livepartners.com/"]
-##a[href^="https://bc.game/"]
-##a[href^="https://believessway.com/"]
-##a[href^="https://best-experience-cool.com/"]
-##a[href^="https://billing.purevpn.com/aff.php"] > img
-##a[href^="https://black77854.com/"]
-##a[href^="https://bngprm.com/"]
-##a[href^="https://bodelen.com/"]
-##a[href^="https://bongacams10.com/track?"]
-##a[href^="https://bongacams2.com/track?"]
-##a[href^="https://cam4com.go2cloud.org/"]
-##a[href^="https://camfapr.com/landing/click/"]
-##a[href^="https://claring-loccelkin.com/"]
-##a[href^="https://click.candyoffers.com/"]
-##a[href^="https://click.dtiserv2.com/"]
-##a[href^="https://Click.ggpickaff.com/"]
-##a[href^="https://click.Ggpickaff.com/"]
-##a[href^="https://click.hoolig.app/"]
-##a[href^="https://click.linksynergy.com/fs-bin/"] > img
-##a[href^="https://clickadilla.com/"]
-##a[href^="https://clickins.slixa.com/"]
-##a[href^="https://clicks.pipaffiliates.com/"]
-##a[href^="https://clixtrac.com/"]
-##a[href^="https://combodef.com/"]
-##a[href^="https://ctjdwm.com/"]
-##a[href^="https://ctosrd.com/"]
-##a[href^="https://ctrdwm.com/"]
-##a[href^="https://datewhisper.life/"]
-##a[href^="https://dl-protect.net/"]
-##a[href^="https://engine.phn.doublepimp.com/"]
-##a[href^="https://explore-site.com/"]
-##a[href^="https://fastestvpn.com/lifetime-special-deal?a_aid="]
-##a[href^="https://financeads.net/tc.php?"]
-##a[href^="https://get-link.xyz/"]
-##a[href^="https://get.surfshark.net/aff_c?"][href*="&aff_id="] > img
-##a[href^="https://getmatchedlocally.com/"]
-##a[href^="https://gml-grp.com/"]
-##a[href^="https://go.admjmp.com"]
-##a[href^="https://go.bbrdbr.com"]
-##a[href^="https://go.bushheel.com/"]
-##a[href^="https://go.cmtaffiliates.com/"]
-##a[href^="https://go.dmzjmp.com"]
-##a[href^="https://go.etoro.com/"] > img
-##a[href^="https://go.goaserv.com/"]
-##a[href^="https://go.hpyjmp.com"]
-##a[href^="https://go.hpyrdr.com/"]
-##a[href^="https://go.markets.com/visit/?bta="]
-##a[href^="https://go.mnaspm.com/"]
-##a[href^="https://go.nordvpn.net/aff"] > img
-##a[href^="https://go.rmhfrtnd.com"]
-##a[href^="https://go.rmishe.com/"]
-##a[href^="https://go.skinstrip.net"][href*="?campaignId="]
-##a[href^="https://go.strpjmp.com/"]
-##a[href^="https://go.tmrjmp.com"]
-##a[href^="https://go.trackitalltheway.com/"]
-##a[href^="https://go.xlirdr.com"]
-##a[href^="https://go.xlivrdr.com"]
-##a[href^="https://go.xlviiirdr.com"]
-##a[href^="https://go.xlviirdr.com"]
-##a[href^="https://go.xlvirdr.com"]
-##a[href^="https://go.xtbaffiliates.com/"]
-##a[href^="https://golinks.work/"]
-##a[href^="https://helmethomicidal.com/"]
-##a[href^="https://hot-growngames.life/"]
-##a[href^="https://identicaldrench.com/"]
-##a[href^="https://in.rabbtrk.com/"]
-##a[href^="https://iqbroker.com/"][href*="?aff="]
-##a[href^="https://ismlks.com/"]
-##a[href^="https://italarizege.xyz/"]
-##a[href^="https://jaxofuna.com/"]
-##a[href^="https://join.bannedsextapes.com/track/"]
-##a[href^="https://join.dreamsexworld.com/"]
-##a[href^="https://join.virtuallust3d.com/"]
-##a[href^="https://join.virtualtaboo.com/track/"]
-##a[href^="https://juicyads.in/"]
-##a[href^="https://l.erodalabs.com"]
-##a[href^="https://l.tapdb.net/"]
-##a[href^="https://landing.brazzersnetwork.com/"]
-##a[href^="https://lijavaxa.com/"]
-##a[href^="https://lnkxt.bannerator.com/"]
-##a[href^="https://loboclick.com/"]
-##a[href^="https://losingoldfry.com/"]
-##a[href^="https://mediaserver.entainpartners.com/renderBanner.do?"]
-##a[href^="https://mmwebhandler.aff-online.com/"]
-##a[href^="https://myclick-2.com/"]
-##a[href^="https://natour.naughtyamerica.com/track/"]
-##a[href^="https://ndt5.net/"]
-##a[href^="https://offhandpump.com/"]
-##a[href^="https://osfultrbriolenai.info/"]
-##a[href^="https://pb-imc.com/"]
-##a[href^="https://pb-track.com/"]
-##a[href^="https://playnano.online/offerwalls/?ref="]
-##a[href^="https://postback1win.com/"]
-##a[href^="https://prf.hn/click/"][href*="/adref:"] > img
-##a[href^="https://prf.hn/click/"][href*="/camref:"] > img
-##a[href^="https://prf.hn/click/"][href*="/creativeref:"] > img
-##a[href^="https://pubads.g.doubleclick.net/"]
-##a[href^="https://quotationfirearmrevision.com/"]
-##a[href^="https://random-affiliate.atimaze.com/"]
-##a[href^="https://rixofa.com/"]
-##a[href^="https://s.cant3am.com/"]
-##a[href^="https://s.eunow4u.com/"]
-##a[href^="https://s.gentlefieldpattern.com/"]
-##a[href^="https://s.happyleafmotion.com/"]
-##a[href^="https://s.ma3ion.com/"]
-##a[href^="https://s.zlink3.com/"]
-##a[href^="https://s.zlink7.com/"]
-##a[href^="https://s.zlinkd.com/"]
-##a[href^="https://s.zlinkn.com/"]
-##a[href^="https://s.zlinkr.com/"]
-##a[href^="https://serve.awmdelivery.com/"]
-##a[href^="https://service.bv-aff-trx.com/"]
-##a[href^="https://sexynearme.com/"]
-##a[href^="https://slkmis.com/"]
-##a[href^="https://snowdayonline.xyz/"]
-##a[href^="https://srv.clickfuse.com/"]
-##a[href^="https://stellarcashflow.net/trck/"]
-##a[href^="https://streamate.com/landing/click/"]
-##a[href^="https://svb-analytics.trackerrr.com/"]
-##a[href^="https://syndicate.contentsserved.com/"]
-##a[href^="https://syndication.dynsrvtbg.com/"]
-##a[href^="https://syndication.exdynsrv.com/splash.php"]
-##a[href^="https://syndication.exoclick.com/"]
-##a[href^="https://t.ajrkm1.com/"]
-##a[href^="https://t.ajrkm3.com/"]
-##a[href^="https://t.ajump1.com/"]
-##a[href^="https://tatrck.com/"]
-##a[href^="https://tc.tradetracker.net/"] > img
-##a[href^="https://torguard.net/aff.php"] > img
-##a[href^="https://tour.mrskin.com/"]
-##a[href^="https://track.1234sd123.com/"]
-##a[href^="https://track.afcpatrk.com/"]
-##a[href^="https://track.aftrk3.com/"]
-##a[href^="https://track.aftrk5.com/"]
-##a[href^="https://track.totalav.com/"]
-##a[href^="https://track.ultravpn.com/"]
-##a[href^="https://track.wg-aff.com"]
-##a[href^="https://tracker.loropartners.com/"]
-##a[href^="https://tracking.avapartner.com/"]
-##a[href^="https://traffdaq.com/"]
-##a[href^="https://trk.softonixs.xyz/"]
-##a[href^="https://twinrdsrv.com/"]
-##a[href^="https://twinrdsyte.com/"]
-##a[href^="https://uds24.com/"]
-##a[href^="https://upsups.click/"]
-##a[href^="https://voluum.prom-xcams.com/"]
-##a[href^="https://wittered-mainging.com/"]
-##a[href^="https://wmctjd.com/"]
-##a[href^="https://wolf-327b.com/"]
-##a[href^="https://www.adskeeper.com"]
-##a[href^="https://www.adultempire.com/"][href*="?partner_id="]
-##a[href^="https://www.adxsrve.com/"]
-##a[href^="https://www.bang.com/?aff="]
-##a[href^="https://www.bet365.com/"][href*="affiliate="]
-##a[href^="https://www.brazzersnetwork.com/landing/"]
-##a[href^="https://www.dating-finder.com/?ai_d="]
-##a[href^="https://www.dating-finder.com/signup/?ai_d="]
-##a[href^="https://www.dql2clk.com/"]
-##a[href^="https://www.effectiveratecpm.com/"]
-##a[href^="https://www.financeads.net/tc.php?"]
-##a[href^="https://www.friendlyduck.com/AF_"]
-##a[href^="https://www.geekbuying.com/dynamic-ads/"]
-##a[href^="https://www.get-express-vpn.com/offer/"]
-##a[href^="https://www.goldenfrog.com/vyprvpn?offer_id="][href*="&aff_id="]
-##a[href^="https://www.googleadservices.com/pagead/aclk?"] > img
-##a[href^="https://www.highcpmrevenuenetwork.com/"]
-##a[href^="https://www.highperformancecpmgate.com/"]
-##a[href^="https://www.infowarsstore.com/"] > img
-##a[href^="https://www.liquidfire.mobi/"]
-##a[href^="https://www.mrskin.com/account/"]
-##a[href^="https://www.mrskin.com/tour"]
-##a[href^="https://www.nutaku.net/signup/landing/"]
-##a[href^="https://www.onlineusershielder.com/"]
-##a[href^="https://www.privateinternetaccess.com/"] > img
-##a[href^="https://www.purevpn.com/"][href*="&utm_source=aff-"]
-##a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="]
-##a[href^="https://www.toprevenuegate.com/"]
-##a[href^="https://x.com/intent/follow?"]
-##a[href^="https://z.cdn.secured-ad.com/"]
-##a[href^="https://zirdough.net/"]
+
 ##a[href^="java"][onclick^="gogogoto"]
 ##a[href^="javascript:;"][itemprop="downloadUrl"]
 ##a[href^="javascript:gl012"]
@@ -14479,9 +14101,6 @@
 ##a[onclick*="open"] > img[src*=".dailygn.com/"]
 ##a[onclick*="openAuc();"]
 ##a[onclick^="javascript:pc_"] > img[src*=".alicdn.com"]
-##a[onclick^="window.location.replace('https://random-affiliate.atimaze.com/"]
-##a[src*="nzbdw.com"]
-##a[style="display:inline-block;font-weight:bold;color:#f00;border:1px solid #f00;border-radius:15px;padding:2px 5px 2px 5px;margin:5px 5px 5px 0px;"]
 ##a[style="text-decoration:none;"] > div[style^="border: none; margin: 0px;"]
 ##a[style="width:100%;height:100%;z-index:10000000000000000;position:absolute;top:0;left:0;"]
 ##a[style^="background:transparent url"][style*="html-load.com/"]
@@ -15483,7 +15102,7 @@ keralatelecom.info##.ai-viewports
 kinoger.to##a[href^="//fbmedia-ckl.com/get"]
 kiss-anime.*###rightside > .clear2 ~ .rightBox
 kiss-anime.*##.episodeList > div > div[style*="text-align: center"]
-kissmaturestube.com,yummysextubes.com##.block-a
+
 kisstvshow.*###hideAds
 kisstvshow.*##.ksAds
 kisstvshow.*##div[style="width: 620px; margin: 0px auto; overflow: hidden;"]
@@ -15567,7 +15186,7 @@ m.timesofindia.com##span:has-text(/Ad:/):xpath(../..)
 macdo.cn##.bounceInRight
 macrotrends.net##.adx_top_ad
 mactorrent.co##iframe
-madchensex.com###side-spot
+
 magiclen.org##ins.adsbygoogle
 maharashtratimes.com##.ad1
 maharashtratimes.com##.colombia
@@ -15603,9 +15222,9 @@ megalink.*###__bgd_link
 megalink.*##[href^="https://mob1ledev1ces.com/r/"]
 megapaste.xyz###newlayercontent
 megapastes.com##.content > center
-megayoungsex.com##.SAbnsBotBl
-megayoungsex.com##.SHVidBlockR
-megayoungsex.com##.SHVidBlockUndBn
+
+
+
 meijutt.tw###note
 meijutt.tw##.a960_index
 meijutt.tw##.widget-weixin
@@ -15898,23 +15517,23 @@ sensualgirls.org##.wide_boxcontent:has-text(/adb/i)
 sensualgirls.org##a[href^="http://refer.ccbill.com/cgi-bin/clicks.cgi?"]
 sensualgirls.org##div[data-width][style*="background-image: url"]:style(background: none !important)
 series9.*##div[style="padding:15px 0;text-align:right;"]
-sexu.com##.container > .info
-sexu.com##.footerBanners
-sexu.com##.player-block__line
-sexu.com##.player-block__square
-sexu.com##.player-related
-sexu.com##.title--sm
-sexvid.*###banner_video
-sexvid.*##.box_site
-sexvid.*##.container > .headline, .intro
-sexvid.*##.cs
-sexvid.*##.download_link
-sexvid.*##.sponsor.shown
-sexvid.*##.spot-content, .spot-title
-sexvid.*##.spots_field.spots_thumbs
-sexvid.*##.thumb-adv
-sexvid.*##.under-player.spot-holder > .spot
-sexvid.*##.wrapper > .spot-holder
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 sfirmware.com##.buy_on_amazon
 sfirmware.com##.cc-window
 sfirmware.com##.post-ads

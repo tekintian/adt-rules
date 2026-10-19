@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-19T13:06:12
-! Checksum: eIxGuzmkFLCSAAKJ3Vyu7w
+! Version: 2026-10-20T00:05:14
+! Checksum: XOqDPQvuCrnd8iFD1XFzxw
 ! Title: 视频网站广告过滤规则
 ! 视频网站播放器、贴片、前贴片等广告过滤规则
 ! Last modified: 19 Oct 2026 04:43 UTC
@@ -10,15 +10,15 @@
 ! Rules: 1141
 
 ||17173cdn.com/20*.mp4$rewrite=abp-resource:blank-mp3,domain=17173.com
-||a.orbsrv.com/ad-provider.js$domain=xv-ru.com|xvideos.com,redirect=noopjs
+
 ||a.spankbang.com^$redirect=nooptext
-||amazonaws.com^$xmlhttprequest,redirect=nooptext,domain=crackle.com
+
 ||ctfile.com/popjump.php?$popup
 ||delivery-pc.wasu.cn/d/frontJs/3.0$rewrite=abp-resource:blank-js,domain=wasu.cn
 ||huya.com/leaf/*=vodadv&$rewrite=abp-resource:blank-mp3,domain=huya.com
 ||kfc.com.cn^$popup,domain=iqiyi.com
 ||sohu.com/i/?pvid=$popup
-/tghr.js$script,redirect=noopjs,domain=biqle.com|chochox.com|verhentai.top
+
 /|$denyallow=cdn.jsdelivr.net|putlocker.best,domain=putlocker.best,xmlhttprequest
 .bongacams.com/?bcs=$popup
 .com/*?*&refer=*fmovies.*&adb=$all
