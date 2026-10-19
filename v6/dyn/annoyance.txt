@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-19T13:06:11
-! Checksum: HXUvnR+lnA5TVgXaOMnm/A
+! Version: 2026-10-20T07:33:34
+! Checksum: NRDelxlExRf/o+vt99ASCg
 ! Title: 骚扰元素过滤规则
 ! 弹窗、Cookie 提示、年龄验证、遮罩等骚扰元素过滤规则
 ! Last modified: 19 Oct 2026 04:43 UTC
@@ -2857,7 +2857,7 @@ jdforum.net##td.alt1Active > div > div[style="float:right"]
 jdoodle.com#?#.home-container > #codefund  > span.codfund-fallback:contains(This site is ad supported! Please consider disable Ad blocker!)
 jejakpiknik.com###footer_sticky
 jeshoots.com##.san_sticky_notice
-jestful.net,filelions.to,gaybb.net,klto9.com,gayxx.net,klz9.com,hdgay.net,sexgayhd.com,sexgayplus.com,jav720.net,lhscan.net,rawlh.com,shareae.com##.float-ck
+
 jestful.net,klto9.com,shareae.com##.float-ck
 jeu-concours.biz##.bloc-newsletter
 jeudegolf.org##img[class*="notopenmodal"]
@@ -4529,11 +4529,11 @@ sescsp.org.br##.container-policy ~ div.overlay
 setopati.com###modalbox-banner
 seudinheiro.com###form_newsletter_box
 seudinheiro.com##.box-newsletter
-sextgem.com##div[id][style*="z-index: 999999999;"]
-sexu.com###jw_video_popup
-sexu.com###jw_video_popup_button
-sexyrealsexdolls.com##.gdpr__holder
-sexysluts.tv##body > .wrapper ~ div[style*="z-index: 9999999;"]
+
+
+
+
+
 sfexaminer.com##.promo-designer-modal
 sgcasino533196.com##stb-gdpr-modal
 shabdkosh.com##.modal-backdrop

@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-19T13:06:11
-! Checksum: iWbiytzBlctyvGRMyDtkmA
+! Version: 2026-10-20T07:33:34
+! Checksum: a8d9C67jbAZ61DwZ78gdNg
 ! Title: 反广告拦截过滤规则
 ! 反广告拦截检测、绕过、提示等过滤规则
 ! Last modified: 19 Oct 2026 04:43 UTC
@@ -288,7 +288,7 @@ saranghero.com##.adblock-warning
 scrolller.com#?#.popup:has(> .popup__box div:contains(adblocker))
 sd-company.su###dom_adblock
 securenetsystems.net###adblockWrapper
-sexwebvideo.com##.adblock-spot
+
 shabdkosh.com###adblocker-detected-modal
 shojoscans.com,en-thunderscans.com##.lm-adblock-notfic-container
 sirtv.fit###mw-adblock-overlay

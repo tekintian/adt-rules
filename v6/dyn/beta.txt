@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-19T13:06:11
-! Checksum: i0qN+PPLRtUH89k14Dlc1w
+! Version: 2026-10-20T07:33:34
+! Checksum: M5dyZveyln4RHRMkVB7uYA
 ! Title: Beta广告过滤规则
 ! beta广告
 ! Last modified: 18 Oct 2026 14:24 UTC
@@ -513,7 +513,7 @@ cargames.com#%#//scriptlet('prevent-addEventListener', 'error', 'UnityLoader.Err
 cargames.com,puzzlegame.com,yiv.com#%#//scriptlet('set-constant', 'adBreak', 'noopFunc')
 cargames.com,puzzlegame.com,yiv.com#%#//scriptlet('set-constant', 'adConfig', 'noopFunc')
 carrnissan.com#%#//scriptlet('remove-node-text', 'script', 'adrinoPop')
-cartoon-sex.tv#%#//scriptlet("prevent-addEventListener", "mousedown", ")]){return")
+
 cartoonbrew.com#%#//scriptlet("abort-on-property-read", "ad_block_test")
 catcut.net#%#//scriptlet("adjust-setTimeout", "go_url", "15000", "0.3")
 cazzette.com,restorbio.com,staaker.com,thegoneapp.com,nousdecor.com#%#//scriptlet("adjust-setInterval", "counter", "2000", "0.02")
@@ -1330,7 +1330,7 @@ hornyleak.tv#%#//scriptlet('prevent-addEventListener', 'click', 'AD_URL')
 horrortube.fun#%#//scriptlet("abort-current-inline-script", "decodeURI", "4zz.")
 hostviro.com,crizyman.online,ryfex.online#%#//scriptlet('adjust-setInterval', '/timeLeft|progress/', '*', '0.001')
 hot-cartoon.com#%#//scriptlet('set-constant', 'dclm_ajax_var.disclaimer_redirect_url', '')
-hot-sex-photos.com,myfutanari.com,freemilf.org#%#//scriptlet('prevent-element-src-loading', 'script', 'a.magsrv.com')
+
 hotcleaner.com#%#(function(){try{var e=Element.prototype.remove,b=document.querySelectorAll.bind(document),a=new MutationObserver(function(){try{b("div > ins.adsbygoogle").forEach(function(a){return a.parentNode&&Reflect.apply(e,a.parentNode,document)})}catch(a){}});a.observe(document,{childList:!0,subtree:!0}),setTimeout(function(){a.disconnect()},1E4)}catch(a){}})();
 hotmovs.com#%#//scriptlet("abort-on-property-read", "vertis.popunder.neverblock")
 hotmovs.com#%#//scriptlet("prevent-addEventListener", "click", "/pop[\s\S]*?window\.open/")
@@ -1538,7 +1538,7 @@ kandatasokuho.com#%#//scriptlet('remove-node-text', '#text', '引用元：')
 kaotic.com#%#//scriptlet('abort-current-inline-script', 'navigator', 'window.open')
 kari.com#%#//scriptlet('set-local-storage-item', 'device_id', '$remove$')
 kari.com#%#//scriptlet('set-local-storage-item', 'rees46_device_id', '$remove$')
-kartaplovdiv.com#%#//scriptlet('remove-attr', 'href', 'a[href="https://kartaplovdiv.com/c5/sexdating.php"]')
+
 kartell.com#%#//scriptlet('prevent-element-src-loading', 'script', 'vivocha.js')
 katestube.com#%#(function(){var c=document.addEventListener;document.addEventListener=function(a,b,d,e){"click"!=a&&-1==b.toString().indexOf('bi()')&&c(a,b,d,e)}.bind(document);})();
 katfile.*#%#//scriptlet('adjust-setTimeout', '/#(freebtn|btn_download)/', '*', '0.001')
@@ -2614,12 +2614,12 @@ seorinexpress.com#%#//scriptlet('set-constant', 'AM_PRODUCT', 'noopFunc')
 seriesgratis.biz,texture-packs.com,liveworksheets.com#%#//scriptlet('remove-attr', 'oncontextmenu', 'body')
 serverguidez.com#%#//scriptlet('adjust-setInterval', 'countdown', '*', '0.001')
 serverguidez.com#%#//scriptlet('adjust-setTimeout', 'nextpage', '*', '0.001')
-sexcelebrity.net,perverttube.com,fpo.xxx#%#//scriptlet('set-constant', 'flashvars.adv_pre_src', '')
-sexkbj.*#%#//scriptlet('set-constant', 'cRAds', 'true')
-sextb.date,sextb.net#%#//scriptlet('set-constant', 'Check_ADBL', 'falseFunc')
-sextvx.com#%#//scriptlet("prevent-setTimeout", "window.location.href=link")
-sexvid.xxx#%#//scriptlet("abort-on-property-read", "pu")
-sexwebseries.com,nxxn.live#%#//scriptlet('trusted-set-constant', 'vidorev_jav_plugin_video_ads_object.vid_ads_m_video_ads', '"no"')
+
+
+
+
+
+
 sfile.mobi#%#(function(){var c=window.setInterval;window.setInterval=function(f,g){return g===1e3&&/downloadButton/.test(f.toString())&&(g*=0.01),c.apply(this,arguments)}.bind(window)})();
 sfile.mobi#%#//scriptlet("adjust-setInterval", "downloadButton", "", "0.02")
 sg.hu#%#//scriptlet("prevent-window-open", "bbelements.com")
@@ -4603,7 +4603,7 @@ securegames.iwin.com#%#//scriptlet('prevent-xhr', 'gtm.js')
 segurosdevida.site#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 sendvid.com#%#//scriptlet('prevent-window-open', '/about:blank|juicyads\.com/')
 seriezloaded.com.ng#%#//scriptlet('prevent-setTimeout', 'offsetHeight === 0')
-sextu.com#%#//scriptlet('abort-current-inline-script', 'ACtMan')
+
 shaalaa.com#%#//scriptlet('prevent-fetch', 'www3.doubleclick.net')
 shahid.mbc.net#%#//scriptlet('prevent-fetch', 'doubleclick.net/gampad/ads')
 shamra.sy#%#//scriptlet('prevent-setTimeout', '.offsetHeight')
@@ -4905,8 +4905,8 @@ xagemode.com#%#//scriptlet('prevent-fetch', 'adsbygoogle')
 xfreehd.com#%#//scriptlet('prevent-setTimeout', '/\.innerHTML|illegal/')
 xhamster11.com#%#//scriptlet('abort-on-property-write', 'wio-vpopunder')
 xkeezmovies.com#%#//scriptlet('prevent-window-open')
-xnxx-sex-videos.com#%#//scriptlet('prevent-setTimeout', '/out.php')
-xnxx-sexfilme.com#%#//scriptlet('prevent-setTimeout', 'appendChild')
+
+
 xoxocomic.com#%#//scriptlet('prevent-setTimeout', '||"none"===window.getComputedStyle')
 xszav2.com#%#//scriptlet('abort-on-property-read', '__ENSO_VAST')
 xszav2.com#%#//scriptlet('abort-on-property-write', 'zoneId')

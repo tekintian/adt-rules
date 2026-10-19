@@ -397,7 +397,7 @@
 /tres/recommend/*$domain=ifeng.com
 /vmind.qqvideo.tc.qq.com^
 /w_e_b/de_li_ve_ry/a_j_s.php?zid=$domain=cnlmjx.com
-/\.com\/[0-9a-z]{12,}\/[0-9a-z]{12,}\.js$/$script,~third-party,domain=tube-teen-18.com|teen-hd-sex.com|xxx-asian-tube.com
+
 /^https?:\/\/tjmaxx\.tjx\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=tjx.com
 .baidu.com/cpro/
 .baidu.com/ecom
