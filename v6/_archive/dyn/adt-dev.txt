@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-18T23:11:53
-! Checksum: aK35WvnS7ZYbJOrsr+piig
+! Version: 2026-10-19T13:06:12
+! Checksum: VkxI+ygYumEXqgnJ3pyYFw
 ! Title: Developer
 ! Last modified: 27 Feb 2023 10:02 UTC
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/adt-dev.txt
@@ -48,8 +48,8 @@ zippyshare.com##.center_ad
 null88.com##div[id^="custom_html-"]
 hxfile.co##.mgbox
 javadecompilers.com##.ezoic-ad
-tc5.us##div[class^="card bg-light mb-3"]
-tc5.us##div[rv-hide="file.my_uid"]
+
+
 csdn.net###recommendAdBox
 csdn.net##.toolbar-advert
 blog.csdn.net###kp_box_530

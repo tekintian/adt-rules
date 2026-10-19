@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-18T23:11:53
-! Checksum: M/f7vW9I0BjYWrDuhQIDsg
+! Version: 2026-10-19T13:06:12
+! Checksum: Kv7Mq15Sl1ozP3zN12jPGA
 ! Title: Adt基础广告过滤规则
 ! ADT全局基础广告过滤规则,包含全局ID, CLASS,文件规则
 ! Last modified: 2023-12-25 12:25 PRC
@@ -132,7 +132,7 @@
 ###wrapper > .topad
 ##div[align="center"] > a[href^="/url/"] > img[src*=".alicdn.com"]
 ##a[href*=".biwbmsyt.cn"]
-##.iHead960x90
+
 ###left_float + #right_float
 ###body > #right-promotion
 ###right_down_float_ad
@@ -218,7 +218,7 @@
 ##a[href*=".com?aff="]
 ##a[href^="http://yunbofangbt."]
 ###duilian_right
-##div:not([id]):not([class]):not([style]) > div:not([id]):not([class]):not([style]) > iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]:not([src^="http://www.facebook.com/"])
+
 ##.readmidad
 ##.headxx11xiaoapp
 ##.wp.a_h
@@ -455,7 +455,7 @@
 ##.floatAd
 ##.widget_ui_textasb
 ###lovexin1
-##a[href="/gghtml/tyc.html"]
+
 ##.hlol_ad
 ##div#slide_ad
 ###lovexin121

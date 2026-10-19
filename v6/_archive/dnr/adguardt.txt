@@ -3,7 +3,7 @@
 ||d35r45qhjmgs3g.cloudfront.net^
 ||d2lzu2a5ishr7o.cloudfront.net^
 ||tagrec.sphdigital.com^
-||ad.sexplex.com^
+
 ||d13nu0oomnx5ti.cloudfront.net^
 ||d29lduyskr59p4.cloudfront.net^
 ||d2f0ixlrgtk7ff.cloudfront.net^
@@ -17,7 +17,7 @@
 ||cdn.empower.net^
 ||ads.digital.disneyadvertising.com^
 ||adtag.sphdigital.com^
-||adn.porndig.com^
+
 ||adilk.ilikecomix.com^
 ||gray.unlikebuck.com^
 ||d10fhz7gnk5369.cloudfront.net^
@@ -59,7 +59,7 @@
 ||ads.rubiconproject.com^
 ||feedads.feedblitz.com^
 ||fastlane.rubiconproject.com^
-||dl.crazyporn.xxx^
+
 ||d3a00ifauhjdp.cloudfront.net^
 ||d30zrwt3s044zr.cloudfront.net^
 ||d1byvlfiet2h9q.cloudfront.net^
@@ -72,7 +72,7 @@
 ||demkc32bq01ah.cloudfront.net^
 ||ctent.povvverz.one^
 ||d1f5rbi95y1icu.cloudfront.net^
-||w.love4porn.com^
+
 ||rblx-copier.vercel.app^
 ||cdn.welcome.pussysaga.com^$third-party
 ||d25m254rjp3rii.cloudfront.net^
@@ -119,7 +119,7 @@
 ||launcher.disconetwork.com^$third-party
 ||adserve.adradar.io^
 ||dic9vgwbkxd8r.cloudfront.net^
-||iframe.porndudegirls.com^
+
 ||smart-placements-sdk.ex.co^
 ||creative.ytboob.live^$third-party
 ||creative.myavlive.com^
@@ -128,7 +128,7 @@
 ||cdnads.geeksforgeeks.org^
 ||d3iih5w7xp5hdg.cloudfront.net^
 ||d127s3e8wcl3q6.cloudfront.net^
-||s2.everydaygayporn.com^
+
 ||ads.farakav.com^
 ||u.tampermonkey.net^
 ||d1czd1q73kbu32.cloudfront.net^
@@ -152,9 +152,9 @@
 ||reklama.shinden.eu^
 ||res.adx.opera.com^
 ||d3elm8wezzwg42.cloudfront.net^
-||creative.sexfortokens.com^
+
 ||mv.outbrain.com^
-||l4s.love4porn.com^
+
 ||res.oa.opera.com^
 ||d2oa97wrxvxm7y.cloudfront.net^
 ||adimage.sphdigital.com^
@@ -180,7 +180,7 @@
 ||d2nzjxafm0iowq.cloudfront.net^
 ||doo6pwib3qngu.cloudfront.net^
 ||camp.inc.com^
-||notification.tubecup.net^
+
 ||paa-reporting-advertising.amazon^
 ||ad.holmesmind.com^
 ||ads.thetimes.co.uk^
@@ -192,7 +192,7 @@
 ||bbm-ad-stack-production.up.railway.app^
 ||creative.sphdigital.com^
 ||a.hentaiocean.com^
-||rst.pornyhd.com^
+
 ||secure.iqmining.com^$third-party
 ||d1vrcwxei1aj0g.cloudfront.net^
 ||ads.roku.com^
@@ -253,7 +253,7 @@
 ||mt.ssai.peacocktv.com^
 ||d126kahie2ogx0.cloudfront.net^
 ||d1t38ngzzazukx.cloudfront.net^
-||beap-bc.yahoo.com^
+
 ||promo.evvnt.com^
 ||d28g1fhp6rn9w3.cloudfront.net^
 ||sa7eer.com^

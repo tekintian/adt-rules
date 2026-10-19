@@ -1,14 +1,13 @@
-! dnr-misc — 130 rules
-! Source: rules_dnr.txt
+! dnr-misc — 49 rules
+! Source: rules_merged.txt
 ! Uncategorized / structural
 
-! ---- Global rules ---- (130 rules)
 [Adblock Plus 2.0]
-! Checksum: LyGxkbuGnvvmWa6pMqHU+A
-! Checksum: BGNHvCo+kzergCd6RitJgA
-! Checksum: MhH5sfBHsU7bRoCslmfrKQ
-! Checksum: Pr3UU00RxGqnmXBXqIfEqQ
-! Checksum: pYZl1Ahbo45yDcSUiFRafw
+! Checksum: EFYIgDVEasX3orVooODR5Q
+! Checksum: JWmrvSevZjLabpXkFv0Smg
+! Checksum: kqwb7SPhPDuqR78DPDCVuA
+! Checksum: LxhvvqXgqWlMvwVOcZYxMA
+! Checksum: W9/6eIEdTYXcB3QyjM98Iw
 ! Expires: 2 days (update frequency)
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/v6/dyn/annoyance.txt
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/v6/dyn/antiadblock.txt
@@ -16,121 +15,39 @@
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/v6/dyn/beta.txt
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/v6/dyn/security.txt
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/v6/dyn/video.txt
-! Last modified: 18 Oct 2026 13:16 UTC
-! Source: /Volumes/tmp/down/adscope-adt_base.txt
-! Source: Adt基础广告过滤规则
+! Last modified: 18 Oct 2026 14:24 UTC
+! Last modified: 19 Oct 2026 04:32 UTC
 ! Source: rules_clean.txt
-! Source: rules_clean_generic.txt
+! Source: rules_sorted.txt
+! Title: Beta广告过滤规则
+! Title: Security广告过滤规则
 ! Title: 反广告拦截过滤规则
 ! Title: 基础广告过滤规则
-! Title: 安全威胁过滤规则
 ! Title: 视频网站广告过滤规则
 ! Title: 骚扰元素过滤规则
-! Version: 2026-10-18T23:11:53
-! Version: 2026-10-18T13:16:35
-! Version: 2026-10-18T13:16:36
-!   - /Volumes/work/projects/chrome_ext/adclear_v6/vendor/rules/v6/dnr/compat.txt
-!   - /Volumes/work/projects/chrome_ext/adclear_v6/vendor/rules/v6/dnr/core.txt
-!   - /Volumes/work/projects/chrome_ext/adclear_v6/vendor/rules/v6/dnr/hot.txt
-!   - /Volumes/work/projects/chrome_ext/adclear_v6/vendor/rules/v6/dnr/misc.txt
-!   - /Volumes/work/projects/chrome_ext/adclear_v6/vendor/rules/v6/dnr/privacy.txt
-!   - /Volumes/work/projects/chrome_ext/adclear_v6/vendor/rules/v6/dnr/security.txt
-!   - /Volumes/work/projects/chrome_ext/adclear_v6/vendor/rules/v6/res/dnr/compat.txt
-!   - /Volumes/work/projects/chrome_ext/adclear_v6/vendor/rules/v6/res/dnr/core.txt
-!   - /Volumes/work/projects/chrome_ext/adclear_v6/vendor/rules/v6/res/dnr/hot.txt
-!   - /Volumes/work/projects/chrome_ext/adclear_v6/vendor/rules/v6/res/dnr/misc.txt
-!   - /Volumes/work/projects/chrome_ext/adclear_v6/vendor/rules/v6/res/dnr/privacy.txt
-!   - /Volumes/work/projects/chrome_ext/adclear_v6/vendor/rules/v6/res/dnr/security.txt
-! ---- CA rules ---- (2 rules)
-! ---- CN rules ---- (201 rules)
-! ---- CN rules ---- (21 rules)
-! ---- CN rules ---- (277 rules)
-! ---- CN rules ---- (3 rules)
-! ---- CN rules ---- (301 rules)
-! ---- CN rules ---- (308 rules)
-! ---- CN rules ---- (310 rules)
-! ---- CN rules ---- (5 rules)
-! ---- CN rules ---- (55 rules)
-! ---- CN rules ---- (890 rules)
-! ---- CN rules ---- (9 rules)
-! ---- DE rules ---- (2 rules)
-! ---- Global rules ---- (1 rules)
-! ---- Global rules ---- (1062 rules)
-! ---- Global rules ---- (136 rules)
-! ---- Global rules ---- (1470 rules)
-! ---- Global rules ---- (15456 rules)
-! ---- Global rules ---- (2 rules)
-! ---- Global rules ---- (2035 rules)
-! ---- Global rules ---- (29 rules)
-! ---- Global rules ---- (3 rules)
-! ---- Global rules ---- (37 rules)
-! ---- Global rules ---- (41 rules)
-! ---- Global rules ---- (47 rules)
-! ---- Global rules ---- (53 rules)
-! ---- Global rules ---- (57 rules)
-! ---- Global rules ---- (64 rules)
-! ---- Global rules ---- (67994 rules)
-! ---- Global rules ---- (75404 rules)
-! ---- Global rules ---- (775 rules)
-! ---- Global rules ---- (840 rules)
-! ---- HK rules ---- (14 rules)
-! ---- HK rules ---- (22 rules)
-! ---- HK rules ---- (3 rules)
-! ---- HK rules ---- (38 rules)
-! ---- HK rules ---- (4 rules)
-! ---- JP rules ---- (1 rules)
-! ---- JP rules ---- (2 rules)
-! ---- JP rules ---- (3 rules)
-! ---- KR rules ---- (1 rules)
-! ---- LU rules ---- (2 rules)
-! ---- PRIVATE rules ---- (2 rules)
-! ---- SG rules ---- (1 rules)
-! ---- SG rules ---- (3 rules)
-! ---- SG rules ---- (6 rules)
-! ---- TW rules ---- (1 rules)
-! ---- US rules ---- (115 rules)
-! ---- US rules ---- (17 rules)
-! ---- US rules ---- (2 rules)
-! ---- US rules ---- (33 rules)
-! ---- US rules ---- (57 rules)
-! ---- US rules ---- (6 rules)
+! Version: 2026-10-19T13:06:12
+! Version: 2026-10-19T04:32:16
+! Version: 2026-10-19T04:32:17
+!   - /Volumes/work/projects/chrome_ext/adclear_v6/vendor/rules/v6/dyn/annoyance.txt
+!   - /Volumes/work/projects/chrome_ext/adclear_v6/vendor/rules/v6/dyn/antiadblock.txt
+!   - /Volumes/work/projects/chrome_ext/adclear_v6/vendor/rules/v6/dyn/base.txt
+!   - /Volumes/work/projects/chrome_ext/adclear_v6/vendor/rules/v6/dyn/beta.txt
+!   - /Volumes/work/projects/chrome_ext/adclear_v6/vendor/rules/v6/dyn/security.txt
+!   - /Volumes/work/projects/chrome_ext/adclear_v6/vendor/rules/v6/dyn/video.txt
 ! ============================================================
-! Allowlists + anti-breakage + whitelist protection
-! Cleaned & deduplicated by Adscope
-! Cleaned ADT ruleset (GEO-grouped, original order within region)
-! Core ad domains, URI patterns (network layer)
-! dnr-compat — 136 rules
-! dnr-compat — 232 rules
-! dnr-compat — 344 rules
-! dnr-core — 1062 rules
-! dnr-core — 1165 rules
-! dnr-core — 2427 rules
-! dnr-hot — 373 rules
-! dnr-hot — 41 rules
-! dnr-misc — 3 rules
-! dnr-misc — 64 rules
-! dnr-privacy — 139 rules
-! dnr-privacy — 140 rules
-! dnr-privacy — 16 rules
-! dnr-security — 1 rules
-! Duplicates dropped: 301
-! Generated: 2026-10-18 23:03:42
+! beta广告
+! Duplicates dropped: 4996
+! Generated: 2026-10-19 12:42:18
 ! Merged & deduplicated ADT ruleset
-! Network-level security threats
-! Rules: 1483
-! Rules: 15456
-! Rules: 16
-! Rules: 68019
-! Rules: 840
-! Sources (12):
-! Top-site specific fixes
-! Total input rules : 3520
-! Tracking / fingerprinting / analytics
-! Uncategorized / structural
-! Unique rules kept : 3171
+! Rules: 1208
+! Rules: 1874
+! Rules: 21223
+! Rules: 7452
+! Sources (6):
+! Total input rules : 37595
+! Unique rules kept : 31673
 ! 反广告拦截检测、绕过、提示等过滤规则
+! 安全相关广告过滤规则
 ! 弹窗、Cookie 提示、年龄验证、遮罩等骚扰元素过滤规则
-! 恶意软件、钓鱼、诈骗等安全威胁网站过滤规则
 ! 视频网站播放器、贴片、前贴片等广告过滤规则
 ! 通用广告联盟、横幅、弹窗等常见广告过滤规则
-

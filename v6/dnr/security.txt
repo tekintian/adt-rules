@@ -1,10 +1,7 @@
-! dnr-security — 2 rules
-! Source: rules_dnr.txt
+! dnr-security — 3 rules
+! Source: rules_sorted.txt
 ! Network-level security threats
 
-! ---- US rules ---- (1 rules)
 ||coin-hive.com/lib/coinhive.min.js
-
-! ---- Global rules ---- (1 rules)
 /wp-content/plugins/simple-monero-miner-coin-hive/*
-
+xhtml?%22*$script,third-party

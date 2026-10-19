@@ -48,7 +48,7 @@
 ||log1.17173.com^
 |http://*/letv-gug/
 @@|http://item.btime.com/
-@@|https://analytics.google.com/
+
 ||ifeng.com/statics/comment_baidu.html
 ||ifeng.com/wapAdversApi?
 ||ifeng.com^*&ADUNITID=
