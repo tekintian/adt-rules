@@ -1,3 +1,5 @@
 .DS_Store
 /__pycache__
 v6/res
+.adt_url_cache.tsv
+dns_reports.tsv

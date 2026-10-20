@@ -1,6 +1,4 @@
-! dnr-compat — 299 rules
 ! Source: rules_merged.txt
-
 @@/ad/images/*$domain=37-express.com
 @@/adjs_pic_$domain=168gamer.net|slit.cn
 @@/admanager/*$domain=woego.cn
@@ -300,3 +298,5 @@
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
 @@||zjjcxy.cn^*/ad.css?$stylesheet
+
+! dnr-compat — 299 rules

@@ -1,14 +1,12 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-20T07:33:34
-! Checksum: a8d9C67jbAZ61DwZ78gdNg
-! Title: 反广告拦截过滤规则
-! 反广告拦截检测、绕过、提示等过滤规则
-! Last modified: 19 Oct 2026 04:43 UTC
+! Checksum: gtb8O6SriLnfUkJwD/RpwA
 ! Expires: 2 days (update frequency)
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/v6/dyn/antiadblock.txt
-! Source: rules_merged.txt
+! Last modified: 19 Oct 2026 04:43 UTC
 ! Rules: 1874
-
+! Source: rules_merged.txt
+! Title: 反广告拦截过滤规则
+! Version: 2026-10-20T12:08:24
 ###ab_adblock
 ###adblock-big
 ###adblock-leaderboard
@@ -288,7 +286,6 @@ saranghero.com##.adblock-warning
 scrolller.com#?#.popup:has(> .popup__box div:contains(adblocker))
 sd-company.su###dom_adblock
 securenetsystems.net###adblockWrapper
-
 shabdkosh.com###adblocker-detected-modal
 shojoscans.com,en-thunderscans.com##.lm-adblock-notfic-container
 sirtv.fit###mw-adblock-overlay
@@ -1883,3 +1880,6 @@ zooqle.*##+js(aeld, /^(?:mousedown|mouseup)$/, 0x)
 zootube1.com##+js(aopr, popunderSetup)
 zrozz.com##+js(set, adblock, false)
 zwergenstadt.com##+js(aeld, load, onload)
+
+
+! 反广告拦截检测、绕过、提示等过滤规则

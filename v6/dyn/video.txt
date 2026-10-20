@@ -1,24 +1,19 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-20T00:05:14
-! Checksum: XOqDPQvuCrnd8iFD1XFzxw
-! Title: 视频网站广告过滤规则
-! 视频网站播放器、贴片、前贴片等广告过滤规则
-! Last modified: 19 Oct 2026 04:43 UTC
+! Checksum: 44b1wMntlpZ3LqzD1WG4uQ
 ! Expires: 2 days (update frequency)
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/v6/dyn/video.txt
-! Source: rules_merged.txt
+! Last modified: 19 Oct 2026 04:43 UTC
 ! Rules: 1141
-
+! Source: rules_merged.txt
+! Title: 视频网站广告过滤规则
+! Version: 2026-10-20T12:08:25
 ||17173cdn.com/20*.mp4$rewrite=abp-resource:blank-mp3,domain=17173.com
-
 ||a.spankbang.com^$redirect=nooptext
-
 ||ctfile.com/popjump.php?$popup
 ||delivery-pc.wasu.cn/d/frontJs/3.0$rewrite=abp-resource:blank-js,domain=wasu.cn
 ||huya.com/leaf/*=vodadv&$rewrite=abp-resource:blank-mp3,domain=huya.com
 ||kfc.com.cn^$popup,domain=iqiyi.com
 ||sohu.com/i/?pvid=$popup
-
 /|$denyallow=cdn.jsdelivr.net|putlocker.best,domain=putlocker.best,xmlhttprequest
 .bongacams.com/?bcs=$popup
 .com/*?*&refer=*fmovies.*&adb=$all
@@ -147,7 +142,6 @@ bilibili.com##span[style*="height:"][data-loc-id]
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
 bilibili.com#?#.video-card-common:-abp-has(> .card-pic > a[href*="cm.bilibili.com"][data-target-url])
 bilibili.com#?#.video-page-special-card-small:-abp-has(> .card-box > .info > a[href^="http"]:not([href*=".bilibili.com/"]))
-
 echofm.online#?#.support:has(> div[class^="sc-"] > div[class^="sc-"] > a[href^="https://apps.apple.com/ru/app/"])
 elle.com##.seo-tags-container
 elle.com##main > div[class^="css-"]:has(> .ad-disclaimer)
@@ -167,7 +161,6 @@ evolvingtable.com##.cwp-save-recipe-shortcode
 evolvingtable.com##.wp-block-group > .cwp-inner.has-undenary-background-color:has(form[action$="/subscriptions"])
 fanyi.baidu.com,longzhu.com##.banner-wrap
 farmgamesfree.com,mahjonginn.com,solitairevale.com,gamesparkles.com,wordgamesfun.com,mysteryvale.com,gamestough.com,slotsbingofun.com,bingospell.com,virtualworldsland.com,horseplains.com##.matched_content_wrapper
-
 finance.ifeng.com###box_img
 finance.ifeng.com##.lccs
 finance.ifeng.com##.sConRbox
@@ -238,7 +231,6 @@ huya.com##.small-handle-tip
 huya.com##.tt[style*="1200px"]
 huya.com#?#.item-pic:-abp-has(> .img-tips)
 iask.ai##.flex > a[href="https://apps.apple.com/us/app/iask-ai-unlimited/id6449653022"]
-
 ifeng.com##.yy_right_bottom
 ifeng.com##[class*="ife-ad"]
 ifeng.com##[class*="index_banner"]
@@ -281,7 +273,6 @@ ifeng.com#?#div[class^="titleImg-"]:-abp-has(span[class^="source-"]:-abp-contain
 ifeng.com,qq.com###advert
 ifeng.com,sohu.com##.ad950
 ifeng.com,vsping.com##.ad_01
-
 iqiyi.com###adflash
 iqiyi.com###bottom_banner_ad_bk
 iqiyi.com###jingdongArea
@@ -462,7 +453,6 @@ people.com##.promo-unit
 people.com##.puzzler-promo-unit--homepage
 people.com##.sitewide-alerts
 people.com.cn##.ipc_none
-
 rapidgator.net##a[href^="https://itunes.apple.com/us/app/rapidgator-net-file-manager/"]
 real-gomovies.com##body > div > div > style ~ div:has(a[href="/user/profile/premium-membership"])
 real-gomovies.com##main a[href="/user/profile/premium-membership"]
@@ -523,7 +513,6 @@ sd.ifeng.com##div[data-title*="广告位"]
 sd.ifeng.com##div[style="width:1000px; margin:10px auto 0 auto;"]
 seroundtable.com###ninja_box
 seroundtable.com##.bottombox > div.squarebox > a[target="_blank"] > img
-
 sflix.film,netnaija.film##div[class^="fixed inset-0 z-[22] w-full h-full bg-black/60 flex items-center justify-center px-4 md:px-0"]
 shop.menz-style.com###coupon-container
 shop.menz-style.com##img[alt="秋冬コーデのコツ"]
@@ -624,7 +613,6 @@ thestreamable.com##.container-lg > aside.container-sm.mb-7
 thestreamable.com##.d-md-flex
 thuvienphapluat.vn##body > div > a[href="https://itunes.apple.com/vn/app/ithong/id1493253359"]
 ticklingforum.com#?##tmf_sidebar > div.tmf_sb_content:has(> p.tmf_sb_p > a[href*="clips4sale.com"])
-
 toutiao.com##.article_link[data-tag="ad"]
 toutiao.com#?#.has_action:-abp-has(> .icon_ad)
 townandcountrymag.com,menshealth.com,harpersbazaar.com,elle.com,delish.com,womenshealthmag.com,womansday.com,cosmopolitan.com,esquire.com,goodhousekeeping.com,housebeautiful.com,prevention.com,redbookmag.com,seventeen.com,autoweek.com,bestproducts.com,bicycling.com,caranddriver.com,countryliving.com,oprahdaily.com,popularmechanics.com,roadandtrack.com,runnersworld.com###main-content > div[class^="css-"]:has(div#gpt-leaderboard-ad)
@@ -694,3 +682,15 @@ youku.com#$#body:not(:has(.player-fullscreen-normal)) { overflow: auto !importan
 youku.com#$#youku-ad-sdk
 
 
+
+
+
+
+
+
+
+
+
+
+
+! 视频网站播放器、贴片、前贴片等广告过滤规则

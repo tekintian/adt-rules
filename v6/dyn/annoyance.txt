@@ -1,14 +1,12 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-20T07:33:34
-! Checksum: NRDelxlExRf/o+vt99ASCg
-! Title: 骚扰元素过滤规则
-! 弹窗、Cookie 提示、年龄验证、遮罩等骚扰元素过滤规则
-! Last modified: 19 Oct 2026 04:43 UTC
+! Checksum: NNWT4ItqHzVIqasjRntyuA
 ! Expires: 2 days (update frequency)
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/v6/dyn/annoyance.txt
-! Source: rules_merged.txt
+! Last modified: 19 Oct 2026 04:43 UTC
 ! Rules: 7491
-
+! Source: rules_merged.txt
+! Title: 骚扰元素过滤规则
+! Version: 2026-10-20T12:08:24
 ###ad-container-overlay
 ###ad-float.kyty
 ###ad-floatwin
@@ -2857,7 +2855,6 @@ jdforum.net##td.alt1Active > div > div[style="float:right"]
 jdoodle.com#?#.home-container > #codefund  > span.codfund-fallback:contains(This site is ad supported! Please consider disable Ad blocker!)
 jejakpiknik.com###footer_sticky
 jeshoots.com##.san_sticky_notice
-
 jestful.net,klto9.com,shareae.com##.float-ck
 jeu-concours.biz##.bloc-newsletter
 jeudegolf.org##img[class*="notopenmodal"]
@@ -4529,11 +4526,6 @@ sescsp.org.br##.container-policy ~ div.overlay
 setopati.com###modalbox-banner
 seudinheiro.com###form_newsletter_box
 seudinheiro.com##.box-newsletter
-
-
-
-
-
 sfexaminer.com##.promo-designer-modal
 sgcasino533196.com##stb-gdpr-modal
 shabdkosh.com##.modal-backdrop
@@ -7500,3 +7492,11 @@ zhuanlan.zhihu.com#%#//scriptlet('trusted-click-element', '.signFlowModal .Modal
 zonealarm.com#%#//scriptlet('set-session-storage-item', 'modal-newsletter', 'false')
 zvuch.com#%#//scriptlet('trusted-click-element', '#show_popup_auth .close', '', '800')
 zvuk.com#%#//scriptlet('set-session-storage-item', 'desktop_showedSaSubscriptionModal', 'true')
+
+
+
+
+
+
+
+! 弹窗、Cookie 提示、年龄验证、遮罩等骚扰元素过滤规则

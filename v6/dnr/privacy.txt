@@ -1,7 +1,4 @@
-! dnr-privacy — 196 rules
 ! Source: rules_sorted.txt
-! Tracking / fingerprinting / analytics
-
 ||1708t.com/js/jquery.js
 ||1722t.com/js/jquery.js
 ||188soft.com/js/PCsoftDetailAD.js
@@ -15,18 +12,14 @@
 ||ads.pubmatic.com/*
 ||advertising.com/*
 ||alllget.com^$third-party
-||analytics.map.qq.com^
 ||api-js.mixpanel.com/engage/?
 ||api.exc.mob.com^
 ||api.share.mob.com^
 ||app.posthog.com/static/array.js$third-party
 ||asadcdn.com/bt^
-||baidu.com/pixel?
 ||bbs.xiashanet.com/js/adsview.js
-||beacon.cdn.qq.com^
 ||bitcoinadvertise.net^$3p
 ||bloggerads.net^$third-party
-||booking.com/*/track^
 ||carexpert.com.tw/wp-content/uploads/*800x90.
 ||cbvjddh.23txt.com^
 ||cdn.amplitude.com/engagement-browser/
@@ -36,11 +29,9 @@
 ||cdn.branch.io^$script
 ||cdn.eu.amplitude.com/libs/analytics-browser-
 ||cdn.witchhut.com^$script,domain=ejocuri.ro|gamesheep.com|girlg.com|girlsplay.com|jocurifete.ro|playpod.com
-||cfg.imtt.qq.com^
 ||china.chemnet.com/cnbanner/
 ||clarity.ms^$third-party
 ||clarity.ms^|
-||cnzz.com/stat.
 ||cpro.baidustatic.com^$script,domain=sohu.com
 ||csgtfruit.com^
 ||cssqt.com/a/images/indexsd.gif
@@ -51,10 +42,7 @@
 ||doubleclick.net/pixel?$third-party
 ||doubleclick.net^$image,third-party
 ||doubleclick.net^*/trackimp/$third-party
-||ebay.com/blueberry/*/ads/identity/pixelUrls
-||ebay.com/chocolatechip/track|
 ||exelator.com^$domain=disqus.com
-||expedia.com/api/uisprime/track
 ||fls.doubleclick.net/activityi
 ||getui.com^$third-party
 ||global-receiver-ta.thinkingdata.cn^
@@ -69,30 +57,16 @@
 ||gridsum.com^$third-party
 ||grumft.com^$3p
 ||handelsblatt.com/*/empty.js$script,1p
-||hexun.com/track/
 ||hjfile.cn/analytics/site/TrackEvent.js
 ||hm.baidu.com/hm.gif
 ||hm.baidu.com^$third-party
 ||horizon.mashable.com/*/track
 ||htlb.casalemedia.com^$removeparam=r,domain=aternos.org
 ||i.snssdk.com^$domain=~i.snssdk.com
-||iqiyi.com/pixel?
 ||irs01.com/irt?_iwt_id=
 ||jpush.cn^
 ||js.letvcdn.com/js/*/stats/
-||js.selfimg.com.cn/cna/analytics.js
-||js.selfimg.com.cn/vogue/discovery/js/collect-entry.js
 ||lightning.cnn.com/analytics/
-||linkedin.com/apfc/collect
-||linkedin.com/apfc/collect$xmlhttprequest
-||linkedin.com/autofill/track/
-||linkedin.com/collect/
-||linkedin.com/li/track
-||linkedin.com/li/track$xmlhttprequest
-||linkedin.com/pixel/
-||linkedin.com/rest/trackingApiService/track
-||log.tbs.qq.com^
-||log1.wtlogin.qq.com^
 ||marketbeat.com/scripts/modal/*
 ||mediav.com^$third-party
 ||miaozhen.com^$third-party
@@ -108,7 +82,6 @@
 ||otheve.beacon.qq.com^
 ||p.brid.tv/player/build/plugins/googleanalytics/
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
-||pan.baidu.com/api/analytics?
 ||partner.googleadservices.com^$third-party
 ||pharmnet.com.cn/js/float_div.js
 ||pippio.com^$domain=disqus.com
@@ -122,22 +95,13 @@
 ||shuzilm.cn^
 ||snssdk.com^
 ||sp.booking.com^$domain=thecrazytourist.com
-||stat.y.qq.com^
 ||static.doubleclick.net/instream/ad_status.js
-||statistic.qzone.qq.com^
 ||svcs.ebay.com/ufeservice/*/metrics
 ||synacast.com^
 ||talkingdata.com^*/sdk_release.js
 ||thinkingdata.cn^
-||tp2p.kg.qq.com^
 ||track.mediav.com^
-||tudg.qq.com/dataimport^
-||twns.p2ptun.qq.com^
-||uc.cn/collect?
 ||umeng.com^
-||uplog.inews.qq.com^
-||xiaohongshu.com/api/collect
-||xiaohongshu.com/api/v2/collect
 ||ydeprint.com^
 ||ylnet.com.cn/dl*.js
 ||zantainet.com^
@@ -184,11 +148,14 @@
 ://tracker.*/track/event
 ://tracking.*/beacon/
 ://tralut.*/collect/value?
+
+
+! dnr-privacy — 196 rules
+! Tracking / fingerprinting / analytics
 $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 *$script,3p,domain=7starhd.*,denyallow=disqus.com|fastlylb.net|googleapis.com
 *$script,3p,domain=deltabit.co
 *$script,frame,xhr,3p,domain=outletpic.*,denyallow=imgoutlet.com
-
 ?sam-item/track-impressions
 dlsdk.appsflyer.com^
 dlsdk.appsflyersdk.com^

@@ -1,7 +1,4 @@
-! dnr-hot — 424 rules
 ! Source: rules_sorted.txt
-! Top-site specific fixes
-
 ||0712fang.com/Public/js/cf_flash.js
 ||0772fang.com/assets/js/lffoi.js
 ||0772fang.com/assets/js/Newhouse/inserAds.js
@@ -316,13 +313,6 @@
 ||sogou.com/reventondc/inner/gamebrand?
 ||sogou.com/uniplan/?pageID=
 ||sogou.com/wap_ask_service?
-||sohu.com/api/labs/mp/load?
-||sohu.com/clk.gif?
-||sohu.com/mdevp/*-advert/
-||sohu.com/pv?
-||sohu.com/pvpb.gif?
-||sohu.com/qfpc.gif?
-||sohu.com^
 ||sp0.baidu.com*/s.gif?l=$third-party
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
 ||stackoverflow.com/gps/event
@@ -397,7 +387,6 @@
 /tres/recommend/*$domain=ifeng.com
 /vmind.qqvideo.tc.qq.com^
 /w_e_b/de_li_ve_ry/a_j_s.php?zid=$domain=cnlmjx.com
-
 /^https?:\/\/tjmaxx\.tjx\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=tjx.com
 .baidu.com/cpro/
 .baidu.com/ecom
@@ -406,6 +395,11 @@
 .com/ad/$~image,third-party,domain=~espn.com|~mediaplex.com|~warpwire.com|~wsj.com
 .mp4?*sdtfrom=&$domain=m.v.qq.com
 ://promo.$~media,third-party,domain=~myshopify.com|~promo.com|~shopifycloud.com|~slidely.com
+
+
+
+! dnr-hot — 424 rules
+! Top-site specific fixes
 3minx.com#$?#div.popup-box-ads { remove: true; }
 _advertise-$domain=~linkedin.com
 bilibili.com#$?#.bili-video-card > div[class]:only-child:matches-css(before, content: /Adblock/) { remove: true; }
@@ -414,7 +408,6 @@ chan.sankakucomplex.com#$?#.bottom-popup { remove: true; }
 comeinsidebox.com$$style[wildcard="user-select:*none"][max-length="500"]
 cuttyy.com$$script:contains(netpub.media)
 forums.socialmediagirls.com$$a[href="https://striply.com/"]
-
 hxsame.hexun.com$domain=~quote.hexun.com
 meteologix.com$$script[tag-content="Flags."][min-length="20000"][max-length="300000"]
 muylinux.com$$script:contains(isAmpDevMode)

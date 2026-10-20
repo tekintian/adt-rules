@@ -1,14 +1,12 @@
 [Adblock Plus 2.0]
-! Version: 2026-10-20T00:05:14
-! Checksum: swQkrqqJTJpeep86x2RtuA
-! Title: 基础广告过滤规则
-! 通用广告联盟、横幅、弹窗等常见广告过滤规则
-! Last modified: 19 Oct 2026 04:43 UTC
+! Checksum: WTvNpidWS1xB9HVXnNyaKQ
 ! Expires: 2 days (update frequency)
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/v6/dyn/base.txt
-! Source: rules_merged.txt
+! Last modified: 19 Oct 2026 04:43 UTC
 ! Rules: 21128
-
+! Source: rules_merged.txt
+! Title: 基础广告过滤规则
+! Version: 2026-10-20T12:08:24
 @@||10010.com^$generichide
 @@||10086.cn^$generichide
 @@||189.cn^$generichide
@@ -22,7 +20,6 @@
 /pushstart.aspx?$popup,third-party
 /pushstart.html?$popup,third-party
 /tanchuan.htm$popup,third-party
-
 .189.gd^*.html?p=$popup,third-party
 .click/?ip=$popup
 .click/?token=*&sessionUser=*&amzId=*&tilTime=*&s=|$all
@@ -34,7 +31,6 @@
 .com/afu.php?zoneid=$all
 .com/aS/feedclick?s=$all,match-case
 .com/click/?ct=*&cu=$all
-
 .com/redirect-zone/$all
 .demdex.net/id^$redirect=nooptext,important
 .doc?f=1&sid=$all
@@ -14008,7 +14004,6 @@
 ##[href*="/afu.php"]
 ##[href*="passtechusa.com"]
 ##[href*="uselnk.com/"]
-
 ##[href="https://chaturbate.jjgirls.com/"] > img
 ##[href="https://jdrucker.com/gold"] > img
 ##[href^="//look.utndln.com/offer"]
@@ -14034,7 +14029,6 @@
 ##[href^="https://ilovemyfreedoms.com/landing-"]
 ##[href^="https://istlnkcl.com/"]
 ##[href^="https://join.playboyplus.com/track/"]
-
 ##[href^="https://klsdee.com/"]
 ##[href^="https://mylead.global/stl/"] > img
 ##[href^="https://mypatriotsupply.com/"] > img
@@ -14083,7 +14077,6 @@
 ##a[clickmode="ad"]
 ##a[clickmode="cpt"]
 ##a[data-ad_type="1"]
-
 ##a[href^="java"][onclick^="gogogoto"]
 ##a[href^="javascript:;"][itemprop="downloadUrl"]
 ##a[href^="javascript:gl012"]
@@ -15102,7 +15095,6 @@ keralatelecom.info##.ai-viewports
 kinoger.to##a[href^="//fbmedia-ckl.com/get"]
 kiss-anime.*###rightside > .clear2 ~ .rightBox
 kiss-anime.*##.episodeList > div > div[style*="text-align: center"]
-
 kisstvshow.*###hideAds
 kisstvshow.*##.ksAds
 kisstvshow.*##div[style="width: 620px; margin: 0px auto; overflow: hidden;"]
@@ -15186,7 +15178,6 @@ m.timesofindia.com##span:has-text(/Ad:/):xpath(../..)
 macdo.cn##.bounceInRight
 macrotrends.net##.adx_top_ad
 mactorrent.co##iframe
-
 magiclen.org##ins.adsbygoogle
 maharashtratimes.com##.ad1
 maharashtratimes.com##.colombia
@@ -15222,9 +15213,6 @@ megalink.*###__bgd_link
 megalink.*##[href^="https://mob1ledev1ces.com/r/"]
 megapaste.xyz###newlayercontent
 megapastes.com##.content > center
-
-
-
 meijutt.tw###note
 meijutt.tw##.a960_index
 meijutt.tw##.widget-weixin
@@ -15517,23 +15505,6 @@ sensualgirls.org##.wide_boxcontent:has-text(/adb/i)
 sensualgirls.org##a[href^="http://refer.ccbill.com/cgi-bin/clicks.cgi?"]
 sensualgirls.org##div[data-width][style*="background-image: url"]:style(background: none !important)
 series9.*##div[style="padding:15px 0;text-align:right;"]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 sfirmware.com##.buy_on_amazon
 sfirmware.com##.cc-window
 sfirmware.com##.post-ads
@@ -15823,3 +15794,7 @@ sankakucomplex.com#@#.scad
 search.crowdsearch.net#@##adslot1
 speedtest.net#@#.pure-u-custom-ad-skyscraper
 uflash.tv#@#.ad
+
+
+
+! 通用广告联盟、横幅、弹窗等常见广告过滤规则
