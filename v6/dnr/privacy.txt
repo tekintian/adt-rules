@@ -184,7 +184,6 @@
 ://tracker.*/track/event
 ://tracking.*/beacon/
 ://tralut.*/collect/value?
-hardmob.com.br#?#.postcontainer:has(.usertitle:has-text(Publicidade))
 $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 *$script,3p,domain=7starhd.*,denyallow=disqus.com|fastlylb.net|googleapis.com
 *$script,3p,domain=deltabit.co

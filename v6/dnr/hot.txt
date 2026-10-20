@@ -414,7 +414,7 @@ chan.sankakucomplex.com#$?#.bottom-popup { remove: true; }
 comeinsidebox.com$$style[wildcard="user-select:*none"][max-length="500"]
 cuttyy.com$$script:contains(netpub.media)
 forums.socialmediagirls.com$$a[href="https://striply.com/"]
-https://github.com/AdguardTeam/AdguardFilters/issues/51221
+
 hxsame.hexun.com$domain=~quote.hexun.com
 meteologix.com$$script[tag-content="Flags."][min-length="20000"][max-length="300000"]
 muylinux.com$$script:contains(isAmpDevMode)

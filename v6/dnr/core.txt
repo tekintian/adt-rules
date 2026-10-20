@@ -686,8 +686,6 @@
 ||hrjg.com.cn^$third-party
 ||hsfile.ws/all/p.all.js
 ||hur.cn/AhurD/*.gif
-||huya.com*/cache1min.
-||huya.com^
 ||hxsxw.com/js/float.js
 ||hy.huangye88.com.cn^
 ||hypers.com.cn^
