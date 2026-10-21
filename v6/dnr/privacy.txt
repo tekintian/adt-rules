@@ -3,7 +3,6 @@
 ||1722t.com/js/jquery.js
 ||188soft.com/js/PCsoftDetailAD.js
 ||4btbtt.com/slade.js
-||913vt.com^
 ||99mst.com/upfiles/adv/main02.jpg
 ||9ist.com/others/ad/
 ||a2.xinhuanet.com^
@@ -70,7 +69,6 @@
 ||marketbeat.com/scripts/modal/*
 ||mediav.com^$third-party
 ||miaozhen.com^$third-party
-||mob.com^
 ||muzisoft.com/static/*_f.js
 ||mvcat.com/api/wx/follow.js
 ||myfreecopyright.com^$3p
@@ -91,20 +89,13 @@
 ||rryy99.com/statics/js/stat.js
 ||sc-static.net^$third-party
 ||sensorsdata.cn^$third-party
-||services.brid.tv/player/build/brid.min.js$domain=android-x86.org|blitz.gg|ultrasurfing.com|boundingintocomics.com
-||shuzilm.cn^
-||snssdk.com^
 ||sp.booking.com^$domain=thecrazytourist.com
 ||static.doubleclick.net/instream/ad_status.js
 ||svcs.ebay.com/ufeservice/*/metrics
-||synacast.com^
 ||talkingdata.com^*/sdk_release.js
 ||thinkingdata.cn^
 ||track.mediav.com^
-||umeng.com^
-||ydeprint.com^
 ||ylnet.com.cn/dl*.js
-||zantainet.com^
 ||zgsdk.zhugeio.com^
 ||zinggadget.com/wp-content/*/popup
 |http://b.scorecardresearch.com
