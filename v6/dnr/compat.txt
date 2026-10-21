@@ -1,4 +1,8 @@
 ! Source: rules_merged.txt
+
+@@||fonts.googleapis.com^
+@@||fonts.gstatic.com^
+
 @@/ad/images/*$domain=37-express.com
 @@/adjs_pic_$domain=168gamer.net|slit.cn
 @@/admanager/*$domain=woego.cn
@@ -12,13 +16,10 @@
 @@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com|shixiseng.com
 @@/image/share_$domain=pan.baidu.com
 @@/images/*_share.png$domain=service.weibo.com
-@@/images/ad/*$domain=9588.com|casio.com.cn|dod-tec.com|ourgame.com|pro-partner.com.tw|snh48.com|tingbook.com
-@@/iplookup.$domain=cankaoxiaoxi.com|dilidili.wang|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
+
+
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
 @@/log/report/*$script,domain=bilibili.com
-@@/sensorsdata-$domain=aixiaoyuan.cn|zkh.com
-@@/sensorsdata.$domain=36kr.com|53zaixian.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|guancha.cn|imooc.com|kuque.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|ttcdw.cn|xinrenxinshi.com|zzjiasuqi.com
-@@/show_ads_$domain=ygo-sem.cn
 @@||10.0.*
 @@||10010.cn^*/ad
 @@||10010.com/mall/common/js/fa.js?referer=

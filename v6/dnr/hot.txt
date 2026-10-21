@@ -113,7 +113,7 @@
 ||juejin.cn/content_api/v1/advert/query_adverts?
 ||linkedin.com/*/rum-track?
 ||linkedin.com/countserv/count/$third-party
-||linkedin.com/flagship-web/rsc-action/actions/server-request?sduiid=com.linkedin.sdui.impl.homenav.requests.getThirdPartyTrackingPixels
+
 ||linkedin.com/li/tscp/sct
 ||linkedin.com/platform-telemetry/
 ||linkedin.com/public-profile/api/ingraphs/

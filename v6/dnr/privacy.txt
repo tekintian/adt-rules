@@ -27,7 +27,7 @@
 ||cdn.branch.io^$app=app.extra.android|com.spotify.music
 ||cdn.branch.io^$script
 ||cdn.eu.amplitude.com/libs/analytics-browser-
-||cdn.witchhut.com^$script,domain=ejocuri.ro|gamesheep.com|girlg.com|girlsplay.com|jocurifete.ro|playpod.com
+
 ||china.chemnet.com/cnbanner/
 ||clarity.ms^$third-party
 ||clarity.ms^|
@@ -75,7 +75,7 @@
 ||mylust.com/*.jsx
 ||newsource-cdn-static.ns.cnn.com/prd/analytics/1.0.1/cnnvan-omniture.min.js
 ||nmc.cn/npt/track/stat.js
-||onesignal.com^$domain=androidauthority.com|iphoneincanada.ca|rockpapershotgun.com|senpa.io|shineads.org
+
 ||oss.weread.qq.com^
 ||otheve.beacon.qq.com^
 ||p.brid.tv/player/build/plugins/googleanalytics/
@@ -152,6 +152,6 @@ dlsdk.appsflyer.com^
 dlsdk.appsflyersdk.com^
 dynamic-report-api.appsflyersdk.com^
 gcdsdk.appsflyersdk.com^
-imagefu.com#$?#link[id][href="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"] { remove: true; }
+
 lastminute.com.au/api/uisprime/track
 syosetu.com$$script[src="securepubads.g.doubleclick.net"]
