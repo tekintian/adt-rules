@@ -2539,3 +2539,5 @@ zefoy.com#$?#ins.adsbygoogle[data-ad-slot] { height: 0 !important; }
 zeperfs.com$$script:contains($(".adsbygoogle").length)
 zeroupload.com#$?#body > center[id]:has(> p:contains(Disable Your ad blocker)) { remove: true; }
 zmega.com#$?#.overlay_promo { remove: true; }
+
+||static.json.cn/d/dt/jnzy/wztydt1.js
