@@ -32,10 +32,11 @@
   "v6/dnr/security.txt":"8b954ff608530e55e3ee59ab69714071",
   "v6/dyn/annoyance.txt":"56bf6f6380b81197185521e6d19b5f81",
   "v6/dyn/antiadblock.txt":"7c049c1181d093a47ebf26187ebe0a2e",
-  "v6/dyn/base.txt":"19f8103a7c096d5aaff7d448fb3cae86",
+  "v6/dyn/base.txt":"e13ecbd8eee10b9f826835f3ada46292",
   "v6/dyn/beta.txt":"c0a80fd488cd98af82b2fa87dea08528",
   "v6/dyn/security.txt":"94a42b1d5d2e06f3b06492695e89ca0f",
   "v6/dyn/video.txt":"c0a0d0eeae31fb4ae321f34026a7313d",
+  "v6/res/CID-merged.txt":"de64a0e9a80fb7afcbd3ce148f9b3f55",
   "v6/res/CID.txt":"dd3403555d30d386e206e75bb19ddff0",
   "v6/res/rules_merged.txt":"866de4f64c4d77415d9fd3819fa979c1",
   "v6/res/sample.txt":"52356d85e77c620471aeba47da546913"
