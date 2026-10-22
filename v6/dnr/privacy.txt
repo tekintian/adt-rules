@@ -146,8 +146,6 @@
 $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 *$script,3p,domain=7starhd.*,denyallow=disqus.com|fastlylb.net|googleapis.com
 *$script,3p,domain=deltabit.co
-*$script,frame,xhr,3p,domain=outletpic.*,denyallow=imgoutlet.com
-?sam-item/track-impressions
 dlsdk.appsflyer.com^
 dlsdk.appsflyersdk.com^
 dynamic-report-api.appsflyersdk.com^

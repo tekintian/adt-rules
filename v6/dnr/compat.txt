@@ -154,7 +154,6 @@
 @@||jsdelivr.net/*
 @@||jumei.com^
 @@||kaola.com^
-@@||kingwar.cn^$image,stealth=referrer
 @@||letv.com/tuiguang/$subdocument
 @@||letvcloud.com^*&showAd=
 @@||libs.baidu.com^$domain=m.supfree.net
@@ -187,7 +186,6 @@
 @@||shopee.cn^
 @@||shopin.net^
 @@||show.g.mediav.com/s?type=$script,domain=miercn.com
-@@||shumafen.cn/api/$stealth=referrer
 @@||simba.taobao.com/?name=mcad$script
 @@||simba.taobao.com/?name=tcmad&$domain=www.taobao.com
 @@||sina.com.cn/litong/*/close

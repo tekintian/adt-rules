@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: ZW6L25y9VkTVVEKQ6vOPhA
+! Checksum: al5z92ty1lM3d3XJtGMOWQ
 ! Expires: 2 days (update frequency)
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/v6/dyn/video.txt
 ! Last modified: 19 Oct 2026 04:43 UTC
 ! Rules: 1141
 ! Source: rules_merged.txt
 ! Title: 视频网站广告过滤规则
-! Version: 2026-10-21T17:02:13
+! Version: 2026-10-22T12:15:07
 ||17173cdn.com/20*.mp4$rewrite=abp-resource:blank-mp3,domain=17173.com
 ||a.spankbang.com^$redirect=nooptext
 ||ctfile.com/popjump.php?$popup
@@ -684,6 +684,9 @@ en.ytsrs.bz##div[style*="position: fixed"][style*="display: flex"]
 en.ytsrs.bz##div[class*="iframe-ads"]
 en.ytsrs.bz##button[style*="position: fixed"][style*="display: grid"]
 en.ytsrs.bz##iframe[style*="position: fixed"][style*="z-index: 2147483647"][style*="display: block"]
+
+en.ytsrs.bz#+js(prevent-window-open, /auknceiwoulddirect\.org/)
+en.ytsrs.bz#+js(abort-on-property-write, openPopUP)
 
 
 

@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: p48xqYynS2jbkp1d3jRM5A
+! Checksum: QKHrRmC0Zo/XjMjmVFU2Zw
 ! Expires: 2 days (update frequency)
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/v6/dyn/annoyance.txt
 ! Last modified: 19 Oct 2026 04:43 UTC
 ! Rules: 7491
 ! Source: rules_merged.txt
 ! Title: 骚扰元素过滤规则
-! Version: 2026-10-21T17:02:13
+! Version: 2026-10-22T12:15:06
 
 ###modal[doskip][prclck]
 ###modalgg
@@ -7208,3 +7208,6 @@ xoilac23.net#%#//scriptlet('set-constant', 'adsRedirectPopups', 'undefined')
 zonealarm.com#%#//scriptlet('set-session-storage-item', 'modal-newsletter', 'false')
 zvuch.com#%#//scriptlet('trusted-click-element', '#show_popup_auth .close', '', '800')
 zvuk.com#%#//scriptlet('set-session-storage-item', 'desktop_showedSaSubscriptionModal', 'true')
+
+workupload.com#+js(abort-on-property-read, adsLoader)
+

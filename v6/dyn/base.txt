@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 6c525+mP3C3d3fpIa0M5iA
+! Checksum: 0jseF1EvLjTftY804WqzuA
 ! Expires: 2 days (update frequency)
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/v6/dyn/base.txt
 ! Last modified: 19 Oct 2026 04:43 UTC
 ! Rules: 21128
 ! Source: rules_merged.txt
 ! Title: 基础广告过滤规则
-! Version: 2026-10-21T17:02:13
+! Version: 2026-10-22T12:15:07
 @@||10010.com^$generichide
 @@||10086.cn^$generichide
 @@||189.cn^$generichide
@@ -1732,3 +1732,5 @@ offmoto.com#@#.reklama:not(.ads)
 readmng.com#@#.scroll_target_top
 sankakucomplex.com#@#.scad
 uflash.tv#@#.ad
+
+
