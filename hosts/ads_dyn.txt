@@ -1,5 +1,5 @@
-# Version: 2026-10-23T19:00:35
-# Checksum: yJ6qJpsh5vwFrM8w0TLRzQ
+# Version: 2026-10-23T20:44:13
+# Checksum: rbVOdXPfBou3yyzLqvd13w
 # URL: https://gitee.com/tekintian/adt-rules/raw/master/hosts/ads_dyn.txt
 #  ads host without ads_top.txt
 #
@@ -9,7 +9,14 @@
 #
 # ===============================================================
 
-# Custom host records are listed here.
+# diy rules
+0.0.0.0 fpimspnxvkenm.website
+0.0.0.0 ntwkbc21.com
+0.0.0.0 ntwkbc42.com
+0.0.0.0 rapidadexchange.com
+0.0.0.0 fjsgshqhngqkp.site
+
+# 3p rules here
 
 0.0.0.0 0.0.0.0.creative.hpyrdr.com
 0.0.0.0 0.0.0.0.hpyrdr.com
