@@ -1,13 +1,3 @@
-0.0.0.0 0.0.0.0.creative.hpyrdr.com
-0.0.0.0 0.0.0.0.hpyrdr.com
-0.0.0.0 0.ackzany.com
-0.0.0.0 0.athwartwhoafat.com
-0.0.0.0 0.blissfullyzebra.com
-0.0.0.0 0.duhquietly.com
-0.0.0.0 0.gadzooksrudely.com
-0.0.0.0 001lx-62m8.j5zets.cfd
-0.0.0.0 005.free-counter.co.uk
-0.0.0.0 006.free-counter.co.uk
 # Title: tekintian ads hosts rules
 #
 # This hosts file is a sub collection of ads.txt hosts sources
@@ -21,6 +11,16 @@
 #
 # ===============================================================
 
+0.0.0.0 0.0.0.0.creative.hpyrdr.com
+0.0.0.0 0.0.0.0.hpyrdr.com
+0.0.0.0 0.ackzany.com
+0.0.0.0 0.athwartwhoafat.com
+0.0.0.0 0.blissfullyzebra.com
+0.0.0.0 0.duhquietly.com
+0.0.0.0 0.gadzooksrudely.com
+0.0.0.0 001lx-62m8.j5zets.cfd
+0.0.0.0 005.free-counter.co.uk
+0.0.0.0 006.free-counter.co.uk
 0.0.0.0 007.free-counter.co.uk
 0.0.0.0 008.free-counter.co.uk
 0.0.0.0 011-xx-auev.by8xkj.cfd
