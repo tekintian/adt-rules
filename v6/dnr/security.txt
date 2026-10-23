@@ -1,7 +1,11 @@
 ! Source: rules_sorted.txt
+!
 ||coin-hive.com/lib/coinhive.min.js
-/wp-content/plugins/simple-monero-miner-coin-hive/*
+||botsdetect.com^
+||static.cloudflareinsights.com^^
+||usrpubtrck.com^
+||fpimspnxvkenm.website^
+||rapidadexchange.com^
+||ntwkbc21.com^
+||ntwkbc42.com^
 
-! dnr-security — 3 rules
-! Network-level security threats
-xhtml?%22*$script,third-party

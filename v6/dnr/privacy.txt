@@ -141,15 +141,11 @@
 ://tralut.*/collect/value?
 
 
-! dnr-privacy — 196 rules
-! Tracking / fingerprinting / analytics
-$subdocument,third-party,denyallow=disqus.com,domain=love4u.net
-*$script,3p,domain=7starhd.*,denyallow=disqus.com|fastlylb.net|googleapis.com
-*$script,3p,domain=deltabit.co
-dlsdk.appsflyer.com^
-dlsdk.appsflyersdk.com^
-dynamic-report-api.appsflyersdk.com^
-gcdsdk.appsflyersdk.com^
+
+||dlsdk.appsflyer.com^
+||dlsdk.appsflyersdk.com^
+||dynamic-report-api.appsflyersdk.com^
+||gcdsdk.appsflyersdk.com^
 
 lastminute.com.au/api/uisprime/track
 syosetu.com$$script[src="securepubads.g.doubleclick.net"]
