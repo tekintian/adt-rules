@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: IXm+6hm9RzkSFl5yTTXtIg
+! Checksum: 5Gu2cF+8Hv032UVJIi3SNg
 ! Expires: 2 days (update frequency)
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/v6/dyn/base.txt
 ! Last modified: 19 Oct 2026 04:43 UTC
 ! Rules: 21128
 ! Source: rules_merged.txt
 ! Title: 基础广告过滤规则
-! Version: 2026-10-24T13:59:41
+! Version: 2026-10-24T16:57:26
 @@||10010.com^$generichide
 @@||10086.cn^$generichide
 @@||189.cn^$generichide
@@ -18,7 +18,6 @@
 ##[class~="ad" i]
 ##[class$="-ad" i]
 ##[class$="_ad" i]
-##[class^="ad" i]
 ##[class*="_ad_" i]
 ##[class*="-ad-" i]
 ##[class*="_ad-" i]
@@ -45,7 +44,6 @@
 ##[id~="ad" i]
 ##[id$="-ad" i]
 ##[id$="_ad" i]
-##[id^="ad" i]
 ##[id*="_ad_" i]
 ##[id*="-ad-" i]
 ##[id*="_ad-" i]
