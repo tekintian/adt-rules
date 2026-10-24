@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: al5z92ty1lM3d3XJtGMOWQ
+! Checksum: 16CrPF7ZXlaIiEg5ngzb7w
 ! Expires: 2 days (update frequency)
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/v6/dyn/video.txt
 ! Last modified: 19 Oct 2026 04:43 UTC
 ! Rules: 1141
 ! Source: rules_merged.txt
 ! Title: 视频网站广告过滤规则
-! Version: 2026-10-22T12:15:07
+! Version: 2026-10-24T12:23:54
 ||17173cdn.com/20*.mp4$rewrite=abp-resource:blank-mp3,domain=17173.com
 ||a.spankbang.com^$redirect=nooptext
 ||ctfile.com/popjump.php?$popup
@@ -15,8 +15,8 @@
 ||kfc.com.cn^$popup,domain=iqiyi.com
 ||sohu.com/i/?pvid=$popup
 /|$denyallow=cdn.jsdelivr.net|putlocker.best,domain=putlocker.best,xmlhttprequest
-.bongacams.com/?bcs=$popup
-.com/*?*&refer=*fmovies.*&adb=$all
+
+
 ##a[href^="http://bongacams.com/track?"]
 ##a[href^="https://chaturbate.com/in/?"]
 0123movies.*##.fake_player, #tab-ad

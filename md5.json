@@ -28,17 +28,16 @@
   "plus/js.txt":"b5d03111fc461025c2e7a90fc7ac6bfc",
   "plus/js_src.txt":"1ada60d48d7f29a5b4980d004bb446a4",
   "v6/dnr/compat.txt":"395a1bc5ec7869793958c868ce62239d",
-  "v6/dnr/core.txt":"79f4839bd694c56319ae50c80fbb3d3b",
+  "v6/dnr/core.txt":"524f2c3df72176a8efb4655beb3dfe69",
   "v6/dnr/hot.txt":"0b89967a4a3fe0d5fa8ab1b517f28228",
   "v6/dnr/misc.txt":"c264177c487ff86655cb8f29da4d4e15",
-  "v6/dnr/privacy.txt":"01e6092ae0d8773c82ea5267d8fd5225",
+  "v6/dnr/privacy.txt":"feff2ec1511130c7e5ca3251086ca2c5",
   "v6/dnr/security.txt":"25ad7689c3350f2239297cbb000a26a5",
   "v6/dyn/annoyance.txt":"49549a97cb9f62e5637fb5c50834e341",
   "v6/dyn/antiadblock.txt":"5d195b6cd741fb0f92793248e98b29a9",
-  "v6/dyn/base.txt":"68413edb3e75a3d8cff13f3f9501c24f",
+  "v6/dyn/base.txt":"98b34aafa7c300660702a2e505be0e8b",
   "v6/dyn/beta.txt":"5d80c78a32d740f9bb104dde5ba4c61d",
   "v6/dyn/security.txt":"94a42b1d5d2e06f3b06492695e89ca0f",
-  "v6/dyn/video.txt":"40b46c8d59b714c5432a4296a8b577b2",
-  "v6/res/rules_merged.txt":"97f0b8e2705f21b7f05f46c36e32c80d",
-  "v6/res/sample.txt":"52356d85e77c620471aeba47da546913"
+  "v6/dyn/video.txt":"500b9486bf3a74a365178eff1f2b0ad1",
+  "v6/res/sample.txt":"ddb424e1ce1192a74cd6d15a27ef2bac"
 }
