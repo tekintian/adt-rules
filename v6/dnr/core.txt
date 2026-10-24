@@ -1112,3 +1112,8 @@ zeroupload.com#$?#body > center[id]:has(> p:contains(Disable Your ad blocker)) {
 zmega.com#$?#.overlay_promo { remove: true; }
 
 ||static.json.cn/d/dt/jnzy/wztydt1.js
+
+||ax.ifeng.com^$script,domain=www.ifeng.com
+||err.ifengcloud.ifeng.com^$domain=www.ifeng.com
+||stadig.ifeng.com^$script,domain=www.ifeng.com
+||x0.ifengimg.com^$script,third-party

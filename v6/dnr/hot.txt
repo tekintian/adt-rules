@@ -169,3 +169,10 @@
 ||yantuchina.com/Upload/Ad/
 ||youxi.baidu.com/tips/bdtips_min.js
 ||vmind.qqvideo.tc.qq.com^
+
+||pos.baidu.com^$script,third-party
+||cpro.baidustatic.com^$script,third-party
+||eclick.baidu.com^$image,third-party
+||mediav.com^$third-party
+||oss.weread.qq.com^$third-party
+||otheve.beacon.qq.com^$third-party

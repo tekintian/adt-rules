@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 16CrPF7ZXlaIiEg5ngzb7w
+! Checksum: bBaN+zSkexsbNKNkTianJg
 ! Expires: 2 days (update frequency)
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/v6/dyn/video.txt
 ! Last modified: 19 Oct 2026 04:43 UTC
 ! Rules: 1141
 ! Source: rules_merged.txt
 ! Title: 视频网站广告过滤规则
-! Version: 2026-10-24T12:23:54
+! Version: 2026-10-24T22:32:19
 ||17173cdn.com/20*.mp4$rewrite=abp-resource:blank-mp3,domain=17173.com
 ||a.spankbang.com^$redirect=nooptext
 ||ctfile.com/popjump.php?$popup
@@ -230,29 +230,18 @@ huya.com##.room-business-game
 huya.com##.small-handle-tip
 huya.com##.tt[style*="1200px"]
 huya.com#?#.item-pic:-abp-has(> .img-tips)
-iask.ai##.flex > a[href="https://apps.apple.com/us/app/iask-ai-unlimited/id6449653022"]
 ifeng.com##.yy_right_bottom
-ifeng.com##[class*="ife-ad"]
 ifeng.com##[class*="index_banner"]
 ifeng.com##[class*="index_feedAd"]
 ifeng.com##[class*="index_feedBox"]
 ifeng.com##[class*="index_sideAd"]
 ifeng.com##[class*="index_topBox_"]
 ifeng.com##[class*="index_topDbox"]
-ifeng.com##[id*="ad-wrap"]
-ifeng.com##a[href^="http://yemei.tv/"]
-ifeng.com##div[class*="SlideAd"]
-ifeng.com##div[class="adbox02"]
-ifeng.com##div[class^="ad_box"]
-ifeng.com##div[class^="adList"]
-ifeng.com##div[class^="adv0"]
-ifeng.com##div[class^="adv1"]
 ifeng.com##div[class^="bottomDbox"]
 ifeng.com##div[class^="container-"][content^="[object"]
 ifeng.com##div[class^="coupletBox"]
 ifeng.com##div[class^="d_box-"]
 ifeng.com##div[class^="dbox"]
-ifeng.com##div[class^="games_ad_"]
 ifeng.com##div[class^="index_top_box_"]
 ifeng.com##div[class^="index_topBox_"]
 ifeng.com##div[class^="middleAd"]
@@ -270,9 +259,6 @@ ifeng.com##p[class*="_markTag_"]
 ifeng.com##video[class^="advideo-"]
 ifeng.com#?#.box_list:-abp-has(.tuig)
 ifeng.com#?#div[class^="titleImg-"]:-abp-has(span[class^="source-"]:-abp-contains(推广))
-ifeng.com,qq.com###advert
-ifeng.com,sohu.com##.ad950
-ifeng.com,vsping.com##.ad_01
 iqiyi.com###adflash
 iqiyi.com###bottom_banner_ad_bk
 iqiyi.com###jingdongArea

@@ -1,12 +1,14 @@
 [Adblock Plus 2.0]
-! Checksum: k3c+HxCfURFPEikUpCMb+g
+! Checksum: XYSsMLpyR8kNlHU4R+RBZg
 ! Expires: 2 days (update frequency)
 ! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/v6/dyn/security.txt
 ! Last modified: 18 Oct 2026 14:24 UTC
 ! Title: Security广告过滤规则
-! Version: 2026-10-20T12:08:24
+! Version: 2026-10-24T22:32:19
 
 
 
 ! 安全相关广告过滤规则
 a[href*="@"][href$=".exe"]
+
+||hm.baidu.com^$script,third-party

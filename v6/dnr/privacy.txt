@@ -67,7 +67,6 @@
 ||js.letvcdn.com/js/*/stats/
 ||lightning.cnn.com/analytics/
 ||marketbeat.com/scripts/modal/*
-||mediav.com^$third-party
 ||miaozhen.com^$third-party
 ||muzisoft.com/static/*_f.js
 ||mvcat.com/api/wx/follow.js
@@ -76,14 +75,11 @@
 ||newsource-cdn-static.ns.cnn.com/prd/analytics/1.0.1/cnnvan-omniture.min.js
 ||nmc.cn/npt/track/stat.js
 
-||oss.weread.qq.com^
-||otheve.beacon.qq.com^
 ||p.brid.tv/player/build/plugins/googleanalytics/
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
 ||partner.googleadservices.com^$third-party
 ||pharmnet.com.cn/js/float_div.js
 ||pippio.com^$domain=disqus.com
-||pos.baidu.com^
 ||push.m.youku.com/collect-api/
 ||rawgit.com/fahimraza/FK/master/ad-unblocker.js^$script
 ||rryy99.com/statics/js/stat.js
