@@ -30,11 +30,17 @@ VSCODE里面查找所有包含scriptlet的行, 注意vscode里面不支持 \R
 
 
 
+# 反向思路：不删，而是直接提取包含 scriptlet( 的行到新文件
+grep 'scriptlet(' 原文件.txt > 结果.txt
+
+
+# 反向思路：不删，而是直接提取包含 scriptlet( 的行到新文件
+grep 'yts' tmp/all_rules_clean.txt > tmp/yts_rules.txt
 
 
 提取包含指定字符的数据
 
-grep '\bscriptlet\b' tmp/all_rules_clean.txt > tmp/scriptlet_rules1.txt
+grep 'js\(' tmp/all_rules_clean.txt > tmp/js_rules.txt
 
 grep 'baidu.com' tmp/all_rules_clean.txt > tmp/baidu_rules.txt
 grep 'qq.com' tmp/all_rules_clean.txt > tmp/qq_rules.txt
