@@ -746,7 +746,6 @@
 ||juqingba.cn^
 ||juxia.com/jxtp/indexbg.jpg
 ||kan98.com/statics/js/k2017/kan98.js
-||kb-render.alicdn.com/html/*.html
 ||kdewa111.familydoctor.com.cn^
 ||kdw*.com/layer/layer.js
 ||kedou*.com/layer/layer.js

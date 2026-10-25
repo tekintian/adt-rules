@@ -59,6 +59,8 @@
 ||hjfile.cn/analytics/site/TrackEvent.js
 ||hm.baidu.com/hm.gif
 ||hm.baidu.com^$third-party
+||analytics.map.qq.com^$third-party
+||analytics.yicai.com^$third-party
 ||horizon.mashable.com/*/track
 ||htlb.casalemedia.com^$removeparam=r,domain=aternos.org
 ||i.snssdk.com^$domain=~i.snssdk.com

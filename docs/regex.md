@@ -28,6 +28,8 @@
 
 提取包含指定字符的数据
 
+grep 'scriptlet' tmp/all_rules_clean.txt > tmp/scriptlet_rules.txt
+
 grep 'baidu.com' tmp/all_rules_clean.txt > tmp/baidu_rules.txt
 grep 'qq.com' tmp/all_rules_clean.txt > tmp/qq_rules.txt
 grep 'alimama' tmp/all_rules_clean.txt > tmp/alimama_rules.txt

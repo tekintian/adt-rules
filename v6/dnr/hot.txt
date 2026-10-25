@@ -41,14 +41,8 @@
 ||acg.tv^$image,object,domain=bilibili.com
 ||ad-api.cnblogs.com^
 ||ads.sohu.com^
-||analytics.map.qq.com^
-||analytics.yicai.com^
 ||anjuke.com^*/ajax/business_area_search/
-||apiwmda.58.com.cn^
 ||apps.healthgrades.com/cnn/home/assets/embed.js$domain=cnn.com
-||as1.m.hao123.com^
-||baifen.music.baidu.com^
-||bd1.guancha.cn^
 ||beacon.cdn.qq.com^
 ||bei7.clewx.com^
 ||bilibili.com/x/frontend/finger/fpfmc?
@@ -60,7 +54,6 @@
 ||bilibili.com/x/web-show/res/locs?*=getAdCallback&
 ||c.sayhi.360.cn^
 ||cactus.jd.com/behavior_report
-||caixin.com/s?z=
 ||cctv.com/Library/a2.js
 ||cfg.imtt.qq.com^
 ||chexun.com/delivery?
@@ -98,7 +91,6 @@
 ||expedia.com/taps/v1/Impr?
 ||expedia.com^*/evaluateexperimentsandlog
 ||expedia.com^*/logexperiments
-||h5speed.m.jd.com/event/log
 ||hao123.com/erjiapi/adv?
 ||hao123.com/ifeed/cpc?
 ||hao123union.baidu.com^$third-party
