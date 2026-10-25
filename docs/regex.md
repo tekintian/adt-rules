@@ -19,16 +19,22 @@
 
 **1. VS Code / Notepad++（查找替换，删除时建议带上换行符）**
 
-查找（开启正则模式）：
+查找不包含scriptlet(的行
 ```regex
 ^(?!.*scriptlet\().*\R
 ```
 
 
+VSCODE里面查找所有包含scriptlet的行, 注意vscode里面不支持 \R
+^(?=.*scriptlet).*\n
+
+
+
+
 
 提取包含指定字符的数据
 
-grep 'scriptlet' tmp/all_rules_clean.txt > tmp/scriptlet_rules.txt
+grep '\bscriptlet\b' tmp/all_rules_clean.txt > tmp/scriptlet_rules1.txt
 
 grep 'baidu.com' tmp/all_rules_clean.txt > tmp/baidu_rules.txt
 grep 'qq.com' tmp/all_rules_clean.txt > tmp/qq_rules.txt

@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: bqtWPvknk/ToFv4x/NSZCg
+! Checksum: iNrWm8WcJsjELLxSZruhzQ
 ! Expires: 2 days (update frequency)
-! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/v6/dyn/antiadblock.txt
+! Homepage: https://raw.githubusercontent.com/tekintian/adt-rules/refs/heads/master/v6/dyn/antiadblock.txt
 ! Last modified: 19 Oct 2026 04:43 UTC
 ! Rules: 1874
 ! Source: rules_merged.txt
 ! Title: 反广告拦截过滤规则
-! Version: 2026-10-21T17:02:13
+! Version: 2026-10-25T13:35:56
 ###ab_adblock
 ###adblock-big
 ###adblock-leaderboard
@@ -80,37 +80,6 @@
 ##.wc-adblock-wrap
 ##.wgAdBlockMessage
 
-ustream.to#%#//scriptlet("set-constant", "adblock_user", "0")
-videzz.net#%#//scriptlet('set-constant', 'isAdBlockDetected', 'false')
-videzz.net#%#//scriptlet('set-constant', 'pData.adblockOverlayEnabled', '0')
-vidsonic.net#%#//scriptlet('abort-on-stack-trace', 'document.getElementById', '/adblock/i')
-viki.com#%#//scriptlet("set-constant", "VikiMediaPlayer.prototype.executeAdblockBreak", "noopFunc")
-viki.com#%#//scriptlet("set-constant", "VikiMediaPlayer.prototype.requestAdblockBreak", "noopFunc")
-wcoanimedub.tv#%#//scriptlet("prevent-setTimeout", "AdBlock")
-wcoanimedub.tv#%#//scriptlet("set-constant", "isAdBlockActive", "false")
-wcoanimesub.tv#%#//scriptlet("prevent-setTimeout", "AdBlock")
-wcoanimesub.tv#%#//scriptlet("set-constant", "isAdBlockActive", "false")
-wcoforever.net,wcoforever.com#%#//scriptlet("prevent-setTimeout", "AdBlock")
-wcoforever.net,wcoforever.com#%#//scriptlet("set-constant", "isAdBlockActive", "false")
-
-
-weather.com#%#//scriptlet('set-constant', 'adBlockerReady', 'false')
-whatismybrowser.com#%#//scriptlet('set-constant', 'WIMB.detect.addons.adblock.enabled', 'falseFunc')
-win10.vn#%#//scriptlet("abort-current-inline-script", "eval", "ignielAdBlock")
-windows101tricks.com#%#//scriptlet("set-constant", "better_ads_adblock", "true")
-witcherhour.com#%#//scriptlet("abort-on-property-read", "gothamBatAdblock")
-wnflb2023.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'unadblock')
-workingdays.org#%#//scriptlet('set-constant', 'isadblocking', 'false')
-worldmak.com#%#//scriptlet('remove-node-text', 'script', 'detectAdBlock')
-
-writerhand.com#%#//scriptlet('set-constant', 'AdBlocker', 'false')
-wurstclient.net#%#//scriptlet('set-local-storage-item', 'WurstAdBlockerDetected', '$remove$')
-
-
-yhcres.top#%#//scriptlet('prevent-addEventListener', 'load', 'detectAdBlock')
-
-zeroupload.com#%#//scriptlet('abort-current-inline-script', '$', 'adblockinfo')
-
 2kspecialist.net##+js(acs, addEventListener, blocker)
 3dzip.org##+js(no-fetch-if, doubleclick, length:10, {"type":"cors"})
 3dzip.org##+js(no-xhr-if, doubleclick)
@@ -150,8 +119,6 @@ afilmywap.*,okhatrimaza.*##+js(popads-dummy)
 agefi.fr##+js(nostif, {r(), 0)
 ah-me.com##+js(acs, $, serve)
 
-airlive.net#%#//scriptlet('prevent-setTimeout', '/siteAccessNotification|AdBlockDetector/')
-airportinfo.live#%#//scriptlet('prevent-setTimeout', 'AdBlocker')
 
 aliancapes.*##+js(nostif, nextFunction, 2000)
 alimaniacky.cz##+js(acs, $, urlForPopup)
@@ -190,9 +157,6 @@ anitube.*##+js(set, adBlockDetected, noopFunc)
 anon-v.com##+js(acs, atob, decodeURI)
 anon-v.com##+js(acs, onload)
 
-
-
-
 aofsoru.com##+js(acs, addEventListener, displayMessage)
 appstore-discounts.com##+js(acs, document.getElementById, undefined)
 
@@ -223,13 +187,9 @@ ausfile.com##+js(aopw, Fingerprint2)
 ausfile.com##+js(aopw, SubmitDownload1)
 auto-data.net##+js(acs, document.getElementById, adblock)
 avcesar.com##+js(nostif, adspot_top, 1500)
-avnsgames.com#%#//scriptlet('abort-on-property-read', 'fuckAdBlock')
-avnsgames.com#%#//scriptlet('prevent-setTimeout', 'adblockDetected')
 avoiderrors.com##+js(nostif, css_class.show)
 azmovies.to##+js(acs, atob, _0x)
 babesexy.com##+js(aeld, getexoloader)
-
-
 
 badjojo.com##+js(aopw, encodeURIComponent)
 
@@ -247,9 +207,6 @@ befap.com##+js(aopw, tiPopAction)
 
 bestgames.com,yiv.com##+js(nostif, /Adb|moneyDetect/)
 
-beverfood.com#%#//scriptlet('prevent-setInterval', 'adblock')
-
-
 bibme.org,citationmachine.net##+js(aeld, load, (!o))
 
 
@@ -262,24 +219,6 @@ boyfriendtv.com##+js(aeld, click, interstitial)
 boyfriendtv.com##+js(aopw, backgroundBanner)
 boysfood.com##+js(aopw, encodeURIComponent)
 brandstofprijzen.info##+js(aeld, load, antiblock)
-
-stapadblockuser.xyz#%#//scriptlet('prevent-window-open')
-stirr.com#%#//scriptlet('abort-on-property-write', 'adBlockEnabled')
-store.asus.com#%#//scriptlet('prevent-fetch', 'adblockanalytics.com')
-swap.qth.com#%#//scriptlet('abort-current-inline-script', 'adblockDetector')
-techhelpbd.com#%#//scriptlet('prevent-setTimeout', '/disable adblocker|\(alert\(_0x/')
-tejtime24.com#%#//scriptlet('abort-on-property-write', 'checkAdBlock')
-teracourses.com#%#//scriptlet('prevent-setTimeout', 'adBlockerModal')
-textstudio.com#%#//scriptlet('abort-on-property-write', 'ADBLOCK')
-theshedend.com#%#//scriptlet('prevent-setTimeout', 'adblock')
-thestockmarketwatch.com#%#//scriptlet('prevent-eval-if', 'adblock')
-tmail.io#%#//scriptlet('abort-on-property-write', 'detectAdblock')
-ttsfree.com#%#//scriptlet('prevent-setInterval', 'show_alert_adblock')
-ups2up.fun#%#//scriptlet('prevent-setTimeout', 'justDetectAdblock')
-vectr.com#%#//scriptlet('prevent-setTimeout', 'showAdBlockDialog')
-vnjpclub.com#%#//scriptlet('prevent-setTimeout', 'detectAdBlock')
-youboxtv.com,itdmusics.com#%#//scriptlet('abort-on-property-read', 'AdblockRegixFinder')
-
 
 yuvutu.com##+js(acs, String.prototype.charAt)
 zazzybabes.com##+js(aeld, /error|canplay/, (t))

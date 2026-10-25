@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: +E90BPdMeGVLtTKA0FuYzw
+! Checksum: 06XB+qrt1De2KvLKCvjq5A
 ! Expires: 2 days (update frequency)
-! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/v6/dyn/video.txt
+! Homepage: https://raw.githubusercontent.com/tekintian/adt-rules/refs/heads/master/v6/dyn/video.txt
 ! Last modified: 19 Oct 2026 04:43 UTC
 ! Rules: 1141
 ! Source: rules_merged.txt
 ! Title: 视频网站广告过滤规则
-! Version: 2026-10-25T13:19:08
+! Version: 2026-10-25T13:35:56
 ||17173cdn.com/20*.mp4$rewrite=abp-resource:blank-mp3,domain=17173.com
 ||a.spankbang.com^$redirect=nooptext
 ||ctfile.com/popjump.php?$popup
@@ -138,8 +138,6 @@ bilibili.com##bili-open-app ~ bili-open-app
 bilibili.com##div[style*="height:"][data-loc-id]
 bilibili.com##span[style*="height:"][data-loc-id]
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
-
-
 
 elle.com##.seo-tags-container
 elle.com##main > div[class^="css-"]:has(> .ad-disclaimer)
@@ -671,6 +669,3 @@ en.ytsrs.bz##iframe[style*="position: fixed"][style*="z-index: 2147483647"][styl
 
 en.ytsrs.bz#+js(prevent-window-open, /auknceiwoulddirect\.org/)
 en.ytsrs.bz#+js(abort-on-property-write, openPopUP)
-
-
-

@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 5Gu2cF+8Hv032UVJIi3SNg
+! Checksum: l8LNF0HIfvgHpakB31afdw
 ! Expires: 2 days (update frequency)
-! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/v6/dyn/base.txt
+! Homepage: https://raw.githubusercontent.com/tekintian/adt-rules/refs/heads/master/v6/dyn/base.txt
 ! Last modified: 19 Oct 2026 04:43 UTC
 ! Rules: 21128
 ! Source: rules_merged.txt
 ! Title: 基础广告过滤规则
-! Version: 2026-10-25T11:25:13
+! Version: 2026-10-25T13:35:56
 @@||10010.com^$generichide
 @@||10086.cn^$generichide
 @@||189.cn^$generichide
@@ -1035,8 +1035,6 @@ hao123.com,jiegeng.com###siye
 hao123.com,jiegeng.com##.rightTip
 hardmob.com.br#?#.postcontainer:has(.usertitle:has-text(Publicidade))
 
-
-
 igg-games.com##[href^="https://tm-offers"]
 igg-games.com##a[href$=".php"]
 igg-games.com##a[href^="https://igg-games.com/"][href*="flix"] > img
@@ -1123,8 +1121,6 @@ lenovo.com.cn##div[id^="ad_bd_"]
 lenovo.com.cn##div[id^="ad_bd_"] + .ad-mark
 lenovo.com.cn#?#.imgNewText:-abp-has(> footer > .info > .source:-abp-contains(/广告/))
 lenovo.com.cn#?#a:-abp-has(> div > p:-abp-contains(广告))
-
-
 
 letras.mus.br##[id^="pub"]
 libvio.top##div[class="t-img-box"]

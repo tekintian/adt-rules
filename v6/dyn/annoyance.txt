@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: IFUtbZvqV3wHU7hzPOlx/g
+! Checksum: eOwJkYKEU2PWrOoSa4MMXA
 ! Expires: 2 days (update frequency)
-! Homepage: https://gitee.com/tekintian/adt-rules/raw/master/v6/dyn/annoyance.txt
+! Homepage: https://raw.githubusercontent.com/tekintian/adt-rules/refs/heads/master/v6/dyn/annoyance.txt
 ! Last modified: 19 Oct 2026 04:43 UTC
 ! Rules: 7491
 ! Source: rules_merged.txt
 ! Title: 骚扰元素过滤规则
-! Version: 2026-10-25T13:19:07
+! Version: 2026-10-25T13:35:56
 
 ###modal[doskip][prclck]
 ###modalgg
@@ -138,10 +138,6 @@
 ##body #notificationPopup
 ##body > #__nuxt:first-child > div > .footer > .floatWindow + div[data-tag]
 
-
-
-
-
 ##body ~ div[style^="z-index: 2147483647 !important; position: fixed !important; width:"]
 ##body.sliding-popup-processed > #sliding-popup
 ##body:not(.orejimeBody-WithModalOpen) div.orejime-Notice
@@ -155,8 +151,6 @@
 
 
 ##div[id^="st"][style^="z-index: 999999999;"]
-
-
 
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
 ##form[aria-label="Sign up for newsletter: Daily Briefing"]
@@ -1295,8 +1289,6 @@ dbplanet.net###document_modal
 ddzimu.com###popup
 dealmoon.com#?#body > .dm-right-float:has(p:contains(/APP|App/))
 
-
-
 debenhams.com##.t-footer__newsletter
 deccanherald.com###dk_gdpr
 deccanherald.com##.sticky-div
@@ -1622,8 +1614,6 @@ esquire.com,cosmopolitan.com,womenshealthmag.com###recommended-modal
 estadao.com.br##.lgpd-modal-content
 estadao.com.br##div[class^="styles__Container-"]:has(> div > picture >img[alt="imagem newsletter"])
 estadao.com.br##div[class^="styles__ContainerNewsletter-"]
-
-
 
 estadao.com.br#?#.content-wrapper > div[title]:has(> div.box > div.form > div.title-newsletter)
 esteelauder.com##div[class^="gnav-signup_gnav-signup-overlay"]
@@ -2000,8 +1990,6 @@ gazoo.com##.floating-banner
 gbnews.com##.sticky-banner-wrapper
 gbnews.com##div[id^="newsletter-signup-"]
 
-
-
 gdpi.hitbullseye.com##.Ash-Img-popup
 gearjunkie.com##.widget_gearjunkie_newsletter_widget
 gearvn.com###sticky-banner
@@ -2146,8 +2134,6 @@ grottonetwork.com###trigger-newsletter
 
 ground.news#?##__next > div.sticky:has(> div.sticky > div.flex > div.flex > a[href="/about"])
 
-
-
 groupon.*###gdpr-bottom-banner
 growdiaries.com##.popup_secure:has(a[href="/policy"])
 grueneerde.com##div[cms="behaelter-newsletterregistrierung-footer-abstandseitlich"]
@@ -2279,8 +2265,6 @@ hipdf.com,wondershare.*##.float-download-a
 hipdf.com,wondershare.*##.footer-float-block
 hipertextual.com,goodnewsnetwork.org##.mrf-newsletter
 
-
-
 hitech-gamer.com###mailModal
 
 hitsportshdd.xyz##.penci-container__content > .widget-area:has(> .theiaStickySidebar)
@@ -2394,8 +2378,6 @@ inc.com##.authorNewsletter
 inc.com##.newsletterBar
 inc.com##div[class*="privacyPolicyPopup"]
 
-
-
 incredibox.com#?#.content > section.bloc:has(> #newsletter)
 incrypted.com##.language-popup
 indd.adobe.com##.ga-consent-banner
@@ -2437,9 +2419,6 @@ insider-gaming.com##.entry-content  > p:has(> a[title="Newsletter"])
 insider.com##.notification-prompt-wrapper
 
 insider.com,businessinsider.com##.multi-newsletter-signup
-
-
-
 
 instadp.com##.promoted-modal
 
@@ -2834,8 +2813,6 @@ lifehack.org#?#aside:has(p.hidden-sm:contains(Signup for our free Newsletter))
 
 lifehacker.com##.smcx-modal-invitation
 lifehacker.com##div[data-newsletter-key]
-
-
 
 lifestyleasia.com##.btt_modal
 lifewire.com##div[id^="mntl-taxonomysc-newsletter_"]
@@ -3420,17 +3397,6 @@ tieba.baidu.com#$#.tb-backflow-defensive { display: none !important; }
 tieba.baidu.com#$#body .tb-index-navbar .navbar-view { top: 24px!important; }
 wenku.baidu.com#$#.vip-member-pop-content { display: none !important; }
 wenku.baidu.com#$#body { overflow: visible !important; }
-baidu.com#%#//scriptlet('remove-attr', 'placeholder', '.quickdelete-wrap > input')
-cloud.baidu.com#%#//scriptlet('remove-class', 'header-body-no-scroll', 'body')
-developer.baidu.com#%#//scriptlet('remove-class', 'articel_detail_fix-header__3-GMz', 'body[class]')
-map.baidu.com#%#//scriptlet('set-cookie', 'showLoginPopup', '1')
-map.baidu.com#%#//scriptlet('set-local-storage-item', 'firstEnter', 'false')
-qpp.caq.org.cn#%#//scriptlet('prevent-element-src-loading', 'script', 'hm.baidu.com/hm.js')
-tieba.baidu.com#%#//scriptlet('set-constant', 'passFingerPrint', 'noopFunc')
-developer.baidu.com#%#//scriptlet('prevent-setTimeout', 'R.open')
-haokan.baidu.com#%#//scriptlet('prevent-setTimeout', '/autoShow.*localStorage\.setItem\(.auto_login_show_count/')
-tieba.baidu.com#%#//scriptlet('prevent-setTimeout', 'customPassLogin')
-wenku.baidu.com#%#//scriptlet('remove-class', 'zsj-act')
 marca.com##.banner-sticky
 marcandangel.com###ck_modal
 marcandangel.com###ck_overlay
@@ -3442,7 +3408,6 @@ market.yandex.*##div[data-apiary-widget-name="@MarketNode/ReviewPollPopup"]
 market.yandex.*##div[data-zone-name="BannerPopup"]
 markmanson.net##.footer-opt-in
 markmanson.net##.in-article-opt-in
-
 marriedgames.com.br##.gdpr_approve
 marshmallow-qa.com##body > a[data-premium-target="overlay"]
 masahub.net##body > div[style^="position: fixed; inset: 0px; z-index:"]
@@ -3832,8 +3797,6 @@ newyorker.com##.persistent-bottom > .journey-unit__container > div[class^="Paywa
 newyorker.com##div[class^="NewsletterOneClickVerticalPullQuoteWrapper-"]
 newyorker.com##div[class^="paywall"]
 newyorker.com##div[class^="StickyHeroAdWrapper-"]
-
-
 
 nexty-ele.com##.gdpr2
 nexusmods.com###nonPremiumBanner
@@ -4243,7 +4206,6 @@ power-technology.com##.gdm-newsletter-banner__container
 powercompare.co.nz##first-visit-overlay-element
 powercompare.co.nz##floating-subscription-element
 poweruser.guru###js-gdpr-consent-banner
-
 powvideo.net###keepFloatin
 powvideo.net,streamplay.to,uxstyle.com###overlay
 pqworld.com##.left-float
@@ -4331,8 +4293,6 @@ pureinfotech.com##.inpost-newsletter
 pureinfotech.com##body > div[style*="z-index: 9999"][style*="cursor: pointer;"]
 purelovers.com###floating-footer-banner
 
-
-
 pushwoosh.com###pw-consent-root
 
 pussytorrents.org##body > [style^="position: fixed;"][style*="z-index: 999999"]
@@ -4400,11 +4360,7 @@ rasthaber.com##.notification-box
 ratemyprofessors.com##.ccpa-modal
 ratemyprofessors.com##.overlay.show
 ratemyprofessors.com#?##container > .sticky-wrapper:has(> .ad.GAM)
-
 ratengoods.com###popup-policy
-
-
-
 rawmics.com##.popup-safari-save-app
 rawstory.com##.rm-sticky-parent
 ray-ban.com###wcs-newsletter-footer-signup
@@ -4440,8 +4396,6 @@ redscan.com###bounceModal
 redscan.com##.pu-overlay
 reedsy.com##.d-admin-exit-modal
 reedsy.com##.reedsy-modal[data-key="modal-536"]
-
-
 
 relive.cc###ub-gdpr
 remarkable.com##div[class^="MarketingOptInExitIntent_"]
@@ -4722,9 +4676,6 @@ sklum.com##.c-home-newsletter
 sky.com##.mast-c-sign-in-notification
 sky.pro##.modal_darkBG__ZqnlK
 
-
-
-
 sleepfoundation.org##div[class^="sf-newsletter-signup"]
 
 slideshare.net###notification-root[class^="Header_adSpace"]
@@ -4885,8 +4836,6 @@ stopad.io##.js-gdpr-modal
 stopcor.org##.videoOfDay .nts-float-container[style*="fixed"]
 
 store.app-valley.vip###vipModal
-
-
 
 straitstimes.com###MyPageOverlay
 straitstimes.com##div[data-sdkids-campaignname*="newsletter"]
@@ -5111,8 +5060,6 @@ thecode.media##.float-link
 thecontentauthority.com##.ez-video-container.ez-float-right.ez-stuck
 theconversation.com###sticky-popup-wrapper
 theconversation.com##.content-body > p:has(> em > a[href*="/newsletters"])
-
-
 
 thecookingfoodie.com##.newsletter-popup-form-lt
 thecooldown.com##.cool_newsletter
@@ -5354,8 +5301,6 @@ transition-news.org,corona-transition.org###collapse-newsletter
 transportandenergy.com##.elementor-popup-modal
 transtutors.com##.alart_popup_bg
 travel.navitime.com###travel-app-appeal-float-banner
-
-
 
 travelandleisure.com##.newsletter-banner
 travelandleisure.com##.newsletter-link-wrapper
@@ -6285,8 +6230,6 @@ electropapa.com#$#.modal-open { overflow: auto !important; }
 embibe.com#$#.has-overlay::before { display: none !important; }
 embibe.com#$#.popup-open { overflow: auto !important; }
 
-
-
 englishdom.com#$##popups-manager-container { display: none !important; }
 equiva.com#$#.js--overlay { display: none!important; }
 erlus.com#$#html.uk-modal-page { overflow: visible !important; }
@@ -6447,8 +6390,6 @@ horeca.com#$#.modal-consent { display: none !important; }
 hostadvice.com#$#.hosting_com_vps_popup { display: none !important; }
 hostadvice.com#$#body.popup-active { overflow: auto !important; }
 hostadvice.com#$#body.popup-active.popup-darker::after { display: none !important; }
-
-
 
 hotline.finance#$#.ReactModal__Body--open { overflow: auto !important; }
 hotline.finance#$#.ReactModal__Overlay { display: none !important; }
@@ -6688,9 +6629,6 @@ mustangforums.com#$#.ibeugdpr-banner { display:none!important; }
 mustangforums.com#$#.ibeugdpr-overlay { display:none!important; }
 my.hidrive.com#$#.consent-overlay { display: none !important; }
 myfxbook.com#$##popupAdModal { display: none !important; }
-
-
-
 
 mysudo.com#$#.el_modal_popup_section { display: none !important; }
 
@@ -7188,436 +7126,10 @@ zoutons.com#$#body[class*="modal-open"] { overflow: auto !important; }
 zyro.com#$#.ebook-before-leave-modal { display: none !important; }
 zyro.com#$#body.modal-open { display: none !important; }
 ~cars.usnews.com,usnews.com#$#div[class*="ModalWrapper__BigBox-"] { display: none!important; }
-111.90.150.149#%#//scriptlet("abort-current-inline-script", "$", "#idmuvi-popup")
-158.69.120.31#%#//scriptlet("set-constant", "Light.Popup.create", "noopFunc")
-1mg.com#%#//scriptlet('set-session-storage-item', 'pharmaLeaveIntentPopup', 'true')
-
-
-
-
-accuweather.com#%#//scriptlet('remove-attr', 'style', '.cnx-content-wrapper.cnx-float-transition')
-accuweather.com#%#//scriptlet('remove-class', 'cnx-float', '.cnx-content-wrapper.cnx-float')
-adultdvdempire.com#%#//scriptlet('set-local-storage-item', 'modalSignup', 'true')
-aether.mom#%#//scriptlet('set-local-storage-item', 'modal-promotional-dismissed', 'true')
-afkgaming.com#%#//scriptlet('set-local-storage-item', 'notifModal', 'true')
-
-allinonedownloader.com#%#//scriptlet('abort-current-inline-script', '$', 'modalWidth')
-almabetter.com#%#//scriptlet('set-session-storage-item', 'popup_viewed', 'true')
-
-appnee.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'overlay')
-arcserve.com#%#//scriptlet("prevent-setTimeout", "modalOpen()")
-artnews.com,deadline.com#%#//scriptlet('remove-class', 'a-article-nl-fade', '.pmc-paywall')
-aruble.net#%#//scriptlet('trusted-set-local-storage-item', '_interstitial_last', '$now$')
-asuracomic.net#%#//scriptlet('set-local-storage-item', 'showInterstitial', 'false')
-audioholics.com#%#//scriptlet("prevent-setTimeout", "#sitemodal")
-audiomack.com#%#//scriptlet('set-session-storage-item', 'web-to-app-popup', 'true')
-autoembed.cc#%#//scriptlet('remove-node-text', 'script', '/lastAdTime|openPopup/')
-autokino-duesseldorf.ticket.io#%#//scriptlet('remove-class', 'modal-open', 'body')
-banglanews24.com#%#//scriptlet('abort-current-inline-script', '$', '#myModal')
-
-
-bbato.com#%#//scriptlet('set-local-storage-item', 'xp_feature_popup_seen', 'true')
-bbc.com#%#//scriptlet('remove-class', 'tp-modal-open|tp-body-scroll-prevented', 'body')
-bbc.com#%#//scriptlet('trusted-click-element', 'div[data-testid="consentBanner"] button', '', '500')
-
-bc.vc#%#//scriptlet("set-constant", "history.pushState", "noopFunc")
-bca.co.id#%#//scriptlet('remove-class', 'popup-disclaimer-show', 'body.popup-disclaimer-show')
-bcliquorstores.com#%#//scriptlet('set-session-storage-item', 'enews_popup_session', '1')
-bigwarp.*,bgwp.cc#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'overlay')
-bigwarp.*,bgwp.cc#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'overlay')
-
-bikepacking.com#%#//scriptlet('abort-current-inline-script', '$', 'showOverlay')
-bildirim.*#%#//scriptlet("set-constant", "Notification", "undefined")
-
-
-
-
-bloomberglinea.com,bloomberglinea.com.br#%#//scriptlet('remove-class', 'tp-modal-open', 'body')
-bo3.gg#%#//scriptlet('set-local-storage-item', 'scoresPopUpInformed', 'true')
-bogsfootwear.com#%#//scriptlet('set-local-storage-item', 'modalShown', 'true')
-bol.com#%#//scriptlet('trusted-click-element', '.consent > div > button', 'containsText:Weigeren')
-bottegaverde.com#%#//scriptlet('remove-class', 'overlay|modal-newsletter-open', 'body')
-
-boyfriendtv.com#%#//scriptlet('prevent-addEventListener', 'click', 'interstitial')
-
-brazz.org#%#//scriptlet('abort-current-inline-script', 'atob', 'popup')
-brokker.news#%#//scriptlet('abort-current-inline-script', '$', '#modalNewsletter')
-bsky.app#%#//scriptlet('set-session-storage-item', 'welcomeModalClosed', 'true')
-bsky.app#%#//scriptlet('trusted-set-local-storage-item', 'welcomeModalShown', 'true')
-bunkrsearch.com#%#//scriptlet('trusted-set-local-storage-item', 'app-age-verified', 'true')
-byu.edu#%#//scriptlet('remove-class', 'meru-cc__force--consent|meru-cc__show--consent', 'html')
-caido.io#%#//scriptlet('set-local-storage-item', 'consent.has-all', 'false')
-calendar.com#%#//scriptlet('set-local-storage-item', 'ONBOARDING_MODAL_DISPLAYED', 'true')
-capital.com#%#//scriptlet("abort-on-property-read", "show30SecSingupPopupFlag")
-
-careerkarma.com#%#//scriptlet('trusted-set-local-storage-item', 'closeModal', '$now$')
-caretobeauty.com#%#//scriptlet('set-local-storage-item', 'downloadPopupDisplayed', 'true')
-cas2.kr3m.com#%#//scriptlet('trusted-click-element', '#btnConsent', '', '500')
-cbsnews.com#%#//scriptlet('remove-class', 'floating', '.embed__content--draggable')
-cbsnews.com#%#//scriptlet('remove-class', 'floating', '.embed__sticky-content')
-
-
-
-cinema.7xtream.com#%#//scriptlet('set-local-storage-item', 'discordPopupSeen', 'true')
-cinezo.org#%#//scriptlet('set-local-storage-item', 'cinezo_popup_dismissed', '1')
-
-cnyes.com#%#//scriptlet('remove-class', 'ppn-overflows', '.ppn-overflows.ppn-floating_enable')
-
-
-
-covergirl.com#%#//scriptlet('trusted-set-local-storage-item', 'newsletterbox_en-us', 'true')
-cpmlink.net#%#//scriptlet("abort-current-inline-script", "history.pushState", "onpopstate")
-
-
-
-daily.dev#%#//scriptlet('set-constant', '__extensionScrollPopupInitialised', 'true')
-
-
-
-developdevice.com#%#//scriptlet('set-local-storage-item', 'theme:popup-appeared', 'true')
-diffchecker.com#%#//scriptlet('set-local-storage-item', 'visitsUntilUpsellModal', '999')
-digikey.com#%#//scriptlet("remove-class", "gdpr", "body.gdpr")
-
-discordservers.com#%#//scriptlet('set-session-storage-item', 'footer-notification', 'false')
-docsity.com#%#//scriptlet('set-session-storage-item', 'closeIntentModalShown', '1')
-
-doods.to,veev.to#%#//scriptlet('remove-node-text', 'script', 'veevad-interstitial')
-doorofperception.com#%#//scriptlet("prevent-setTimeout", "newsletter_show()", "2000")
-
-downloadfreecourse.com#%#//scriptlet('abort-current-inline-script', '$', 'modal_newsletter')
-dramaflix.cc#%#//scriptlet('set-session-storage-item', 'telegram_popup_v1', 'true')
-dramaflix.cc#%#//scriptlet('set-session-storage-item', 'vip_entry_popup_v1', '1')
-dream.ai#%#//scriptlet('set-session-storage-item', 'hasViewedReduceNotifications', 'true')
-dreamstime.com#%#//scriptlet("prevent-setTimeout", "SignUPPopup_load", "5000")
-
-dropbox.com#%#//scriptlet('set-session-storage-item', 'has_seen_interstitial', 'true')
-dulo.tv#%#//scriptlet('set-local-storage-item', 'amri-discord-popup-dismissed', '1')
-ebooks.health.elsevier.com#%#//scriptlet('set-local-storage-item', 'e-library-modal-shown', 'true')
-
-
-
-eddiekidiw.com#%#//scriptlet("abort-current-inline-script", "$", "#modal_ads")
-
-eikaiwa.dmm.com#%#//scriptlet('set-local-storage-item', 'bannerModalSeen', 'true')
-
-
-eminem.com#%#//scriptlet('set-session-storage-item', 'umggr-newsletter-first-load', 'true')
-emojipedia.org#%#//scriptlet('trusted-set-local-storage-item', 'INTERSTITIAL_AD', '$now$')
-emusic.com#%#//scriptlet('set-local-storage-item', 'SIGN_UP_BONUS_MODAL_SHOWN', 'true')
-ensonhaber.com#%#//scriptlet('set-local-storage-item', 'firstFirebaseModalShow', 'true')
-
-ernax.pro#%#//scriptlet('trusted-set-local-storage-item', 'purevpn_interstitial_last', '$now$')
-
-etsy.com#%#//scriptlet('trusted-click-element', 'button[data-gdpr-single-choice-accept]', '', '300')
-
-
-ezlawyer.tw#%#//scriptlet('trusted-set-local-storage-item', 'popup_close_timestamp', '$now$')
-
-
-fappic.com#%#//scriptlet("set-constant", "closeOverlay", "noopFunc")
-fbol.top#%#//scriptlet('prevent-addEventListener', 'click', 'popUp')
-filmcave.net#%#//scriptlet('set-local-storage-item', 'filmcave-hide-community-popup', 'true')
-financer.com#%#//scriptlet('prevent-addEventListener', 'load', 'openExitPopup')
-fntv.watch#%#//scriptlet('set-local-storage-item', 'popupBlockerEnabled', 'false')
-
-food52.com,lg-firmwares.com#%#//scriptlet('set-local-storage-item', 'gdpr', 'accepted')
-
-
-footy.to#%#//scriptlet("abort-current-inline-script", "$", "ad-modal")
-
-
-forx.mazen-ve3.com#%#//scriptlet('prevent-addEventListener', 'load', 'theModal')
-
-
-
-
-friv5online.com#%#//scriptlet("abort-current-inline-script", "document.getElementById", "gdprModal")
-g-school.co.kr#%#//scriptlet("prevent-setTimeout", "popupObject")
-
-gamechampions.com#%#//scriptlet('set-constant', 'displayModal', 'false')
-
-gaystream.pw#%#//scriptlet('trusted-click-element', '.streams .overlay-close > button', '', '500')
-
-getint.io#%#//scriptlet('remove-node-text', 'script', 'ebook_popup_shown')
-ghacks.net#%#//scriptlet('remove-class', 'didomi-popup-open', 'body')
-giphy.com#%#//scriptlet('trusted-set-local-storage-item', 'has-seen-privacy-banner', 'true')
-giphy.com#%#//scriptlet('trusted-set-local-storage-item', 'has-seen-tos-modal', 'true')
-gmapgis.com#%#//scriptlet('set-constant', 'googletag.cmd.push', 'noopFunc')
-
-
-
-
-grailed.com#%#//scriptlet('trusted-set-local-storage-item', 'SIGNUP_MODAL_LAST_SEEN', '$now$')
-grupoahora.net.br#%#//scriptlet('set-session-storage-item', 'popup', '1')
-
-hamamatsu.com#%#//scriptlet('remove-class', 'State--CountrySelectorModal', 'html')
-handheldlegend.com#%#//scriptlet('set-local-storage-item', 'theme:popup-appeared', 'true')
-hdfilmdelisi.one#%#//scriptlet('trusted-set-local-storage-item', 'push-prompt-dismissed', '$now$')
-
-
-hentaibooty.com#%#//scriptlet('abort-current-inline-script', 'jQuery', 'popupAt')
-hentaiforce.net#%#//scriptlet('set-constant', 'show_popup', 'false')
-
-hentaihaven.xxx#%#//scriptlet('set-constant', 'clickPopUpcf', '1')
-hentairead.com#%#//scriptlet('remove-node-text', 'script', 'popupBannerTimeout')
-hesapkurdu.com#%#//scriptlet('remove-attr', 'style', 'body.modal-open')
-hindustantimes.com#%#//scriptlet('remove-class', 'open-popup', 'body.open-popup')
-
-
-
-hollywoodmask.com#%#//scriptlet("prevent-setTimeout", "adsBlockPopup")
-hornyleak.tv,hdplayer.gives#%#//scriptlet('prevent-addEventListener', '', 'showPopup')
-hrkgame.com#%#//scriptlet('trusted-set-local-storage-item', 'gdpralert', 'custom')
-
-
 
 ilive.to#%#function setOverlayHTML() {};
 ilive.to#%#function setOverlayHTML_new() {};
 ilive.to#%#setTimeout(removeOverlayHTML, 2000);
-
-imovelguide.com.br#%#//scriptlet('prevent-addEventListener', 'mouseout', '#modalSair')
-imovelguide.com.br#%#//scriptlet('set-local-storage-item', 'IsModalShown', 'true')
-indiansexstories2.net,issstories.xyz#%#//scriptlet("set-constant", "history.pushState", "noopFunc")
-inoreader.com#%#//scriptlet('remove-class', 'modal-open', 'html')
-
-investing.com#%#//scriptlet('set-constant', 'adNotificationDetected', 'false')
-
-ispazio.net#%#//scriptlet('remove-class', 'isp-consent-locked', 'html')
-isratrip.net#%#//scriptlet('set-constant', 'IsraTripConsent', 'emptyObj')
-isratrip.net#%#//scriptlet('set-constant', 'IsraTripConsent.whenAllowed', 'noopFunc')
-itemsatis.com#%#//scriptlet('set-constant', 'PushSubscription', 'undefined')
-joongang.co.kr#%#//scriptlet("abort-on-property-write", "history.pushState")
-
-jugomobile.com#%#//scriptlet("prevent-setTimeout", "siteAccessPopup()")
-
-
-katfile.cloud,katfile.com#%#//scriptlet('abort-current-inline-script', '$', 'kModal')
-
-
-
-
-
-kurashiru.com#%#//scriptlet('remove-class', 'dly-modal-active', 'html')
-
-lafa.site,mylinks.ws#%#//scriptlet('remove-node-text', 'script', 'crWEbPushEl')
-lebonlogiciel.com#%#//scriptlet('remove-node-text', 'script', 'CompanyModal')
-
-
-
-lg-firmwares.com,sfirmware.com#%#//scriptlet("adjust-setInterval", "#download-popup", "", "0.02")
-lihatgambar.my.id#%#//scriptlet('remove-node-text', 'script', 'adsbygoogle.push')
-lingolia.com#%#//scriptlet('trusted-set-local-storage-item', 'popup_level_test_count', '100')
-
-
-
-livecounts.io#%#//scriptlet('set-local-storage-item', 'CONSENT_AGREED', '1')
-liveradious.com#%#//scriptlet('set-local-storage-item', 'stickyLineRemoved', 'true')
-
-loksado.com#%#//scriptlet("abort-current-inline-script", "DS_Popup_1")
-
-
-lulu0.ovh,goodstream.one#%#//scriptlet('remove-node-text', 'script', 'showADBOverlay')
-lulustream.com#%#//scriptlet('abort-current-inline-script', 'String.prototype.concat', 'popup')
-luxuretv.com#%#//scriptlet('abort-current-inline-script', '$', 'Modal')
-m-zone.org#%#//scriptlet('set-local-storage-item', 'discordNotificationDismissed', 'true')
-m.economictimes.com#%#//scriptlet('set-session-storage-item', 'nudgeStickyBannerHide', 'true')
-mackeeper.com#%#//scriptlet('set-session-storage-item', 'gdprBannerClosed', 'true')
-macpaw.com#%#//scriptlet('set-session-storage-item', 'gaming-modal-shown', 'true')
-
-magicjohn.com#%#//scriptlet('set-local-storage-item', 'theme:popup-appeared', 'true')
-mako.co.il#%#//scriptlet('set-local-storage-item', 'mako_GDPR_message_showed', '1')
-malavida.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'popupOn')
-mangakita.net,westmanga.*#%#//scriptlet('set-constant', 'puShown1', 'true')
-maxicours.com#%#//scriptlet('set-session-storage-item', 'popup-closed', 'true')
-
-mecze.com#%#//scriptlet("prevent-setTimeout", "#newsletter-dialog")
-
-medobr.com#%#//scriptlet('remove-class', 'popup-active', 'body[class="popup-active"]')
-medscape.com#%#//scriptlet('set-constant', 'slideShow.interstitialCount', '0')
-medsurgeindia.com#%#//scriptlet("prevent-setTimeout", "#send_enquery_popup_load")
-mega4upload.net#%#//scriptlet('prevent-addEventListener', 'click', 'popupOpened')
-memeburn.com#%#//scriptlet("set-constant", "show_interstitial", "0")
-
-mercatoemcasa.com.br#%#//scriptlet('set-local-storage-item', 'MCPopUp', 'true')
-
-
-my.norton.com#%#//scriptlet('set-local-storage-item', 'consent-status', 'true')
-
-mylink.vc#%#//scriptlet("prevent-setTimeout", "//in-page-push.")
-n.fcd.su#%#//scriptlet('abort-current-inline-script', '$', '#push-allow-modal')
-
-
-nangcuc.cv,nangcuc.*#%#//scriptlet('prevent-addEventListener', '', '/popunder|popup/i')
-
-
-
-
-nbaup.live,goalup.live#%#//scriptlet("abort-on-property-read", "popup")
-neilpatel.com#%#//scriptlet('remove-class', 'mfp-popup-exit-quiz-v2', 'body')
-netronline.com#%#//scriptlet('abort-current-inline-script', 'addEventListener', 'user-modal')
-nextmgz.com,nextmag.com.tw#%#//scriptlet("set-constant", "paywall", "noopFunc")
-nihaojewelry.com#%#//scriptlet('set-local-storage-item', 'homePopupID', '8')
-nike.com#%#//scriptlet('trusted-click-element', '.modal-actions-accept-btn', '', '2000')
-nikkei.com#%#//scriptlet('remove-class', 'tp-modal-open', 'body')
-
-novastream.top#%#//scriptlet('set-local-storage-item', 'discordPopupSeen', 'true')
-nperf.com#%#//scriptlet('set-session-storage-item', 'modalDownloadAppShown', 'true')
-
-
-nuzlocke.app#%#//scriptlet('set-local-storage-item', 'nuzlocke.consent', 'true')
-
-
-okdo.com#%#//scriptlet('trusted-click-element', '.gdpr-i-agree-button', '', '1000')
-onlyoffice.com#%#//scriptlet('set-local-storage-item', 'modalClosed', 'true')
-
-operanewsapp.com#%#//scriptlet('trusted-click-element', '.guide-modal a.continue-btn', '', '500')
-order-order.com#%#//scriptlet('remove-class', 'v-overlay-scroll-blocked', 'html')
-oriflame.com#%#//scriptlet('remove-class', 'hidden', '.content-overlay + div.w-estimated-total')
-ovd.info#%#//scriptlet('trusted-set-local-storage-item', 'popup-67856', 'shown')
-ovd.info#%#//scriptlet('trusted-set-local-storage-item', 'popup-72020', 'shown')
-oventrop.com#%#//scriptlet("abort-current-inline-script", "$", "ConsentModalControl_divModal")
-
-paribucineverse.com#%#//scriptlet('trusted-set-local-storage-item', 'lastPopupTime', '$now$')
-passportnews.co.il#%#//scriptlet('set-local-storage-item', 'popup', 'true')
-
-
-
-
-
-platform.autods.com#%#//scriptlet('set-constant', '_conv_q.push', 'noopFunc')
-positioniseverything.net#%#//scriptlet('abort-current-inline-script', 'atob', 'showModal')
-
-przewodnik.tv#%#//scriptlet("prevent-setTimeout", "siteAccessPopup()")
-pump.fun#%#//scriptlet('set-local-storage-item', 'consentModeBanner', 'false')
-
-qiita.com#%#//scriptlet('set-local-storage-item', 'next_optin_check_time', 'false')
-quizangel.com#%#//scriptlet('set-constant', 'arrJsConfig.enablePushNotification', '0')
-qwertee.com#%#//scriptlet('set-session-storage-item', 'hidePopup', 'true')
-
-
-rawinu.com#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'adModal')
-readspeaker.com#%#//scriptlet('remove-class', 'show--consent', 'html.show--consent')
-
-
-redketchup.io#%#//scriptlet('set-constant', 'googletag.cmd.push', 'noopFunc')
-reebok.*#%#//scriptlet('set-session-storage-item', 'NEWSLETTER_POPUP_SHOWN', 'true')
-rei.com#%#//scriptlet('remove-class', 'cdr-modal__noscroll', 'body')
-rei.com#%#//scriptlet('remove-class', 'cdr-modal__noscroll', 'html')
-
-retroflix.org#%#//scriptlet('set-session-storage-item', 'rf_seen_interstitial', '1')
-
-reuters.com#%#//scriptlet("prevent-addEventListener", "scroll", "#sticky-video")
-reuters.com#%#//scriptlet("set-constant", "Object.prototype.enable_floating", "false")
-reverso.net#%#//scriptlet('set-constant', 'rumjs.business.setManualConsent', 'noopFunc')
-rollingstone.com#%#//scriptlet('set-constant', 'pmcPiano.newsletterForm', 'emptyObj')
-ruangguru.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'popupPromo')
-
-runtimewire.com#%#//scriptlet('set-local-storage-item', 'rtw.analytics.consent.v1', '0')
-sabina.com#%#//scriptlet('set-local-storage-item', 'consentGranted', 'false')
-sabina.com#%#//scriptlet('set-local-storage-item', 'consentRejected', 'true')
-sabina.com#%#//scriptlet('set-local-storage-item', 'consentSelection', 'false')
-
-samfrew.com#%#//scriptlet('set-local-storage-item', 'gdpr_consent', 'accepted')
-sammobile.com#%#//scriptlet('set-local-storage-item', 'request-permission-modal', '1')
-
-selenagomez.com#%#//scriptlet('set-session-storage-item', 'umggr-newsletter-first-load', 'true')
-semafor.com#%#//scriptlet('set-session-storage-item', 'floating-sign-up-dismissed', 'true')
-shedevrum.ai#%#//scriptlet('set-constant', 'Object.prototype.isStickyAd', 'undefined')
-shop-apotheke.com#%#//scriptlet('set-session-storage-item', 'ErxModal', 'true')
-
-shrubhub.com#%#//scriptlet('prevent-setInterval', 'showBlogPopup', '1000')
-sigmalive.com#%#//scriptlet('set-local-storage-item', 'push-notifications', '0')
-sky.pro#%#//scriptlet('trusted-set-session-storage-item', 'popup-banner', '1736410895611')
-sky.pro#%#//scriptlet('trusted-set-session-storage-item', 'second-popup-show-date', '1736410895611')
-
-
-slickdeals.net#%#//scriptlet('set-local-storage-item', 'genericDealAlertModal', 'true')
-smashy.stream#%#//scriptlet('abort-current-inline-script', 'String.prototype.concat', 'popup')
-
-sofascore.com#%#//scriptlet('set-session-storage-item', 'priority-modal-dismissed', 'true')
-sonixgvn.net#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'overlays')
-sourceforge.net#%#//scriptlet("set-constant", "window.cmpmngr.setConsentViaBtn", "noopFunc")
-
-
-sportico.com#%#//scriptlet('set-constant', 'pmcPiano.newsletterForm', 'undefined')
-
-sporx.com#%#//scriptlet('set-constant', 'Object.prototype.isStickyModeTemporarilyDisabled', 'true')
-
-
-
-
-staradvertiser.com#%#//scriptlet("abort-current-inline-script", "jQuery", "covid19_modal")
-startech.com.bd#%#//scriptlet('set-constant', 'app.enablePopup', 'false')
-
-store.dji.com#%#//scriptlet('set-local-storage-item', 'popupHasShowed', 'true')
-
-streamhls.to#%#//scriptlet('prevent-addEventListener', 'click', 'popup')
-supabase.com#%#//scriptlet('set-local-storage-item', 'supabase-consent', 'false')
-
-surfline.com#%#//scriptlet("adjust-setTimeout", "adFreePopup", "15000", "0.02")
-swarmapp.com#%#//scriptlet('remove-class', 'pushDown', '#container.pushDown')
-tacter.com#%#//scriptlet('set-session-storage-item', 'mobile_app_download_overlay_dismissed', '1')
-tandem.net#%#//scriptlet('set-session-storage-item', 'TandemWeb.BlogPopupShown', 'true')
-tapeantiads.com#%#//scriptlet('trusted-click-element', '.play-overlay, .play-overlay', '', '1000')
-techymedies.com#%#//scriptlet("adjust-setTimeout", "/gotoo|pop-button|stickyadin/", "*", "0.02")
-tefal.*#%#//scriptlet('set-local-storage-item', 'newsletterRegistrationPopupClosed', 'true')
-telewizjada.top#%#//scriptlet('abort-on-stack-trace', 'Array', 'runInPagePush')
-telugucinema.com#%#//scriptlet('set-constant', 'initPopups', 'undefined')
-tempmailhub.org#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'popup-background')
-
-thehindu.com#%#//scriptlet('remove-class', 'articlepaywall', 'body.articlepaywall')
-thepointsguy.com#%#//scriptlet('set-session-storage-item', 'exitModal', '1')
-
-
-
-
-tiki.vn#%#//scriptlet("prevent-setTimeout", "mweb_to_app_popup")
-
-tmovie.tv#%#//scriptlet('trusted-set-local-storage-item', 'sharePopupLastShown', '$now$')
-
-
-
-torrentsites.com#%#//scriptlet("abort-on-property-read", "openPopup")
-transferfeed.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'app-modal')
-
-trendyol.com#%#//scriptlet('set-constant', 'WebPushManager', 'noopFunc')
-triblive.com#%#//scriptlet('set-constant', 'aa_abd_modal_create', 'noopFunc')
-
-ufovpn.io#%#//scriptlet('trusted-set-local-storage-item', 'global_engage_popup_closed_at', '$now$')
-
-
-
-
-
-userstyles.org#%#//scriptlet("set-constant", "poptin_display", "noopFunc")
-vijaysolution.com#%#//scriptlet("prevent-setTimeout", "siteAccessPopup()")
-vimm.net#%#//scriptlet("set-constant", "adsbygoogle.push.length", "1")
-vin-info.com#%#//scriptlet('remove-class', 'gdpr', 'body > div.overlay')
-vinnitsa.info#%#//scriptlet('set-local-storage-item', 'showPopup', 'true')
-
-washingtontimes.com#%#//scriptlet('remove-class', 'tp-modal-open|tp-body-scroll-prevented', 'body')
-webcamsbabe.com#%#//scriptlet("set-constant", "bcs_popup_show_bongacams_pop", "true")
-webhallen.com#%#//scriptlet('set-local-storage-item', 'marketingConsent', 'false')
-webhallen.com#%#//scriptlet('set-local-storage-item', 'necessaryConsent', 'true')
-webhallen.com#%#//scriptlet('set-local-storage-item', 'personalisationConsent', 'false')
-webukatu.com#%#//scriptlet("prevent-setTimeout", "isshowmodal", "3000")
-
-
-weissmann.ai#%#//scriptlet('set-local-storage-item', 'wm-consent', 'denied')
-whatifshow.com#%#//scriptlet('remove-class', 'vlog-sticky-video', '.video.vlog-sticky-video')
-
-
-
-wwd.com#%#//scriptlet('remove-class', 'a-article-nl-fade', '#article-content > div.pmc-paywall')
-xoilac23.net#%#//scriptlet("abort-current-inline-script", "jQuery", "#overlay")
-xoilac23.net#%#//scriptlet('set-constant', 'adsRedirectPopups', 'undefined')
-
-
-
-
-zonealarm.com#%#//scriptlet('set-session-storage-item', 'modal-newsletter', 'false')
-zvuch.com#%#//scriptlet('trusted-click-element', '#show_popup_auth .close', '', '800')
-zvuk.com#%#//scriptlet('set-session-storage-item', 'desktop_showedSaSubscriptionModal', 'true')
 
 workupload.com#+js(abort-on-property-read, adsLoader)
 
