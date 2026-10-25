@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 06XB+qrt1De2KvLKCvjq5A
+! Checksum: JxAO2ZsjQa6Mt+0OEvCDBw
 ! Expires: 2 days (update frequency)
 ! Homepage: https://raw.githubusercontent.com/tekintian/adt-rules/refs/heads/master/v6/dyn/video.txt
 ! Last modified: 19 Oct 2026 04:43 UTC
 ! Rules: 1141
 ! Source: rules_merged.txt
 ! Title: 视频网站广告过滤规则
-! Version: 2026-10-25T13:35:56
+! Version: 2026-10-25T13:45:01
 ||17173cdn.com/20*.mp4$rewrite=abp-resource:blank-mp3,domain=17173.com
 ||a.spankbang.com^$redirect=nooptext
 ||ctfile.com/popjump.php?$popup
@@ -118,8 +118,6 @@ bilibili.com##.operate-card[data-target-url*=".miaozhen."]
 bilibili.com##.operate-card[data-target-url*="doubleclick."]
 bilibili.com##.pop-live-small-mode
 bilibili.com##.rank-list-wrap + div:not([class])
-
-
 bilibili.com##.title > span > a[href^="http"]:not([href*=".bilibili."])
 bilibili.com##.topic-preview > li > a[href^="http"]:not([href*=".bilibili."])
 bilibili.com##.video-page-game-card
@@ -169,8 +167,6 @@ fleetnews.co.uk,dubizzle.com###top-leaderboard
 florenfile.com##a[target="_blank"][rel="nofollow"] > img
 fmovies.cab##.feedback-icon
 fmovies.cab##div[id="1_bottom_corner"]
-
-
 foodbible.com,gamingbible.com,ladbible.com,sportbible.com,unilad.com##div[class*="margin-Advert"]
 fortune.com,lifehacker.com,mashable.com,pcmag.com###related-video
 forzastyle.com##.m-firework
@@ -307,8 +303,6 @@ iqiyi.com##div[adid]
 iqiyi.com##div[class^="ad-piclist-"]
 iqiyi.com##div[class^="popwin_fullCover__"]
 iqiyi.com##div[class^="video-slide_normal"] > a[href^="http"]:not([href*="iqiyi.com"]) > div > img
-
-
 iqiyi.com##div[id^="div_theatre"]
 iqiyi.com##iqpdiv[data-cupid=container]
 iqiyi.com##iqpdiv[data-cupid=container],div[adid]
@@ -408,8 +402,6 @@ naughtymachinima.com##iframe[src^="https://chaturbate.com/"]
 neonnettle.com###mailList
 
 new-123movies.live#?#script + div[class] div[id]:has(> a[href="/user/profile/premium-membership"])
-
-
 new-fmovies.cam##a[target="_blank"] > img
 new-gomovies.online##._moviesGo a[id] + div[style="display: block;"]
 new-gomovies.online##.jwplayer > div.jw-logo-top-left
@@ -472,8 +464,6 @@ rumble.com##.a-break
 rumble.com##.homepage-section:has(> div.constrained > div.js-rac-desktop-container)
 rumble.com##.homepage-section:has(> div.constrained > div[data-js^="rac-rp_"])
 rumble.com##.js-ads-container
-
-
 rumble.com##div[class^="js-rac-"][data-zone-id]:has(> script[src^="//a.ads."])
 rumble.com#?#main section.homepage-section:has(> div.constrained > div[class^="rac-ad__"])
 sammobile.com###closeAd
@@ -567,8 +557,6 @@ swoole.com##.wiki-resource
 talk.sonymobile.com##.ui-widget[aria-label="Feedback for community"]
 tarsushaber.com##.my-2 a[href^="https://apps.apple.com/"]
 tastingtable.com,islands.com,grunge.com,slashgear.com,grunge.com,svg.com##.partnership-header
-
-
 tech-fairy.com##[href^="https://apps.apple.com/gb/app/"]
 techsupportwhale.com##.techs-widget
 teenyounganal.com,gotohole.com###im
@@ -654,8 +642,6 @@ vimeo.com##.app_banner_container
 vimeo.com##.js-join-banner
 vimeo.com##.profile__ad-wrapper
 vimeo.com##a[target="_blank"] > img[src*="house-ads"]
-
-
 vizcloud.*,mcloud.to,vizcloud2.*,vidstreamz.online##.xad-wrapper
 w.mgtv.com##.m-agreement
 xhamster.com#$#div[style*="adVideo"] { position: absolute!important; left: -3000px!important; }
