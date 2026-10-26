@@ -381,13 +381,145 @@ example.com#@#.sponsor
 
 ## 附录 A：Scriptlet 缩写对照
 
-| 缩写 | 完整名称 |
-|---|---|
-| `acis` | `abort-current-inline-script` |
-| `aeld` | `addEventListener-defuser` |
-| `nano-stb` | `nano-setTimeout-booster` |
-| `nano-sib` | `nano-setInterval-booster` |
+> 本文档为速查参考，完整技术细节见 [`docs/SCRIPTLET-REFERENCE.md`](../../docs/SCRIPTLET-REFERENCE.md)。
+
+### uBO 标准缩写（28 个）
+
+| 缩写 | 完整名称 | 分类 |
+|---|---|---|
+| `aopr` | `abort-on-property-read` | 属性拦截 |
+| `aopw` | `abort-on-property-write` | 属性拦截 |
+| `acs` | `abort-current-inline-script` | 内联脚本阻断 |
+| `aost` | `abort-on-stack-trace` | 栈追踪阻断 |
+| `aeld` | `aeld` | 事件拦截 |
+| `set` | `set-constant` | 属性拦截 |
+| `snoo` | `set-noop-object` | 属性拦截 |
+| `nostif` | `prevent-setTimeout` | 定时器拦截 |
+| `noif` | `prevent-setInterval` | 定时器拦截 |
+| `nowoif` | `prevent-window-open` | 弹窗拦截 |
+| `nws` | `prevent-window-open` | 弹窗拦截 |
+| `nf` | `prevent-fetch` | 网络拦截 |
+| `nofetchif` | `prevent-fetch` | 网络拦截 |
+| `noxhrif` | `prevent-xhr` | 网络拦截 |
+| `noel` | `prevent-element-src-loading` | 资源加载拦截 |
+| `ra` | `remove-attr` | DOM 操作 |
+| `rc` | `remove-class` | DOM 操作 |
+| `rmnt` | `remove-node-text` | DOM 文本操作 |
+| `nofab` | `no-fab` | 反检测 |
+| `nab` | `no-fab` | 反检测 |
+| `nowebrtc` | `no-webrtc` | 反检测 |
+| `json-prune` | `json-prune` | JSON 剪枝 |
+| `xml-prune` | `xml-prune` | XML 剪枝 |
+| `m3u-prune` | `m3u-prune` | M3U8 剪枝 |
+| `nano-stb` | `adjust-setTimeout` | 定时器调整 |
+| `nano-sib` | `adjust-setInterval` | 定时器调整 |
+| `nano-setTimeout-booster` | `adjust-setTimeout` | 定时器调整 |
+| `nano-setInterval-booster` | `adjust-setInterval` | 定时器调整 |
+
+### 扩展缩写（50 个）
+
+| 缩写 | 完整名称 | 分类 |
+|---|---|---|
+| `nrc` | `remove-cookie` | Cookie |
+| `slsi` | `set-local-storage-item` | Storage |
+| `sssi` | `set-session-storage-item` | Storage |
+| `tste` | `trusted-set-cookie` | Cookie |
+| `tstcr` | `trusted-set-cookie-reload` | Cookie |
+| `scr` | `set-cookie-reload` | Cookie |
+| `tslsi` | `trusted-set-local-storage-item` | Storage |
+| `tsssi` | `trusted-set-session-storage-item` | Storage |
+| `tce` | `trusted-click-element` | DOM 操作 |
+| `trfr` | `trusted-replace-fetch-response` | 响应替换 |
+| `trxr` | `trusted-replace-xhr-response` | 响应替换 |
+| `trnt` | `trusted-replace-node-text` | 文本替换 |
+| `tce2` | `trusted-create-element` | DOM 操作 |
+| `sa` | `set-attr` | DOM 操作 |
+| `tra` | `trusted-replace-argument` | 参数替换 |
+| `tsnm` | `trusted-suppress-native-method` | 方法抑制 |
+| `hs` | `href-sanitizer` | URL 净化 |
+| `tsc` | `trusted-set-constant` | 属性拦截 |
+| `sc` | `spoof-css` | CSS 欺骗 |
+| `tjs` | `trusted-json-set` | JSON 设置 |
+| `trot` | `trusted-replace-outbound-text` | 文本替换 |
+| `tsa` | `trusted-set-attr` | DOM 操作 |
+| `tpio` | `trusted-prune-inbound-object` | 对象剪枝 |
+| `pn` | `prevent-navigation` | 导航拦截 |
+| `npraf` | `prevent-requestAnimationFrame` | 帧请求拦截 |
+| `nbab` | `prevent-bab` | 反检测 |
+| `nrih` | `prevent-innerHTML` | DOM 操作 |
+| `nref` | `prevent-refresh` | 刷新拦截 |
+| `nc` | `noeval` | 代码执行 |
+| `cw` | `close-window` | 窗口控制 |
+| `ppn` | `prevent-popads-net` | 弹窗拦截 |
+| `pc` | `prevent-constructor` | 构造拦截 |
+| `npa` | `no-protected-audience` | 隐私 API |
+| `nt` | `no-topics` | 隐私 API |
+| `ncv` | `prevent-canvas` | 反指纹 |
+| `nf3` | `prevent-fab-3` | 反检测 |
+| `pael` | `prevent-addEventListener` | 事件拦截 |
+| `pei` | `prevent-eval-if` | 代码执行 |
+| `hisd` | `hide-in-shadow-dom` | Shadow DOM |
+| `icisd` | `inject-css-in-shadow-dom` | Shadow DOM |
+| `risd` | `remove-in-shadow-dom` | Shadow DOM |
+| `jpfr` | `json-prune-fetch-response` | JSON 剪枝 |
+| `jpxr` | `json-prune-xhr-response` | JSON 剪枝 |
+| `vph` | `video-playback-hook` | 视频播放 |
+| `edp` | `evaldata-prune` | 数据剪枝 |
+| `gi3` | `google-ima3` | SDK Mock |
+| `gid` | `google-ima3-dai` | SDK Mock |
+| `ggpt` | `googletagservices-gpt` | SDK Mock |
+| `pb` | `prebid` | SDK Mock |
+| `ga` | `google-analytics` | SDK Mock |
+
+### uBO 带前缀别名（22 个）
+
+| 缩写 | 完整名称 | 分类 |
+|---|---|---|
+| `ubo-aopr` | `abort-on-property-read` | 属性拦截 |
+| `ubo-aopw` | `abort-on-property-write` | 属性拦截 |
+| `ubo-acs` | `abort-current-inline-script` | 内联脚本阻断 |
+| `ubo-aost` | `abort-on-stack-trace` | 栈追踪阻断 |
+| `ubo-aeld` | `aeld` | 事件拦截 |
+| `ubo-set` | `set-constant` | 属性拦截 |
+| `ubo-nostif` | `prevent-setTimeout` | 定时器拦截 |
+| `ubo-noif` | `prevent-setInterval` | 定时器拦截 |
+| `ubo-nowoif` | `prevent-window-open` | 弹窗拦截 |
+| `ubo-nofab` | `no-fab` | 反检测 |
+| `ubo-nowebrtc` | `no-webrtc` | 反检测 |
+| `ubo-ra` | `remove-attr` | DOM 操作 |
+| `ubo-rc` | `remove-class` | DOM 操作 |
+| `ubo-rmnt` | `remove-node-text` | DOM 文本操作 |
+| `ubo-set-local-storage-item` | `set-local-storage-item` | Storage |
+| `ubo-set-cookie` | `set-cookie` | Cookie |
+| `ubo-no-xhr-if` | `prevent-xhr` | 网络拦截 |
+| `ubo-no-fetch-if` | `prevent-fetch` | 网络拦截 |
+| `ubo-cookie-remover` | `remove-cookie` | Cookie |
+| `ubo-json-prune` | `json-prune` | JSON 剪枝 |
+| `ubo-xml-prune` | `xml-prune` | XML 剪枝 |
+| `ubo-m3u-prune` | `m3u-prune` | M3U8 剪枝 |
+| `ubo-nano-stb` | `adjust-setTimeout` | 定时器调整 |
+| `ubo-nano-sib` | `adjust-setInterval` | 定时器调整 |
+
+### 高频完整名称速查（无缩写）
+
+| 完整名称 | 功能 | 典型场景 |
+|---|---|---|
+| `remove-attr` | 移除元素属性 | 禁用假播放按钮的跳转链接 |
+| `remove-class` | 移除元素 class | 去除广告高亮样式 |
+| `set-noop-object` | 设为空操作对象 | 拦截广告管理器对象 |
+| `prevent-fetch` | 拦截 fetch | 阻止广告数据上报 |
+| `prevent-xhr` | 拦截 XMLHttpRequest | 阻止旧版广告请求 |
+| `prevent-addEventListener` | 拦截事件监听 | 阻止广告事件绑定 |
+| `trusted-set-cookie` | 可信设置 Cookie | 绕过反拦截检测 |
+| `remove-cookie` | 移除 Cookie | 清除追踪 Cookie |
+| `google-ima3` | Mock Google IMA SDK | 视频广告（YouTube 等） |
+| `prebid` | Mock Prebid.js | 头部竞价广告 |
+| `video-playback-hook` | Hook 视频播放 | 提供 AdSkip 控制能力 |
+| `m3u-prune` | M3U8 播放列表裁剪 | 视频广告切片剔除 |
+| `trusted-click-element` | 可信自动点击 | 自动跳过/关闭广告 |
+| `noeval` | 禁用 eval | 阻止代码执行 |
+| `fingerprintjs2` / `fingerprintjs3` | 反指纹追踪 | 阻止设备指纹采集 |
 
 ---
 
-*本文档对应 AdClear V6 规则引擎。Scriptlet 完整参数说明见应用内《Scriptlet 语法规则技术参考》。*
+*本文档对应 AdClear V6 规则引擎。完整 scriptlet 清单（86 项）及参数说明见 [`docs/SCRIPTLET-REFERENCE.md`](../../docs/SCRIPTLET-REFERENCE.md)。*

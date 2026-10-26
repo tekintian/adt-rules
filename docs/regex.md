@@ -40,7 +40,7 @@ grep 'yts' tmp/all_rules_clean.txt > tmp/yts_rules.txt
 
 提取包含指定字符的数据
 
-grep 'js\(' tmp/all_rules_clean.txt > tmp/js_rules.txt
+grep 'js(' tmp/all_rules_clean.txt > tmp/js_rules.txt
 
 grep 'baidu.com' tmp/all_rules_clean.txt > tmp/baidu_rules.txt
 grep 'qq.com' tmp/all_rules_clean.txt > tmp/qq_rules.txt
