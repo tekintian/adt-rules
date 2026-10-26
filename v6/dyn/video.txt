@@ -1,12 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: JxAO2ZsjQa6Mt+0OEvCDBw
+! Checksum: SW1BIG9+XeZVzkbdiDJWTQ
 ! Expires: 2 days (update frequency)
 ! Homepage: https://raw.githubusercontent.com/tekintian/adt-rules/refs/heads/master/v6/dyn/video.txt
 ! Last modified: 19 Oct 2026 04:43 UTC
 ! Rules: 1141
 ! Source: rules_merged.txt
 ! Title: 视频网站广告过滤规则
-! Version: 2026-10-25T13:45:01
+! Version: 2026-10-26T16:10:27
+
 ||17173cdn.com/20*.mp4$rewrite=abp-resource:blank-mp3,domain=17173.com
 ||a.spankbang.com^$redirect=nooptext
 ||ctfile.com/popjump.php?$popup
@@ -14,10 +15,8 @@
 ||huya.com/leaf/*=vodadv&$rewrite=abp-resource:blank-mp3,domain=huya.com
 ||kfc.com.cn^$popup,domain=iqiyi.com
 ||sohu.com/i/?pvid=$popup
-
 ##a[href^="http://bongacams.com/track?"]
 ##a[href^="https://chaturbate.com/in/?"]
-0123movies.*##.fake_player, #tab-ad
 0123movies.*##.les-title:has-text(HD)
 0123movies.*##.mvic-btn
 0123movies.*##[href="#tab-ad"]
@@ -26,7 +25,6 @@
 01fmovies.com##.ico.close
 01fmovies.com##.jw-logo
 01fmovies.com##[src^="/addons/"]
-
 0gomovies.to##.md-top > div#bread + style + div[id][class] > div[class*=" "] > *:not(div)
 123movies.*###infoAsk
 123movies.*##.row-btns-special > a[target="_blank"]
@@ -42,14 +40,10 @@
 123moviesx.org#?#aside[id^="sidebarid"]:has(> center > script)
 123moviesz.org##.ann-home.alert
 163.com,bilibili.com,longzhu.com##a[href*=".admaster."]
-
 17173.com###finalTuijian
 17173.com##.mod-tg1
 17173.com##a[href*="&ad_code="]
-
-1905.com##.mobile_ad_promote
 1cloudfile.com,koramaup.com,doodrive.com##.uk-position-bottom-right
-
 4fun.tv##.screening-banner
 4fun.tv##.slot-center
 4fun.tv##.slot-middle
@@ -60,18 +54,14 @@ acfun.cn###appguideBox
 acfun.cn###bd_ad1
 acfun.cn###goniudan
 acfun.cn##.app-guide
-acfun.cn##.banana-ad
 acfun.cn##.banner-href[href^="http"]:not([href*=".acfun."])
 acfun.cn##.danmu-activity
 acfun.cn##.right-activity
 acfun.cn##a[href^="https://click.dsp.com/"]
-
 afzhan.com,iqiyi.com##.rightAdv
-
 algemeiner.com,allmonitors24.com,streamable.com##.topbanner
 allenai.org,solanamobile.com,merlin.foyer.work##.rhc-banner
 allmonitors24.com,streamable.com##.bottombanner
-
 androidmakale.com##.widget_onesignalwidget
 androidpolice.com##a[href^="https://www.visible.com"][target="_blank"] > img
 animelab.com##.progress-bar > div[class="aip"]
@@ -79,31 +69,15 @@ anyshemale.com##.section > .wide + .sidebarv
 anyshemale.com##.wide > .af
 appsample.com##div[class^="MapLayout_Bottom"]
 ashemaletv.com##.video__title-wrapper
-asheville.com##.injected-ads
-atv.com,motorcycle.com,autoguide.com##.sidebar-ad-unit
-autoguide.com,motorcycle.com##.sidebar-ad-unit
-autoguide.com,motorcycle.com,thetruthaboutcars.com,upgradedhome.com##.billboardSize
-autostraddle.com##.end-of-article-ads
-avgle.com###avyc
-avgle.com###nft
-baofeng.com##.ad-bar-l
-baofeng.com##.ad-bar-r
-baofeng.com##.ad-pop-wrap
-baofeng.com##.play-ads
-barnesandnoble.com###globalNavBanner
-barnesandnoble.com###globalSubBanner
-barnesandnoble.com###rhf_header_element > .rhf-overline-carousal
 bavku.shop##.hero-in > div.hero-rail:has(> div.badges > a[href^="https://apps.apple.com/kr/app/"])
 bemyhole.com###live-spots
-
 bemyhole.com##.main-cams
 bilibili.com##.activity-slider[style="width: 1220px;"]
-bilibili.com##.ad-e1
-bilibili.com##.ad-f
-bilibili.com##.ad-report
+bilibili.com##-e1
+bilibili.com##-f
+bilibili.com##-report
 bilibili.com##.adcard-content
 bilibili.com##.banner-card
-bilibili.com##.bili-dyn-ads
 bilibili.com##.bili-video-card__wrap > a[href^="http"]:not([href*=".bilibili.com/"])
 bilibili.com##.eva-banner
 bilibili.com##.feed-card:has(a[href*="cm.bilibili.com"][data-target-url*="gaoneng.bilibili.com"])
@@ -127,19 +101,15 @@ bilibili.com##a[data-target-url*=".taobao.com"]
 bilibili.com##a[href$="_suning.html"]
 bilibili.com##a[href*=".doubleclick."]
 bilibili.com##a[href*="cm.bilibili.com"][data-target-url*="gaoneng.bilibili.com"]
-
 bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"])
-
 bilibili.com##a[href="/video/av8587236/?tg"]
 bilibili.com##bili-open-app div.open-btn
 bilibili.com##bili-open-app ~ bili-open-app
 bilibili.com##div[style*="height:"][data-loc-id]
 bilibili.com##span[style*="height:"][data-loc-id]
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
-
 elle.com##.seo-tags-container
-elle.com##main > div[class^="css-"]:has(> .ad-disclaimer)
-elsubtitle.com##div[class*="-ad-box"]
+elle.com##main > div[class^="css-"]:has(> -disclaimer)
 epicbundle.com##.adExtraContentSuperBanner
 epicbundle.com##.background-click
 epicbundle.com##.blogArticleAd
@@ -152,15 +122,11 @@ eroprofile.com###divVideoListAd2
 eroprofile.com##div[style="width:300px height:300px;"]
 evolvingtable.com##.block-area-save-recipe
 evolvingtable.com##.cwp-save-recipe-shortcode
-
 fanyi.baidu.com,longzhu.com##.banner-wrap
-
 finance.ifeng.com###box_img
 finance.ifeng.com##.lccs
 finance.ifeng.com##.sConRbox
 finance.ifeng.com,kulemi.com##.rec
-firmwarefile.com###ad2logo
-firmwarefile.com###spon
 firmwarefile.com##div[style*="width:728px"]
 firmwarefile.com##div[style^="width:300px;height:250px;"]
 fleetnews.co.uk,dubizzle.com###top-leaderboard
@@ -174,30 +140,22 @@ forzastyle.com,hanako.tokyo###fw-player.needsclick
 foxprn.com,foxnxx.com##div[style="margin-top:5px;text-align:center;"]
 foxprn.com,foxnxx.com##div[style^="height:100px;max-width:300px;"]
 foxprn.com,foxnxx.com##div[style^="height:250px;max-width:300px;"]
-
 gabastyle.com###rListingBnr
 gabastyle.com##.dfad
 games.mashable.com##.RightRail__displayAdRight___PjhV3mIW
 gamingbible.com##.css-1z9hhh
 gayforfans.com##iframe[src*="//enviousinevitable.com/"]
 genshin-impact-map.appsample.com###pc-br-300x250-gim
-
 girlstyle.com##.top-app-promotion
 girlswithmuscle.com##.hb-static-banner-div
-girlswithmuscle.com##.hb-video-ad
 gomovies-online.cam##body > div[class^="_"] > div[id^="_"]:only-child > style + div[id^="_"]
-
 gomovies.sx##a[href="https://gomovies.sx/android-movies-apk"]
 gomovies.sx##div[style="width: 100%; padding-bottom: 320px; position: relative;"]
-
 gotohole.com##a[href^="/o.php?"][onclick="noclose();"]
-
 guitarchina.com,iqiyi.com##.banner4
 haitiantimes.com,renonr.com,wyofile.com##.below-header-widgets
 hall123.com,hi.people.com.cn##img[width="1000"]
 hao123.com,sohu.com##.advertise
-hdhole.com##.embed-ads
-hdhole.com#?#.content > li:has(> div.item > div.adthumb)
 healthy4pepole.com#?#.sidebar > div.widget_text > div.textwidget > div[id^="div-gpt-ad-"]:upward(2)
 hentaismile.com##.adv-block-top-player
 hf365.com,sina.com.cn,sohu.com##.adA
@@ -224,9 +182,7 @@ huya.com##.tt[style*="1200px"]
 huya.com#?#.item-pic:-abp-has(> .img-tips)
 ifeng.com##.yy_right_bottom
 ifeng.com##[class*="index_banner"]
-ifeng.com##[class*="index_feedAd"]
 ifeng.com##[class*="index_feedBox"]
-ifeng.com##[class*="index_sideAd"]
 ifeng.com##[class*="index_topBox_"]
 ifeng.com##[class*="index_topDbox"]
 ifeng.com##div[class^="bottomDbox"]
@@ -236,7 +192,6 @@ ifeng.com##div[class^="d_box-"]
 ifeng.com##div[class^="dbox"]
 ifeng.com##div[class^="index_top_box_"]
 ifeng.com##div[class^="index_topBox_"]
-ifeng.com##div[class^="middleAd"]
 ifeng.com##div[class^="pplive"]
 ifeng.com##div[class^="ppx_wrap-"]
 ifeng.com##div[class^="rightContent-"] a[href^="//health.ifeng."]
@@ -252,20 +207,18 @@ ifeng.com##video[class^="advideo-"]
 ifeng.com#?#.box_list:-abp-has(.tuig)
 ifeng.com#?#div[class^="titleImg-"]:-abp-has(span[class^="source-"]:-abp-contains(推广))
 iqiyi.com###adflash
-iqiyi.com###bottom_banner_ad_bk
 iqiyi.com###jingdongArea
 iqiyi.com###scrollWrap-vipbuy
 iqiyi.com###videoBuyContainer
 iqiyi.com###widget-jingdongAd
 iqiyi.com###zbsp
-iqiyi.com##.ad-seed
+iqiyi.com##-seed
 iqiyi.com##.adBanner980
 iqiyi.com##.banner3
 iqiyi.com##.banner980
 iqiyi.com##.cell-left
 iqiyi.com##.cell-right
 iqiyi.com##.cupid-panel + div
-iqiyi.com##.dove_ad
 iqiyi.com##.dove_banner
 iqiyi.com##.dove_videos
 iqiyi.com##.gg-l
@@ -282,17 +235,12 @@ iqiyi.com##.lanzhi_cont2
 iqiyi.com##.leftLink
 iqiyi.com##.mod_focus-index_list > li:last-child
 iqiyi.com##.oppo
-iqiyi.com##.qy-plist-ad
 iqiyi.com##.qy20-h-carousel-wrap[data-focus="ad-focus-image"] .qy20-h-carousel__a
 iqiyi.com##.qy20-h-carousel_con-gray a[href^="http"]:not([href*="iqiyi.com/"])
 iqiyi.com##.rightLink
-iqiyi.com##.rm-header-ad
-iqiyi.com##.rm-logo-ad
 iqiyi.com##.rm-site-main
 iqiyi.com##.site-title_right
 iqiyi.com##.thumbnail_item[href^="http"]:not([href*=".iqiyi.com/"])
-iqiyi.com##.video-ad_left
-iqiyi.com##.video-ad_right
 iqiyi.com##.zzVideo
 iqiyi.com##:not(.qy-index-page) > div[id^="100000"]
 iqiyi.com##a[href*=".banggo."]
@@ -321,18 +269,14 @@ izismile.com##div[style="text-align: center; margin-bottom:30px;"] > center
 jp,com##.header__banner[href="https://apps.apple.com/jp/app/fanmily/id1485686155"]
 jxcn.cn,redianyule.com##.dsp_yxxf
 kankan.com##div[id^="cm"].banner
-
 kiss-anime.ws#?#.rightBox:has(> .barTitle:contains(KissAnime Ads))
 ktmmobile.com##.top-event
 ladbible.com###vidazoo-0
 ladbible.com,unilad.com,unilad.co.uk,gamingbible.com,tyla.com,sportbible.com##.css-mg9b9w
-
 ladyshemale.com##center > a[target] > img
 laravelarticle.com##.bl_wrapper
-
 le.com###a_body_11628
 le.com###a_title_11628
-le.com##.Ad
 le.com##.ad_layer
 le.com##.Banner
 le.com##.broadcast-adv
@@ -344,17 +288,14 @@ le.com##.lay_body[style^="width:980px;height:90px;"]
 le.com##.lay_title[style^="width:490px;height:60px;"]
 le.com##.lbzDaoliu
 le.com##div[data-type="bottomLayerView"]
-
 linuxcapable.com,lawenforcementtoday.com##.inside-right-sidebar > .FixedWidget__fixed_widget
 listdle.com##.sponsored-card-bg
 listland.com##a[href^="https://shareasale.com/r.cfm?"]
 live.bilibili.com##.container-wrapper[style="height:180px;min-width:1280px"]
 live.bilibili.com##.container-wrapper[style="height:446px;min-width:1280px"]
-
 livejasmin.com###react-container > div > div > div[class^="_"]
 livejasmin.com##.container_banner
 longzhu.com##.chatroom-ap
-
 lyonpeople.com##.widget_monarchwidget
 lyonpeople.com##.widget_monarchwidget + div[class]
 m.bilibili.com##.fe-ui-open-app-btn
@@ -379,20 +320,15 @@ mashable.com##div[data-pogo]
 mashable.com##section[x-data="window.smsSignup()"]
 mashable.com#?##article > div.w-full:has(> div > strong:contains(You May Also Like))
 maxconsole.com##.secbanner-wrapper
-
 mercari.com#?##main > mer-tab-panel > div[class^="sc-"]:has(> a[href^="https://apps.apple.com/"])
 messitv.net##[href^="https://www.redbubble.com/"]
 metabattle.com###inca1
 metabattle.com###inca2
-mgtv.com##.ad-fixed-bar
+mgtv.com##-fixed-bar
 mgtv.com##.c-95060-top
 moneypop.com,factable.com##.pohcontainer
 monocle.com##.super-leaderboard
-motorcycle.com##.ad-bottom-strip
-motorcycle.com##.infeed-ads
-mtv.com,pluto.tv,cc.com,comedycentral.la,cbsnews.com###cps-shaman-notifier
-multi.xnxx.com##body > .combo.smallMargin
-music.apple.com##.upsell-banner
+motorcycle.com##-bottom-strip
 mypussydischarge.com##iframe[src^="https://chaturbate.com/affiliates/"]
 mywatchseries.cyou##.text-center > a[target="_blank"] ~ small
 nanifile.com#?##oframeplayer > pjsdiv[style]:has(pjsdiv:contains(Ad Block))
@@ -400,7 +336,6 @@ nationalfile.com##.code-block > a[href*="&utm_medium=sitebanner"][target="_blank
 nationalfile.com##.wpb_wrapper > p
 naughtymachinima.com##iframe[src^="https://chaturbate.com/"]
 neonnettle.com###mailList
-
 new-123movies.live#?#script + div[class] div[id]:has(> a[href="/user/profile/premium-membership"])
 new-fmovies.cam##a[target="_blank"] > img
 new-gomovies.online##._moviesGo a[id] + div[style="display: block;"]
@@ -421,7 +356,6 @@ people.com##.article-footer > .articles-recirculation--see-also > .article-foote
 people.com##.article__broad-video
 people.com##.articleContainer__rail
 people.com##.get-the-app-link
-
 people.com##.people-sc-block-featuredlink--people-app-promo
 people.com##.promo-unit
 people.com##.puzzler-promo-unit--homepage
@@ -430,7 +364,6 @@ people.com.cn##.ipc_none
 rapidgator.net##a[href^="https://itunes.apple.com/us/app/rapidgator-net-file-manager/"]
 real-gomovies.com##body > div > div > style ~ div:has(a[href="/user/profile/premium-membership"])
 real-gomovies.com##main a[href="/user/profile/premium-membership"]
-
 redbubble.com##.ds-theme-find-your-thing + .Toastify
 redbubble.com##div[class^="ImageProtection__gif"]
 redtube.com###show_page_streamate
@@ -438,17 +371,14 @@ redtube.com###video_right_col > div[style="display: block; height: 520px;"]
 redtube.com,redtube.net###ab_banner
 redtube.com,redtube.net###top_main_menu > li > a[id^="paid_tab_"]
 redtube.com,redtube.net##.paid-tabs-information
-redtube.com,redtube.net##.search_upper_right_ad
 redtube.com,redtube.net##.videos_grid > li:not([class*="js_thumbContainer"]):not([class*="_"])
 redtube.com,redtube.net##a[href="/advertising"]
 remarkable.com###section-4:has(form)
-
 ridble.com##.adisclaimer
 rightrasta.com,pridesource.com,thehouseofportable.com###custom_html-20
 ruanyifeng.com###cre
 ruanyifeng.com###gd1
 ruanyifeng.com###homepage_pos
-ruanyifeng.com##.entry-sponsor
 ruanyifeng.com##a > img[src*="wangbase.com/blogimg/asset/"]
 ruanyifeng.com##a[href*=".100offer.com"]
 ruanyifeng.com##a[href*=".apeclass.com"]
@@ -460,20 +390,13 @@ ruanyifeng.com##p[style="text-align:center;font-size: 16px;"]
 ruanyifeng.com#?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p + p > img
 ruanyifeng.com#?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p > img
 rumble.com##.a-break
-
 rumble.com##.homepage-section:has(> div.constrained > div.js-rac-desktop-container)
 rumble.com##.homepage-section:has(> div.constrained > div[data-js^="rac-rp_"])
-rumble.com##.js-ads-container
 rumble.com##div[class^="js-rac-"][data-zone-id]:has(> script[src^="//a.ads."])
 rumble.com#?#main section.homepage-section:has(> div.constrained > div[class^="rac-ad__"])
-sammobile.com###closeAd
-sammobile.com###home-intro-ad
-sammobile.com###snack-ad-cont
 sammobile.com###snack-top
 sammobile.com###snack-vod
 sammobile.com###venatus-hybrid-banner
-sammobile.com##.adRoot-loop-ad
-sammobile.com##.desktop-leaderboard-ad-wrapper
 sammobile.com##.g-59
 sammobile.com##.google-preferred-news-source-cta
 sammobile.com##.header-top[data-nosnippet]
@@ -485,48 +408,32 @@ sd.ifeng.com##div[data-title*="广告位"]
 sd.ifeng.com##div[style="width:1000px; margin:10px auto 0 auto;"]
 seroundtable.com###ninja_box
 seroundtable.com##.bottombox > div.squarebox > a[target="_blank"] > img
-
-shop.menz-style.com###coupon-container
-shop.menz-style.com##img[alt="秋冬コーデのコツ"]
 shortwaveschedule.com###reclama_mijloc
-
 siliconangle.com###side-banners
 siliconangle.com###top-banners
-
 skiddle.com##a[href="https://www.skiddle.com/members/editprivacy/"] > img
-slashfilm.com,tastingtable.com,islands.com,grunge.com,slashgear.com,grunge.com,svg.com##.before-ad
 smule.com##.Wrapper-sc-1uom1zp-0
 smule.com#?#div[class]:has(> button > span:contains(Get App))
 so.toutiao.com##.s-side-list > div.result-content > div[id^="s-dom-"]
 soap2day.*##div[class^="col-sm-"] > .alert.alert-warning
 sohu.com###bottomBanner
 sohu.com###hotpicnew
-sohu.com###turn-ad
 sohu.com##.adB
-sohu.com##.adv_960
 sohu.com##.god-main
 sohu.com##.godR
 sohu.com##.lottery-box
-sohu.com##.middle-insert-ad
 sohu.com##.sogouService
-sohu.com##.x-adv-band-panel
-sohu.com##.x-adv-flogo-panel
-sohu.com##.x-adv-linear-panel
-sohu.com##.x-adv-pause-nonlinear-panel
 sohu.com##a[data-url*=".mediav.com"]
 sonymobile.com##body > .fullbleed-response
 spankbang.com###main_video_player > span:has(> a[href][target="_blank"])
 spankbang.com##.nav-wrapper > li.ls
 spankbang.com##.play_cover > .absolute:has(> span > a[href][target="_blank"])
-spankbang.com##.video-list-with-ads > div.video-item[data-id="0"]
 spankbang.com##a[data-testid="header-live-cam-link"]
 spankbang.com##div[data-testid="verified-creators"]
 spankbang.com,spankbang.party##body .ptgncdn_holder
 spankbang.com,spankbang.party##body .ptgncdn_holder_haeder
 spankbang.com,spankbang.party##iframe[src^="https://deliver.ptgncdn.com/"]
-spankbang.party,spankbang.com##.ad_button
-spankbang.party,spankbang.com##.vjs-paused-banner-ad-container
-speedtest.net##a[href^="itms-apps://itunes.apple.com/app/apple-store/id300704847"]
+speedtest.net##a[href^="itms-apps://itunes.apple.com/"]
 sporcle.com###go-orange
 sporcle.com###homepage-container > div.row-unit-container
 sporcle.com###quiz-right-rail-unit
@@ -540,14 +447,13 @@ sporcle.com##.IMGgi
 sporcle.com##.main-content-unit-wrapper
 sporcle.com##.sporcle-promo
 sporcle.com##.temp-unit
-sporcle.com##body .ad-hide
+sporcle.com##body -hide
 sporcle.com##div[id^="div-gpt-"]
 sporcle.com##div[style^="text-align: center;"] > div[style*="height: 110px; min-width: 300px;"]
 squaremile.com##.article-leaderboard-wrapper
 squaremile.com##.parallax-wrapper
 statsroyale.com##.landing__arenas > .landing__arena:not([href])
 statsroyale.com##div[class^="adUnit_"]
-streamable.com##.top-ad-banner
 streamable.com##nav ~ div[class]:has(> a[href$="page-video-ad"])
 sudokutable.com,oilprice.com##div[class^="banner--"]
 sudokutable.com,onlineradiobox.com##.playmarket
@@ -571,26 +477,21 @@ teslaoracle.com##figure.aligncenter
 thedailystar.net##.app-link-wrapper a[href^="https://itunes.apple.com/us/app/the-daily-star/"]
 thehouseofportable.com##a[href^="https://billing.purevpn.com/aff.php?"]
 themeisle.com###text-7
-themeisle.com##.ti_ad
 themoviesflix.co###sidebar > div[id^="custom_html-"]
 themoviesflix.co##.thecontent > center > div[style^="width:300px;height:250px;"]
 themoviesflix.co##div[style^="width: 320px; height: 100px;"]
 themoviesflix.co##div[style^="width:320px;height:100px;"]
-
 thestreamable.com###promo-signup-bottom-sheet
-thestreamable.com##.ad-728x90-min-height
+thestreamable.com##-728x90-min-height
 thestreamable.com##.container-lg > aside.container-sm.mb-7
 thestreamable.com##.d-md-flex
 thuvienphapluat.vn##body > div > a[href="https://itunes.apple.com/vn/app/ithong/id1493253359"]
 ticklingforum.com#?##tmf_sidebar > div.tmf_sb_content:has(> p.tmf_sb_p > a[href*="clips4sale.com"])
 toutiao.com##.article_link[data-tag="ad"]
 toutiao.com#?#.has_action:-abp-has(> .icon_ad)
-
 toy-people.com##.article_insertAD
 toy-people.com##.good72890
 toy-people.com##.right_bottom_bb
-toy-people.com##.rightAd_300250
-toy-people.com##.rightAd_3002502
 trello.com#?##chrome-container > div[class]:has(> div[class]> a[href^="https://apps.apple.com/"])
 tube8.com##.content-wrapper > div#home_page_wrapper~div#search_page_wrapper_instant~input+div[id]
 tube8.com##.full-row-thumbs > .e8-column
@@ -598,7 +499,6 @@ tube8.com##.video_listing > div[class]:not([data-video-id]):has(> .adsbytrafficj
 tube8.com##div[class] > input:first-child[type="hidden"][value="false"]+div
 tube8.com#?##flvplayer > div[id]:has(> div[id] > div[id] > ins.adsbytrafficjunky)
 tube8.com#?##videos_page_wrapper > div[class]:has(> div[class]:contains(Advertisement))
-
 tubitv.com#?##app > div[class]:has(> div[class] > div[class] > button:contains(Get the app))
 tv.sohu.com###miaozhenad
 ulifestyle.com.hk###Open-appLink-banner
@@ -608,7 +508,6 @@ ulule.com###react-ulule-header > div[class="sc-gojNiO gBoKcs"]
 umingle.com###premiumThrottle
 umingle.com##.premium-upgrade-btn
 unicode-table.com##.content-inside-banner
-unicode-table.com##.main__top-updated-ad
 uniladtech.com,sportbible.com,unilad.com,ladbible.com##div[class^="advert-placeholder"]
 untangle.com###overview-features + div.right_col
 v.ifeng.com##.keyword
@@ -626,7 +525,6 @@ v.qq.com##a[href*=".renrendai.com"]
 v.qq.com##a[href*=".vip.com"]
 v.qq.com##a[href*="amway.com.cn"]
 v.qq.com##txpdiv[data-role*="-ad-"]
-v.qq.com##txpdiv[data-role="hd-ad-adapter-interactivelayer"]
 v.qq.com#?#div.nav-wrap > div > div:has(> a[href^="https://iwan.video.qq.com"])
 v.youku.com###kui_dashboard_vip-layer_vipLayer
 v.youku.com##.fee-wrap-new
@@ -634,7 +532,6 @@ vanpeople.com##.banneradv-newbox
 vccircle.com##.ads_ads__qsWIu
 vexfile.com##div[id*="_billboard_"]
 vexfile.com##div[id^="double_banner_container_"]
-
 vikingfile.com##[href^="/fast-download/"]
 vikingfile.com##a[href^="/fast-download/"]
 villagesexvideos.com##article.post:not([id^="post"])
@@ -647,11 +544,9 @@ w.mgtv.com##.m-agreement
 xhamster.com#$#div[style*="adVideo"] { position: absolute!important; left: -3000px!important; }
 youku.com#$#.src_ykheader_box > div > div.full_wrap { display: none !important; }
 youku.com#$#body:not(:has(.player-fullscreen-normal)) { overflow: auto !important; }
-youku.com#$#youku-ad-sdk
 en.ytsrs.bz##div[style*="position: fixed"][style*="display: flex"]
 en.ytsrs.bz##div[class*="iframe-ads"]
 en.ytsrs.bz##button[style*="position: fixed"][style*="display: grid"]
 en.ytsrs.bz##iframe[style*="position: fixed"][style*="z-index: 2147483647"][style*="display: block"]
-
 en.ytsrs.bz#+js(prevent-window-open, /auknceiwoulddirect\.org/)
 en.ytsrs.bz#+js(abort-on-property-write, openPopUP)

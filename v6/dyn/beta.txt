@@ -1,79 +1,47 @@
 [Adblock Plus 2.0]
-! Checksum: OpNjIfJK9VWG30rp5HGMgg
+! Checksum: YHPO/CFF7BVbDHl9iWFngg
 ! Expires: 2 days (update frequency)
 ! Homepage: https://raw.githubusercontent.com/tekintian/adt-rules/refs/heads/master/v6/dyn/beta.txt
 ! Last modified: 18 Oct 2026 14:24 UTC
 ! Title: Beta广告过滤规则
-! Version: 2026-10-25T13:45:01
+! Version: 2026-10-26T16:10:27
 
 bbcgoodfood.com#%#(function(){window.DD_LOGS={onReady(){},logger:{log(){}}}})();
-
 bemywife.cc#%#window.canRunAds = !0;
-
 bollywood.bhaskar.com#%#window.canABP = true;
 bombaytimes.com#%#window.canRun = true;
-
 classical-music.com#%#(function(){window.DD_LOGS={onReady(){},logger:{log(){}}}})();
-
 dejure.org#%#window.ad_allowed = true;
-
 digitalinformationworld.com#%#window.adsbygoogle = { loaded: !0 };
-
 empflix.com#%#window.exo99HL3903jjdxtrnLoad = true;
-
 freethesaurus.com#%#window.adsbygoogle = { loaded: !0 };
-
 hindustantimes.com#%#!function(){window.pSUPERFLY={virtualPage:function(){}};}();
 historyextra.com#%#(function(){window.DD_LOGS={onReady(){},logger:{log(){}}}})();
-
 jalantikus.com#%#window.googleToken = "no";
-
 kizi.com#%#window.google_trackConversion = function() {};
-
 lewdninja.com,new.lewd.ninja#%#(function(){window.adnPopConfig={zoneId:"149"}})();
-
 livesport.ws#%#document.avp_ready = 1;
-
 mamibuy.com.tw#%#window.ga = function() {};
-
 minecraftbuildinginc.com#%#window.$tieE3 = true;
-
 murciatoday.com#%#window.addEventListener("selectstart",function(a){a.stopPropagation()},!0);
-
 nydailynews.com#%#window.Adv_ab = false;
-
 opuree.com#%#window.detector_active = true;
 orbispatches.com#%#(()=>{window.viAPItag={init(){}}})();
-
 peekvids.com#%#window["pop_clicked"] = 1;
-
 quackr.io#%#window.adsbygoogle = { loaded: !0 };
 radiotimes.com#%#(function(){window.DD_LOGS={onReady:function(){},logger:{log:function(){}}}})();
-
 rutracker.org#%#window.self = window.top;
-
 sciencefocus.com#%#(function(){window.DD_LOGS={onReady(){},logger:{log(){}}}})();
-
 sendspace.com#%#window.runad = function() {};
-
 shockwave.com#%#(function(){window.swua={swEvent:function(){}}})();
-
 simply-debrid.com#%#window.adsbygoogle = { loaded: !0 };
-
 sportspyder.com#%#window.adsEnabled=!0;
-
 techsolutiontips.com#%#window.google_jobrunner = function() { };
-
 thesimsresource.com#%#window.sessionStorage.loadedAds = 3;
-
 thinkcomputers.org#%#window.myatu_bgm = 0;
-
 titantv.com#%#(()=>{window.PostRelease={Start(){}}})();
-
 walla.co.il#%#window.atob = function() { };
-
 wsj.com#%#(()=>{window.googleImaVansAdapter={init(){},dispose(){}};})();
-
 123link.*##+js(nano-sib)
 123link.*##+js(set, blurred, false)
 16honeys.com##+js(set, ckaduMobilePop, noopFunc)
@@ -83,33 +51,24 @@ wsj.com#%#(()=>{window.googleImaVansAdapter={init(){},dispose(){}};})();
 1ink.cc##+js(nano-sib)
 1shortlink.com##+js(set, letShowAds, true)
 3movs.com##+js(set, flashvars.adv_pause_html, '')
-
 4download.net##+js(nano-sib)
 4share.vn##+js(nano-stb)
-
 9xupload.*##+js(nano-stb)
-
 a-o.ninja,anime-odcinki.pl##+js(set, showAds, true)
-
 acdriftingpro.com##+js(nano-sib, countdown, *, 0.001)
 adbull.*##+js(ra, onclick)
-
 adfloz.*##+js(set, blurred, false)
 adsafelink.com##+js(set, blurred, false)
-
 adshort.*##+js(set, blurred, false)
 adsrt.*##+js(set, blurred, false)
-
 allcalidad.*##+js(ra, href, #clickfakeplayer)
 allcalidad.*##+js(set, btoa, null)
-
 allkpop.com##+js(set, isal, true)
 animeid.tv##+js(nowebrtc)
 animekb.*##+js(nowebrtc)
 ashemaletube.*##+js(rpnt, script, /url:.*?'\,/, url: ''\,)
 ashemaletube.*##+js(rpnt, script, /vastURL:.*?'\,/, vastURL: ''\,)
 ashemaletube.*##+js(set, openPopunder, noopFunc)
-
 audiofanzine.com##+js(set, Math.pow, noopFunc)
 audycje.tokfm.pl##+js(set, adsOk, true)
 ausfile.com##+js(nano-stb)
@@ -117,18 +76,14 @@ ayobelajarbareng.com,semawur.com##+js(nano-sib, , *, 0)
 barchart.com##+js(set, showPremLite, true)
 bde4.*##+js(nano-sib)
 bdupload.*##+js(nano-stb)
-
 bigshare.io##+js(rmnt, script, window.open)
 bigshare.io##+js(rpnt, script, "art.on('video:play', setUpAds);", art.on('video:play');)
 bitlk.com##+js(set, blurred, false)
-
 blizzboygames.net##+js(nowebrtc)
-
 bluemediafiles.*##+js(nano-sib, i--)
 bluemediafiles.*##+js(set, Time_Start, 0)
 boost.ink##+js(disable-newtab-links)
 bostonherald.com##+js(set, CnnXt.Event.fire, noopFunc)
-
 bravoerotica.net##+js(set, flashvars.adv_pause_html, '')
 bravoerotica.net##+js(set, flashvars.adv_start_html, '')
 bs.to,burningseries.*##+js(ra, onclick)
@@ -136,29 +91,20 @@ buffstreamz.com##+js(nowebrtc)
 cambro.tv##+js(set, flashvars.logo_text, '')
 cambro.tv##+js(set, flashvars.logo_url, '')
 caminspector.net,camwhoreshd.com,camgoddess.tv##+js(set, hasPoped, true)
-
 ceesty.com,corneey.com,destyy.com,festyy.com,gestyy.com,sh.st##+js(set, globalThis, null)
 ceesty.com,gestyy.com##+js(set, adsBlockerDetector, noopFunc)
-
 chicoer.com##+js(set, CnnXt.Event.fire, noopFunc)
-
 cinetux.*##+js(ra, href, #clickfakeplayer)
-
 cloudapps.herokuapp.com##+js(set, gadb, false)
 cloudvideo.tv##+js(set, SubmitDownload1, noopFunc)
-
 cnbc.com##+js(set, cnbc.canShowAds, true)
-
 coinfaucet.io,freecardano.com,freenem.com##+js(nowebrtc)
 coinlyhub.com##+js(nano-sib, seconds)
 coinlyhub.com##+js(set, blurred, false)
 coinlyhub.com##+js(set, Fingerprint2, true)
-
 comnuan.com##+js(set, cmnnrunads, true)
 configspc.com##+js(set, jsUnda, noopFunc)
-
 cpmlink.net##+js(nowebrtc)
-
 crunchyroll.com##+js(json-prune, value.media.ad_breaks)
 ctrl.blog##+js(set, _ctrl_vt.blocked.ad_script, false)
 cut-fly.com##+js(set, blurred, false)
@@ -169,17 +115,13 @@ cwtvembeds.com##+js(set, flashvars.protect_block, '')
 cwtvembeds.com##+js(set, flashvars.video_click_url, undefined)
 cybertechng.com##+js(set, blurred, false)
 cybertechng.com##+js(set, go_popup, {})
-
 dailycamera.com##+js(set, CnnXt.Event.fire, noopFunc)
-
 dailylocal.com##+js(set, CnnXt.Event.fire, noopFunc)
-
 deltabit.co##+js(nano-sib)
 desbloqueador.*##+js(set, Ok, true)
 docer.*##+js(set, ads_unblocked, true)
 dokumen.tips##+js(nano-stb, , , 0.02)
 doofree88.com##+js(nano-sib, js-btn-skip, 1000)
-
 doujindesu.*##+js(rmnt, script, WebAssembly)
 douploads.*##+js(ra, checked, input#chkIsAdd)
 dozarte.com##+js(ra, onclick)
@@ -188,32 +130,24 @@ dpstream.*##+js(set, load_pop_power, noopFunc)
 drinksmixer.com,leitesculinaria.com##+js(set, Date.now, noopFunc)
 dutchycorp.*##+js(nano-sib, time.html, 1000)
 dutchycorp.*##+js(set, blurred, false)
-
 dz4link.com##+js(set, blurred, false)
 e-monsite.com##+js(set, CaptchmeState.adb, undefined)
 earnload.*##+js(disable-newtab-links)
 elixx.*##+js(json-prune, urls, urls.0)
-
 empflix.com##+js(set, FlixPop.isPopGloballyEnabled, falseFunc)
-
 etonline.com##+js(set, canRunAds, true)
 ex-foary.com##+js(nowebrtc)
 exeo.app##+js(set, blurred, false)
 exey.io##+js(set, blurred, false)
-
 f1livegp.net##+js(nowebrtc)
 fake-it.ws##+js(set, adsLoadable, true)
 fangraphs.com##+js(set, ezstandalone.enabled, true)
-
 fautsy.com##+js(nano-sib, seconds)
-
 file.magiclen.org##+js(nano-stb, , ,0.02)
 file4go.*##+js(set, time, 0)
-
 finofilipino.org##+js(set, caca, noopFunc)
 flashgirlgames.com,onlinesudoku.games##+js(set, ads, true)
 flashplayer.fullstacks.net##+js(set, gadb, false)
-
 forum.release-apk.com##+js(rpnt, script, /if \([a-z0-9]{10} === [a-z0-9]{10}/, if(true)
 foxseotools.com##+js(set, blurred, false)
 freep.com##+js(set, adsEnabled, true)
@@ -223,35 +157,26 @@ fstore.biz##+js(set, blurred, false)
 fullhdxxx.com##+js(set, adv, true)
 gamearter.com##+js(nano-sib,/SplashScreen|BannerAd/)
 gamearter.com##+js(nano-stb,/SplashScreen|BannerAd/)
-
 gamefront.com##+js(nano-stb, , 10000)
 gamelopte.com##+js(nano-sib, yuidea-, *)
-
 games2rule.com##+js(ra, target)
 games4king.com##+js(ra, target)
 gamezhero.com##+js(set, ads, true)
 ganool.*##+js(nowebrtc)
-
 gdl.freegogpcgames.xyz##+js(nano-sib, secondsLeft)
-
 germancarforum.com##+js(rmnt, script, adsbygoogle)
-
 gogoanime.*##+js(set, console.clear, undefined)
 gold-24.net##+js(nano-sib, , , 0.001)
 goto.com.np##+js(nano-sib, timeLeft)
 grantorrent.*,grantorrents.*##+js(nano-stb)
-
 gsm1x.xyz##+js(nano-stb, run)
 gtaall.com##+js(nowebrtc)
 gutekueche.at##+js(set, gkAdsWerbung, true)
 haaretz.co.il,haaretz.com##+js(set, showAds, true)
 hackingwithreact.com##+js(set, areAdsDisplayed, true)
-
 hdfull.*##+js(nano-stb)
 hdvid.*,onvid.*,ovid.*,vidhd.*##+js(nowebrtc)
-
 home-made-videos.com##+js(set, dclm_ajax_var.disclaimer_redirect_url, '')
-
 hqtv.biz##+js(set, google_tag_data, noopFunc)
 icutlink.com##+js(nano-sib, time)
 icutlink.com##+js(set, blurred, false)
@@ -262,7 +187,6 @@ imgdrive.net,imgtaxi.com,imgwallet.com##+js(nano-stb, redirect, 4000)
 imgrock.*##+js(nano-stb, /.?/, 4000)
 indi-share.com##+js(nano-sib, clearInterval)
 indi-share.com##+js(nano-stb, seconds)
-
 jacquieetmichel.net##+js(ra, data-popunder-url)
 jacquieetmichel.net##+js(rmnt, script, popUnderUrl)
 javtiful.com##+js(rmnt, script, /adb/i)
@@ -270,74 +194,56 @@ jeshoots.com##+js(set, google_jobrunner, true)
 jizzbunker.com##+js(rpnt, script, /\$.*embed.*.appendTo.*;/, , condition, appendTo)
 juegoviejo.com##+js(nano-stb)
 karanapk.com##+js(set, google_jobrunner, true)
-
 kinoger.to##+js(nowebrtc)
 kinoz.*##+js(nowebrtc)
 kolyoom.com##+js(set, adsbygoogle, null)
-
 kstreaming.*##+js(nowebrtc)
-
 leechall.*##+js(nano-sib)
 legendas.dev##+js(refresh-defuser)
 legionjuegos.org,legionpeliculas.org,legionprogramas.org##+js(nano-sib, , ,0.02)
 legionjuegos.org,legionpeliculas.org,legionprogramas.org##+js(set, t, 0)
-
 lg-firmwares.com##+js(nano-sib)
-
 lin-ks.*##+js(nano-sib)
 linclik.com##+js(set, blurred, false)
 link-to.net##+js(nano-sib)
 link.3dmili.com##+js(set, blurred, false)
 link.turkdown.com##+js(set, blurred, false)
 linkconfig.com##+js(nano-sib)
-
 linkfinal.com##+js(set, blurred, false)
 linkjust.com##+js(set, blurred, false)
 linkrex.net,linx.cc##+js(set, blurred, false)
 linkshorts.*##+js(set, blurred, false)
-
 lnk.news,lnk.parts##+js(nano-sib, , , 0)
 lnk2.cc##+js(nano-stb)
-
 loptelink.com##+js(set, blurred, false)
-
 luxuretv.com##+js(set, luxuretv.config, '')
-
 m4ufree.*,streamm4u.*##+js(nowebrtc)
-
 mangovideo.*##+js(set, flashvars.popunder_url, '')
 marie-claire.es##+js(set, ads, true)
 mega4up.*,zeefiles.*##+js(ra, onclick, [onclick^="window.open"])
-
 megalink.*##+js(set, blurred, false)
 mejortorrent.*,mejortorrento.*,mejortorrents.*,mejortorrents1.*,mejortorrentt.*##+js(nowebrtc)
 miniurl.*##+js(set, blurred, false)
-
 mlwbd.*##+js(ra, type, input[value^="http"])
 mmacore.tv##+js(rmnt, script, /adb/i)
 mobilelegends.shop##+js(nano-sib)
-
 modelisme.com,parasportontario.ca,prescottenews.com##+js(set, closeBlockerModal, false)
 modsbase.com##+js(nowebrtc)
 motherless.com##+js(set, _ml_ads_ns, null)
 mp3fiber.com##+js(set, _pop, noopFunc)
 mpg.football##+js(set, ads, true)
-
 mycoolmoviez.*##+js(nowebrtc)
 mywatchseries.*##+js(nowebrtc)
 nba.com##+js(set, __NEXT_DATA__.props.clientConfigSettings.videoAds, undefined)
 negumo.com##+js(set, fabActive, false)
-
 newpelis.*,pelix.*##+js(set, btoa, null)
 newsmax.com##+js(set, fake_ad, true)
 newsobserver.com##+js(set, Adv_ab, false)
 newsonthegotoday.com##+js(ra, target, .clickbutton)
-
 ojogos.com.br##+js(set, sp_ad, true)
 okanime.*##+js(nowebrtc)
 oke.io##+js(set, blurred, false)
 oncehelp.com##+js(set, blurred, false)
-
 onhockey.tv,web.livecricket.is##+js(nowebrtc)
 onifile.com,topflix.*##+js(nano-sib)
 onle.co##+js(nano-sib)
@@ -346,7 +252,6 @@ ouo.*##+js(nowebrtc)
 pahe.*##+js(rmnt, script, Reflect)
 payskip.org##+js(ra, onclick)
 payskip.org##+js(set, blurred, false)
-
 peliculasmx.net##+js(nowebrtc)
 pelis28.*##+js(ra, href, #clickfakeplayer)
 pelispedia.*##+js(nano-stb)
@@ -360,10 +265,8 @@ planetaminecraft.com##+js(set, ab, false)
 planetfools.com##+js(nowebrtc)
 planetsuzy.org##+js(set, __ads, true)
 platinmods.*##+js(nano-sib)
-
 playpaste.com##+js(set, $.ajax, trueFunc)
 playretrogames.com##+js(nano-stb, ez, *, 0.02)
 plyjam.*##+js(set, attr, {})
 plyjam.*##+js(set, scriptSrc, '')
-
 ! beta广告

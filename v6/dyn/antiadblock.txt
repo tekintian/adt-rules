@@ -1,12 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: YfUxHZGh3id/7TrQWq8xSw
+! Checksum: 45HHdU9Bx+5EZGIUnlUu3g
 ! Expires: 2 days (update frequency)
 ! Homepage: https://raw.githubusercontent.com/tekintian/adt-rules/refs/heads/master/v6/dyn/antiadblock.txt
 ! Last modified: 19 Oct 2026 04:43 UTC
 ! Rules: 1874
 ! Source: rules_merged.txt
 ! Title: 反广告拦截过滤规则
-! Version: 2026-10-25T13:45:01
+! Version: 2026-10-26T16:10:25
+
 ###ab_adblock
 ###adblock-big
 ###adblock-leaderboard
@@ -34,7 +35,7 @@
 ###top-adblock
 ###topadblock
 ###videopageadblock
-##.ad-roadblock
+##-roadblock
 ##.adblock-bottom
 ##.adblock-header
 ##.adblock-header1
@@ -79,7 +80,6 @@
 ##.topadblock
 ##.wc-adblock-wrap
 ##.wgAdBlockMessage
-
 2kspecialist.net##+js(acs, addEventListener, blocker)
 3dzip.org##+js(no-fetch-if, doubleclick, length:10, {"type":"cors"})
 3dzip.org##+js(no-xhr-if, doubleclick)
@@ -91,30 +91,23 @@
 4download.net##+js(acs, addEventListener, nextFunction)
 4j.com##+js(nostif, (), 2000)
 4movierulz.*##+js(aeld, , _0x)
-
 4shared.com##+js(nosiif, .append, 1000)
 4tests.com##+js(set, adblock, false)
-
 4tube.com##+js(aopw, ads_priv)
 5278.cc##+js(nostif, myaabpfun, 3000)
 5flix.top##+js(json-prune, AffiliateAdBlock)
 5flix.top##+js(nostif, afterOpen)
-
 ableitungsrechner.net##+js(nostif, ag_adBlockerDetected)
 acdriftingpro.com##+js(nostif, native)
 acefile.co##+js(aopw, popup_ads)
 acienciasgalilei.com##+js(aeld, load, adverts-top-container)
 addtobucketlist.com##+js(nostif, google_jobrunner)
-
 adonisfansub.com##+js(nobab)
 adshort.*##+js(aopw, Fingerprint2)
-
 adsrt.*##+js(acs, atob, decodeURIComponent)
-
 adsrt.*##+js(aopw, Fingerprint2)
 adyou.*##+js(aeld, /^(?:click|mousedown)$/, bypassEventsInProxies)
 aeonax.com##+js(noeval-if, debugger)
-
 afilmywap.*,okhatrimaza.*##+js(popads-dummy)
 agefi.fr##+js(nostif, {r(), 0)
 ah-me.com##+js(acs, $, serve)
@@ -123,19 +116,15 @@ alimaniacky.cz##+js(acs, $, urlForPopup)
 allcalidad.*##+js(acs, doOnce)
 allcalidad.*##+js(aeld, , 0x)
 allcalidad.*##+js(aopw, smrtSB)
-
 allindiaroundup.com##+js(nostif, Detected, 500)
 allmusic.com##+js(no-fetch-if, adsbygoogle)
-
 almezoryae.com##+js(acs, document.createElement, adblock)
 almohtarif-tech.net##+js(aeld, load, onload)
 alrincon.com##+js(acs, onload, open)
-
 ancensored.com,ganool.*##+js(aeld, /^(?:click|mousedown)$/, _0x)
 andiim3.com##+js(acs, jQuery, AdBlock)
 androgamer.org##+js(acs, jQuery, ai_adb)
 androidaba.*##+js(aopw, adBlockDetected)
-
 androidrepublic.org##+js(acs, $, samInitDetection)
 angelgals.com##+js(aeld, getexoloader)
 angrybirdsnest.com##+js(set, adblock, false)
@@ -146,21 +135,16 @@ animeflv.*##+js(acs, jQuery, 'pp12')
 animeheaven.*##+js(no-xhr-if, method:HEAD)
 animepahe.*,kwik.*##+js(acs, String.fromCharCode, 'shift')
 anisubindo.*##+js(aeld, load, nextFunction)
-
 anitube.*##+js(set, adBlockDetected, noopFunc)
 anon-v.com##+js(acs, atob, decodeURI)
 anon-v.com##+js(acs, onload)
-
 aofsoru.com##+js(acs, addEventListener, displayMessage)
 appstore-discounts.com##+js(acs, document.getElementById, undefined)
-
 aquariumgays.com##+js(acs, eval, replace)
-
 aquipelis.*##+js(aopw, smrtSB)
 aquipelis.*##+js(aopw, smrtSP)
 arabseed.*##+js(aeld, , _0x)
 arcadeprehacks.com##+js(acs, Math.random, zonefile)
-
 arcadepunks.com##+js(noeval)
 argio-logic.net##+js(acs, document.getElementById, alert)
 arlinadzgn.com,idntheme.com##+js(aopw, hidekeep)
@@ -168,9 +152,7 @@ artribune.com##+js(aost, Object, mark)
 at.wetter.com##+js(aopw, openLity)
 atdhe.*##+js(popads-dummy)
 atomixhq.*,pctfenix.*,pctnew.*##+js(aopw, adcashMacros)
-
 atomohd.*##+js(acs, setTimeout, admc)
-
 atomtt.com##+js(acs, setTimeout, admc)
 audiotag.info##+js(nostif, /offsetHeight|google|Global/)
 ausfile.com##+js(aopw, Fingerprint2)
@@ -180,41 +162,28 @@ avcesar.com##+js(nostif, adspot_top, 1500)
 avoiderrors.com##+js(nostif, css_class.show)
 azmovies.to##+js(acs, atob, _0x)
 babesexy.com##+js(aeld, getexoloader)
-
 badjojo.com##+js(aopw, encodeURIComponent)
-
 bayimg.com##+js(aeld, /^(?:click|mousedown)$/, ppu)
 bde4.*##+js(nofab)
 bdsmstreak.com##+js(aeld, , _blank)
-
 beautypackaging.com##+js(aopw, adblockerpopup)
-
 beeimg.com##+js(nostif, window.open)
-
 befap.com##+js(aopw, tiPopAction)
-
 bestgames.com,yiv.com##+js(nostif, /Adb|moneyDetect/)
-
 bibme.org,citationmachine.net##+js(aeld, load, (!o))
 bollywoodshaadis.com##+js(aopw, adBlockDetected)
-
 bostoncommons.net##+js(nostif, adsBlocked)
 bostonherald.com##+js(nostif, n.trigger, 1)
 boyfriendtv.com##+js(aeld, click, interstitial)
-
 boyfriendtv.com##+js(aopw, backgroundBanner)
 boysfood.com##+js(aopw, encodeURIComponent)
 brandstofprijzen.info##+js(aeld, load, antiblock)
-
 yuvutu.com##+js(acs, String.prototype.charAt)
 zazzybabes.com##+js(aeld, /error|canplay/, (t))
-
 zigforums.com##+js(aopw, adsBlocked)
 zigforums.com##+js(no-xhr-if, /googlesyndication|outbrain/)
-
 zonebourse.com##+js(acs, $, AdBlocker)
 zooqle.*##+js(aeld, /^(?:mousedown|mouseup)$/, 0x)
-
 zrozz.com##+js(set, adblock, false)
 zwergenstadt.com##+js(aeld, load, onload)
 ! 反广告拦截检测、绕过、提示等过滤规则
