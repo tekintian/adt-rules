@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: OpNjIfJK9VWG30rp5HGMgg
+! Checksum: 5Twb4vQyMV7jjSjtZQ9PNg
 ! Expires: 2 days (update frequency)
 ! Homepage: https://raw.githubusercontent.com/tekintian/adt-rules/refs/heads/master/v6/dyn/beta.txt
 ! Last modified: 18 Oct 2026 14:24 UTC
 ! Title: Beta广告过滤规则
-! Version: 2026-10-25T13:45:01
+! Version: 2026-10-26T08:41:47
 
 bbcgoodfood.com#%#(function(){window.DD_LOGS={onReady(){},logger:{log(){}}}})();
 
@@ -332,8 +332,6 @@ newpelis.*,pelix.*##+js(set, btoa, null)
 newsmax.com##+js(set, fake_ad, true)
 newsobserver.com##+js(set, Adv_ab, false)
 newsonthegotoday.com##+js(ra, target, .clickbutton)
-nextorrent.*##+js(ra, onclick)
-noxx.to##+js(rmnt, script, window[_0x)
 
 ojogos.com.br##+js(set, sp_ad, true)
 okanime.*##+js(nowebrtc)
