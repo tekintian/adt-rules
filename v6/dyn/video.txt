@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: SW1BIG9+XeZVzkbdiDJWTQ
+! Checksum: gULp2yGr1NiCEKx8StEIag
 ! Expires: 2 days (update frequency)
 ! Homepage: https://raw.githubusercontent.com/tekintian/adt-rules/refs/heads/master/v6/dyn/video.txt
 ! Last modified: 19 Oct 2026 04:43 UTC
 ! Rules: 1141
 ! Source: rules_merged.txt
 ! Title: 视频网站广告过滤规则
-! Version: 2026-10-26T16:10:27
+! Version: 2026-10-27T16:30:10
 
 ||17173cdn.com/20*.mp4$rewrite=abp-resource:blank-mp3,domain=17173.com
 ||a.spankbang.com^$redirect=nooptext
@@ -71,22 +71,13 @@ appsample.com##div[class^="MapLayout_Bottom"]
 ashemaletv.com##.video__title-wrapper
 bavku.shop##.hero-in > div.hero-rail:has(> div.badges > a[href^="https://apps.apple.com/kr/app/"])
 bemyhole.com###live-spots
-bemyhole.com##.main-cams
 bilibili.com##.activity-slider[style="width: 1220px;"]
-bilibili.com##-e1
-bilibili.com##-f
-bilibili.com##-report
 bilibili.com##.adcard-content
-bilibili.com##.banner-card
 bilibili.com##.bili-video-card__wrap > a[href^="http"]:not([href*=".bilibili.com/"])
-bilibili.com##.eva-banner
-bilibili.com##.feed-card:has(a[href*="cm.bilibili.com"][data-target-url*="gaoneng.bilibili.com"])
-bilibili.com##.fixed-card
 bilibili.com##.gg-floor-module
 bilibili.com##.index-promote
 bilibili.com##.layerWrapperRoot > div[style^="width: 1220px;"]
 bilibili.com##.login-panel-popover
-bilibili.com##.login-tip
 bilibili.com##.online + .adpos
 bilibili.com##.operate-card[data-target-url*=".miaozhen."]
 bilibili.com##.operate-card[data-target-url*="doubleclick."]
@@ -100,8 +91,6 @@ bilibili.com##.video-page-special-card-small
 bilibili.com##a[data-target-url*=".taobao.com"]
 bilibili.com##a[href$="_suning.html"]
 bilibili.com##a[href*=".doubleclick."]
-bilibili.com##a[href*="cm.bilibili.com"][data-target-url*="gaoneng.bilibili.com"]
-bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"])
 bilibili.com##a[href="/video/av8587236/?tg"]
 bilibili.com##bili-open-app div.open-btn
 bilibili.com##bili-open-app ~ bili-open-app
@@ -116,7 +105,6 @@ epicbundle.com##.blogArticleAd
 epicbundle.com##.sidebar > .mediumTagArea
 epicbundle.com##.sidebar > .networkBox + .mediumTagArea
 epicbundle.com##.sidebarAdx
-epicbundle.com##.wallpaper
 eromanga-castle.com##div[style^="overflow:auto;height:500px;"]
 eroprofile.com###divVideoListAd2
 eroprofile.com##div[style="width:300px height:300px;"]
@@ -212,7 +200,6 @@ iqiyi.com###scrollWrap-vipbuy
 iqiyi.com###videoBuyContainer
 iqiyi.com###widget-jingdongAd
 iqiyi.com###zbsp
-iqiyi.com##-seed
 iqiyi.com##.adBanner980
 iqiyi.com##.banner3
 iqiyi.com##.banner980
@@ -254,8 +241,6 @@ iqiyi.com##div[class^="video-slide_normal"] > a[href^="http"]:not([href*="iqiyi.
 iqiyi.com##div[id^="div_theatre"]
 iqiyi.com##iqpdiv[data-cupid=container]
 iqiyi.com##iqpdiv[data-cupid=container],div[adid]
-iqiyi.com##li[data-flag="shop"]
-iqiyi.com##li[id^="100000"]
 iqiyi.com#?#body > .header__ele:has(> .header__toast:contains(VIP))
 iqiyi.com#?#div[class^="list_list_"] > div:-abp-has(div[class^="videolist_closeAd"])
 iqiyi.com,~mall.iqiyi.com,~so.iqiyi.com##a[href*="http://mall.iqiyi.com/item/"]
