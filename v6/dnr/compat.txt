@@ -2,6 +2,9 @@
 
 @@||fonts.googleapis.com^
 @@||fonts.gstatic.com^
+@@||assets.msn.cn^
+@@||img-s-msn-com.akamaized.net^
+@@||dynamic.t0.tiles.ditu.live.com^
 
 @@/ad/images/*$domain=37-express.com
 @@/adjs_pic_$domain=168gamer.net|slit.cn
@@ -16,7 +19,6 @@
 @@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com|shixiseng.com
 @@/image/share_$domain=pan.baidu.com
 @@/images/*_share.png$domain=service.weibo.com
-
 
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
 @@/log/report/*$script,domain=bilibili.com

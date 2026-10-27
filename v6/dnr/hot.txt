@@ -168,3 +168,15 @@
 ||mediav.com^$third-party
 ||oss.weread.qq.com^$third-party
 ||otheve.beacon.qq.com^$third-party
+
+! ===== msn weather =====
+||browser.events.data.microsoft.com^
+||browser.events.data.msn.cn^
+||btloader.com^$third-party
+||c.msn.cn^
+||cn.bing.com^$third-party
+||js.monitor.azure.com^$third-party
+||mem.gfx.ms^$third-party
+||r.bing.com^$third-party
+||srtb.msn.cn^
+||www.clarity.ms^$third-part

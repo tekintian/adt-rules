@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 3ajIYnjXGWiaxrx+JLTYOA
+! Checksum: fBENYgkZTGlilTEq+3Zjgg
 ! Expires: 2 days (update frequency)
 ! Homepage: https://raw.githubusercontent.com/tekintian/adt-rules/refs/heads/master/v6/dyn/base.txt
 ! Last modified: 19 Oct 2026 04:43 UTC
 ! Rules: 21128
 ! Source: rules_merged.txt
 ! Title: 基础广告过滤规则
-! Version: 2026-10-26T16:10:27
+! Version: 2026-10-27T19:46:37
 @@||10010.com^$generichide
 @@||10086.cn^$generichide
 @@||189.cn^$generichide
@@ -1635,3 +1635,8 @@ iwin.com#@##sponsorText
 offmoto.com#@#.reklama:not(.ads)
 readmng.com#@#.scroll_target_top
 sankakucomplex.com#@#.scad
+
+! ===== msn weather ads remove =====
+msn.cn#+js(prevent-xhr, srtb.msn.cn/auction)
+msn.cn#+js(prevent-fetch, browser.events.data.msn.cn)
+msn.cn#+js(prevent-fetch, browser.events.data.microsoft.com)
