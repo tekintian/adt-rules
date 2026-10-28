@@ -1089,4 +1089,3 @@ zmega.com#$?#.overlay_promo { remove: true; }
 ||ax.ifeng.com^$script,domain=www.ifeng.com
 ||err.ifengcloud.ifeng.com^$domain=www.ifeng.com
 ||stadig.ifeng.com^$script,domain=www.ifeng.com
-||x0.ifengimg.com^$script,third-party
