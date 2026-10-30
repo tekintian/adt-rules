@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: fBENYgkZTGlilTEq+3Zjgg
+! Checksum: mo3vjfg8/Z9w3wUw57KUjg
 ! Expires: 2 days (update frequency)
 ! Homepage: https://raw.githubusercontent.com/tekintian/adt-rules/refs/heads/master/v6/dyn/base.txt
 ! Last modified: 19 Oct 2026 04:43 UTC
 ! Rules: 21128
 ! Source: rules_merged.txt
 ! Title: 基础广告过滤规则
-! Version: 2026-10-27T19:46:37
+! Version: 2026-10-30T16:41:32
 @@||10010.com^$generichide
 @@||10086.cn^$generichide
 @@||189.cn^$generichide
@@ -1640,3 +1640,5 @@ sankakucomplex.com#@#.scad
 msn.cn#+js(prevent-xhr, srtb.msn.cn/auction)
 msn.cn#+js(prevent-fetch, browser.events.data.msn.cn)
 msn.cn#+js(prevent-fetch, browser.events.data.microsoft.com)
+
+codelist.cc#+js(prevent-fetch, /secure\.statcounter\.com/)

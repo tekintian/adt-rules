@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: afYm2tD1ByHNgO3LbkoPuA
+! Checksum: hTCEbj9FQwlYmMoKAmUr5Q
 ! Expires: 2 days (update frequency)
 ! Homepage: https://raw.githubusercontent.com/tekintian/adt-rules/refs/heads/master/v6/dyn/annoyance.txt
 ! Last modified: 19 Oct 2026 04:43 UTC
 ! Rules: 7491
 ! Source: rules_merged.txt
 ! Title: 骚扰元素过滤规则
-! Version: 2026-10-26T16:10:25
+! Version: 2026-10-30T16:41:32
 
 ###modal[doskip][prclck]
 ###modalgg
@@ -2680,138 +2680,6 @@ manilatimes.net##.hp-newsletter-form
 manofmany.com##.comp-newsletter-box
 manoramaonline.com##.notify-overlay
 manoramaonline.com##body > div.gdpr-outer
-manutd.com##div[data-impression^="Notification_Prompt"]
-baidu.com###ad_xbox_1
-baidu.com###ad_xbox_2
-baidu.com###ad_xbox_3
-baidu.com###adCard
-baidu.com###adMainTopLeft
-baidu.com###adMainTopRight
-baidu.com###adTitleRight
-baidu.com###asideLeft
-baidu.com###asideRight
-baidu.com###bdyx_float_rb
-baidu.com###cms-company
-baidu.com###cms-scroll
-baidu.com###con-ceiling-wrapper
-baidu.com###content_right > div > div[id^="m"]
-baidu.com###couplet-left
-baidu.com###couplet-right
-baidu.com###ec_im_container
-baidu.com###fc-left
-baidu.com###fengchao-dialog
-baidu.com###fengchaoad
-baidu.com###gamePromo
-baidu.com###ggbtm
-baidu.com###index_banner_top
-baidu.com###index_right_float
-baidu.com###index_right_top
-baidu.com###knowledge-answer
-baidu.com###left-promotion
-baidu.com###main > div[lgoinprompt="prompt"]
-baidu.com###page-copyright > div[style^="position: fixed;"][ref]
-baidu.com###page_wrapper > div > .tgSGud4cOeqca
-baidu.com###qrcode-chunwan
-baidu.com###relative_shop_flow
-baidu.com###search-appPromote
-baidu.com###search_bottomad
-baidu.com###sning1
-baidu.com###sning2
-baidu.com###sning3
-baidu.com###video_push_box
-baidu.com###wgt-left-promo
-baidu.com##-block-1
-baidu.com##-list
-baidu.com##-platform-tips
-baidu.com##-taishan
-baidu.com##-vip-close
-baidu.com##-vip-close-bottom
-baidu.com##.adLog
-baidu.com##.adTopImg
-baidu.com##.adver-one-item-wrapper
-baidu.com##.afd-item
-baidu.com##.aside-inner > div[style*="height:"]
-baidu.com##.b2c-universal-card-product-item-wrapper
-baidu.com##.banner-cover
-baidu.com##.banner-wrapper-defensive
-baidu.com##.banner_center_adv2
-baidu.com##.bannerdown
-baidu.com##.c-result[data-tpl="adv_wenku_fc"]
-baidu.com##.container_frs:has(> .voice_room_card_frs[data-url*="yylive"])
-baidu.com##.content-adv
-baidu.com##.corneradv
-baidu.com##.cpc-adv-container
-baidu.com##.ec-oad
-baidu.com##.ec_ad
-baidu.com##.ec_im_container
-baidu.com##.ec_pc_ad
-baidu.com##.ec_sma_im
-baidu.com##.ec_wise_ad
-baidu.com##.ecom_pingzhuan
-baidu.com##.ecomad-banner-loading
-baidu.com##.game-adv-fram
-baidu.com##.gg-content
-baidu.com##.ggbtm-vip-close
-baidu.com##.hotad-list-box
-baidu.com##.img-adv-swap1
-baidu.com##.intro-adv
-baidu.com##.lianmeng-pause
-baidu.com##.link-banner
-baidu.com##.manual-spread
-baidu.com##.na-ec-waterfall
-baidu.com##.nav_ads
-baidu.com##.optimus
-baidu.com##.pageLeftFixedAD
-baidu.com##.pauseadv
-baidu.com##.picad
-baidu.com##.qb-other-answer-wmad
-baidu.com##.quality-elinks
-baidu.com##.rec-feeditem
-baidu.com##.recommend-goods-card
-baidu.com##.result-op[m-name^="aladdin-san/app/b2b_prod/"]
-baidu.com##.result-op[tpl="b2b_prod"] > div > .c-border
-baidu.com##.result-op[tpl="game-page-right-openservice"]
-baidu.com##.result-op[tpl="pc-education-fs"]
-baidu.com##.result-op[tpl="pc-soft-accurate"] > div > .c-row
-baidu.com##.result-op[tpl="sp_hot_sale"]
-baidu.com##.result-op[tpl="vmp_strengthen_brand"]
-baidu.com##.rightAd-skin
-baidu.com##.s-hotsearch-wrapper
-baidu.com##.s-nativead-item
-baidu.com##.s-news-special[data-url^="http://vip.baidu.com/"]
-baidu.com##.sam_iebrowser_banner
-baidu.com##.search-aside-adWrap
-baidu.com##.searchbox-exp > div[style="overflow: hidden;background: #fff;"]
-baidu.com##.sf-wrap > .c-back + div[id]:last-child
-baidu.com##.sfc-image-content-adrecomm
-baidu.com##.sfc-image-content-adrootnew
-baidu.com##.sfc-image-content-adtext
-baidu.com##.sfc-image-content-waterfall-item > div:not([class]) > .sfc-image-content-cell
-baidu.com##.slide-bner-adv-ret
-baidu.com##.spread-wrap
-baidu.com##.tb-threadlist__item.tb-banner
-baidu.com##.tc-card[tpl="fc_before_fixads"]
-baidu.com##.text-advertise
-baidu.com##a[class*="fengchaoContainer"]
-baidu.com##div[class$="-ecom-ads"]
-baidu.com##div[class*="fc-"][tplid]
-baidu.com##div[data-ad]
-baidu.com##div[data-key^="ad__"]
-baidu.com##div[id^="toast"]
-baidu.com##div[style="padding: 20px 9px 20px 10px;widget:250px;height:250px;"]
-baidu.com##div[tpl="live_medical_san"]
-baidu.com##td[align="left"] > div[id="con-ar"] > div.result-op[tpl="right-wz"]
-baidu.com#?##content_wrapper ~ div[class*="_"]:has(> p:contains(百度APP内阅读))
-baidu.com#?#.c-gap-bottom-small:-abp-has(> a>div > div[class^="jr-stock-open-account-"])
-baidu.com#?#.container:-abp-has(> .bottom-section > .item_voice_room[data-yysid])
-baidu.com#?#.container_frs:-abp-has(> .voice_room_card_frs[data-url*="yylive"])
-baidu.com,bdimg.com,tieba.com##.fengchao-wrap
-baidu.com,bdimg.com,tieba.com##.fengchao-wrap-feed
-baidu.com,bdimg.com,tieba.com##.shield-agent-tb-feed
-baidu.com,bdimg.com,tieba.com##div.thread_item_box[style="position: relative;"]
-baidu.com,bdimg.com,tieba.com#?#.l_post:-abp-has(div[class*=" fc-"])
-baidu.com,bdimg.com,tieba.com#?#.thread_item_box:-abp-has(div[class*=" fc-"])
-baidu.com,cntour2.com##.topBanner
 baike.baidu.com##.BK-after-content-wrapper > div[class][id] > a[onclick^="page.Mixedor.mixedOpen"][target="_blank"]
 baike.baidu.com##.BK-after-content-wrapper > ul[class][id] > li > a[onclick^="page.Mixedor.mixedOpen"][target="_blank"]
 baike.baidu.com##.BK-before-content-wrapper > div > a[target="_blank"][data-num][onclick^="page.Mixedor.mixedOpen("]
@@ -2873,116 +2741,8 @@ image.baidu.com##.tjImgli
 image.baidu.com##.wrapper_dot_box.dot_black
 image.baidu.com##div[id^="relecom"]
 image.baidu.com,nongjitong.com##.recommend
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [class] > [id*="00"] > div
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [class] > [id*="00"] > tbody
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [class] > [id*="00"] > ul
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [class] > a[href*="//e.baidu.com/?refer="]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [id*="00"]:not(.result):not(.result-op) > div
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [id*="00"]:not(.result):not(.result-op) > tbody
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [id*="00"]:not(.result):not(.result-op) > ul
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > div:not([id]) > div[id][data-rendered="true"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > div[class][style]:not([id])
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > div[id*="00"]:not(.result):not(.result-op) + div[class]:not(.result):not(.result-op)
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > style[id^="s-"] + div[id]:nth-child(2)
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > style[id^="s-"] + style + div[id]:nth-child(3)
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_right > div[id][data-click^="\7b \"fm"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_right > table > tbody > tr > td > div:not(#con-ar):not([class])
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_right > table > tbody > tr > td > table
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###ecl-temai-category
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###ecl-temai-general
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###ecl-weigou-view-container
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###lm
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###op_wiseapp
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ec_bdtg
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.EC_newppim
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ecl-car-powerful-container
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ecl-health-pagelist-wrapper
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ecl-health-poplist-wrapper
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ecl-loan-list-card
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ecl-tg-content
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ecl-wealth-list-card-container
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ecl-weigou-nav-buy
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ecom-result
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.op_tvplay_main
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.opr-xmas-game-container
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.res_top_banner
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[data-click*="\"rsv_srcid\":\"10090\""]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="game-page-platform"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="game-page-romance"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="right_chris_prize_list"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="right_game_recommend"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="right_timeliness2"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.tools > .shouji
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.ylbx_game_desc
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div:not([id]) > style[id^="s-"] + div[id]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div:not([id]) > style[id^="s-"] + style + div + div[id]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div:not([id]) > style[id^="s-"] + style + div[id]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[class^="EC_pla_"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[class^="ecl"][class*="game"] > .c-border
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[class^="ecl-edu-"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[class^="ecr"][class*="game"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[data-click="\7b \"rsv_srcid\":49516\7d "]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[id$="2"] ~ #\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[id$="_canvas"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[id^="ecl-pc-game-"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[srcid="13602"] > .c-border
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[tpl="app_normal"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[tpl="b2b_straight"] > .c-border
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[tpl="houses_new"] > .c-border
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[tpl^="ecl_health"] > .c-border
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[tpl^="job"] > .c-border
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[tpl^="qunar_hotel"] > .c-border
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[tpl^="right_qunar_hotel"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[tpl^="soft"] > .c-border
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[data-for] + style ~ #\31 [data-click^="\7b \"rsv_bdr\":\"0\",\"p5\":"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + script + div[id]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + script + script + div[id]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > [class]:-abp-has(span[data-tuiguang])
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > [style*="important"]
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > div:-abp-has(.ec-tuiguang)
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_right > [class]:-abp-has(span[data-tuiguang])
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_right > div:-abp-has(.ec-tuiguang)
-ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?#.c-container:-abp-has(.t > a[data-landurl])
-iwan.baidu.com###banner-box
-iwan.baidu.com###banner-info
-iwan.baidu.com###j-ditu
-iwan.baidu.com###j-media
-iwan.baidu.com###side-xbox
-iwan.baidu.com##.banner-container
-iwan.baidu.com##.side-banner
-jingyan.baidu.com##.aside-pro-container
-jingyan.baidu.com##.right-fixed-related-wrap
-m.baidu.com###page-copyright > div[style^="position: fixed;"][style*="height: 52px;"]
-m.baidu.com##.diversion-waterfall-b
 m.baidu.com##.ec_adv
 m.baidu.com##.news_ad
-m.baidu.com##a[href*="m.lecai.com"]
-m.baidu.com##div[class^="mkt-ball-wrapper__"]
-m.baidu.com##div[srcid="mkt_entrance_ball"]
-map.baidu.com###fis_elm__6
-map.baidu.com###mapBanner
-map.baidu.com##.common-widget-bottom-banner-changeId
-map.baidu.com##.damoce-search-item
-map.baidu.com##.poiLeadDownloadCard
-map.baidu.com##.search-item[data-stat-code="poisearch.damoce.item"]
-map.baidu.com#?##page-wrapper > div#common-bottombanner-widget-fis:has(> div.common-widget-bottom-banner-changeId > div.bottom-banner-float)
-map.baidu.com#?#body > div[id]:has(> div#downloadnativepopupUlink)
-mbd.baidu.com###content_wrapper + div + .default-container
-mbd.baidu.com##.related-news > section:first-child + div
-mbd.baidu.com##div[class^="_"][style="visibility: visible;"]
-muzhi.baidu.com##.leftnest
-muzhi.baidu.com##.quick-ask-2 + .android + div
-muzhi.baidu.com##.rightnest
-muzhi.baidu.com##.wgt-best-answer + script + div
-muzhi.baidu.com##.wgt-container
-news.baidu.com###women-picwall
-news.baidu.com#?#.index-list-item:-abp-has(.tip-time:-abp-contains(广告))
-pan.baidu.com###share_ad_info_panl
-pan.baidu.com##.decrease-active
-pan.baidu.com##.nd-operate-guidance
-power.baidu.com,www.baidu.com,zhidao.baidu.com##style[id*="s-m"] + div[id^="m"]
-power.baidu.com,zhidao.baidu.com##.wgt-clew[data-type="goods"]
-site.baidu.com##.pstr.mt10
 tieba.baidu.com##.app-view > div.top-guide
 tieba.baidu.com##.app_download_box
 tieba.baidu.com##.nav-bar-bottom
@@ -3016,23 +2776,6 @@ zhidao.baidu.com##.earn-points-exchange-gifts-bubble
 zhidao.baidu.com##.jump-top-box
 zhidao.baidu.com##div[class^="mm-content-box kmb5707e0 wm-"]
 zuoye.baidu.com##dl[class="card related"]
-~baidu.com##a[href*="/cpro."]
-~baidu.com##a[href*="/cpro/"]
-aiqicha.baidu.com#@#.share-label
-aiqicha.baidu.com,xinmin.cn#@#.share-title
-baidu.com#@#.share-line
-baidu.com,comefromchina.com#@#-block
-baidu.com,youdao.com,yun.cn#@#.share-content
-cloud.baidu.com#$#.__9EcYiCyZ { display: none !important; }
-developer.baidu.com#$#a[class^="articel_detail_top-market-pos__"] { display: none !important; }
-fanyi-app.baidu.com#$#body.sharepage-new.out-fy-app .top-bn { display: none !important; }
-fanyi-app.baidu.com#$#body.sharepage-new.out-fy-app { padding-top: 0 !important; }
-smotrim.ru,tieba.baidu.com#$#body { overflow: auto !important; }
-tieba.baidu.com#$#.navbar-box { top: 44px!important; }
-tieba.baidu.com#$#.tb-backflow-defensive { display: none !important; }
-tieba.baidu.com#$#body .tb-index-navbar .navbar-view { top: 24px!important; }
-wenku.baidu.com#$#.vip-member-pop-content { display: none !important; }
-wenku.baidu.com#$#body { overflow: visible !important; }
 marca.com##.banner-sticky
 marcandangel.com###ck_modal
 marcandangel.com###ck_overlay

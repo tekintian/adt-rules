@@ -174,9 +174,7 @@
 ||browser.events.data.msn.cn^
 ||btloader.com^$third-party
 ||c.msn.cn^
-||cn.bing.com^$third-party
 ||js.monitor.azure.com^$third-party
 ||mem.gfx.ms^$third-party
 ||r.bing.com^$third-party
 ||srtb.msn.cn^
-||www.clarity.ms^$third-part
