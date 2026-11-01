@@ -16,7 +16,6 @@
 ||2345.com/duoteimg/img/*_ad_
 ||2345.com/dypcimg/*gameRecommend.js
 ||2345.com/js/index/activity/
-||2345.com^*/activity/20171
 ||32.huanqiu.com^
 ||3344ex.com/js/1playerad.js
 ||3344ex.com/js/bot.js

@@ -36,7 +36,6 @@
 @@||172.17.*
 @@||189.cn^*/shareBox.
 @@||192.168.*
-@@||2345.com/images/activity/20171111/open/j/close.png
 @@||360buyimg.com/ad/$domain=jd.com
 @@||360buyimg.com/ads/$domain=jd.com
 @@||360buyimg.com^*??
@@ -144,7 +143,6 @@
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
 @@||hbu.cn^*/ad.css?$stylesheet
 @@||highcharts.com.cn/highcharts/modules/heatmap.js
-@@||i3.sinaimg.cn/video/deco/2013/0325/js/
 @@||icbc.com.cn^
 @@||ikea.cn^*/img/ads/
 @@||itc.cn/site/share/
