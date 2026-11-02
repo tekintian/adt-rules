@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: ZvPgQLgZsBI8iqH+rFTZPw
+! Checksum: AXsom2BF68UXLeQg8cchKA
 ! Expires: 2 days (update frequency)
 ! Homepage: https://raw.githubusercontent.com/tekintian/adt-rules/refs/heads/master/v6/dyn/antiadblock.txt
 ! Last modified: 19 Oct 2026 04:43 UTC
 ! Rules: 1874
 ! Source: rules_merged.txt
 ! Title: 反广告拦截过滤规则
-! Version: 2026-11-01T23:15:22
+! Version: 2026-11-02T09:01:16
 
 ###ab_adblock
 ###adblock-big
@@ -191,9 +191,10 @@ zwergenstadt.com##+js(aeld, load, onload)
 haxmac.cc##.dl-old-list.is-hx-blocked:remove-class(is-hx-blocked)
 haxmac.cc##[data-hx-guard]:remove()
 
-#+js(set-constant, showModal, noopFunc)
-#+js(set-constant, doAction, noopFunc)
-#+js(set-constant, chooseAction, noopFunc)
+
+##+js(acs, adsBlocked)
+##+js(acs, callbackAdsBlocked)
+##+js(acs, isFairAdBlocker)
 ##div[class*="mdpDeblocker"]
 ##div[id*="mdp-deblocker"]
 ##div[id*="mdpDeblocker"]
