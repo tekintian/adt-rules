@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: vx04FPd3IRQ+at0Hdykrog
+! Checksum: 2DIRYszmlYZADIYjPWcDyg
 ! Expires: 2 days (update frequency)
 ! Homepage: https://raw.githubusercontent.com/tekintian/adt-rules/refs/heads/master/v6/dyn/annoyance.txt
 ! Last modified: 19 Oct 2026 04:43 UTC
 ! Rules: 7491
 ! Source: rules_merged.txt
 ! Title: Annoyance rules
-! Version: 2026-11-02T11:13:48
+! Version: 2026-11-02T16:02:51
 
 ###modal[doskip][prclck]
 ###modalgg
@@ -165,3 +165,4 @@
 zhihu.com#$#.MobileModal-wrapper { display: none !important; }
 zippia.com#$#.gated-popup { display: none !important; }
 workupload.com#+js(abort-on-property-read, adsLoader)
+filecr.com###modal
