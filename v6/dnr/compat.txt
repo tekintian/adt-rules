@@ -108,7 +108,6 @@
 @@||citicbank.com^
 @@||cmbc.com.cn^
 @@||cmbc.com.cn^*ads/
-@@||cmbchina.com/*
 @@||cmbchina.com^
 @@||count.taobao.com/counter$script
 @@||count.video.sina.com.cn^*?video_ids=
@@ -134,10 +133,7 @@
 @@||gk.sina.cn/v1/gkmatch?
 @@||gome.com.cn^
 @@||gomein.net.cn^*,
-@@||gov.cn/scripts/Comm/AdRotator.js
-@@||gtimg.cn/images/nz/cp/*/adimg.png$domain=qq.com
-@@||gtimg.cn/qz-proj/wy-pc-v3/static/img/svg/icon-share-
-@@||gtimg.com/libs/$domain=18xs.org
+@@||gov.cn^
 @@||guahao.cn/common/js/plugins/fingerprint.js
 @@||guancha.cn/ad/m_
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
@@ -156,7 +152,6 @@
 @@||kaola.com^
 @@||letv.com/tuiguang/$subdocument
 @@||letvcloud.com^*&showAd=
-@@||libs.baidu.com^$domain=m.supfree.net
 @@||libs.baidu.com^*
 @@||masterkong.com.cn/adimages/
 @@||media.jd.com/static/*/ad
@@ -212,16 +207,10 @@
 @@||tbcdn.cn
 @@||tbcdn.cn^*/click_track.js
 @@||tbskip.taobao.com/json/
-@@||tenpay.com/v2/res/pub/cps/main/bottom_ad.js
 @@||tenpay.com^
 @@||tenpay.com^*?ADTAG=
 @@||threatbook.cn/public/asset/js/zhugeIo.
-@@||tmall.com
-@@||tmall.com/add?
-@@||tmall.com/go/*/banner.php
 @@||tmall.com^
-@@||tpc.googlesyndication.com/archive/sadbundle/$image,domain=tpc.googlesyndication.com
-@@||tracklog.58.com/referrer$~third-party
 @@||unionpay.com.cn^
 @@||unionpay.com^
 @@||valf.atm.youku.com/vf?site=1&rst=mp4&

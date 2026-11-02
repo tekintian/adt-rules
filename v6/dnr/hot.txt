@@ -154,7 +154,6 @@
 ||weibo.com/ajax/feed/getTipsAd?
 ||weibo.com/ajax/log/
 ||wenku.baidu.com/browse/interface/getrec?
-||x.com^*/log.json
 ||xp.apple.com/config/*/report/
 ||xp.apple.com/report/
 ||yantuchina.com/Upload/Ad/
