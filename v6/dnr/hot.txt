@@ -168,11 +168,8 @@
 ||otheve.beacon.qq.com^$third-party
 
 ! ===== msn weather =====
-||browser.events.data.microsoft.com^
-||browser.events.data.msn.cn^
 ||btloader.com^$third-party
 ||c.msn.cn^
 ||js.monitor.azure.com^$third-party
 ||mem.gfx.ms^$third-party
-||r.bing.com^$third-party
 ||srtb.msn.cn^

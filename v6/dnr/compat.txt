@@ -173,7 +173,6 @@
 @@||pv.sohu.com/suv/
 @@||qq.com/bossweb/jifen/
 @@||qq.com^*?ADTAG=
-@@||quanzhi.cn/v3/images/index_ad/
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||sax.sina.com.cn/video/newimpress?
 @@||shine.cn/showadcode2.asp?posid=68&
@@ -219,8 +218,7 @@
 @@||vivo.com.cn^
 @@||vmall.com^
 @@||weibo.com/api/weipan/getAds
-@@||wl.jd.com/joya.js
-@@||wl.jd.com/wl.js
+@@||wl.jd.com^
 @@||www.google.*/adsense/$~third-party,domain=google.cn
 @@||xnimg.cn/n/apps/profile/modules/tuiguang/
 @@||xnimg.cn^*/nx/ugc/share/js/hotlist.js

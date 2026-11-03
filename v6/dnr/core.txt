@@ -820,4 +820,7 @@ zmega.com#$?#.overlay_promo { remove: true; }
 
 ||haxmac.cc^*/*main.js^$script
 
+||ajew5v2208263hw.cfd^$script,third-party
+||mycatshows.cfd^$xmlhttprequest,third-party
+
 
